@@ -1,0 +1,7 @@
+iana_character_sets;Archive/character-sets.txt
+libiconv_path;../libiconv-1.14/lib/
+icu_url;Archive/ICU Demonstration - Converter Explorer.html
+icu_base_url;http://demo.icu-project.org/
+microsoft_url;Archive/Code Page Identifiers (Windows).html
+ibmcp_url;Archive/IBM Globalization - Code page identifiers.html
+ibmccs_url;Archive/IBM Globalization - Coded character set identifiers.html

@@ -1,0 +1,1079 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd" >
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+   <head>
+      <title>Protocol of EncodingCollector.php</title>
+      <style type="text/css">
+      <!--
+      .error {
+        color:            #FF0000;
+        font-weight:      bold;
+      }
+      .warning {
+        color:            #FFC040;
+        font-weight:      bold;
+      }
+      body {
+        font-family:      Arial;
+      }
+      -->
+      </style>
+   </head>
+   <body>
+      <h1>Report of EncodingCollector.php</h1>
+         <p>Using IANA character sets from '<a href="Archive/character-sets.txt">Archive/character-sets.txt</a>'</p>
+         <p>Using GNU libiconv path at '<a href="../libiconv-1.14/lib/">../libiconv-1.14/lib/</a>'</p>
+         <p>Using ICU from '<a href="http://demo.icu-project.org/icu-bin/convexp?conv=&s=-&s=ALL&s=IANA&s=IBM&s=JAVA&s=MIME&s=UTR22&s=WINDOWS&ShowLocales&ShowUnavailable=">http://demo.icu-project.org/icu-bin/convexp?conv=&s=-&s=ALL&s=IANA&s=IBM&s=JAVA&s=MIME&s=UTR22&s=WINDOWS&ShowLocales&ShowUnavailable=</a>'</p>
+         <p>Using ICU base is '<a href="http://demo.icu-project.org/">http://demo.icu-project.org/</a>'</p>
+         <p>Using Microsoft from '<a href="https://msdn.microsoft.com/en-us/library/dd317756.aspx">https://msdn.microsoft.com/en-us/library/dd317756.aspx</a>'</p>
+         <p>Using IBM code pages from '<a href="http://www.ibm.com/software/globalization/cp/cp_cpgid.html">http://www.ibm.com/software/globalization/cp/cp_cpgid.html</a>'</p>
+         <p>Using IBM coded character sets from '<a href="http://www.ibm.com/software/globalization/ccsid/ccsid_registered.html">http://www.ibm.com/software/globalization/ccsid/ccsid_registered.html</a>'</p>
+         <p><b>7</b> parameters read in.</p>
+      <h1>Reading meta information from Meta.csv</h1>
+         <p><b>1177</b> meta informations read in, <b>0</b> unset.</p>
+      <h1>Reading exclusions from Exclusion.csv</h1>
+         <p><b>136</b> exclusions read in.</p>
+      <h1>Reading references from Reference.csv</h1>
+         <p><b>95</b> references read in.</p>
+      <h1>Reading relations from Relation.csv</h1>
+         <p><b>40</b> relations read in.</p>
+      <h1>Reading IANA character sets from Archive/character-sets.txt</h1>
+         <p>IANA character set <b>ANSI_X3.4-1968</b> is new.</p>
+         <p>IANA character set <b>ISO_8859-1:1987</b> is new.</p>
+         <p>IANA character set <b>ISO_8859-2:1987</b> is new.</p>
+         <p>IANA character set <b>ISO_8859-3:1988</b> is new.</p>
+         <p>IANA character set <b>ISO_8859-4:1988</b> is new.</p>
+         <p>IANA character set <b>ISO_8859-5:1988</b> is new.</p>
+         <p>IANA character set <b>ISO_8859-6:1987</b> is new.</p>
+         <p>IANA character set <b>ISO_8859-7:1987</b> is new.</p>
+         <p>IANA character set <b>ISO_8859-8:1988</b> is new.</p>
+         <p>IANA character set <b>ISO_8859-9:1989</b> is new.</p>
+         <p>IANA character set <b>ISO-8859-10</b> is new.</p>
+         <p>IANA character set <b>ISO_6937-2-add</b> is new.</p>
+         <p>IANA character set <b>JIS_X0201</b> is new.</p>
+         <p>IANA character set <b>JIS_Encoding</b> is new.</p>
+         <p>IANA character set <b>Shift_JIS</b> is new.</p>
+         <p>IANA character set <b>Extended_UNIX_Code_Packed_Format_for_Japanese</b> is new.</p>
+         <p>IANA character set <b>Extended_UNIX_Code_Fixed_Width_for_Japanese</b> is new.</p>
+         <p>IANA character set <b>BS_4730</b> is new.</p>
+         <p>IANA character set <b>SEN_850200_C</b> is new.</p>
+         <p>IANA character set <b>IT</b> is new.</p>
+         <p>IANA character set <b>ES</b> is new.</p>
+         <p>IANA character set <b>DIN_66003</b> is new.</p>
+         <p>IANA character set <b>NS_4551-1</b> is new.</p>
+         <p>IANA character set <b>NF_Z_62-010</b> is new.</p>
+         <p>IANA character set <b>ISO-10646-UTF-1</b> is new.</p>
+         <p>IANA character set <b>ISO_646.basic:1983</b> is new.</p>
+         <p>IANA character set <b>INVARIANT</b> is new.</p>
+         <p>IANA character set <b>ISO_646.irv:1983</b> is new.</p>
+         <p>IANA character set <b>NATS-SEFI</b> is new.</p>
+         <p>IANA character set <b>NATS-SEFI-ADD</b> is new.</p>
+         <p>IANA character set <b>NATS-DANO</b> is new.</p>
+         <p>IANA character set <b>NATS-DANO-ADD</b> is new.</p>
+         <p>IANA character set <b>SEN_850200_B</b> is new.</p>
+         <p>IANA character set <b>KS_C_5601-1987</b> is new.</p>
+         <p>IANA character set <b>ISO-2022-KR</b> is new.</p>
+         <p>IANA character set <b>EUC-KR</b> is new.</p>
+         <p>IANA character set <b>ISO-2022-JP</b> is new.</p>
+         <p>IANA character set <b>ISO-2022-JP-2</b> is new.</p>
+         <p>IANA character set <b>JIS_C6220-1969-jp</b> is new.</p>
+         <p>IANA character set <b>JIS_C6220-1969-ro</b> is new.</p>
+         <p>IANA character set <b>PT</b> is new.</p>
+         <p>IANA character set <b>greek7-old</b> is new.</p>
+         <p>IANA character set <b>latin-greek</b> is new.</p>
+         <p>IANA character set <b>NF_Z_62-010_(1973)</b> is new.</p>
+         <p>IANA character set <b>Latin-greek-1</b> is new.</p>
+         <p>IANA character set <b>ISO_5427</b> is new.</p>
+         <p>IANA character set <b>JIS_C6226-1978</b> is new.</p>
+         <p>IANA character set <b>BS_viewdata</b> is new.</p>
+         <p>IANA character set <b>INIS</b> is new.</p>
+         <p>IANA character set <b>INIS-8</b> is new.</p>
+         <p>IANA character set <b>INIS-cyrillic</b> is new.</p>
+         <p>IANA character set <b>ISO_5427:1981</b> is new.</p>
+         <p>IANA character set <b>ISO_5428:1980</b> is new.</p>
+         <p>IANA character set <b>GB_1988-80</b> is new.</p>
+         <p>IANA character set <b>GB_2312-80</b> is new.</p>
+         <p>IANA character set <b>NS_4551-2</b> is new.</p>
+         <p>IANA character set <b>videotex-suppl</b> is new.</p>
+         <p>IANA character set <b>PT2</b> is new.</p>
+         <p>IANA character set <b>ES2</b> is new.</p>
+         <p>IANA character set <b>MSZ_7795.3</b> is new.</p>
+         <p>IANA character set <b>JIS_C6226-1983</b> is new.</p>
+         <p>IANA character set <b>greek7</b> is new.</p>
+         <p>IANA character set <b>ASMO_449</b> is new.</p>
+         <p>IANA character set <b>iso-ir-90</b> is new.</p>
+         <p>IANA character set <b>JIS_C6229-1984-a</b> is new.</p>
+         <p>IANA character set <b>JIS_C6229-1984-b</b> is new.</p>
+         <p>IANA character set <b>JIS_C6229-1984-b-add</b> is new.</p>
+         <p>IANA character set <b>JIS_C6229-1984-hand</b> is new.</p>
+         <p>IANA character set <b>JIS_C6229-1984-hand-add</b> is new.</p>
+         <p>IANA character set <b>JIS_C6229-1984-kana</b> is new.</p>
+         <p>IANA character set <b>ISO_2033-1983</b> is new.</p>
+         <p>IANA character set <b>ANSI_X3.110-1983</b> is new.</p>
+         <p>IANA character set <b>T.61-7bit</b> is new.</p>
+         <p>IANA character set <b>T.61-8bit</b> is new.</p>
+         <p>IANA character set <b>ECMA-cyrillic</b> is new.</p>
+         <p>IANA character set <b>CSA_Z243.4-1985-1</b> is new.</p>
+         <p>IANA character set <b>CSA_Z243.4-1985-2</b> is new.</p>
+         <p>IANA character set <b>CSA_Z243.4-1985-gr</b> is new.</p>
+         <p>IANA character set <b>ISO_8859-6-E</b> is new.</p>
+         <p>IANA character set <b>ISO_8859-6-I</b> is new.</p>
+         <p>IANA character set <b>T.101-G2</b> is new.</p>
+         <p>IANA character set <b>ISO_8859-8-E</b> is new.</p>
+         <p>IANA character set <b>ISO_8859-8-I</b> is new.</p>
+         <p>IANA character set <b>CSN_369103</b> is new.</p>
+         <p>IANA character set <b>JUS_I.B1.002</b> is new.</p>
+         <p>IANA character set <b>IEC_P27-1</b> is new.</p>
+         <p>IANA character set <b>JUS_I.B1.003-serb</b> is new.</p>
+         <p>IANA character set <b>JUS_I.B1.003-mac</b> is new.</p>
+         <p>IANA character set <b>greek-ccitt</b> is new.</p>
+         <p>IANA character set <b>NC_NC00-10:81</b> is new.</p>
+         <p>IANA character set <b>ISO_6937-2-25</b> is new.</p>
+         <p>IANA character set <b>GOST_19768-74</b> is new.</p>
+         <p>IANA character set <b>ISO_8859-supp</b> is new.</p>
+         <p>IANA character set <b>ISO_10367-box</b> is new.</p>
+         <p>IANA character set <b>latin-lap</b> is new.</p>
+         <p>IANA character set <b>JIS_X0212-1990</b> is new.</p>
+         <p>IANA character set <b>DS_2089</b> is new.</p>
+         <p>IANA character set <b>us-dk</b> is new.</p>
+         <p>IANA character set <b>dk-us</b> is new.</p>
+         <p>IANA character set <b>KSC5636</b> is new.</p>
+         <p>IANA character set <b>UNICODE-1-1-UTF-7</b> is new.</p>
+         <p>IANA character set <b>ISO-2022-CN</b> is new.</p>
+         <p>IANA character set <b>ISO-2022-CN-EXT</b> is new.</p>
+         <p>IANA character set <b>UTF-8</b> is new.</p>
+         <p>IANA character set <b>ISO-8859-13</b> is new.</p>
+         <p>IANA character set <b>ISO-8859-14</b> is new.</p>
+         <p>IANA character set <b>ISO-8859-15</b> is new.</p>
+         <p>IANA character set <b>ISO-8859-16</b> is new.</p>
+         <p>IANA character set <b>GBK</b> is new.</p>
+         <p>IANA character set <b>GB18030</b> is new.</p>
+         <p>IANA character set <b>OSD_EBCDIC_DF04_15</b> is new.</p>
+         <p>IANA character set <b>OSD_EBCDIC_DF03_IRV</b> is new.</p>
+         <p>IANA character set <b>OSD_EBCDIC_DF04_1</b> is new.</p>
+         <p>IANA character set <b>ISO-11548-1</b> is new.</p>
+         <p>IANA character set <b>KZ-1048</b> is new.</p>
+         <p>IANA character set <b>ISO-10646-UCS-2</b> is new.</p>
+         <p>IANA character set <b>ISO-10646-UCS-4</b> is new.</p>
+         <p>IANA character set <b>ISO-10646-UCS-Basic</b> is new.</p>
+         <p>IANA character set <b>ISO-10646-Unicode-Latin1</b> is new.</p>
+         <p>IANA character set <b>ISO-10646-J-1</b> is new.</p>
+         <p>IANA character set <b>ISO-Unicode-IBM-1261</b> is new.</p>
+         <p>IANA character set <b>ISO-Unicode-IBM-1268</b> is new.</p>
+         <p>IANA character set <b>ISO-Unicode-IBM-1276</b> is new.</p>
+         <p>IANA character set <b>ISO-Unicode-IBM-1264</b> is new.</p>
+         <p>IANA character set <b>ISO-Unicode-IBM-1265</b> is new.</p>
+         <p>IANA character set <b>UNICODE-1-1</b> is new.</p>
+         <p>IANA character set <b>SCSU</b> is new.</p>
+         <p>IANA character set <b>UTF-7</b> is new.</p>
+         <p>IANA character set <b>UTF-16BE</b> is new.</p>
+         <p>IANA character set <b>UTF-16LE</b> is new.</p>
+         <p>IANA character set <b>UTF-16</b> is new.</p>
+         <p>IANA character set <b>CESU-8</b> is new.</p>
+         <p>IANA character set <b>UTF-32</b> is new.</p>
+         <p>IANA character set <b>UTF-32BE</b> is new.</p>
+         <p>IANA character set <b>UTF-32LE</b> is new.</p>
+         <p>IANA character set <b>BOCU-1</b> is new.</p>
+         <p>IANA character set <b>ISO-8859-1-Windows-3.0-Latin-1</b> is new.</p>
+         <p>IANA character set <b>ISO-8859-1-Windows-3.1-Latin-1</b> is new.</p>
+         <p>IANA character set <b>ISO-8859-2-Windows-Latin-2</b> is new.</p>
+         <p>IANA character set <b>ISO-8859-9-Windows-Latin-5</b> is new.</p>
+         <p>IANA character set <b>hp-roman8</b> is new.</p>
+         <p>IANA character set <b>Ventura-US</b> is new.</p>
+         <p>IANA character set <b>Ventura-International</b> is new.</p>
+         <p>IANA character set <b>DEC-MCS</b> is new.</p>
+         <p>IANA character set <b>IBM850</b> is new.</p>
+         <p>IANA character set <b>PC8-Danish-Norwegian</b> is new.</p>
+         <p>IANA character set <b>IBM862</b> is new.</p>
+         <p>IANA character set <b>PC8-Turkish</b> is new.</p>
+         <p>IANA character set <b>IBM-Symbols</b> is new.</p>
+         <p>IANA character set <b>IBM-Thai</b> is new.</p>
+         <p>IANA character set <b>HP-Legal</b> is new.</p>
+         <p>IANA character set <b>HP-Pi-font</b> is new.</p>
+         <p>IANA character set <b>HP-Math8</b> is new.</p>
+         <p>IANA character set <b>Adobe-Symbol-Encoding</b> is new.</p>
+         <p>IANA character set <b>HP-DeskTop</b> is new.</p>
+         <p>IANA character set <b>Ventura-Math</b> is new.</p>
+         <p>IANA character set <b>Microsoft-Publishing</b> is new.</p>
+         <p>IANA character set <b>Windows-31J</b> is new.</p>
+         <p>IANA character set <b>GB2312</b> is new.</p>
+         <p>IANA character set <b>Big5</b> is new.</p>
+         <p>IANA character set <b>macintosh</b> is new.</p>
+         <p>IANA character set <b>IBM037</b> is new.</p>
+         <p>IANA character set <b>IBM038</b> is new.</p>
+         <p>IANA character set <b>IBM273</b> is new.</p>
+         <p>IANA character set <b>IBM274</b> is new.</p>
+         <p>IANA character set <b>IBM275</b> is new.</p>
+         <p>IANA character set <b>IBM277</b> is new.</p>
+         <p>IANA character set <b>IBM278</b> is new.</p>
+         <p>IANA character set <b>IBM280</b> is new.</p>
+         <p>IANA character set <b>IBM281</b> is new.</p>
+         <p>IANA character set <b>IBM284</b> is new.</p>
+         <p>IANA character set <b>IBM285</b> is new.</p>
+         <p>IANA character set <b>IBM290</b> is new.</p>
+         <p>IANA character set <b>IBM297</b> is new.</p>
+         <p>IANA character set <b>IBM420</b> is new.</p>
+         <p>IANA character set <b>IBM423</b> is new.</p>
+         <p>IANA character set <b>IBM424</b> is new.</p>
+         <p>IANA character set <b>IBM437</b> is new.</p>
+         <p>IANA character set <b>IBM500</b> is new.</p>
+         <p>IANA character set <b>IBM851</b> is new.</p>
+         <p>IANA character set <b>IBM852</b> is new.</p>
+         <p>IANA character set <b>IBM855</b> is new.</p>
+         <p>IANA character set <b>IBM857</b> is new.</p>
+         <p>IANA character set <b>IBM860</b> is new.</p>
+         <p>IANA character set <b>IBM861</b> is new.</p>
+         <p>IANA character set <b>IBM863</b> is new.</p>
+         <p>IANA character set <b>IBM864</b> is new.</p>
+         <p>IANA character set <b>IBM865</b> is new.</p>
+         <p>IANA character set <b>IBM868</b> is new.</p>
+         <p>IANA character set <b>IBM869</b> is new.</p>
+         <p>IANA character set <b>IBM870</b> is new.</p>
+         <p>IANA character set <b>IBM871</b> is new.</p>
+         <p>IANA character set <b>IBM880</b> is new.</p>
+         <p>IANA character set <b>IBM891</b> is new.</p>
+         <p>IANA character set <b>IBM903</b> is new.</p>
+         <p>IANA character set <b>IBM904</b> is new.</p>
+         <p>IANA character set <b>IBM905</b> is new.</p>
+         <p>IANA character set <b>IBM918</b> is new.</p>
+         <p>IANA character set <b>IBM1026</b> is new.</p>
+         <p>IANA character set <b>EBCDIC-AT-DE</b> is new.</p>
+         <p>IANA character set <b>EBCDIC-AT-DE-A</b> is new.</p>
+         <p>IANA character set <b>EBCDIC-CA-FR</b> is new.</p>
+         <p>IANA character set <b>EBCDIC-DK-NO</b> is new.</p>
+         <p>IANA character set <b>EBCDIC-DK-NO-A</b> is new.</p>
+         <p>IANA character set <b>EBCDIC-FI-SE</b> is new.</p>
+         <p>IANA character set <b>EBCDIC-FI-SE-A</b> is new.</p>
+         <p>IANA character set <b>EBCDIC-FR</b> is new.</p>
+         <p>IANA character set <b>EBCDIC-IT</b> is new.</p>
+         <p>IANA character set <b>EBCDIC-PT</b> is new.</p>
+         <p>IANA character set <b>EBCDIC-ES</b> is new.</p>
+         <p>IANA character set <b>EBCDIC-ES-A</b> is new.</p>
+         <p>IANA character set <b>EBCDIC-ES-S</b> is new.</p>
+         <p>IANA character set <b>EBCDIC-UK</b> is new.</p>
+         <p>IANA character set <b>EBCDIC-US</b> is new.</p>
+         <p>IANA character set <b>UNKNOWN-8BIT</b> is new.</p>
+         <p>IANA character set <b>MNEMONIC</b> is new.</p>
+         <p>IANA character set <b>MNEM</b> is new.</p>
+         <p>IANA character set <b>VISCII</b> is new.</p>
+         <p>IANA character set <b>VIQR</b> is new.</p>
+         <p>IANA character set <b>KOI8-R</b> is new.</p>
+         <p>IANA character set <b>HZ-GB-2312</b> is new.</p>
+         <p>IANA character set <b>IBM866</b> is new.</p>
+         <p>IANA character set <b>IBM775</b> is new.</p>
+         <p>IANA character set <b>KOI8-U</b> is new.</p>
+         <p>IANA character set <b>IBM00858</b> is new.</p>
+         <p>IANA character set <b>IBM00924</b> is new.</p>
+         <p>IANA character set <b>IBM01140</b> is new.</p>
+         <p>IANA character set <b>IBM01141</b> is new.</p>
+         <p>IANA character set <b>IBM01142</b> is new.</p>
+         <p>IANA character set <b>IBM01143</b> is new.</p>
+         <p>IANA character set <b>IBM01144</b> is new.</p>
+         <p>IANA character set <b>IBM01145</b> is new.</p>
+         <p>IANA character set <b>IBM01146</b> is new.</p>
+         <p>IANA character set <b>IBM01147</b> is new.</p>
+         <p>IANA character set <b>IBM01148</b> is new.</p>
+         <p>IANA character set <b>IBM01149</b> is new.</p>
+         <p>IANA character set <b>Big5-HKSCS</b> is new.</p>
+         <p>IANA character set <b>IBM1047</b> is new.</p>
+         <p>IANA character set <b>PTCP154</b> is new.</p>
+         <p>IANA character set <b>Amiga-1251</b> is new.</p>
+         <p>IANA character set <b>KOI7-switched</b> is new.</p>
+         <p>IANA character set <b>BRF</b> is new.</p>
+         <p>IANA character set <b>TSCII</b> is new.</p>
+         <p>IANA character set <b>CP51932</b> is new.</p>
+         <p>IANA character set <b>windows-874</b> is new.</p>
+         <p>IANA character set <b>windows-1250</b> is new.</p>
+         <p>IANA character set <b>windows-1251</b> is new.</p>
+         <p>IANA character set <b>windows-1252</b> is new.</p>
+         <p>IANA character set <b>windows-1253</b> is new.</p>
+         <p>IANA character set <b>windows-1254</b> is new.</p>
+         <p>IANA character set <b>windows-1255</b> is new.</p>
+         <p>IANA character set <b>windows-1256</b> is new.</p>
+         <p>IANA character set <b>windows-1257</b> is new.</p>
+         <p>IANA character set <b>windows-1258</b> is new.</p>
+         <p>IANA character set <b>TIS-620</b> is new.</p>
+         <p>IANA character set <b>CP50220</b> is new.</p>
+         <p><b>257</b> IANA character sets read in, <b>256</b> new.</p>
+      <h1>Reading ICONV standard character sets from ../libiconv-1.14/lib/encodings.def</h1>
+         <p>GNU_ICONV character set <b>UCS-2BE</b> is new.</p>
+         <p>GNU_ICONV character set <b>UCS-2LE</b> is new.</p>
+         <p>GNU_ICONV character set <b>UCS-4BE</b> is new.</p>
+         <p>GNU_ICONV character set <b>UCS-4LE</b> is new.</p>
+         <p>GNU_ICONV character set <b>UCS-2-SWAPPED</b> is new.</p>
+         <p>GNU_ICONV character set <b>UCS-4-SWAPPED</b> is new.</p>
+         <p>GNU_ICONV character set <b>C99</b> is new.</p>
+         <p>GNU_ICONV character set <b>JAVA</b> is new.</p>
+         <p>GNU_ICONV character set <b>ISO-8859-11</b> is new.</p>
+         <p>GNU_ICONV character set <b>KOI8-RU</b> is new.</p>
+         <p>GNU_ICONV character set <b>CP1131</b> is new.</p>
+         <p>GNU_ICONV character set <b>MacCentralEurope</b> is new.</p>
+         <p>GNU_ICONV character set <b>MacIceland</b> is new.</p>
+         <p>GNU_ICONV character set <b>MacCroatian</b> is new.</p>
+         <p>GNU_ICONV character set <b>MacRomania</b> is new.</p>
+         <p>GNU_ICONV character set <b>MacCyrillic</b> is new.</p>
+         <p>GNU_ICONV character set <b>MacUkraine</b> is new.</p>
+         <p>GNU_ICONV character set <b>MacGreek</b> is new.</p>
+         <p>GNU_ICONV character set <b>MacTurkish</b> is new.</p>
+         <p>GNU_ICONV character set <b>MacHebrew</b> is new.</p>
+         <p>GNU_ICONV character set <b>MacArabic</b> is new.</p>
+         <p>GNU_ICONV character set <b>MacThai</b> is new.</p>
+         <p>GNU_ICONV character set <b>NEXTSTEP</b> is new.</p>
+         <p>GNU_ICONV character set <b>ARMSCII-8</b> is new.</p>
+         <p>GNU_ICONV character set <b>GEORGIAN-ACADEMY</b> is new.</p>
+         <p>GNU_ICONV character set <b>GEORGIAN-PS</b> is new.</p>
+         <p>GNU_ICONV character set <b>KOI8-T</b> is new.</p>
+         <p>GNU_ICONV character set <b>MULELAO-1</b> is new.</p>
+         <p>GNU_ICONV character set <b>CP1133</b> is new.</p>
+         <p>GNU_ICONV character set <b>TCVN</b> is new.</p>
+         <p>GNU_ICONV character set <b>ISO-IR-165</b> is new.</p>
+         <p>GNU_ICONV character set <b>CP932</b> is new.</p>
+         <p>GNU_ICONV character set <b>ISO-2022-JP-1</b> is new.</p>
+         <p>GNU_ICONV character set <b>CP936</b> is new.</p>
+         <p>GNU_ICONV character set <b>EUC-TW</b> is new.</p>
+         <p>GNU_ICONV character set <b>CP950</b> is new.</p>
+         <p>GNU_ICONV character set <b>BIG5-HKSCS:1999</b> is new.</p>
+         <p>GNU_ICONV character set <b>BIG5-HKSCS:2001</b> is new.</p>
+         <p>GNU_ICONV character set <b>BIG5-HKSCS:2004</b> is new.</p>
+         <p>GNU_ICONV character set <b>CP949</b> is new.</p>
+         <p>GNU_ICONV character set <b>JOHAB</b> is new.</p>
+         <p><b>110</b> GNU_ICONV character sets read in, <b>41</b> new.</p>
+      <h1>Reading ICONV AIX character sets from ../libiconv-1.14/lib/encodings_aix.def</h1>
+         <p>GNU_ICONV character set <b>CP856</b> is new.</p>
+         <p>GNU_ICONV character set <b>CP922</b> is new.</p>
+         <p>GNU_ICONV character set <b>CP943</b> is new.</p>
+         <p>GNU_ICONV character set <b>CP1046</b> is new.</p>
+         <p>GNU_ICONV character set <b>CP1124</b> is new.</p>
+         <p>GNU_ICONV character set <b>CP1129</b> is new.</p>
+         <p>GNU_ICONV character set <b>CP1161</b> is new.</p>
+         <p>GNU_ICONV character set <b>CP1162</b> is new.</p>
+         <p>GNU_ICONV character set <b>CP1163</b> is new.</p>
+         <p><b>9</b> GNU_ICONV character sets read in, <b>9</b> new.</p>
+      <h1>Reading ICONV DOS character sets from ../libiconv-1.14/lib/encodings_dos.def</h1>
+         <p>GNU_ICONV character set <b>CP737</b> is new.</p>
+         <p>GNU_ICONV character set <b>CP853</b> is new.</p>
+         <p>GNU_ICONV character set <b>CP1125</b> is new.</p>
+         <p><b>15</b> GNU_ICONV character sets read in, <b>3</b> new.</p>
+      <h1>Reading ICONV extra character sets from ../libiconv-1.14/lib/encodings_extra.def</h1>
+         <p>GNU_ICONV character set <b>EUC-JISX0213</b> is new.</p>
+         <p>GNU_ICONV character set <b>SHIFT_JISX0213</b> is new.</p>
+         <p>GNU_ICONV character set <b>ISO-2022-JP-3</b> is new.</p>
+         <p>GNU_ICONV character set <b>BIG5-2003</b> is new.</p>
+         <p>GNU_ICONV character set <b>TDS565</b> is new.</p>
+         <p>GNU_ICONV character set <b>ATARIST</b> is new.</p>
+         <p>GNU_ICONV character set <b>RISCOS-LATIN1</b> is new.</p>
+         <p><b>7</b> GNU_ICONV character sets read in, <b>7</b> new.</p>
+      <h1>Reading ICONV local character sets from ../libiconv-1.14/lib/encodings_local.def</h1>
+         <p>GNU_ICONV character set <b>CHAR</b> is new.</p>
+         <p>GNU_ICONV character set <b>WCHAR_T</b> is new.</p>
+         <p><b>2</b> GNU_ICONV character sets read in, <b>2</b> new.</p>
+      <h1>Reading ICONV OSF/1 character sets from ../libiconv-1.14/lib/encodings_osf1.def</h1>
+         <p>GNU_ICONV character set <b>DEC-KANJI</b> is new.</p>
+         <p>GNU_ICONV character set <b>DEC-HANYU</b> is new.</p>
+         <p><b>2</b> GNU_ICONV character sets read in, <b>2</b> new.</p>
+      <h1>Reading ICU character sets from http://demo.icu-project.org/icu-bin/convexp?conv=&s=-&s=ALL&s=IANA&s=IBM&s=JAVA&s=MIME&s=UTR22&s=WINDOWS&ShowLocales&ShowUnavailable=</h1>
+         <p>IBM_ICU character set <b>UTF16_OppositeEndian</b> is new.</p>
+         <p>IBM_ICU character set <b>UTF32_OppositeEndian</b> is new.</p>
+         <p>IBM_ICU character set <b>IMAP-mailbox-name</b> is new.</p>
+         <p>IBM_ICU character set <b>ibm-813_P100-1995</b> is new.</p>
+         <p>IBM_ICU character set <b>ibm-916_P100-1995</b> is new.</p>
+         <p>IBM_ICU character set <b>ibm-33722_P12A_P12A-2009_U2</b> is new.</p>
+         <p>IBM_ICU character set <b>ibm-33722_P120-1999</b> is new.</p>
+         <p>IBM_ICU character set <b>ibm-954_P101-2007</b> is new.</p>
+         <p>IBM_ICU character set <b>aix-IBM_udcJP-4.3.6</b> is new.</p>
+         <p>IBM_ICU character set <b>java-sjis_0213-1.6_P</b> is new.</p>
+         <p>IBM_ICU character set <b>windows-950-2000</b> is new.</p>
+         <p>IBM_ICU character set <b>ibm-950_P110-1999</b> is new.</p>
+         <p>IBM_ICU character set <b>ibm-5471_P100-2006</b> is new.</p>
+         <p>IBM_ICU character set <b>solaris-zh_TW_big5-2.7</b> is new.</p>
+         <p>IBM_ICU character set <b>ibm-1386_P100-2001</b> is new.</p>
+         <p>IBM_ICU character set <b>windows-936-2000</b> is new.</p>
+         <p>IBM_ICU character set <b>ibm-949_P11A-1999</b> is new.</p>
+         <p>IBM_ICU character set <b>ibm-971_P100-1995</b> is new.</p>
+         <p>IBM_ICU character set <b>ibm-1363_P110-1997</b> is new.</p>
+         <p>IBM_ICU character set <b>windows-1361-2000</b> is new.</p>
+         <p>IBM_ICU character set <b>windows-864-2000</b> is new.</p>
+         <p>IBM_ICU character set <b>ibm-720_P100-1997</b> is new.</p>
+         <p>IBM_ICU character set <b>ibm-867_P100-1998</b> is new.</p>
+         <p>IBM_ICU character set <b>ibm-901_P100-1999</b> is new.</p>
+         <p>IBM_ICU character set <b>ibm-902_P100-1999</b> is new.</p>
+         <p>IBM_ICU character set <b>ibm-4909_P100-1999</b> is new.</p>
+         <p>IBM_ICU character set <b>macos-33-10.5</b> is new.</p>
+         <p>IBM_ICU character set <b>macos-34-10.2</b> is new.</p>
+         <p>IBM_ICU character set <b>ibm-1006_P100-1995</b> is new.</p>
+         <p>IBM_ICU character set <b>ibm-1098_P100-1995</b> is new.</p>
+         <p>IBM_ICU character set <b>ISO_2022,locale=ja,version=4</b> is new.</p>
+         <p>IBM_ICU character set <b>ISO_2022,locale=ko,version=1</b> is new.</p>
+         <p>IBM_ICU character set <b>ISO_2022,locale=zh,version=2</b> is new.</p>
+         <p>IBM_ICU character set <b>x11-compound-text</b> is new.</p>
+         <p>IBM_ICU character set <b>ISCII,version=0</b> is new.</p>
+         <p>IBM_ICU character set <b>ISCII,version=1</b> is new.</p>
+         <p>IBM_ICU character set <b>ISCII,version=2</b> is new.</p>
+         <p>IBM_ICU character set <b>ISCII,version=3</b> is new.</p>
+         <p>IBM_ICU character set <b>ISCII,version=4</b> is new.</p>
+         <p>IBM_ICU character set <b>ISCII,version=5</b> is new.</p>
+         <p>IBM_ICU character set <b>ISCII,version=6</b> is new.</p>
+         <p>IBM_ICU character set <b>ISCII,version=7</b> is new.</p>
+         <p>IBM_ICU character set <b>ISCII,version=8</b> is new.</p>
+         <p>IBM_ICU character set <b>LMBCS-1</b> is new.</p>
+         <p>IBM_ICU character set <b>ibm-803_P100-1999</b> is new.</p>
+         <p>IBM_ICU character set <b>ibm-875_P100-1995</b> is new.</p>
+         <p>IBM_ICU character set <b>ibm-930_P120-1999</b> is new.</p>
+         <p>IBM_ICU character set <b>ibm-933_P110-1995</b> is new.</p>
+         <p>IBM_ICU character set <b>ibm-935_P110-1999</b> is new.</p>
+         <p>IBM_ICU character set <b>ibm-937_P110-1999</b> is new.</p>
+         <p>IBM_ICU character set <b>ibm-939_P120-1999</b> is new.</p>
+         <p>IBM_ICU character set <b>ibm-1025_P100-1995</b> is new.</p>
+         <p>IBM_ICU character set <b>ibm-1097_P100-1995</b> is new.</p>
+         <p>IBM_ICU character set <b>ibm-1112_P100-1995</b> is new.</p>
+         <p>IBM_ICU character set <b>ibm-1114_P100-2001</b> is new.</p>
+         <p>IBM_ICU character set <b>ibm-1115_P100-1995</b> is new.</p>
+         <p>IBM_ICU character set <b>ibm-1122_P100-1999</b> is new.</p>
+         <p>IBM_ICU character set <b>ibm-1123_P100-1995</b> is new.</p>
+         <p>IBM_ICU character set <b>ibm-1130_P100-1997</b> is new.</p>
+         <p>IBM_ICU character set <b>ibm-1132_P100-1998</b> is new.</p>
+         <p>IBM_ICU character set <b>ibm-1137_P100-1999</b> is new.</p>
+         <p>IBM_ICU character set <b>ibm-4517_P100-2005</b> is new.</p>
+         <p>IBM_ICU character set <b>ibm-1153_P100-1999</b> is new.</p>
+         <p>IBM_ICU character set <b>ibm-1154_P100-1999</b> is new.</p>
+         <p>IBM_ICU character set <b>ibm-1155_P100-1999</b> is new.</p>
+         <p>IBM_ICU character set <b>ibm-1156_P100-1999</b> is new.</p>
+         <p>IBM_ICU character set <b>ibm-1157_P100-1999</b> is new.</p>
+         <p>IBM_ICU character set <b>ibm-1158_P100-1999</b> is new.</p>
+         <p>IBM_ICU character set <b>ibm-1160_P100-1999</b> is new.</p>
+         <p>IBM_ICU character set <b>ibm-1164_P100-1999</b> is new.</p>
+         <p>IBM_ICU character set <b>ibm-1364_P110-2007</b> is new.</p>
+         <p>IBM_ICU character set <b>ibm-1370_P100-1999</b> is new.</p>
+         <p>IBM_ICU character set <b>ibm-1371_P100-1999</b> is new.</p>
+         <p>IBM_ICU character set <b>ibm-1388_P103-2001</b> is new.</p>
+         <p>IBM_ICU character set <b>ibm-1390_P110-2003</b> is new.</p>
+         <p>IBM_ICU character set <b>ibm-1399_P110-2003</b> is new.</p>
+         <p>IBM_ICU character set <b>ibm-5123_P100-1999</b> is new.</p>
+         <p>IBM_ICU character set <b>ibm-8482_P100-1999</b> is new.</p>
+         <p>IBM_ICU character set <b>ibm-16684_P110-2003</b> is new.</p>
+         <p>IBM_ICU character set <b>ibm-4899_P100-1998</b> is new.</p>
+         <p>IBM_ICU character set <b>ibm-4971_P100-1999</b> is new.</p>
+         <p>IBM_ICU character set <b>ibm-9067_X100-2005</b> is new.</p>
+         <p>IBM_ICU character set <b>ibm-12712_P100-1998</b> is new.</p>
+         <p>IBM_ICU character set <b>ibm-16804_X110-1999</b> is new.</p>
+         <p>IBM_ICU character set <b>java-Cp1399A-1.6_P</b> is new.</p>
+         <p>IBM_ICU character set <b>java-Cp420s-1.6_P</b> is new.</p>
+         <p>IBM_ICU character set <b>java-Cp1390A-1.6_P</b> is new.</p>
+         <p>IBM_ICU character set <b>ibm-37_P100-1995,swaplfnl</b> is new.</p>
+         <p>IBM_ICU character set <b>ibm-924_P100-1998,swaplfnl</b> is new.</p>
+         <p>IBM_ICU character set <b>ibm-1047_P100-1995,swaplfnl</b> is new.</p>
+         <p>IBM_ICU character set <b>ibm-1140_P100-1997,swaplfnl</b> is new.</p>
+         <p>IBM_ICU character set <b>ibm-1141_P100-1997,swaplfnl</b> is new.</p>
+         <p>IBM_ICU character set <b>ibm-1142_P100-1997,swaplfnl</b> is new.</p>
+         <p>IBM_ICU character set <b>ibm-1143_P100-1997,swaplfnl</b> is new.</p>
+         <p>IBM_ICU character set <b>ibm-1144_P100-1997,swaplfnl</b> is new.</p>
+         <p>IBM_ICU character set <b>ibm-1145_P100-1997,swaplfnl</b> is new.</p>
+         <p>IBM_ICU character set <b>ibm-1146_P100-1997,swaplfnl</b> is new.</p>
+         <p>IBM_ICU character set <b>ibm-1147_P100-1997,swaplfnl</b> is new.</p>
+         <p>IBM_ICU character set <b>ibm-1148_P100-1997,swaplfnl</b> is new.</p>
+         <p>IBM_ICU character set <b>ibm-1149_P100-1997,swaplfnl</b> is new.</p>
+         <p>IBM_ICU character set <b>ibm-1153_P100-1999,swaplfnl</b> is new.</p>
+         <p>IBM_ICU character set <b>ibm-12712_P100-1998,swaplfnl</b> is new.</p>
+         <p>IBM_ICU character set <b>ibm-16804_X110-1999,swaplfnl</b> is new.</p>
+         <p>IBM_ICU character set <b>ebcdic-xml-us</b> is new.</p>
+         <p>IBM_ICU character set <b>gsm-03.38-2000</b> is new.</p>
+         <p>IBM_ICU character set <b>ibm-1004_P100-1995</b> is new.</p>
+         <p>IBM_ICU character set <b>ibm-1008_P100-1995</b> is new.</p>
+         <p>IBM_ICU character set <b>ibm-1019_P100-1995</b> is new.</p>
+         <p>IBM_ICU character set <b>ibm-1021_P100-2003</b> is new.</p>
+         <p>IBM_ICU character set <b>ibm-1027_P100-1995</b> is new.</p>
+         <p>IBM_ICU character set <b>ibm-1041_P100-1995</b> is new.</p>
+         <p>IBM_ICU character set <b>ibm-1043_P100-1995</b> is new.</p>
+         <p>IBM_ICU character set <b>ibm-1088_P100-1995</b> is new.</p>
+         <p>IBM_ICU character set <b>ibm-1101_P100-2003</b> is new.</p>
+         <p>IBM_ICU character set <b>ibm-1102_P100-2003</b> is new.</p>
+         <p>IBM_ICU character set <b>ibm-1103_P100-2003</b> is new.</p>
+         <p>IBM_ICU character set <b>ibm-1105_P100-2003</b> is new.</p>
+         <p>IBM_ICU character set <b>ibm-1106_P100-2003</b> is new.</p>
+         <p>IBM_ICU character set <b>ibm-1127_P100-2004</b> is new.</p>
+         <p>IBM_ICU character set <b>ibm-1165_P101-2000</b> is new.</p>
+         <p>IBM_ICU character set <b>ibm-1166_P100-2002</b> is new.</p>
+         <p>IBM_ICU character set <b>ibm-1277_P100-1995</b> is new.</p>
+         <p>IBM_ICU character set <b>ibm-13125_P100-1997</b> is new.</p>
+         <p>IBM_ICU character set <b>ibm-13140_P101-2000</b> is new.</p>
+         <p>IBM_ICU character set <b>ibm-13218_P100-1996</b> is new.</p>
+         <p>IBM_ICU character set <b>ibm-1350_P110-1997</b> is new.</p>
+         <p>IBM_ICU character set <b>ibm-1351_P110-1997</b> is new.</p>
+         <p>IBM_ICU character set <b>ibm-1362_P110-1999</b> is new.</p>
+         <p>IBM_ICU character set <b>ibm-13676_P102-2001</b> is new.</p>
+         <p>IBM_ICU character set <b>ibm-1380_P100-1995</b> is new.</p>
+         <p>IBM_ICU character set <b>ibm-1381_P110-1999</b> is new.</p>
+         <p>IBM_ICU character set <b>ibm-1382_P100-1995</b> is new.</p>
+         <p>IBM_ICU character set <b>ibm-17221_P100-2001</b> is new.</p>
+         <p>IBM_ICU character set <b>ibm-17248_X110-1999</b> is new.</p>
+         <p>IBM_ICU character set <b>ibm-21344_P101-2000</b> is new.</p>
+         <p>IBM_ICU character set <b>ibm-21427_P100-1999</b> is new.</p>
+         <p>IBM_ICU character set <b>ibm-256_P100-1995</b> is new.</p>
+         <p>IBM_ICU character set <b>ibm-293_P100-1995</b> is new.</p>
+         <p>IBM_ICU character set <b>ibm-300_P120-2006</b> is new.</p>
+         <p>IBM_ICU character set <b>ibm-301_P110-1997</b> is new.</p>
+         <p>IBM_ICU character set <b>ibm-33058_P100-2000</b> is new.</p>
+         <p>IBM_ICU character set <b>ibm-425_P101-2000</b> is new.</p>
+         <p>IBM_ICU character set <b>ibm-4930_P110-1999</b> is new.</p>
+         <p>IBM_ICU character set <b>ibm-4933_P100-2002</b> is new.</p>
+         <p>IBM_ICU character set <b>ibm-4948_P100-1995</b> is new.</p>
+         <p>IBM_ICU character set <b>ibm-4951_P100-1995</b> is new.</p>
+         <p>IBM_ICU character set <b>ibm-4952_P100-1995</b> is new.</p>
+         <p>IBM_ICU character set <b>ibm-4960_P100-1995</b> is new.</p>
+         <p>IBM_ICU character set <b>ibm-5039_P11A-1998</b> is new.</p>
+         <p>IBM_ICU character set <b>ibm-5048_P100-1995</b> is new.</p>
+         <p>IBM_ICU character set <b>ibm-5049_P100-1995</b> is new.</p>
+         <p>IBM_ICU character set <b>ibm-5067_P100-1995</b> is new.</p>
+         <p>IBM_ICU character set <b>ibm-5104_X110-1999</b> is new.</p>
+         <p>IBM_ICU character set <b>ibm-5233_P100-2011</b> is new.</p>
+         <p>IBM_ICU character set <b>ibm-806_P100-1998</b> is new.</p>
+         <p>IBM_ICU character set <b>ibm-808_P100-1999</b> is new.</p>
+         <p>IBM_ICU character set <b>ibm-833_P100-1995</b> is new.</p>
+         <p>IBM_ICU character set <b>ibm-834_P100-1995</b> is new.</p>
+         <p>IBM_ICU character set <b>ibm-835_P100-1995</b> is new.</p>
+         <p>IBM_ICU character set <b>ibm-836_P100-1995</b> is new.</p>
+         <p>IBM_ICU character set <b>ibm-837_P100-2011</b> is new.</p>
+         <p>IBM_ICU character set <b>ibm-848_P100-1999</b> is new.</p>
+         <p>IBM_ICU character set <b>ibm-849_P100-1999</b> is new.</p>
+         <p>IBM_ICU character set <b>ibm-859_P100-1999</b> is new.</p>
+         <p>IBM_ICU character set <b>ibm-8612_P100-1995</b> is new.</p>
+         <p>IBM_ICU character set <b>ibm-872_P100-1999</b> is new.</p>
+         <p>IBM_ICU character set <b>ibm-896_P100-1995</b> is new.</p>
+         <p>IBM_ICU character set <b>ibm-9027_P100-1999</b> is new.</p>
+         <p>IBM_ICU character set <b>ibm-9048_P100-1998</b> is new.</p>
+         <p>IBM_ICU character set <b>ibm-9056_P100-1995</b> is new.</p>
+         <p>IBM_ICU character set <b>ibm-9061_P100-1999</b> is new.</p>
+         <p>IBM_ICU character set <b>ibm-9145_P110-1997</b> is new.</p>
+         <p>IBM_ICU character set <b>ibm-9238_X110-1999</b> is new.</p>
+         <p>IBM_ICU character set <b>ibm-926_P100-2000</b> is new.</p>
+         <p>IBM_ICU character set <b>ibm-927_P100-1995</b> is new.</p>
+         <p>IBM_ICU character set <b>ibm-928_P100-1995</b> is new.</p>
+         <p>IBM_ICU character set <b>ibm-941_P13A-2001</b> is new.</p>
+         <p>IBM_ICU character set <b>ibm-944_P100-1995</b> is new.</p>
+         <p>IBM_ICU character set <b>ibm-946_P100-1995</b> is new.</p>
+         <p>IBM_ICU character set <b>ibm-947_P100-1995</b> is new.</p>
+         <p>IBM_ICU character set <b>ibm-948_P110-1999</b> is new.</p>
+         <p>IBM_ICU character set <b>ibm-951_P100-1995</b> is new.</p>
+         <p>IBM_ICU character set <b>ibm-955_P110-1997</b> is new.</p>
+         <p>IBM_ICU character set <b>ibm-9577_P100-2001</b> is new.</p>
+         <p><b>365</b> IBM_ICU character sets read in, <b>184</b> new.</p>
+      <h1>Creating JAVA character sets into JavaCharsetList.xml</h1>
+         <p><b>170</b> ORACLE_JAVA character sets written.</p>
+      <h1>Reading JAVA character sets from JavaCharsetList.xml</h1>
+         <p>ORACLE_JAVA character set <b>x-ISO-2022-CN-GB</b> is new.</p>
+         <p>ORACLE_JAVA character set <b>x-JISAutoDetect</b> is new.</p>
+         <p>ORACLE_JAVA character set <b>x-MS932_0213</b> is new.</p>
+         <p>ORACLE_JAVA character set <b>x-MS950-HKSCS-XP</b> is new.</p>
+         <p>ORACLE_JAVA character set <b>x-windows-50221</b> is new.</p>
+         <p>ORACLE_JAVA character set <b>x-windows-949</b> is new.</p>
+         <p>ORACLE_JAVA character set <b>x-windows-iso2022jp</b> is new.</p>
+         <p><b>170</b> ORACLE_JAVA character sets read in, <b>7</b> new.</p>
+      <h1>Reading SELF aliases from Alias.csv</h1>
+         <p><b>16</b> SELF aliases read in.</p>
+      <h1>Reading MICROSOFT code pages from https://msdn.microsoft.com/en-us/library/dd317756.aspx</h1>
+         <p>MS character set <b>ASMO-708</b> is new.</p>
+         <p>MS character set <b>CP709</b> is new.</p>
+         <p>MS character set <b>CP710</b> is new.</p>
+         <p>MS character set <b>x-mac-japanese</b> is new.</p>
+         <p>MS character set <b>x-mac-chinesetrad</b> is new.</p>
+         <p>MS character set <b>x-mac-korean</b> is new.</p>
+         <p>MS character set <b>x-mac-chinesesimp</b> is new.</p>
+         <p>MS character set <b>x-Chinese_CNS</b> is new.</p>
+         <p>MS character set <b>x-cp20001</b> is new.</p>
+         <p>MS character set <b>x_Chinese-Eten</b> is new.</p>
+         <p>MS character set <b>x-cp20003</b> is new.</p>
+         <p>MS character set <b>x-cp20004</b> is new.</p>
+         <p>MS character set <b>x-cp20005</b> is new.</p>
+         <p>MS character set <b>x-cp20269</b> is new.</p>
+         <p>MS character set <b>x-cp20949</b> is new.</p>
+         <p>MS character set <b>CP21027</b> is new.</p>
+         <p>MS character set <b>x-Europa</b> is new.</p>
+         <p>MS character set <b>x-cp50227</b> is new.</p>
+         <p>MS character set <b>CP50229</b> is new.</p>
+         <p>MS character set <b>CP50931</b> is new.</p>
+         <p>MS character set <b>CP50936</b> is new.</p>
+         <p><b>152</b> MS character sets read in, <b>21</b> new.</p>
+      <h1>Creating or renaming character sets</h1>
+         <p>SELF character set <b>ISO_8859-9E</b> is new.</p>
+         <p>SELF character set <b>KPS9566_2003</b> is new.</p>
+         <p>SELF character set <b>ibm-276</b> is new.</p>
+         <p>SELF character set <b>ibm-282</b> is new.</p>
+         <p>SELF character set <b>ibm-421</b> is new.</p>
+         <p>SELF character set <b>ibm-934</b> is new.</p>
+         <p>SELF character set <b>ibm-938</b> is new.</p>
+         <p>SELF character set <b>ibm-1159</b> is new.</p>
+         <p>SELF character set <b>ibm-1372</b> is new.</p>
+         <p>SELF character set <b>ibm-1374</b> is new.</p>
+         <p>SELF character set <b>ibm-1376</b> is new.</p>
+         <p>SELF character set <b>ibm-1377</b> is new.</p>
+         <p>SELF character set <b>ibm-1391</b> is new.</p>
+         <p>SELF character set <b>ibm-1393</b> is new.</p>
+         <p>SELF character set <b>ibm-1394</b> is new.</p>
+         <p>SELF character set <b>ibm-1400</b> is new.</p>
+         <p>SELF character set <b>ibm-1401</b> is new.</p>
+         <p>SELF character set <b>ibm-1402</b> is new.</p>
+         <p>SELF character set <b>ibm-1414</b> is new.</p>
+         <p>SELF character set <b>ibm-1445</b> is new.</p>
+         <p>SELF character set <b>ibm-1446</b> is new.</p>
+         <p>SELF character set <b>ibm-1447</b> is new.</p>
+         <p>SELF character set <b>ibm-1448</b> is new.</p>
+         <p>SELF character set <b>ibm-1449</b> is new.</p>
+         <p>SELF character set <b>ibm-310</b> is new.</p>
+         <p>SELF character set <b>ibm-956</b> is new.</p>
+         <p>SELF character set <b>ibm-957</b> is new.</p>
+         <p>SELF character set <b>ibm-958</b> is new.</p>
+         <p>SELF character set <b>ibm-959</b> is new.</p>
+         <p>SELF character set <b>ibm-1002</b> is new.</p>
+         <p>SELF character set <b>ibm-1040</b> is new.</p>
+         <p>SELF character set <b>ibm-1042</b> is new.</p>
+         <p>SELF character set <b>ibm-1070</b> is new.</p>
+         <p>SELF character set <b>ibm-1079</b> is new.</p>
+         <p>SELF character set <b>ibm-1081</b> is new.</p>
+         <p>SELF character set <b>ibm-1084</b> is new.</p>
+         <p>SELF character set <b>ibm-1126</b> is new.</p>
+         <p>SELF character set <b>ibm-1210</b> is new.</p>
+         <p>SELF character set <b>ibm-1211</b> is new.</p>
+         <p>SELF character set <b>ibm-1281</b> is new.</p>
+         <p>SELF character set <b>ibm-1287</b> is new.</p>
+         <p>SELF character set <b>ibm-1288</b> is new.</p>
+         <p>SELF character set <b>NSAI_433:1996</b> is new.</p>
+         <p>SELF character set <b>IS</b> is new.</p>
+         <p>SELF character set <b>MT</b> is new.</p>
+         <p>SELF character set <b>PL</b> is new.</p>
+         <p>SELF character set <b>TW</b> is new.</p>
+         <p>SELF character set <b>iso-ir-1</b> is new.</p>
+         <p>SELF character set <b>iso-ir-7</b> is new.</p>
+         <p>SELF character set <b>iso-ir-26</b> is new.</p>
+         <p>SELF character set <b>iso-ir-31</b> is new.</p>
+         <p>SELF character set <b>ELOT-927</b> is new.</p>
+         <p>SELF character set <b>SI-960</b> is new.</p>
+         <p>SELF character set <b>ibm-876</b> is new.</p>
+         <p>SELF character set <b>ibm-892</b> is new.</p>
+         <p>SELF character set <b>ibm-893</b> is new.</p>
+         <p>SELF character set <b>ibm-899</b> is new.</p>
+         <p>SELF character set <b>ibm-960</b> is new.</p>
+         <p>SELF character set <b>ibm-961</b> is new.</p>
+         <p>SELF character set <b>ibm-963</b> is new.</p>
+         <p>SELF character set <b>ibm-965</b> is new.</p>
+         <p>SELF character set <b>ibm-65520</b> is new.</p>
+         <p><b>62</b> character sets created, <b>171</b> renamed.</p>
+      <h1>Checking for uniqueness of aliases</h1>
+         <p><b>5932</b> aliases added to set, <b>0</b> duplicate.</p>
+      <h1>Reading IBM code pages from http://www.ibm.com/software/globalization/cp/cp_cpgid.html</h1>
+         <p><b>233</b> IBMCP code pages read in, <b>0</b> unused.</p>
+      <h1>Reading IBM coded character sets from http://www.ibm.com/software/globalization/ccsid/ccsid_registered.html</h1>
+         <p class="warning">IBMCCS/2105 is unused.</p>
+         <p class="warning">IBMCCS/4133 is unused.</p>
+         <p class="warning">IBMCCS/4369 is unused.</p>
+         <p class="warning">IBMCCS/4370 is unused.</p>
+         <p class="warning">IBMCCS/4371 is unused.</p>
+         <p class="warning">IBMCCS/4372 is unused.</p>
+         <p class="warning">IBMCCS/4373 is unused.</p>
+         <p class="warning">IBMCCS/4374 is unused.</p>
+         <p class="warning">IBMCCS/4376 is unused.</p>
+         <p class="warning">IBMCCS/4378 is unused.</p>
+         <p class="warning">IBMCCS/4380 is unused.</p>
+         <p class="warning">IBMCCS/4381 is unused.</p>
+         <p class="warning">IBMCCS/4386 is unused.</p>
+         <p class="warning">IBMCCS/4389 is unused.</p>
+         <p class="warning">IBMCCS/4393 is unused.</p>
+         <p class="warning">IBMCCS/4396 is unused.</p>
+         <p class="warning">IBMCCS/4397 is unused.</p>
+         <p class="warning">IBMCCS/4516 is unused.</p>
+         <p class="warning">IBMCCS/4519 is unused.</p>
+         <p class="warning">IBMCCS/4520 is unused.</p>
+         <p class="warning">IBMCCS/4533 is unused.</p>
+         <p class="warning">IBMCCS/4596 is unused.</p>
+         <p class="warning">IBMCCS/4904 is unused.</p>
+         <p class="warning">IBMCCS/4929 is unused.</p>
+         <p class="warning">IBMCCS/4931 is unused.</p>
+         <p class="warning">IBMCCS/4932 is unused.</p>
+         <p class="warning">IBMCCS/4934 is unused.</p>
+         <p class="warning">IBMCCS/4944 is unused.</p>
+         <p class="warning">IBMCCS/4945 is unused.</p>
+         <p class="warning">IBMCCS/4946 is unused.</p>
+         <p class="warning">IBMCCS/4947 is unused.</p>
+         <p class="warning">IBMCCS/4949 is unused.</p>
+         <p class="warning">IBMCCS/4953 is unused.</p>
+         <p class="warning">IBMCCS/4954 is unused.</p>
+         <p class="warning">IBMCCS/4955 is unused.</p>
+         <p class="warning">IBMCCS/4956 is unused.</p>
+         <p class="warning">IBMCCS/4957 is unused.</p>
+         <p class="warning">IBMCCS/4958 is unused.</p>
+         <p class="warning">IBMCCS/4959 is unused.</p>
+         <p class="warning">IBMCCS/4961 is unused.</p>
+         <p class="warning">IBMCCS/4962 is unused.</p>
+         <p class="warning">IBMCCS/4963 is unused.</p>
+         <p class="warning">IBMCCS/4964 is unused.</p>
+         <p class="warning">IBMCCS/4965 is unused.</p>
+         <p class="warning">IBMCCS/4966 is unused.</p>
+         <p class="warning">IBMCCS/4967 is unused.</p>
+         <p class="warning">IBMCCS/4968 is unused.</p>
+         <p class="warning">IBMCCS/4970 is unused.</p>
+         <p class="warning">IBMCCS/4976 is unused.</p>
+         <p class="warning">IBMCCS/4992 is unused.</p>
+         <p class="warning">IBMCCS/4993 is unused.</p>
+         <p class="warning">IBMCCS/5014 is unused.</p>
+         <p class="warning">IBMCCS/5023 is unused.</p>
+         <p class="warning">IBMCCS/5028 is unused.</p>
+         <p class="warning">IBMCCS/5029 is unused.</p>
+         <p class="warning">IBMCCS/5031 is unused.</p>
+         <p class="warning">IBMCCS/5033 is unused.</p>
+         <p class="warning">IBMCCS/5037 is unused.</p>
+         <p class="warning">IBMCCS/5038 is unused.</p>
+         <p class="warning">IBMCCS/5043 is unused.</p>
+         <p class="warning">IBMCCS/5045 is unused.</p>
+         <p class="warning">IBMCCS/5046 is unused.</p>
+         <p class="warning">IBMCCS/5047 is unused.</p>
+         <p class="warning">IBMCCS/5052 is unused.</p>
+         <p class="warning">IBMCCS/5053 is unused.</p>
+         <p class="warning">IBMCCS/5055 is unused.</p>
+         <p class="warning">IBMCCS/5056 is unused.</p>
+         <p class="warning">IBMCCS/5057 is unused.</p>
+         <p class="warning">IBMCCS/5060 is unused.</p>
+         <p class="warning">IBMCCS/5066 is unused.</p>
+         <p class="warning">IBMCCS/5100 is unused.</p>
+         <p class="warning">IBMCCS/5137 is unused.</p>
+         <p class="warning">IBMCCS/5142 is unused.</p>
+         <p class="warning">IBMCCS/5143 is unused.</p>
+         <p class="warning">IBMCCS/5210 is unused.</p>
+         <p class="warning">IBMCCS/5211 is unused.</p>
+         <p class="warning">IBMCCS/5222 is unused.</p>
+         <p class="warning">IBMCCS/5255 is unused.</p>
+         <p class="warning">IBMCCS/5328 is unused.</p>
+         <p class="warning">IBMCCS/5458 is unused.</p>
+         <p class="warning">IBMCCS/5459 is unused.</p>
+         <p class="warning">IBMCCS/5460 is unused.</p>
+         <p class="warning">IBMCCS/5470 is unused.</p>
+         <p class="warning">IBMCCS/5472 is unused.</p>
+         <p class="warning">IBMCCS/5473 is unused.</p>
+         <p class="warning">IBMCCS/5476 is unused.</p>
+         <p class="warning">IBMCCS/5477 is unused.</p>
+         <p class="warning">IBMCCS/5479 is unused.</p>
+         <p class="warning">IBMCCS/5481 is unused.</p>
+         <p class="warning">IBMCCS/5482 is unused.</p>
+         <p class="warning">IBMCCS/5484 is unused.</p>
+         <p class="warning">IBMCCS/5486 is unused.</p>
+         <p class="warning">IBMCCS/5487 is unused.</p>
+         <p class="warning">IBMCCS/5488 is unused.</p>
+         <p class="warning">IBMCCS/5495 is unused.</p>
+         <p class="warning">IBMCCS/5496 is unused.</p>
+         <p class="warning">IBMCCS/5497 is unused.</p>
+         <p class="warning">IBMCCS/5498 is unused.</p>
+         <p class="warning">IBMCCS/5510 is unused.</p>
+         <p class="warning">IBMCCS/6201 is unused.</p>
+         <p class="warning">IBMCCS/8229 is unused.</p>
+         <p class="warning">IBMCCS/8448 is unused.</p>
+         <p class="warning">IBMCCS/8476 is unused.</p>
+         <p class="warning">IBMCCS/8489 is unused.</p>
+         <p class="warning">IBMCCS/8492 is unused.</p>
+         <p class="warning">IBMCCS/8493 is unused.</p>
+         <p class="warning">IBMCCS/8616 is unused.</p>
+         <p class="warning">IBMCCS/8629 is unused.</p>
+         <p class="warning">IBMCCS/8692 is unused.</p>
+         <p class="warning">IBMCCS/9025 is unused.</p>
+         <p class="warning">IBMCCS/9026 is unused.</p>
+         <p class="warning">IBMCCS/9028 is unused.</p>
+         <p class="warning">IBMCCS/9029 is unused.</p>
+         <p class="warning">IBMCCS/9042 is unused.</p>
+         <p class="warning">IBMCCS/9044 is unused.</p>
+         <p class="warning">IBMCCS/9047 is unused.</p>
+         <p class="warning">IBMCCS/9049 is unused.</p>
+         <p class="warning">IBMCCS/9060 is unused.</p>
+         <p class="warning">IBMCCS/9064 is unused.</p>
+         <p class="warning">IBMCCS/9088 is unused.</p>
+         <p class="warning">IBMCCS/9089 is unused.</p>
+         <p class="warning">IBMCCS/9122 is unused.</p>
+         <p class="warning">IBMCCS/9124 is unused.</p>
+         <p class="warning">IBMCCS/9125 is unused.</p>
+         <p class="warning">IBMCCS/9127 is unused.</p>
+         <p class="warning">IBMCCS/9131 is unused.</p>
+         <p class="warning">IBMCCS/9133 is unused.</p>
+         <p class="warning">IBMCCS/9135 is unused.</p>
+         <p class="warning">IBMCCS/9139 is unused.</p>
+         <p class="warning">IBMCCS/9142 is unused.</p>
+         <p class="warning">IBMCCS/9144 is unused.</p>
+         <p class="warning">IBMCCS/9146 is unused.</p>
+         <p class="warning">IBMCCS/9148 is unused.</p>
+         <p class="warning">IBMCCS/9163 is unused.</p>
+         <p class="warning">IBMCCS/9219 is unused.</p>
+         <p class="warning">IBMCCS/9306 is unused.</p>
+         <p class="warning">IBMCCS/9444 is unused.</p>
+         <p class="warning">IBMCCS/9554 is unused.</p>
+         <p class="warning">IBMCCS/9555 is unused.</p>
+         <p class="warning">IBMCCS/9563 is unused.</p>
+         <p class="warning">IBMCCS/9566 is unused.</p>
+         <p class="warning">IBMCCS/9567 is unused.</p>
+         <p class="warning">IBMCCS/9568 is unused.</p>
+         <p class="warning">IBMCCS/9569 is unused.</p>
+         <p class="warning">IBMCCS/9572 is unused.</p>
+         <p class="warning">IBMCCS/9574 is unused.</p>
+         <p class="warning">IBMCCS/9575 is unused.</p>
+         <p class="warning">IBMCCS/9582 is unused.</p>
+         <p class="warning">IBMCCS/9591 is unused.</p>
+         <p class="warning">IBMCCS/9592 is unused.</p>
+         <p class="warning">IBMCCS/9593 is unused.</p>
+         <p class="warning">IBMCCS/9594 is unused.</p>
+         <p class="warning">IBMCCS/12325 is unused.</p>
+         <p class="warning">IBMCCS/12544 is unused.</p>
+         <p class="warning">IBMCCS/12578 is unused.</p>
+         <p class="warning">IBMCCS/12588 is unused.</p>
+         <p class="warning">IBMCCS/12708 is unused.</p>
+         <p class="warning">IBMCCS/12725 is unused.</p>
+         <p class="warning">IBMCCS/12788 is unused.</p>
+         <p class="warning">IBMCCS/13121 is unused.</p>
+         <p class="warning">IBMCCS/13122 is unused.</p>
+         <p class="warning">IBMCCS/13124 is unused.</p>
+         <p class="warning">IBMCCS/13143 is unused.</p>
+         <p class="warning">IBMCCS/13144 is unused.</p>
+         <p class="warning">IBMCCS/13145 is unused.</p>
+         <p class="warning">IBMCCS/13152 is unused.</p>
+         <p class="warning">IBMCCS/13156 is unused.</p>
+         <p class="warning">IBMCCS/13157 is unused.</p>
+         <p class="warning">IBMCCS/13162 is unused.</p>
+         <p class="warning">IBMCCS/13184 is unused.</p>
+         <p class="warning">IBMCCS/13185 is unused.</p>
+         <p class="warning">IBMCCS/13219 is unused.</p>
+         <p class="warning">IBMCCS/13221 is unused.</p>
+         <p class="warning">IBMCCS/13223 is unused.</p>
+         <p class="warning">IBMCCS/13229 is unused.</p>
+         <p class="warning">IBMCCS/13231 is unused.</p>
+         <p class="warning">IBMCCS/13235 is unused.</p>
+         <p class="warning">IBMCCS/13238 is unused.</p>
+         <p class="warning">IBMCCS/13240 is unused.</p>
+         <p class="warning">IBMCCS/13241 is unused.</p>
+         <p class="warning">IBMCCS/13242 is unused.</p>
+         <p class="warning">IBMCCS/13259 is unused.</p>
+         <p class="warning">IBMCCS/13520 is unused.</p>
+         <p class="warning">IBMCCS/13650 is unused.</p>
+         <p class="warning">IBMCCS/13651 is unused.</p>
+         <p class="warning">IBMCCS/13662 is unused.</p>
+         <p class="warning">IBMCCS/13663 is unused.</p>
+         <p class="warning">IBMCCS/13664 is unused.</p>
+         <p class="warning">IBMCCS/13665 is unused.</p>
+         <p class="warning">IBMCCS/13688 is unused.</p>
+         <p class="warning">IBMCCS/13689 is unused.</p>
+         <p class="warning">IBMCCS/13690 is unused.</p>
+         <p class="warning">IBMCCS/16421 is unused.</p>
+         <p class="warning">IBMCCS/16821 is unused.</p>
+         <p class="warning">IBMCCS/16884 is unused.</p>
+         <p class="warning">IBMCCS/17218 is unused.</p>
+         <p class="warning">IBMCCS/17219 is unused.</p>
+         <p class="warning">IBMCCS/17240 is unused.</p>
+         <p class="warning">IBMCCS/17314 is unused.</p>
+         <p class="warning">IBMCCS/17317 is unused.</p>
+         <p class="warning">IBMCCS/17325 is unused.</p>
+         <p class="warning">IBMCCS/17331 is unused.</p>
+         <p class="warning">IBMCCS/17336 is unused.</p>
+         <p class="warning">IBMCCS/17337 is unused.</p>
+         <p class="warning">IBMCCS/17338 is unused.</p>
+         <p class="warning">IBMCCS/17354 is unused.</p>
+         <p class="warning">IBMCCS/17616 is unused.</p>
+         <p class="warning">IBMCCS/17784 is unused.</p>
+         <p class="warning">IBMCCS/17785 is unused.</p>
+         <p class="warning">IBMCCS/20517 is unused.</p>
+         <p class="warning">IBMCCS/20917 is unused.</p>
+         <p class="warning">IBMCCS/20980 is unused.</p>
+         <p class="warning">IBMCCS/21314 is unused.</p>
+         <p class="warning">IBMCCS/21317 is unused.</p>
+         <p class="warning">IBMCCS/21432 is unused.</p>
+         <p class="warning">IBMCCS/21433 is unused.</p>
+         <p class="warning">IBMCCS/21434 is unused.</p>
+         <p class="warning">IBMCCS/21450 is unused.</p>
+         <p class="warning">IBMCCS/21688 is unused.</p>
+         <p class="warning">IBMCCS/21689 is unused.</p>
+         <p class="warning">IBMCCS/21712 is unused.</p>
+         <p class="warning">IBMCCS/21880 is unused.</p>
+         <p class="warning">IBMCCS/21881 is unused.</p>
+         <p class="warning">IBMCCS/24613 is unused.</p>
+         <p class="warning">IBMCCS/24876 is unused.</p>
+         <p class="warning">IBMCCS/24877 is unused.</p>
+         <p class="warning">IBMCCS/25013 is unused.</p>
+         <p class="warning">IBMCCS/25076 is unused.</p>
+         <p class="warning">IBMCCS/25313 is unused.</p>
+         <p class="warning">IBMCCS/25351 is unused.</p>
+         <p class="warning">IBMCCS/25384 is unused.</p>
+         <p class="warning">IBMCCS/25424 is unused.</p>
+         <p class="warning">IBMCCS/25425 is unused.</p>
+         <p class="warning">IBMCCS/25426 is unused.</p>
+         <p class="warning">IBMCCS/25427 is unused.</p>
+         <p class="warning">IBMCCS/25428 is unused.</p>
+         <p class="warning">IBMCCS/25429 is unused.</p>
+         <p class="warning">IBMCCS/25431 is unused.</p>
+         <p class="warning">IBMCCS/25432 is unused.</p>
+         <p class="warning">IBMCCS/25433 is unused.</p>
+         <p class="warning">IBMCCS/25434 is unused.</p>
+         <p class="warning">IBMCCS/25435 is unused.</p>
+         <p class="warning">IBMCCS/25436 is unused.</p>
+         <p class="warning">IBMCCS/25437 is unused.</p>
+         <p class="warning">IBMCCS/25438 is unused.</p>
+         <p class="warning">IBMCCS/25439 is unused.</p>
+         <p class="warning">IBMCCS/25440 is unused.</p>
+         <p class="warning">IBMCCS/25441 is unused.</p>
+         <p class="warning">IBMCCS/25442 is unused.</p>
+         <p class="warning">IBMCCS/25443 is unused.</p>
+         <p class="warning">IBMCCS/25444 is unused.</p>
+         <p class="warning">IBMCCS/25445 is unused.</p>
+         <p class="warning">IBMCCS/25448 is unused.</p>
+         <p class="warning">IBMCCS/25450 is unused.</p>
+         <p class="warning">IBMCCS/25467 is unused.</p>
+         <p class="warning">IBMCCS/25473 is unused.</p>
+         <p class="warning">IBMCCS/25477 is unused.</p>
+         <p class="warning">IBMCCS/25478 is unused.</p>
+         <p class="warning">IBMCCS/25479 is unused.</p>
+         <p class="warning">IBMCCS/25480 is unused.</p>
+         <p class="warning">IBMCCS/25488 is unused.</p>
+         <p class="warning">IBMCCS/25491 is unused.</p>
+         <p class="warning">IBMCCS/25497 is unused.</p>
+         <p class="warning">IBMCCS/25498 is unused.</p>
+         <p class="warning">IBMCCS/25502 is unused.</p>
+         <p class="warning">IBMCCS/25503 is unused.</p>
+         <p class="warning">IBMCCS/25504 is unused.</p>
+         <p class="warning">IBMCCS/25505 is unused.</p>
+         <p class="warning">IBMCCS/25508 is unused.</p>
+         <p class="warning">IBMCCS/25510 is unused.</p>
+         <p class="warning">IBMCCS/25512 is unused.</p>
+         <p class="warning">IBMCCS/25514 is unused.</p>
+         <p class="warning">IBMCCS/25518 is unused.</p>
+         <p class="warning">IBMCCS/25520 is unused.</p>
+         <p class="warning">IBMCCS/25522 is unused.</p>
+         <p class="warning">IBMCCS/25524 is unused.</p>
+         <p class="warning">IBMCCS/25525 is unused.</p>
+         <p class="warning">IBMCCS/25527 is unused.</p>
+         <p class="warning">IBMCCS/25528 is unused.</p>
+         <p class="warning">IBMCCS/25530 is unused.</p>
+         <p class="warning">IBMCCS/25580 is unused.</p>
+         <p class="warning">IBMCCS/25616 is unused.</p>
+         <p class="warning">IBMCCS/25617 is unused.</p>
+         <p class="warning">IBMCCS/25618 is unused.</p>
+         <p class="warning">IBMCCS/25619 is unused.</p>
+         <p class="warning">IBMCCS/25664 is unused.</p>
+         <p class="warning">IBMCCS/25690 is unused.</p>
+         <p class="warning">IBMCCS/25691 is unused.</p>
+         <p class="warning">IBMCCS/25702 is unused.</p>
+         <p class="warning">IBMCCS/25703 is unused.</p>
+         <p class="warning">IBMCCS/25784 is unused.</p>
+         <p class="warning">IBMCCS/25785 is unused.</p>
+         <p class="warning">IBMCCS/25808 is unused.</p>
+         <p class="warning">IBMCCS/25976 is unused.</p>
+         <p class="warning">IBMCCS/25977 is unused.</p>
+         <p class="warning">IBMCCS/28709 is unused.</p>
+         <p class="warning">IBMCCS/29109 is unused.</p>
+         <p class="warning">IBMCCS/29172 is unused.</p>
+         <p class="warning">IBMCCS/29522 is unused.</p>
+         <p class="warning">IBMCCS/29523 is unused.</p>
+         <p class="warning">IBMCCS/29524 is unused.</p>
+         <p class="warning">IBMCCS/29525 is unused.</p>
+         <p class="warning">IBMCCS/29527 is unused.</p>
+         <p class="warning">IBMCCS/29528 is unused.</p>
+         <p class="warning">IBMCCS/29529 is unused.</p>
+         <p class="warning">IBMCCS/29532 is unused.</p>
+         <p class="warning">IBMCCS/29533 is unused.</p>
+         <p class="warning">IBMCCS/29534 is unused.</p>
+         <p class="warning">IBMCCS/29535 is unused.</p>
+         <p class="warning">IBMCCS/29536 is unused.</p>
+         <p class="warning">IBMCCS/29537 is unused.</p>
+         <p class="warning">IBMCCS/29540 is unused.</p>
+         <p class="warning">IBMCCS/29541 is unused.</p>
+         <p class="warning">IBMCCS/29546 is unused.</p>
+         <p class="warning">IBMCCS/29614 is unused.</p>
+         <p class="warning">IBMCCS/29616 is unused.</p>
+         <p class="warning">IBMCCS/29618 is unused.</p>
+         <p class="warning">IBMCCS/29620 is unused.</p>
+         <p class="warning">IBMCCS/29621 is unused.</p>
+         <p class="warning">IBMCCS/29623 is unused.</p>
+         <p class="warning">IBMCCS/29626 is unused.</p>
+         <p class="warning">IBMCCS/29712 is unused.</p>
+         <p class="warning">IBMCCS/29713 is unused.</p>
+         <p class="warning">IBMCCS/29714 is unused.</p>
+         <p class="warning">IBMCCS/29715 is unused.</p>
+         <p class="warning">IBMCCS/29760 is unused.</p>
+         <p class="warning">IBMCCS/29786 is unused.</p>
+         <p class="warning">IBMCCS/29880 is unused.</p>
+         <p class="warning">IBMCCS/29881 is unused.</p>
+         <p class="warning">IBMCCS/30072 is unused.</p>
+         <p class="warning">IBMCCS/32805 is unused.</p>
+         <p class="warning">IBMCCS/33205 is unused.</p>
+         <p class="warning">IBMCCS/33268 is unused.</p>
+         <p class="warning">IBMCCS/33618 is unused.</p>
+         <p class="warning">IBMCCS/33619 is unused.</p>
+         <p class="warning">IBMCCS/33620 is unused.</p>
+         <p class="warning">IBMCCS/33621 is unused.</p>
+         <p class="warning">IBMCCS/33623 is unused.</p>
+         <p class="warning">IBMCCS/33624 is unused.</p>
+         <p class="warning">IBMCCS/33625 is unused.</p>
+         <p class="warning">IBMCCS/33632 is unused.</p>
+         <p class="warning">IBMCCS/33636 is unused.</p>
+         <p class="warning">IBMCCS/33637 is unused.</p>
+         <p class="warning">IBMCCS/33665 is unused.</p>
+         <p class="warning">IBMCCS/33698 is unused.</p>
+         <p class="warning">IBMCCS/33699 is unused.</p>
+         <p class="warning">IBMCCS/33700 is unused.</p>
+         <p class="warning">IBMCCS/33717 is unused.</p>
+         <p class="warning">IBMCCS/33968 is unused.</p>
+         <p class="warning">IBMCCS/33969 is unused.</p>
+         <p class="warning">IBMCCS/33970 is unused.</p>
+         <p class="warning">IBMCCS/33971 is unused.</p>
+         <p class="warning">IBMCCS/33976 is unused.</p>
+         <p class="warning">IBMCCS/33977 is unused.</p>
+         <p class="warning">IBMCCS/34168 is unused.</p>
+         <p class="warning">IBMCCS/37301 is unused.</p>
+         <p class="warning">IBMCCS/37364 is unused.</p>
+         <p class="warning">IBMCCS/37716 is unused.</p>
+         <p class="warning">IBMCCS/37719 is unused.</p>
+         <p class="warning">IBMCCS/37720 is unused.</p>
+         <p class="warning">IBMCCS/37728 is unused.</p>
+         <p class="warning">IBMCCS/37732 is unused.</p>
+         <p class="warning">IBMCCS/37733 is unused.</p>
+         <p class="warning">IBMCCS/37761 is unused.</p>
+         <p class="warning">IBMCCS/37796 is unused.</p>
+         <p class="warning">IBMCCS/37813 is unused.</p>
+         <p class="warning">IBMCCS/37818 is unused.</p>
+         <p class="warning">IBMCCS/38064 is unused.</p>
+         <p class="warning">IBMCCS/38065 is unused.</p>
+         <p class="warning">IBMCCS/38066 is unused.</p>
+         <p class="warning">IBMCCS/38067 is unused.</p>
+         <p class="warning">IBMCCS/38072 is unused.</p>
+         <p class="warning">IBMCCS/38073 is unused.</p>
+         <p class="warning">IBMCCS/41397 is unused.</p>
+         <p class="warning">IBMCCS/41460 is unused.</p>
+         <p class="warning">IBMCCS/41824 is unused.</p>
+         <p class="warning">IBMCCS/41828 is unused.</p>
+         <p class="warning">IBMCCS/42160 is unused.</p>
+         <p class="warning">IBMCCS/42161 is unused.</p>
+         <p class="warning">IBMCCS/42162 is unused.</p>
+         <p class="warning">IBMCCS/42163 is unused.</p>
+         <p class="warning">IBMCCS/45493 is unused.</p>
+         <p class="warning">IBMCCS/45556 is unused.</p>
+         <p class="warning">IBMCCS/45920 is unused.</p>
+         <p class="warning">IBMCCS/49589 is unused.</p>
+         <p class="warning">IBMCCS/49652 is unused.</p>
+         <p class="warning">IBMCCS/50016 is unused.</p>
+         <p class="warning">IBMCCS/53668 is unused.</p>
+         <p class="warning">IBMCCS/53685 is unused.</p>
+         <p class="warning">IBMCCS/53748 is unused.</p>
+         <p class="warning">IBMCCS/54189 is unused.</p>
+         <p class="warning">IBMCCS/54191 is unused.</p>
+         <p class="warning">IBMCCS/54289 is unused.</p>
+         <p class="warning">IBMCCS/61696 is unused.</p>
+         <p class="warning">IBMCCS/61697 is unused.</p>
+         <p class="warning">IBMCCS/61698 is unused.</p>
+         <p class="warning">IBMCCS/61699 is unused.</p>
+         <p class="warning">IBMCCS/61700 is unused.</p>
+         <p class="warning">IBMCCS/61710 is unused.</p>
+         <p class="warning">IBMCCS/61711 is unused.</p>
+         <p class="warning">IBMCCS/61712 is unused.</p>
+         <p class="warning">IBMCCS/62251 is unused.</p>
+         <p class="warning">IBMCCS/62337 is unused.</p>
+         <p class="warning">IBMCCS/62381 is unused.</p>
+         <p class="warning">IBMCCS/62383 is unused.</p>
+         <p><b>787</b> IBMCCS coded character sets read in, <b>405</b> unused.</p>
+      <h1>Checking for references</h1>
+         <p><b>0</b> aliases do not have references, <b>261</b> added.</p>
+      <h1>Checking for unused meta information</h1>
+         <p><b>0</b> meta informations are unused.</p>
+      <h1>Creating XML database in CharacterSetDatabase.xml</h1>
+         <p><b>594</b> character sets and <b>95</b> references written.</p>
+         <p><b>525</b> checked, <b>11</b> unsave and <b>58</b> unchecked character sets written.</p>
+      <h1>Statistics</h1>
+         <p>Maximum memory used is <b>16.25</b> MB.</p>
+         <p>Time consumed is <b>9.64</b> seconds.</p>

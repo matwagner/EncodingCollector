@@ -1,0 +1,145 @@
+#Identifier;DataSource;Alias;BelongsTo;Reason
+#;Standard stuff;;;
+US_ASCII;IBM_ICU;iso_646.irv:1983;;ISO646.irv:1983 has nothing to do with US-ASCII, see IANA character-sets.txt.
+US_ASCII;IBM_ICU;ISO646IRV1983;;ISO646.irv:1983 has nothing to do with US-ASCII, see IANA character-sets.txt.
+US_ASCII;ORACLE_JAVA;iso_646.irv:1983;;ISO646.IRV:1983 has nothing to do with US-ASCII, IANA and RFC1345 distinguish them.
+UTF_7;GNU_ICONV;UNICODE-1-1-UTF-7;UTF_7;UNICODE-1-1-UTF-7 and UTF-7 are different, see RFC1642 and RFC2152.
+UTF_7;GNU_ICONV;csUnicode11UTF7;UTF_7;UNICODE-1-1-UTF-7 and UTF-7 are different, see RFC1642 and RFC2152.
+UTF_7;GNU_ICONV;CP65000;UTF_7;UNICODE-1-1-UTF-7 and CP65000 (UTF-7) are different, see RFC1642 and RFC2152.
+UTF_7;IBM_ICU;unicode-1-1-utf-7;;UNICODE-1-1-UTF-7 and UTF-7 are different, see RFC1642 and RFC2152.
+UTF_16;IBM_ICU;ISO-10646-UCS-2;UCS_2;UTF-16 and UCS-2 are definitely _not_ the same.
+UTF_16;IBM_ICU;unicode;UCS_2;UTF-16 and UCS-2 are definitely _not_ the same.
+UTF_16;IBM_ICU;csUnicode;UCS_2;UTF-16 and UCS-2 are definitely _not_ the same.
+UTF_16;IBM_ICU;ucs-2;UCS_2;UTF-16 and UCS-2 are definitely _not_ the same.
+UTF_16;ORACLE_JAVA;unicode;UCS_2;UTF-16 ist not fixed to big endian order.
+UTF_16;ORACLE_JAVA;UnicodeBig;UCS_2BE;UTF-16 ist not fixed to big endian order.
+UTF_16LE;IBM_ICU;UnicodeLittle;UCS_2LE;UTF-16 and UnicodeBig/-Little aka UCS-2 are definitely _not_ the same.
+UTF_16LE;IBM_ICU;UNICODELITTLE;UCS_2LE;UTF-16 and UnicodeBig/-Little aka UCS-2 are definitely _not_ the same.
+UTF_16LE;ORACLE_JAVA;UnicodeLittle;UCS_2LE;UTF-16 and UnicodeBig/-Little aka UCS-2 are definitely _not_ the same.
+UTF_16BE;IBM_ICU;UnicodeBig;UCS_2BE;UTF-16 and UnicodeBig/-Little aka UCS-2 are definitely _not_ the same.
+UTF_16BE;IBM_ICU;cp1200;;UTF-16 and UnicodeBig/-Little aka UCS-2 are definitely _not_ the same.
+UTF_16BE;IBM_ICU;cp1201;;UTF-16 and UnicodeBig/-Little aka UCS-2 are definitely _not_ the same.
+UTF_16BE;ORACLE_JAVA;ISO-10646-UCS-2;UCS_2;UTF-16 and UnicodeBig/-Little aka UCS-2 are definitely _not_ the same.
+UTF_16BE;ORACLE_JAVA;UnicodeBigUnmarked;UCS_2BE;UTF-16 and UnicodeBig/-Little aka UCS-2 are definitely _not_ the same.
+UTF_32;IBM_ICU;ISO-10646-UCS-4;UCS_4;UTF-32 and UCS-4 are the same, but they will be treated as different character sets here.
+UTF_32;IBM_ICU;csUCS4;UCS_4;UTF-32 and UCS-4 are the same, but they will be treated as different character sets here.
+UTF_32;IBM_ICU;ucs-4;UCS_4;UTF-32 and UCS-4 are the same, but they will be treated as different character sets here.
+UCS_2LE;MS;utf-16;;Microsoft lives in the little endian world. UTF-16 can be either of both endiannesses.
+UCS_2BE;GNU_ICONV;UNICODE-1-1;;IANA treats UCS_2BE and UNICODE-1-1 as being different.
+UCS_2BE;GNU_ICONV;csUnicode11;;IANA treats UCS_2BE and UNICODE-1-1 as being different.
+UCS_4LE;MS;utf-32;;Microsoft lives in the little endian world. UTF-32 can be either of both endiannesses.
+UCS_4BE;MS;utf-32BE;;This is not unique to UTF-32BE.
+ISO_8859_6;IBM_ICU;ISO-8859-6-E;ISO_8859_6_E;ISO-8859-6 and ISO-8859-6-E are definitely _not_ the same. IANA distinguishes them.
+ISO_8859_6;IBM_ICU;ISO-8859-6-I;ISO_8859_6_I;ISO-8859-6 and ISO-8859-6-I are definitely _not_ the same. IANA distinguishes them.
+ISO_8859_7;ORACLE_JAVA;ibm-813;IBM813;IBM813 and ISO-8859-7 are not the same. ICU distinguishes them.
+ISO_8859_7;ORACLE_JAVA;ibm813;IBM813;IBM813 and ISO-8859-7 are not the same. ICU distinguishes them.
+ISO_8859_7;ORACLE_JAVA;cp813;IBM813;IBM813 and ISO-8859-7 are not the same. ICU distinguishes them.
+ISO_8859_7;ORACLE_JAVA;813;IBM813;IBM813 and ISO-8859-7 are not the same. ICU distinguishes them.
+ISO_8859_8;GNU_ICONV;CP38598;ISO_8859_8_I;Microsoft says this is ISO-8859-8-I, not ISO-8859-8.
+ISO_8859_8;IBM_ICU;ISO-8859-8-E;ISO_8859_8_E;ISO-8859-8 and ISO-8859-8-E are definitely _not_ the same. IANA distinguishes them.
+ISO_8859_8;IBM_ICU;ISO-8859-8-I;ISO_8859_8_I;ISO-8859-8 and ISO-8859-8-E are definitely _not_ the same. IANA distinguishes them.
+ISO_8859_8;ORACLE_JAVA;ibm-916;IBM916;IBM916 and ISO-8859-8 are not the same. ICU distinguishes them.
+ISO_8859_8;ORACLE_JAVA;ibm916;IBM916;IBM916 and ISO-8859-8 are not the same. ICU distinguishes them.
+ISO_8859_8;ORACLE_JAVA;cp916;IBM916;IBM916 and ISO-8859-8 are not the same. ICU distinguishes them.
+ISO_8859_8;ORACLE_JAVA;916;IBM916;IBM916 and ISO-8859-8 are not the same. ICU distinguishes them.
+KOI8_R;IBM_ICU;koi8;;KOI8 and KOI8-R for russian alone are definitely _not_ the same.
+#;ISO646 7 bit stuff;;;
+NATS_DANO;IANA;ISOIR91;;Speciality for NATS-DANO* which simplified name conflicts with JIS_C6229-1984-* for the prefix ISO-IR-9:
+NATS_DANO;GNU_ICONV;ISOIR91;;NATS-DANO/-ADD JIS_C6229-1984-a/b Simplified in both character sets
+NATS_DANO_ADD;IANA;ISOIR92;;ISO-IR-9-1                  ISO-IR-91                      ISOIR91
+NATS_DANO_ADD;GNU_ICONV;ISOIR92;;ISO-IR-9-2                  ISO-IR-92                      ISOIR92
+#;Thai stuff;;;
+TIS_620;IBM_ICU;cp874;;TIS-620 and CP874 aka Windows-874 are definitely _not_ the same, see ICU character sets.
+TIS_620;IBM_ICU;ibm-874;;TIS-620 and IBM874 aka Windows-874 are definitely _not_ the same, see ICU character sets.
+TIS_620;IBM_ICU;x-IBM874;;TIS-620 and x-IBM874 aka Windows-874 are definitely _not_ the same, see ICU character sets.
+Windows_874;IBM_ICU;TIS-620;;Windows_874 aka CP874 and TIS-620 are definitely _not_ the same, see ICU character sets.
+HP_Thai8;GNU_ICONV;THAI8;;This is not unique to ISO-8859-11.
+#;Chinese stuff;;;
+GBK;IANA;CP936;;GBK and CP936, MS936 and windows-936 have are definitely _not_the same. GNU libiconv distinguishes them.
+GBK;IANA;MS936;;GBK and CP936, MS936 and windows-936 have are definitely _not_the same. GNU libiconv distinguishes them.
+GBK;IANA;windows-936;;GBK and CP936, MS936 and windows-936 have are definitely _not_the same. GNU libiconv distinguishes them.
+GBK;IANA;CP936;;GBK and CP936 aka Windows-936 are not the same. 
+GBK;IANA;MS936;;GBK and MS936 aka Windows-936 are not the same. GNU ICONV distinguishes them.
+GBK;IANA;windows-936;;GBK and Windows-936 are not the same. GNU ICONV distinguishes them.
+GBK;ORACLE_JAVA;CP936;;GBK and CP936 aka Windows-936 are not the same. GNU ICONV distinguishes them.
+GBK;ORACLE_JAVA;windows-936;;GBK and Windows-936 are not the same. GNU ICONV distinguishes them.
+GB_2312;ORACLE_JAVA;gb2312-80;;GB2312-80 and GB2312 aka EUC-CN are definitely _not_ the same.
+GB_2312;ORACLE_JAVA;gb2312-1980;;GB2312-80 and GB2312 aka EUC-CN are definitely _not_ the same.
+ISO_2022_CN;IBM_ICU;x-ISO-2022-CN-GB;;ISO-2022-CN and x-ISO-2022-CN-GB are not the same. IANA distinguishes them.
+Windows_936;MS;gb2312;;Windows-936 and GB2312 are not the same. IANA distinguishes them.
+Windows_936_2000;IBM_ICU;CP936;;Windows-936-2000 and CP936 aka Windows-936 are not the same.
+Windows_936_2000;IBM_ICU;MS936;;Windows-936-2000 and MS936 aka Windows-936 are not the same.
+Windows_936_2000;IBM_ICU;windows-936;;Windows-936-2000 and Windows-936 are not the same.
+Windows_936_2000;IBM_ICU;GBK;;Windows-936-2000 and GBK are not the same.
+IBM950;IBM_ICU;cp950;CP950;IBM950 and CP950 are not the same.
+IBM950;ORACLE_JAVA;cp950;CP950;IBM950 and CP950 are not the same. Microsoft CP950 contains the euro sign, IBM950 does not.
+CP950;MS;big5;;CP950 and Big5 are not the same. GNU ICONV distinguishes them.
+Windows_950_2000;IBM_ICU;Big5;;Windows-950-2000 and Big5 are not the same. GNU ICONV distinguishes them.
+Windows_950_2000;IBM_ICU;csBig5;;Windows-950-2000 and Big5 are not the same. GNU ICONV distinguishes them.
+Windows_950_2000;IBM_ICU;windows-950;CP950;windows-950_2000 and windows-950 are not the same. Windows-950_2000 seems to be the successor of windows-950.
+Windows_950_2000;ORACLE_JAVA;windows-950;CP950;windows-950_2000 and windows-950 are not the same. Windows-950_2000 seems to be the successor of windows-950.
+MS950_HKSCS;IBM_ICU;Big5-HKSCS;;MS950_HKSCS and Big5-HKSCS are not the same.
+MS950_HKSCS;IBM_ICU;big5-hkscs:unicode3.0;;MS950_HKSCS and big5-hkscs:unicode3.0 are not the same.
+IBM5471;IBM_ICU;Big5-HKSCS;;This is not unique with Big5-HKSCS.
+#;Japanese stuff;;;
+Shift_JIS;GNU_ICONV;CP932;;Shift_JIS and CP932 are not the same. GNU ICONV, ICU and JAVA distuinguish them.
+Shift_JIS;IBM_ICU;windows-31j;;Shift_JIS and Windows-31J are different, see IANA distinguishes them.
+Shift_JIS;IBM_ICU;csWindows31J;;Shift_JIS and Windows-31J are different, see IANA distinguishes them.
+Shift_JIS;IBM_ICU;ibm-943;;Shift_JIS and IBM943 are not the same. GNU ICONV and JAVA distuinguish them.
+Shift_JIS;IBM_ICU;cp932;;Shift_JIS and CP932 are not the same. GNU ICONV, ICU and JAVA distuinguish them.
+Shift_JIS;IBM_ICU;x-MS932_0213;MS932_0213;Microsoft version of Shift_JIS_X0213 seems to be newer than Shift_JIS.
+Shift_JIS;IBM_ICU;x-JISAutoDetect;;Shift_JIS and x-JISAutoDetect are not the same. Java distinguishes them.
+Shift_JIS;MS;cp932;;Shift_JIS and CP932 will be treated as different here. Different versions of Shift_JIS starting at 1978?
+ISO_2022_JP;IBM_ICU;x-windows-50220;;ISO-2022-JP has little to do with JIS_Encoding, IANA and JIS X 0202-1991 distinguish them.
+ISO_2022_JP;IBM_ICU;x-windows-iso2022jp;;ISO-2022-JP and x-windows-iso2022jp are not the same. Java distinguishes them.
+ISO_2022_JP;ORACLE_JAVA;jis_encoding;;ISO-2022-JP has little to do with JIS_Encoding, IANA and JIS X 0202-1991 distinguish them.
+ISO_2022_JP;ORACLE_JAVA;csjisencoding;;ISO-2022-JP has little to do with JIS_Encoding, IANA and JIS X 0202-1991 distinguish them.
+ISO_2022_JP;ORACLE_JAVA;jis;;ISO-2022-JP has little to do with JIS_Encoding, IANA and JIS X 0202-1991 distinguish them.
+ISO_2022_JP_1;IBM_ICU;x-windows-50221;;ISO-2022-JP-1 has little to do with Windows-50221, IANA and JIS X 0202-1991 distinguish them.
+ISO_2022_JP_1;IBM_ICU;JIS_Encoding;;ISO-2022-JP-1 has little to do with JIS_Encoding, IANA and JIS X 0202-1991 distinguish them.
+ISO_2022_JP_1;IBM_ICU;csJISEncoding;;ISO-2022-JP-1 has little to do with JIS_Encoding, IANA and JIS X 0202-1991 distinguish them.
+EUC_JP;GNU_ICONV;CP51932;;EUC-JP and CP51932 are different, IANA distinguishes them.
+EUC_JP;GNU_ICONV;IBM-EUCJP;;EUC-JP and IBM-EUCJP are not the same. ICU distinguishes them.
+CP50220;MS;iso-2022-jp;;ISO-2022-JP and CP50220 are different, IANA distinguishes them.
+CP50221;MS;csISO2022JP;;CP50221 and ISO-2022-JP are not the same.
+CP51932;MS;euc-jp;;EUC-JP and CP51932 are different, IANA distinguishes them.
+Windows_31J;ORACLE_JAVA;MS932;;CP932 and Windows-31J are different.
+Windows_31J;ORACLE_JAVA;windows-932;;CP932 and Windows-31J are different.
+EUC_JP_IBM;IBM_ICU;ibm-33722;;EUC_JP_IBM has nothing to do with IBM33722, see ICU.
+EUC_JP_IBM;IBM_ICU;ibm-33722_VPUA;;EUC_JP_IBM has nothing to do with IBM33722, see ICU.
+EUC_JP_IBM;IBM_ICU;ibm-5050;;EUC_JP_IBM has nothing to do with IBM33722, see ICU.
+IBM939;IBM_ICU;ibm-931;IBM931;IBM939 and IBM931 are not the same. IBM939 seems to be the successor of IBM931.
+#;Korean stuff;;;
+KS_C_5601_1987;IBM_ICU;ibm-1363;;This is not unique with KS_C_5601-1987.
+KS_C_5601_1987;IBM_ICU;ms949;;KS_C_5601-1987 and MS949 aka CP949 are not the same. GNU ICONV distinguishes them.
+KS_C_5601_1987;IBM_ICU;windows-949;;KS_C_5601-1987 and windows-949 are not the same. GNU ICONV distinguishes them.
+KS_C_5601_1987;MS;cp949;;KS_C_5601-1987 and CP949 are not the same. GNU ICONV distinguishes them.
+EUC_KR;IBM_ICU;5601;;
+EUC_KR;IBM_ICU;KSC_5601;;
+EUC_KR;IBM_ICU;KS_C_5601-1987;;
+EUC_KR;ORACLE_JAVA;ks_c_5601-1987;;KS_C_5601-1987 has little to do with EUC-KR, IANA and RFC1557 distinguish them.
+EUC_KR;ORACLE_JAVA;ksc_5601;;KS_C_5601-1987 has little to do with EUC-KR, IANA and RFC1557 distinguish them.
+EUC_KR;ORACLE_JAVA;ksc5601-1987;;KS_C_5601-1987 has little to do with EUC-KR, IANA and RFC1557 distinguish them.
+EUC_KR;ORACLE_JAVA;ksc5601_1987;;KS_C_5601-1987 has little to do with EUC-KR, IANA and RFC1557 distinguish them.
+EUC_KR;ORACLE_JAVA;ksc5601;;KS_C_5601-1987 has little to do with EUC-KR, IANA and RFC1557 distinguish them.
+EUC_KR;ORACLE_JAVA;5601;;KS_C_5601-1987 has little to do with EUC-KR, IANA and RFC1557 distinguish them.
+IBM1373;IBM_ICU;windows-950;;
+IBM1386;IBM_ICU;windows-936;;
+JOHAB;GNU_ICONV;CP1361;Windows_1361;Windows-1361 and Johab are not the same.
+Windows_1361;IBM_ICU;johab;JOHAB;Windows-1361 and Johab are not the same.
+Windows_1361;IBM_ICU;x-Johab;JOHAB;Windows-1361 and Johab are not the same.
+Windows_1361;ORACLE_JAVA;johab;JOHAB;Windows-1361 and Johab are not the same.
+IBM943;IBM_ICU;Shift_JIS;;IBM943 and Shift_JIS are not the same. GNU ICONV and JAVA distuinguish them.
+CP949C;IBM_ICU;ibm-949;;This is not unique with CP949C.
+IBM1125;GNU_ICONV;IBM848;;This is not unique with IBM1125, see ICU character sets.
+EUC_KR;GNU_ICONV;5601;;
+CP949;GNU_ICONV;KSC5601;;
+#;Language specific stuff;;;
+ISCII_Devanagari;ORACLE_JAVA;iso-ir-153;;Indic Devanagari and russian GOST 19768-74 are definitely _not_ the same.
+ISCII_Devanagari;ORACLE_JAVA;ST_SEV_358-88;;Indic Devanagari and russian GOST 19768-74 are definitely _not_ the same.
+ISCII_Devanagari;ORACLE_JAVA;csISO153GOST1976874;;Indic Devanagari and russian GOST 19768-74 are definitely _not_ the same.
+#;Platform specific stuff;;;
+CP708;MS;ASMO-708;;Microsoft arabic code page DOS-708 and ISO-8859-6 are definitely _not_ the same.
+HP_Turkish8;IBM_ICU;turkish8;;This is not unique with ISO-8859-9.
+HP_Turkish8;GNU_ICONV;TURKISH8;;This is not unique with ISO-8859-9.
+MacCyrillic;IBM_ICU;x-MacUkraine;;MacIntosh Cyrillic and Ukrainian are not the same.

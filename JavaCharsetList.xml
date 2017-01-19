@@ -1,0 +1,1071 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<JavaCharsetLister>
+   <Charset name="Big5" iana-registered="yes">
+      <Alias name="csBig5"/>
+   </Charset>
+   <Charset name="Big5-HKSCS" iana-registered="yes">
+      <Alias name="big5-hkscs"/>
+      <Alias name="big5hk"/>
+      <Alias name="Big5_HKSCS"/>
+      <Alias name="big5hkscs"/>
+   </Charset>
+   <Charset name="CESU-8" iana-registered="yes">
+      <Alias name="CESU8"/>
+      <Alias name="csCESU-8"/>
+   </Charset>
+   <Charset name="EUC-JP" iana-registered="yes">
+      <Alias name="csEUCPkdFmtjapanese"/>
+      <Alias name="x-euc-jp"/>
+      <Alias name="eucjis"/>
+      <Alias name="Extended_UNIX_Code_Packed_Format_for_Japanese"/>
+      <Alias name="euc_jp"/>
+      <Alias name="eucjp"/>
+      <Alias name="x-eucjp"/>
+   </Charset>
+   <Charset name="EUC-KR" iana-registered="yes">
+      <Alias name="ksc5601-1987"/>
+      <Alias name="csEUCKR"/>
+      <Alias name="ksc5601_1987"/>
+      <Alias name="ksc5601"/>
+      <Alias name="5601"/>
+      <Alias name="euc_kr"/>
+      <Alias name="ksc_5601"/>
+      <Alias name="ks_c_5601-1987"/>
+      <Alias name="euckr"/>
+   </Charset>
+   <Charset name="GB18030" iana-registered="yes">
+      <Alias name="gb18030-2000"/>
+   </Charset>
+   <Charset name="GB2312" iana-registered="yes">
+      <Alias name="gb2312"/>
+      <Alias name="euc-cn"/>
+      <Alias name="x-EUC-CN"/>
+      <Alias name="euccn"/>
+      <Alias name="EUC_CN"/>
+      <Alias name="gb2312-80"/>
+      <Alias name="gb2312-1980"/>
+   </Charset>
+   <Charset name="GBK" iana-registered="yes">
+      <Alias name="CP936"/>
+      <Alias name="windows-936"/>
+   </Charset>
+   <Charset name="IBM-Thai" iana-registered="yes">
+      <Alias name="ibm-838"/>
+      <Alias name="ibm838"/>
+      <Alias name="838"/>
+      <Alias name="cp838"/>
+   </Charset>
+   <Charset name="IBM00858" iana-registered="yes">
+      <Alias name="cp858"/>
+      <Alias name="858"/>
+      <Alias name="PC-Multilingual-850+euro"/>
+      <Alias name="cp00858"/>
+      <Alias name="ccsid00858"/>
+   </Charset>
+   <Charset name="IBM01140" iana-registered="yes">
+      <Alias name="cp1140"/>
+      <Alias name="1140"/>
+      <Alias name="cp01140"/>
+      <Alias name="ebcdic-us-037+euro"/>
+      <Alias name="ccsid01140"/>
+   </Charset>
+   <Charset name="IBM01141" iana-registered="yes">
+      <Alias name="1141"/>
+      <Alias name="cp1141"/>
+      <Alias name="cp01141"/>
+      <Alias name="ccsid01141"/>
+      <Alias name="ebcdic-de-273+euro"/>
+   </Charset>
+   <Charset name="IBM01142" iana-registered="yes">
+      <Alias name="1142"/>
+      <Alias name="cp1142"/>
+      <Alias name="cp01142"/>
+      <Alias name="ccsid01142"/>
+      <Alias name="ebcdic-no-277+euro"/>
+      <Alias name="ebcdic-dk-277+euro"/>
+   </Charset>
+   <Charset name="IBM01143" iana-registered="yes">
+      <Alias name="1143"/>
+      <Alias name="cp01143"/>
+      <Alias name="ccsid01143"/>
+      <Alias name="cp1143"/>
+      <Alias name="ebcdic-fi-278+euro"/>
+      <Alias name="ebcdic-se-278+euro"/>
+   </Charset>
+   <Charset name="IBM01144" iana-registered="yes">
+      <Alias name="cp01144"/>
+      <Alias name="ccsid01144"/>
+      <Alias name="ebcdic-it-280+euro"/>
+      <Alias name="cp1144"/>
+      <Alias name="1144"/>
+   </Charset>
+   <Charset name="IBM01145" iana-registered="yes">
+      <Alias name="ccsid01145"/>
+      <Alias name="ebcdic-es-284+euro"/>
+      <Alias name="1145"/>
+      <Alias name="cp1145"/>
+      <Alias name="cp01145"/>
+   </Charset>
+   <Charset name="IBM01146" iana-registered="yes">
+      <Alias name="ebcdic-gb-285+euro"/>
+      <Alias name="1146"/>
+      <Alias name="cp1146"/>
+      <Alias name="cp01146"/>
+      <Alias name="ccsid01146"/>
+   </Charset>
+   <Charset name="IBM01147" iana-registered="yes">
+      <Alias name="cp1147"/>
+      <Alias name="1147"/>
+      <Alias name="cp01147"/>
+      <Alias name="ccsid01147"/>
+      <Alias name="ebcdic-fr-277+euro"/>
+   </Charset>
+   <Charset name="IBM01148" iana-registered="yes">
+      <Alias name="cp1148"/>
+      <Alias name="ebcdic-international-500+euro"/>
+      <Alias name="1148"/>
+      <Alias name="cp01148"/>
+      <Alias name="ccsid01148"/>
+   </Charset>
+   <Charset name="IBM01149" iana-registered="yes">
+      <Alias name="ebcdic-s-871+euro"/>
+      <Alias name="1149"/>
+      <Alias name="cp1149"/>
+      <Alias name="cp01149"/>
+      <Alias name="ccsid01149"/>
+   </Charset>
+   <Charset name="IBM037" iana-registered="yes">
+      <Alias name="cp037"/>
+      <Alias name="ibm037"/>
+      <Alias name="ibm-037"/>
+      <Alias name="csIBM037"/>
+      <Alias name="ebcdic-cp-us"/>
+      <Alias name="ebcdic-cp-ca"/>
+      <Alias name="ebcdic-cp-nl"/>
+      <Alias name="ebcdic-cp-wt"/>
+      <Alias name="037"/>
+      <Alias name="cpibm37"/>
+      <Alias name="cs-ebcdic-cp-wt"/>
+      <Alias name="ibm-37"/>
+      <Alias name="cs-ebcdic-cp-us"/>
+      <Alias name="cs-ebcdic-cp-ca"/>
+      <Alias name="cs-ebcdic-cp-nl"/>
+   </Charset>
+   <Charset name="IBM1026" iana-registered="yes">
+      <Alias name="cp1026"/>
+      <Alias name="ibm-1026"/>
+      <Alias name="1026"/>
+      <Alias name="ibm1026"/>
+   </Charset>
+   <Charset name="IBM1047" iana-registered="yes">
+      <Alias name="ibm-1047"/>
+      <Alias name="1047"/>
+      <Alias name="cp1047"/>
+   </Charset>
+   <Charset name="IBM273" iana-registered="yes">
+      <Alias name="ibm-273"/>
+      <Alias name="ibm273"/>
+      <Alias name="273"/>
+      <Alias name="cp273"/>
+   </Charset>
+   <Charset name="IBM277" iana-registered="yes">
+      <Alias name="ibm277"/>
+      <Alias name="277"/>
+      <Alias name="cp277"/>
+      <Alias name="ibm-277"/>
+   </Charset>
+   <Charset name="IBM278" iana-registered="yes">
+      <Alias name="cp278"/>
+      <Alias name="278"/>
+      <Alias name="ibm-278"/>
+      <Alias name="ebcdic-cp-se"/>
+      <Alias name="csIBM278"/>
+      <Alias name="ibm278"/>
+      <Alias name="ebcdic-sv"/>
+   </Charset>
+   <Charset name="IBM280" iana-registered="yes">
+      <Alias name="ibm280"/>
+      <Alias name="280"/>
+      <Alias name="cp280"/>
+      <Alias name="ibm-280"/>
+   </Charset>
+   <Charset name="IBM284" iana-registered="yes">
+      <Alias name="csIBM284"/>
+      <Alias name="ibm-284"/>
+      <Alias name="cpibm284"/>
+      <Alias name="ibm284"/>
+      <Alias name="284"/>
+      <Alias name="cp284"/>
+   </Charset>
+   <Charset name="IBM285" iana-registered="yes">
+      <Alias name="csIBM285"/>
+      <Alias name="cp285"/>
+      <Alias name="ebcdic-gb"/>
+      <Alias name="ibm-285"/>
+      <Alias name="cpibm285"/>
+      <Alias name="ibm285"/>
+      <Alias name="285"/>
+      <Alias name="ebcdic-cp-gb"/>
+   </Charset>
+   <Charset name="IBM290" iana-registered="yes">
+      <Alias name="ibm290"/>
+      <Alias name="290"/>
+      <Alias name="cp290"/>
+      <Alias name="EBCDIC-JP-kana"/>
+      <Alias name="csIBM290"/>
+      <Alias name="ibm-290"/>
+   </Charset>
+   <Charset name="IBM297" iana-registered="yes">
+      <Alias name="297"/>
+      <Alias name="csIBM297"/>
+      <Alias name="cp297"/>
+      <Alias name="ibm297"/>
+      <Alias name="ibm-297"/>
+      <Alias name="cpibm297"/>
+      <Alias name="ebcdic-cp-fr"/>
+   </Charset>
+   <Charset name="IBM420" iana-registered="yes">
+      <Alias name="ibm420"/>
+      <Alias name="420"/>
+      <Alias name="cp420"/>
+      <Alias name="csIBM420"/>
+      <Alias name="ibm-420"/>
+      <Alias name="ebcdic-cp-ar1"/>
+   </Charset>
+   <Charset name="IBM424" iana-registered="yes">
+      <Alias name="ebcdic-cp-he"/>
+      <Alias name="csIBM424"/>
+      <Alias name="ibm-424"/>
+      <Alias name="ibm424"/>
+      <Alias name="424"/>
+      <Alias name="cp424"/>
+   </Charset>
+   <Charset name="IBM437" iana-registered="yes">
+      <Alias name="ibm437"/>
+      <Alias name="437"/>
+      <Alias name="ibm-437"/>
+      <Alias name="cspc8codepage437"/>
+      <Alias name="cp437"/>
+      <Alias name="windows-437"/>
+   </Charset>
+   <Charset name="IBM500" iana-registered="yes">
+      <Alias name="ibm-500"/>
+      <Alias name="ibm500"/>
+      <Alias name="500"/>
+      <Alias name="ebcdic-cp-bh"/>
+      <Alias name="ebcdic-cp-ch"/>
+      <Alias name="csIBM500"/>
+      <Alias name="cp500"/>
+   </Charset>
+   <Charset name="IBM775" iana-registered="yes">
+      <Alias name="ibm-775"/>
+      <Alias name="ibm775"/>
+      <Alias name="775"/>
+      <Alias name="cp775"/>
+   </Charset>
+   <Charset name="IBM850" iana-registered="yes">
+      <Alias name="cp850"/>
+      <Alias name="cspc850multilingual"/>
+      <Alias name="ibm850"/>
+      <Alias name="850"/>
+      <Alias name="ibm-850"/>
+   </Charset>
+   <Charset name="IBM852" iana-registered="yes">
+      <Alias name="csPCp852"/>
+      <Alias name="ibm-852"/>
+      <Alias name="ibm852"/>
+      <Alias name="852"/>
+      <Alias name="cp852"/>
+   </Charset>
+   <Charset name="IBM855" iana-registered="yes">
+      <Alias name="ibm855"/>
+      <Alias name="855"/>
+      <Alias name="ibm-855"/>
+      <Alias name="cp855"/>
+      <Alias name="cspcp855"/>
+   </Charset>
+   <Charset name="IBM857" iana-registered="yes">
+      <Alias name="ibm857"/>
+      <Alias name="857"/>
+      <Alias name="cp857"/>
+      <Alias name="csIBM857"/>
+      <Alias name="ibm-857"/>
+   </Charset>
+   <Charset name="IBM860" iana-registered="yes">
+      <Alias name="ibm860"/>
+      <Alias name="860"/>
+      <Alias name="cp860"/>
+      <Alias name="csIBM860"/>
+      <Alias name="ibm-860"/>
+   </Charset>
+   <Charset name="IBM861" iana-registered="yes">
+      <Alias name="cp861"/>
+      <Alias name="ibm861"/>
+      <Alias name="861"/>
+      <Alias name="ibm-861"/>
+      <Alias name="cp-is"/>
+      <Alias name="csIBM861"/>
+   </Charset>
+   <Charset name="IBM862" iana-registered="yes">
+      <Alias name="csIBM862"/>
+      <Alias name="cp862"/>
+      <Alias name="ibm862"/>
+      <Alias name="862"/>
+      <Alias name="cspc862latinhebrew"/>
+      <Alias name="ibm-862"/>
+   </Charset>
+   <Charset name="IBM863" iana-registered="yes">
+      <Alias name="csIBM863"/>
+      <Alias name="ibm-863"/>
+      <Alias name="ibm863"/>
+      <Alias name="863"/>
+      <Alias name="cp863"/>
+   </Charset>
+   <Charset name="IBM864" iana-registered="yes">
+      <Alias name="csIBM864"/>
+      <Alias name="ibm-864"/>
+      <Alias name="ibm864"/>
+      <Alias name="864"/>
+      <Alias name="cp864"/>
+   </Charset>
+   <Charset name="IBM865" iana-registered="yes">
+      <Alias name="ibm-865"/>
+      <Alias name="csIBM865"/>
+      <Alias name="cp865"/>
+      <Alias name="ibm865"/>
+      <Alias name="865"/>
+   </Charset>
+   <Charset name="IBM866" iana-registered="yes">
+      <Alias name="ibm866"/>
+      <Alias name="866"/>
+      <Alias name="ibm-866"/>
+      <Alias name="csIBM866"/>
+      <Alias name="cp866"/>
+   </Charset>
+   <Charset name="IBM868" iana-registered="yes">
+      <Alias name="ibm868"/>
+      <Alias name="868"/>
+      <Alias name="cp868"/>
+      <Alias name="csIBM868"/>
+      <Alias name="ibm-868"/>
+      <Alias name="cp-ar"/>
+   </Charset>
+   <Charset name="IBM869" iana-registered="yes">
+      <Alias name="cp869"/>
+      <Alias name="ibm869"/>
+      <Alias name="869"/>
+      <Alias name="ibm-869"/>
+      <Alias name="cp-gr"/>
+      <Alias name="csIBM869"/>
+   </Charset>
+   <Charset name="IBM870" iana-registered="yes">
+      <Alias name="870"/>
+      <Alias name="cp870"/>
+      <Alias name="csIBM870"/>
+      <Alias name="ibm-870"/>
+      <Alias name="ibm870"/>
+      <Alias name="ebcdic-cp-roece"/>
+      <Alias name="ebcdic-cp-yu"/>
+   </Charset>
+   <Charset name="IBM871" iana-registered="yes">
+      <Alias name="ibm871"/>
+      <Alias name="871"/>
+      <Alias name="cp871"/>
+      <Alias name="ebcdic-cp-is"/>
+      <Alias name="csIBM871"/>
+      <Alias name="ibm-871"/>
+   </Charset>
+   <Charset name="IBM918" iana-registered="yes">
+      <Alias name="918"/>
+      <Alias name="ibm-918"/>
+      <Alias name="ebcdic-cp-ar2"/>
+      <Alias name="cp918"/>
+   </Charset>
+   <Charset name="ISO-2022-CN" iana-registered="yes">
+      <Alias name="csISO2022CN"/>
+      <Alias name="ISO2022CN"/>
+   </Charset>
+   <Charset name="ISO-2022-JP" iana-registered="yes">
+      <Alias name="csjisencoding"/>
+      <Alias name="iso2022jp"/>
+      <Alias name="jis_encoding"/>
+      <Alias name="jis"/>
+      <Alias name="csISO2022JP"/>
+   </Charset>
+   <Charset name="ISO-2022-JP-2" iana-registered="yes">
+      <Alias name="csISO2022JP2"/>
+      <Alias name="iso2022jp2"/>
+   </Charset>
+   <Charset name="ISO-2022-KR" iana-registered="yes">
+      <Alias name="csISO2022KR"/>
+      <Alias name="ISO2022KR"/>
+   </Charset>
+   <Charset name="ISO-8859-1" iana-registered="yes">
+      <Alias name="819"/>
+      <Alias name="ISO8859-1"/>
+      <Alias name="l1"/>
+      <Alias name="ISO_8859-1:1987"/>
+      <Alias name="ISO_8859-1"/>
+      <Alias name="8859_1"/>
+      <Alias name="iso-ir-100"/>
+      <Alias name="latin1"/>
+      <Alias name="cp819"/>
+      <Alias name="ISO8859_1"/>
+      <Alias name="IBM819"/>
+      <Alias name="ISO_8859_1"/>
+      <Alias name="IBM-819"/>
+      <Alias name="csISOLatin1"/>
+   </Charset>
+   <Charset name="ISO-8859-13" iana-registered="yes">
+      <Alias name="iso_8859-13"/>
+      <Alias name="ISO8859-13"/>
+      <Alias name="iso8859_13"/>
+      <Alias name="8859_13"/>
+   </Charset>
+   <Charset name="ISO-8859-15" iana-registered="yes">
+      <Alias name="ISO8859-15"/>
+      <Alias name="LATIN0"/>
+      <Alias name="ISO8859_15_FDIS"/>
+      <Alias name="ISO8859_15"/>
+      <Alias name="cp923"/>
+      <Alias name="8859_15"/>
+      <Alias name="L9"/>
+      <Alias name="ISO-8859-15"/>
+      <Alias name="IBM923"/>
+      <Alias name="csISOlatin9"/>
+      <Alias name="ISO_8859-15"/>
+      <Alias name="IBM-923"/>
+      <Alias name="csISOlatin0"/>
+      <Alias name="923"/>
+      <Alias name="LATIN9"/>
+   </Charset>
+   <Charset name="ISO-8859-2" iana-registered="yes">
+      <Alias name="ISO8859-2"/>
+      <Alias name="ibm912"/>
+      <Alias name="l2"/>
+      <Alias name="ISO_8859-2"/>
+      <Alias name="8859_2"/>
+      <Alias name="cp912"/>
+      <Alias name="ISO_8859-2:1987"/>
+      <Alias name="iso8859_2"/>
+      <Alias name="iso-ir-101"/>
+      <Alias name="latin2"/>
+      <Alias name="912"/>
+      <Alias name="csISOLatin2"/>
+      <Alias name="ibm-912"/>
+   </Charset>
+   <Charset name="ISO-8859-3" iana-registered="yes">
+      <Alias name="ISO8859-3"/>
+      <Alias name="ibm913"/>
+      <Alias name="8859_3"/>
+      <Alias name="l3"/>
+      <Alias name="cp913"/>
+      <Alias name="ISO_8859-3"/>
+      <Alias name="iso8859_3"/>
+      <Alias name="latin3"/>
+      <Alias name="csISOLatin3"/>
+      <Alias name="913"/>
+      <Alias name="ISO_8859-3:1988"/>
+      <Alias name="ibm-913"/>
+      <Alias name="iso-ir-109"/>
+   </Charset>
+   <Charset name="ISO-8859-4" iana-registered="yes">
+      <Alias name="8859_4"/>
+      <Alias name="latin4"/>
+      <Alias name="l4"/>
+      <Alias name="cp914"/>
+      <Alias name="ISO_8859-4:1988"/>
+      <Alias name="ibm914"/>
+      <Alias name="ISO_8859-4"/>
+      <Alias name="iso-ir-110"/>
+      <Alias name="iso8859_4"/>
+      <Alias name="csISOLatin4"/>
+      <Alias name="iso8859-4"/>
+      <Alias name="914"/>
+      <Alias name="ibm-914"/>
+   </Charset>
+   <Charset name="ISO-8859-5" iana-registered="yes">
+      <Alias name="ISO_8859-5:1988"/>
+      <Alias name="csISOLatinCyrillic"/>
+      <Alias name="iso-ir-144"/>
+      <Alias name="iso8859_5"/>
+      <Alias name="cp915"/>
+      <Alias name="8859_5"/>
+      <Alias name="ibm-915"/>
+      <Alias name="ISO_8859-5"/>
+      <Alias name="ibm915"/>
+      <Alias name="915"/>
+      <Alias name="cyrillic"/>
+      <Alias name="ISO8859-5"/>
+   </Charset>
+   <Charset name="ISO-8859-6" iana-registered="yes">
+      <Alias name="ASMO-708"/>
+      <Alias name="8859_6"/>
+      <Alias name="iso8859_6"/>
+      <Alias name="ISO_8859-6"/>
+      <Alias name="csISOLatinArabic"/>
+      <Alias name="ibm1089"/>
+      <Alias name="arabic"/>
+      <Alias name="ibm-1089"/>
+      <Alias name="1089"/>
+      <Alias name="ECMA-114"/>
+      <Alias name="iso-ir-127"/>
+      <Alias name="ISO_8859-6:1987"/>
+      <Alias name="ISO8859-6"/>
+      <Alias name="cp1089"/>
+   </Charset>
+   <Charset name="ISO-8859-7" iana-registered="yes">
+      <Alias name="greek"/>
+      <Alias name="8859_7"/>
+      <Alias name="greek8"/>
+      <Alias name="ibm813"/>
+      <Alias name="ISO_8859-7"/>
+      <Alias name="iso8859_7"/>
+      <Alias name="ELOT_928"/>
+      <Alias name="cp813"/>
+      <Alias name="ISO_8859-7:1987"/>
+      <Alias name="sun_eu_greek"/>
+      <Alias name="csISOLatinGreek"/>
+      <Alias name="iso-ir-126"/>
+      <Alias name="813"/>
+      <Alias name="iso8859-7"/>
+      <Alias name="ECMA-118"/>
+      <Alias name="ibm-813"/>
+   </Charset>
+   <Charset name="ISO-8859-8" iana-registered="yes">
+      <Alias name="8859_8"/>
+      <Alias name="ISO_8859-8"/>
+      <Alias name="ISO_8859-8:1988"/>
+      <Alias name="cp916"/>
+      <Alias name="iso-ir-138"/>
+      <Alias name="ISO8859-8"/>
+      <Alias name="hebrew"/>
+      <Alias name="iso8859_8"/>
+      <Alias name="ibm-916"/>
+      <Alias name="csISOLatinHebrew"/>
+      <Alias name="916"/>
+      <Alias name="ibm916"/>
+   </Charset>
+   <Charset name="ISO-8859-9" iana-registered="yes">
+      <Alias name="ibm-920"/>
+      <Alias name="ISO_8859-9"/>
+      <Alias name="8859_9"/>
+      <Alias name="ISO_8859-9:1989"/>
+      <Alias name="ibm920"/>
+      <Alias name="latin5"/>
+      <Alias name="l5"/>
+      <Alias name="iso8859_9"/>
+      <Alias name="cp920"/>
+      <Alias name="920"/>
+      <Alias name="iso-ir-148"/>
+      <Alias name="ISO8859-9"/>
+      <Alias name="csISOLatin5"/>
+   </Charset>
+   <Charset name="JIS_X0201" iana-registered="yes">
+      <Alias name="JIS0201"/>
+      <Alias name="csHalfWidthKatakana"/>
+      <Alias name="X0201"/>
+      <Alias name="JIS_X0201"/>
+   </Charset>
+   <Charset name="JIS_X0212-1990" iana-registered="yes">
+      <Alias name="JIS0212"/>
+      <Alias name="iso-ir-159"/>
+      <Alias name="x0212"/>
+      <Alias name="jis_x0212-1990"/>
+      <Alias name="csISO159JISX02121990"/>
+   </Charset>
+   <Charset name="KOI8-R" iana-registered="yes">
+      <Alias name="koi8_r"/>
+      <Alias name="koi8"/>
+      <Alias name="cskoi8r"/>
+   </Charset>
+   <Charset name="KOI8-U" iana-registered="yes">
+      <Alias name="koi8_u"/>
+   </Charset>
+   <Charset name="Shift_JIS" iana-registered="yes">
+      <Alias name="shift_jis"/>
+      <Alias name="x-sjis"/>
+      <Alias name="sjis"/>
+      <Alias name="shift-jis"/>
+      <Alias name="ms_kanji"/>
+      <Alias name="csShiftJIS"/>
+   </Charset>
+   <Charset name="TIS-620" iana-registered="yes">
+      <Alias name="tis620"/>
+      <Alias name="tis620.2533"/>
+   </Charset>
+   <Charset name="US-ASCII" iana-registered="yes">
+      <Alias name="ANSI_X3.4-1968"/>
+      <Alias name="cp367"/>
+      <Alias name="csASCII"/>
+      <Alias name="iso-ir-6"/>
+      <Alias name="ASCII"/>
+      <Alias name="iso_646.irv:1983"/>
+      <Alias name="ANSI_X3.4-1986"/>
+      <Alias name="ascii7"/>
+      <Alias name="default"/>
+      <Alias name="ISO_646.irv:1991"/>
+      <Alias name="ISO646-US"/>
+      <Alias name="IBM367"/>
+      <Alias name="646"/>
+      <Alias name="us"/>
+   </Charset>
+   <Charset name="UTF-16" iana-registered="yes">
+      <Alias name="UTF_16"/>
+      <Alias name="unicode"/>
+      <Alias name="utf16"/>
+      <Alias name="UnicodeBig"/>
+   </Charset>
+   <Charset name="UTF-16BE" iana-registered="yes">
+      <Alias name="X-UTF-16BE"/>
+      <Alias name="UTF_16BE"/>
+      <Alias name="ISO-10646-UCS-2"/>
+      <Alias name="UnicodeBigUnmarked"/>
+   </Charset>
+   <Charset name="UTF-16LE" iana-registered="yes">
+      <Alias name="UnicodeLittleUnmarked"/>
+      <Alias name="UTF_16LE"/>
+      <Alias name="X-UTF-16LE"/>
+   </Charset>
+   <Charset name="UTF-32" iana-registered="yes">
+      <Alias name="UTF_32"/>
+      <Alias name="UTF32"/>
+   </Charset>
+   <Charset name="UTF-32BE" iana-registered="yes">
+      <Alias name="X-UTF-32BE"/>
+      <Alias name="UTF_32BE"/>
+   </Charset>
+   <Charset name="UTF-32LE" iana-registered="yes">
+      <Alias name="X-UTF-32LE"/>
+      <Alias name="UTF_32LE"/>
+   </Charset>
+   <Charset name="UTF-8" iana-registered="yes">
+      <Alias name="unicode-1-1-utf-8"/>
+      <Alias name="UTF8"/>
+   </Charset>
+   <Charset name="windows-1250" iana-registered="yes">
+      <Alias name="cp1250"/>
+      <Alias name="cp5346"/>
+   </Charset>
+   <Charset name="windows-1251" iana-registered="yes">
+      <Alias name="cp5347"/>
+      <Alias name="ansi-1251"/>
+      <Alias name="cp1251"/>
+   </Charset>
+   <Charset name="windows-1252" iana-registered="yes">
+      <Alias name="cp5348"/>
+      <Alias name="cp1252"/>
+   </Charset>
+   <Charset name="windows-1253" iana-registered="yes">
+      <Alias name="cp1253"/>
+      <Alias name="cp5349"/>
+   </Charset>
+   <Charset name="windows-1254" iana-registered="yes">
+      <Alias name="cp1254"/>
+      <Alias name="cp5350"/>
+   </Charset>
+   <Charset name="windows-1255" iana-registered="yes">
+      <Alias name="cp1255"/>
+   </Charset>
+   <Charset name="windows-1256" iana-registered="yes">
+      <Alias name="cp1256"/>
+   </Charset>
+   <Charset name="windows-1257" iana-registered="yes">
+      <Alias name="cp1257"/>
+      <Alias name="cp5353"/>
+   </Charset>
+   <Charset name="windows-1258" iana-registered="yes">
+      <Alias name="cp1258"/>
+   </Charset>
+   <Charset name="windows-31j" iana-registered="yes">
+      <Alias name="MS932"/>
+      <Alias name="windows-932"/>
+      <Alias name="csWindows31J"/>
+   </Charset>
+   <Charset name="x-Big5-HKSCS-2001" iana-registered="no">
+      <Alias name="Big5_HKSCS_2001"/>
+      <Alias name="big5-hkscs-2001"/>
+      <Alias name="big5hk-2001"/>
+      <Alias name="big5-hkscs:unicode3.0"/>
+      <Alias name="big5hkscs-2001"/>
+   </Charset>
+   <Charset name="x-Big5-Solaris" iana-registered="no">
+      <Alias name="Big5_Solaris"/>
+   </Charset>
+   <Charset name="x-euc-jp-linux" iana-registered="no">
+      <Alias name="euc_jp_linux"/>
+      <Alias name="euc-jp-linux"/>
+   </Charset>
+   <Charset name="x-EUC-TW" iana-registered="no">
+      <Alias name="euctw"/>
+      <Alias name="cns11643"/>
+      <Alias name="EUC-TW"/>
+      <Alias name="euc_tw"/>
+   </Charset>
+   <Charset name="x-eucJP-Open" iana-registered="no">
+      <Alias name="eucJP-open"/>
+      <Alias name="EUC_JP_Solaris"/>
+   </Charset>
+   <Charset name="x-IBM1006" iana-registered="no">
+      <Alias name="ibm1006"/>
+      <Alias name="ibm-1006"/>
+      <Alias name="1006"/>
+      <Alias name="cp1006"/>
+   </Charset>
+   <Charset name="x-IBM1025" iana-registered="no">
+      <Alias name="ibm-1025"/>
+      <Alias name="1025"/>
+      <Alias name="cp1025"/>
+      <Alias name="ibm1025"/>
+   </Charset>
+   <Charset name="x-IBM1046" iana-registered="no">
+      <Alias name="ibm1046"/>
+      <Alias name="ibm-1046"/>
+      <Alias name="1046"/>
+      <Alias name="cp1046"/>
+   </Charset>
+   <Charset name="x-IBM1097" iana-registered="no">
+      <Alias name="ibm1097"/>
+      <Alias name="ibm-1097"/>
+      <Alias name="1097"/>
+      <Alias name="cp1097"/>
+   </Charset>
+   <Charset name="x-IBM1098" iana-registered="no">
+      <Alias name="ibm-1098"/>
+      <Alias name="1098"/>
+      <Alias name="cp1098"/>
+      <Alias name="ibm1098"/>
+   </Charset>
+   <Charset name="x-IBM1112" iana-registered="no">
+      <Alias name="ibm1112"/>
+      <Alias name="ibm-1112"/>
+      <Alias name="1112"/>
+      <Alias name="cp1112"/>
+   </Charset>
+   <Charset name="x-IBM1122" iana-registered="no">
+      <Alias name="cp1122"/>
+      <Alias name="ibm1122"/>
+      <Alias name="ibm-1122"/>
+      <Alias name="1122"/>
+   </Charset>
+   <Charset name="x-IBM1123" iana-registered="no">
+      <Alias name="ibm1123"/>
+      <Alias name="ibm-1123"/>
+      <Alias name="1123"/>
+      <Alias name="cp1123"/>
+   </Charset>
+   <Charset name="x-IBM1124" iana-registered="no">
+      <Alias name="ibm-1124"/>
+      <Alias name="1124"/>
+      <Alias name="cp1124"/>
+      <Alias name="ibm1124"/>
+   </Charset>
+   <Charset name="x-IBM1166" iana-registered="no">
+      <Alias name="cp1166"/>
+      <Alias name="ibm1166"/>
+      <Alias name="ibm-1166"/>
+      <Alias name="1166"/>
+   </Charset>
+   <Charset name="x-IBM1364" iana-registered="no">
+      <Alias name="cp1364"/>
+      <Alias name="ibm1364"/>
+      <Alias name="ibm-1364"/>
+      <Alias name="1364"/>
+   </Charset>
+   <Charset name="x-IBM1381" iana-registered="no">
+      <Alias name="cp1381"/>
+      <Alias name="ibm-1381"/>
+      <Alias name="1381"/>
+      <Alias name="ibm1381"/>
+   </Charset>
+   <Charset name="x-IBM1383" iana-registered="no">
+      <Alias name="ibm1383"/>
+      <Alias name="ibm-1383"/>
+      <Alias name="1383"/>
+      <Alias name="cp1383"/>
+   </Charset>
+   <Charset name="x-IBM300" iana-registered="no">
+      <Alias name="cp300"/>
+      <Alias name="ibm300"/>
+      <Alias name="300"/>
+      <Alias name="ibm-300"/>
+   </Charset>
+   <Charset name="x-IBM33722" iana-registered="no">
+      <Alias name="33722"/>
+      <Alias name="ibm-33722"/>
+      <Alias name="cp33722"/>
+      <Alias name="ibm33722"/>
+      <Alias name="ibm-5050"/>
+      <Alias name="ibm-33722_vascii_vpua"/>
+   </Charset>
+   <Charset name="x-IBM737" iana-registered="no">
+      <Alias name="cp737"/>
+      <Alias name="ibm737"/>
+      <Alias name="737"/>
+      <Alias name="ibm-737"/>
+   </Charset>
+   <Charset name="x-IBM833" iana-registered="no">
+      <Alias name="ibm833"/>
+      <Alias name="cp833"/>
+      <Alias name="ibm-833"/>
+   </Charset>
+   <Charset name="x-IBM834" iana-registered="no">
+      <Alias name="ibm834"/>
+      <Alias name="834"/>
+      <Alias name="cp834"/>
+      <Alias name="ibm-834"/>
+   </Charset>
+   <Charset name="x-IBM856" iana-registered="no">
+      <Alias name="ibm856"/>
+      <Alias name="856"/>
+      <Alias name="cp856"/>
+      <Alias name="ibm-856"/>
+   </Charset>
+   <Charset name="x-IBM874" iana-registered="no">
+      <Alias name="ibm-874"/>
+      <Alias name="ibm874"/>
+      <Alias name="874"/>
+      <Alias name="cp874"/>
+   </Charset>
+   <Charset name="x-IBM875" iana-registered="no">
+      <Alias name="ibm-875"/>
+      <Alias name="ibm875"/>
+      <Alias name="875"/>
+      <Alias name="cp875"/>
+   </Charset>
+   <Charset name="x-IBM921" iana-registered="no">
+      <Alias name="ibm921"/>
+      <Alias name="921"/>
+      <Alias name="ibm-921"/>
+      <Alias name="cp921"/>
+   </Charset>
+   <Charset name="x-IBM922" iana-registered="no">
+      <Alias name="ibm922"/>
+      <Alias name="922"/>
+      <Alias name="cp922"/>
+      <Alias name="ibm-922"/>
+   </Charset>
+   <Charset name="x-IBM930" iana-registered="no">
+      <Alias name="ibm-930"/>
+      <Alias name="ibm930"/>
+      <Alias name="930"/>
+      <Alias name="cp930"/>
+   </Charset>
+   <Charset name="x-IBM933" iana-registered="no">
+      <Alias name="ibm933"/>
+      <Alias name="933"/>
+      <Alias name="cp933"/>
+      <Alias name="ibm-933"/>
+   </Charset>
+   <Charset name="x-IBM935" iana-registered="no">
+      <Alias name="cp935"/>
+      <Alias name="ibm935"/>
+      <Alias name="935"/>
+      <Alias name="ibm-935"/>
+   </Charset>
+   <Charset name="x-IBM937" iana-registered="no">
+      <Alias name="ibm-937"/>
+      <Alias name="ibm937"/>
+      <Alias name="937"/>
+      <Alias name="cp937"/>
+   </Charset>
+   <Charset name="x-IBM939" iana-registered="no">
+      <Alias name="ibm-939"/>
+      <Alias name="cp939"/>
+      <Alias name="ibm939"/>
+      <Alias name="939"/>
+   </Charset>
+   <Charset name="x-IBM942" iana-registered="no">
+      <Alias name="ibm-942"/>
+      <Alias name="cp942"/>
+      <Alias name="ibm942"/>
+      <Alias name="942"/>
+   </Charset>
+   <Charset name="x-IBM942C" iana-registered="no">
+      <Alias name="ibm942C"/>
+      <Alias name="cp942C"/>
+      <Alias name="ibm-942C"/>
+      <Alias name="942C"/>
+   </Charset>
+   <Charset name="x-IBM943" iana-registered="no">
+      <Alias name="ibm943"/>
+      <Alias name="943"/>
+      <Alias name="ibm-943"/>
+      <Alias name="cp943"/>
+   </Charset>
+   <Charset name="x-IBM943C" iana-registered="no">
+      <Alias name="943C"/>
+      <Alias name="cp943C"/>
+      <Alias name="ibm943C"/>
+      <Alias name="ibm-943C"/>
+   </Charset>
+   <Charset name="x-IBM948" iana-registered="no">
+      <Alias name="ibm-948"/>
+      <Alias name="ibm948"/>
+      <Alias name="948"/>
+      <Alias name="cp948"/>
+   </Charset>
+   <Charset name="x-IBM949" iana-registered="no">
+      <Alias name="ibm-949"/>
+      <Alias name="ibm949"/>
+      <Alias name="949"/>
+      <Alias name="cp949"/>
+   </Charset>
+   <Charset name="x-IBM949C" iana-registered="no">
+      <Alias name="ibm949C"/>
+      <Alias name="ibm-949C"/>
+      <Alias name="cp949C"/>
+      <Alias name="949C"/>
+   </Charset>
+   <Charset name="x-IBM950" iana-registered="no">
+      <Alias name="cp950"/>
+      <Alias name="ibm950"/>
+      <Alias name="950"/>
+      <Alias name="ibm-950"/>
+   </Charset>
+   <Charset name="x-IBM964" iana-registered="no">
+      <Alias name="ibm-964"/>
+      <Alias name="cp964"/>
+      <Alias name="ibm964"/>
+      <Alias name="964"/>
+   </Charset>
+   <Charset name="x-IBM970" iana-registered="no">
+      <Alias name="ibm970"/>
+      <Alias name="ibm-eucKR"/>
+      <Alias name="970"/>
+      <Alias name="cp970"/>
+      <Alias name="ibm-970"/>
+   </Charset>
+   <Charset name="x-ISCII91" iana-registered="no">
+      <Alias name="ISCII91"/>
+      <Alias name="iso-ir-153"/>
+      <Alias name="iscii"/>
+      <Alias name="ST_SEV_358-88"/>
+      <Alias name="csISO153GOST1976874"/>
+   </Charset>
+   <Charset name="x-ISO-2022-CN-CNS" iana-registered="no">
+      <Alias name="ISO2022CN_CNS"/>
+      <Alias name="ISO-2022-CN-CNS"/>
+   </Charset>
+   <Charset name="x-ISO-2022-CN-GB" iana-registered="no">
+      <Alias name="ISO2022CN_GB"/>
+      <Alias name="ISO-2022-CN-GB"/>
+   </Charset>
+   <Charset name="x-iso-8859-11" iana-registered="no">
+      <Alias name="iso-8859-11"/>
+      <Alias name="iso8859_11"/>
+   </Charset>
+   <Charset name="x-JIS0208" iana-registered="no">
+      <Alias name="JIS0208"/>
+      <Alias name="JIS_C6226-1983"/>
+      <Alias name="iso-ir-87"/>
+      <Alias name="x0208"/>
+      <Alias name="JIS_X0208-1983"/>
+      <Alias name="csISO87JISX0208"/>
+   </Charset>
+   <Charset name="x-JISAutoDetect" iana-registered="no">
+      <Alias name="JISAutoDetect"/>
+   </Charset>
+   <Charset name="x-Johab" iana-registered="no">
+      <Alias name="ms1361"/>
+      <Alias name="ksc5601_1992"/>
+      <Alias name="johab"/>
+      <Alias name="ksc5601-1992"/>
+   </Charset>
+   <Charset name="x-MacArabic" iana-registered="no">
+      <Alias name="MacArabic"/>
+   </Charset>
+   <Charset name="x-MacCentralEurope" iana-registered="no">
+      <Alias name="MacCentralEurope"/>
+   </Charset>
+   <Charset name="x-MacCroatian" iana-registered="no">
+      <Alias name="MacCroatian"/>
+   </Charset>
+   <Charset name="x-MacCyrillic" iana-registered="no">
+      <Alias name="MacCyrillic"/>
+   </Charset>
+   <Charset name="x-MacDingbat" iana-registered="no">
+      <Alias name="MacDingbat"/>
+   </Charset>
+   <Charset name="x-MacGreek" iana-registered="no">
+      <Alias name="MacGreek"/>
+   </Charset>
+   <Charset name="x-MacHebrew" iana-registered="no">
+      <Alias name="MacHebrew"/>
+   </Charset>
+   <Charset name="x-MacIceland" iana-registered="no">
+      <Alias name="MacIceland"/>
+   </Charset>
+   <Charset name="x-MacRoman" iana-registered="no">
+      <Alias name="MacRoman"/>
+   </Charset>
+   <Charset name="x-MacRomania" iana-registered="no">
+      <Alias name="MacRomania"/>
+   </Charset>
+   <Charset name="x-MacSymbol" iana-registered="no">
+      <Alias name="MacSymbol"/>
+   </Charset>
+   <Charset name="x-MacThai" iana-registered="no">
+      <Alias name="MacThai"/>
+   </Charset>
+   <Charset name="x-MacTurkish" iana-registered="no">
+      <Alias name="MacTurkish"/>
+   </Charset>
+   <Charset name="x-MacUkraine" iana-registered="no">
+      <Alias name="MacUkraine"/>
+   </Charset>
+   <Charset name="x-MS932_0213" iana-registered="no">
+   </Charset>
+   <Charset name="x-MS950-HKSCS" iana-registered="no">
+      <Alias name="MS950_HKSCS"/>
+   </Charset>
+   <Charset name="x-MS950-HKSCS-XP" iana-registered="no">
+      <Alias name="MS950_HKSCS_XP"/>
+   </Charset>
+   <Charset name="x-mswin-936" iana-registered="no">
+      <Alias name="ms936"/>
+      <Alias name="ms_936"/>
+   </Charset>
+   <Charset name="x-PCK" iana-registered="no">
+      <Alias name="pck"/>
+   </Charset>
+   <Charset name="x-SJIS_0213" iana-registered="no">
+   </Charset>
+   <Charset name="x-UTF-16LE-BOM" iana-registered="no">
+      <Alias name="UnicodeLittle"/>
+   </Charset>
+   <Charset name="X-UTF-32BE-BOM" iana-registered="no">
+      <Alias name="UTF_32BE_BOM"/>
+      <Alias name="UTF-32BE-BOM"/>
+   </Charset>
+   <Charset name="X-UTF-32LE-BOM" iana-registered="no">
+      <Alias name="UTF_32LE_BOM"/>
+      <Alias name="UTF-32LE-BOM"/>
+   </Charset>
+   <Charset name="x-windows-50220" iana-registered="no">
+      <Alias name="cp50220"/>
+      <Alias name="ms50220"/>
+   </Charset>
+   <Charset name="x-windows-50221" iana-registered="no">
+      <Alias name="cp50221"/>
+      <Alias name="ms50221"/>
+   </Charset>
+   <Charset name="x-windows-874" iana-registered="no">
+      <Alias name="ms-874"/>
+      <Alias name="ms874"/>
+      <Alias name="windows-874"/>
+   </Charset>
+   <Charset name="x-windows-949" iana-registered="no">
+      <Alias name="windows949"/>
+      <Alias name="ms949"/>
+      <Alias name="windows-949"/>
+      <Alias name="ms_949"/>
+   </Charset>
+   <Charset name="x-windows-950" iana-registered="no">
+      <Alias name="ms950"/>
+      <Alias name="windows-950"/>
+   </Charset>
+   <Charset name="x-windows-iso2022jp" iana-registered="no">
+      <Alias name="windows-iso2022jp"/>
+   </Charset>
+</JavaCharsetLister>

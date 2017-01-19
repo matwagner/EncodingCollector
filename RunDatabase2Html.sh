@@ -1,0 +1,2 @@
+php EncodingProcessor.php CharacterSetDatabase2Html.xsl CharacterSetDatabase.xml >CharacterSetDatabase.html
+#java -jar D:\Saxon\saxon9he.jar -s:CharacterSetDatabase.xml -xsl:CharacterSetDatabase2Html.xsl >CharacterSet4Access.html
