@@ -1,0 +1,940 @@
+<!DOCTYPE html>
+
+
+<html dir="ltr" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head><link rel="canonical" href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd317756(v=vs.85).aspx" />
+    <title>Code Page Identifiers (Windows)</title>
+
+
+
+
+
+
+
+<meta name="DCS.dcsuri" content="/en-us/library/dd317756(d=default,l=en-us,v=vs.85).aspx" />
+
+<meta name="NormalizedUrl" content="https://msdn.microsoft.com/en-us/library/dd317756(d=default,l=en-us,v=vs.85).aspx" />
+
+<meta name="ms.normalizedurl" content="https://msdn.microsoft.com/en-us/library/dd317756(d=default,l=en-us,v=vs.85).aspx" />
+
+<meta name="AmbientContext" content="{&quot;layout.limit_max_width&quot;:false,&quot;AmbientContextId&quot;:&quot;A2F65865-55BA-4F20-94A3-2904CB690BD8&quot;,&quot;display.use_large_font&quot;:true,&quot;insight.perf_timing&quot;:true,&quot;AmbientContextDownstream&quot;:{&quot;LogTrace&quot;:false},&quot;display.high_contrast&quot;:false,&quot;insight.use_wedcs_vnext&quot;:true}" />
+
+<meta name="VotingContextUrl" content="https://msdn.microsoft.com/en-us/library/dd317756(d=default,l=en-us,v=vs.85).aspx" />
+
+<meta name="MN" content="61C41DD4-9:24:05 PM" />
+
+<meta name="Search.ShortId" content="dd317756" />
+
+<meta name="ms.shortidmsdn" content="dd317756" />
+
+<meta name="ms.locale" content="en-us" />
+
+<meta name="ms.prodver" content="VS.85" />
+
+<meta name="ms.contentlang" content="EN" />
+
+<meta name="ms.lang" content="EN" />
+
+<meta name="ms.loc" content="US" />
+
+<meta name="ms.sitever" content="2016.12.05.1" />
+
+<meta name="ms.assetid" content="5d6fc86a-f205-4d14-bb7c-ecd71682e0fe" />
+
+<meta name="ms.auth" content="0" />
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    
+        
+
+
+
+
+
+
+
+
+
+    <script type="text/javascript" data-do-not-move="true">
+        //<![CDATA[
+        var AmbientContext = null;
+
+        (function(){
+            var root = (function(){return this;}).call(null);
+
+            var GetCookie = function(name){
+                var cookies = root.document.cookie ? root.document.cookie.split('; ') : [];
+                for (var i = 0; i < cookies.length; i++) {
+                    var pos = cookies[i].indexOf('=');
+                    if (name === root.decodeURIComponent(cookies[i].slice(0, pos)))
+                    {
+                        var cookie = cookies[i].slice(pos + 1).replace(/\+/g, ' ');
+                        cookie = root.decodeURIComponent(cookie);
+                        return cookie;
+                    }
+                }
+            };
+
+            var JsonDeserialize = function(content) {
+                return root.JSON && root.JSON.parse ? root.JSON.parse(content) : (new Function('return (' + content + ')'))();
+            };
+
+            try {
+                AmbientContext = GetCookie('AmbientContext');
+                AmbientContext = AmbientContext && JsonDeserialize(AmbientContext);
+            } catch(ex) {
+            } finally {
+                AmbientContext = AmbientContext || null;
+            }
+        })();
+        //]]>
+    </script>
+
+    <script type="text/javascript" src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.9.1.min.js" data-do-not-move="true" data-provides="jQuery"></script>
+    
+<link rel="stylesheet" type="text/css" href="https://i-msdn.sec.s-msft.com/Combined.css?resources=0:ImageSprite,0:TopicResponsive,0:TopicResponsive.MediaQueries,1:CodeSnippet,1:ProgrammingSelector,1:ExpandableCollapsibleArea,0:CommunityContent,1:TopicNotInScope,1:FeedViewerBasic,1:ImageSprite,2:Header,2:HeaderFooterSprite,2:Header.MediaQueries,3:Banner.MediaQueries,0:Breadcrumbs,0:Breadcrumbs.MediaQueries,0:ResponsiveToc,0:ResponsiveToc.MediaQueries,0:LibraryMemberFilter,2:Footer,2:Footer.MediaQueries,4:StandardRating,5:LinkList,0:BaseResponsive,6:MsdnResponsive,0:Tables.MediaQueries;/Areas/Library/Content:0,/Areas/Epx/Content/Css:1,/Areas/Centers/Themes/StandardDevCenter/Content:2,/Areas/Epx/Shared/Content:3,/Areas/Global/Content:4,/Areas/Epx/Themes/Base/Content:5,/Areas/Library/Themes/Msdn/Content:6&amp;amp;v=8EAEE0FEBF95D2BD034ED27356623F2A" /></head>
+<body class="library Chrome">
+    <div id="page">
+
+        
+
+        
+    
+
+    
+    <link type="text/css" rel="stylesheet" />
+    
+        
+        
+    <input type="hidden" id="isHeaderBleeding" value="true" />
+    <div id="ux-header" dir="ltr" class="ltr msdn" ms.pgarea="header">
+        
+
+      <header>
+        <span id="singleCol"></span>
+        <span id="doubleCol"></span>
+        <span id="isMobile"></span>
+        <div>
+          <div class="row topRow" role="banner">
+            <div class="top">
+              <div class="left">
+                <a class="msdnLogoImg" href="https://msdn.microsoft.com/en-us" title="MSDN home" ms.cmpgrp="mslogo">
+                  <div class="clip70x15">
+                    <img alt="Microsoft Logo" id="msft-logo" class="msft-logo" src="https://i-msdn.sec.s-msft.com/Areas/Centers/Themes/StandardDevCenter/Content/HeaderFooterSprite.png?v=636164955987254475" />
+                  </div>
+                </a>
+                <div class="GrayPipeDiv clip1x18">
+                  <img alt="Gray Pipe" class="GrayPipe" src="https://i-msdn.sec.s-msft.com/Areas/Centers/Themes/StandardDevCenter/Content/HeaderFooterSprite.png?v=636164955987254475" />
+                </div>
+                  <a class="DevCenterFullNameNonMegaBlade" href="https://msdn.microsoft.com/en-us">Developer Network</a>
+                <a class="DevCenterFullName" href="https://msdn.microsoft.com/en-us">Developer Network</a>
+                <a class="DevCenterShortName" href="https://msdn.microsoft.com/en-us">Developer</a>
+              </div>
+              <div class="right" ms.cmpgrp="aux nav">
+                <div id="signIn" aria-label="Profile button">
+
+  <div class="profileImage"></div>
+
+
+
+<a class="scarabLink" href="https://login.live.com/login.srf?wa=wsignin1.0&amp;rpsnv=13&amp;ct=1482470645&amp;rver=6.7.6640.0&amp;wp=mcmbi&amp;wlcxt=msdn%24msdn%24msdn&amp;wreply=https%3a%2f%2fmsdn.microsoft.com%2fen-us%2flibrary%2fdd317756.aspx&amp;lc=1033&amp;id=254354&amp;mkt=en-us">Sign in</a></div>
+
+
+
+
+                <div class="auxNav">
+                  <div>
+                    <div data-fragmentName="Subscriptions" id="Fragment_Subscriptions" xmlns="http://www.w3.org/1999/xhtml">
+  <a href="https://msdn.microsoft.com/subscriptions/manage/hh442900" id="Subscriptions_2153_1" xmlns="http://www.w3.org/1999/xhtml">MSDN subscriptions</a>
+</div>
+                    <div data-fragmentName="GetTools" id="Fragment_GetTools" xmlns="http://www.w3.org/1999/xhtml">
+  <a href="http://go.microsoft.com/fwlink/?LinkId=309297&amp;clcid=0x409&amp;slcid=0x409&amp;campaign=o~msft~msdn~gettools-header~dn308572" id="GetTools_2153_3" xmlns="http://www.w3.org/1999/xhtml">Get tools</a>
+</div>
+                  </div>
+                        <div>
+                            
+                        </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <div class="row middleRow">
+            <div class="expandTop">
+              <div class="left"></div>
+              <div class="right"></div>
+            </div>
+          </div>
+        </div>
+        <div id="buttomRowWrapper" class="bg_default">
+          <div class="row buttomRow bg_default">
+            <div class="bottom">
+              <div class="left" role="navigation" aria-label="header toc" ms.cmpgrp="main nav">
+                <a id="grip" class="menu-icon" href="javascript:void(0)" role="button" aria-label="navigation menu"></a>
+                
+                <div id="drawer">
+                  <div class="toc">
+                    
+        <nav>
+            <ul class="navL1">
+                        <li class="inactive toggle">
+                                <a href="javascript:void(0)" role="button" aria-expanded="false">Downloads</a>
+                                <ul class="navL2">
+                                        <li class="inactive">
+
+                                                <a href="https://www.visualstudio.com/downloads/download-visual-studio-vs" role="link" title="Visual Studio">Visual Studio</a>
+                                        </li>
+                                        <li class="inactive">
+
+                                                <a href="https://login.microsoftonline.com/common/oauth2/authorize?client_id=499b84ac-1321-427f-aa17-267ca6975798&amp;site_id=501454&amp;response_mode=form_post&amp;response_type=code+id_token&amp;redirect_uri=https%3a%2f%2fapp.vssps.visualstudio.com%2f_signedin&amp;nonce=d8f8ecb3-62" role="link" title="Subscription access">Subscription access</a>
+                                        </li>
+                                        <li class="inactive">
+
+                                                <a href="https://msdn.microsoft.com/microsoft-sdks-msdn" role="link" title="SDKs">SDKs</a>
+                                        </li>
+                                        <li class="inactive toggle">
+
+                                                <a href="javascript:void(0)" title="Trial software" role="button" aria-expanded="false">Trial software</a>
+                                                <ul class="navL3">
+                                                        <li class="inactive">
+                                                            <a href="https://msdn.microsoft.com/evalcenter" title="Free downloads" role="link">Free downloads</a>
+                                                        </li>
+                                                        <li class="inactive">
+                                                            <a href="https://msdn.microsoft.com/officeevaluationresources" title="Office resources" role="link">Office resources</a>
+                                                        </li>
+                                                        <li class="inactive">
+                                                            <a href="https://msdn.microsoft.com/sharepoint2013resources" title="SharePoint Server 2013 resources" role="link">SharePoint Server 2013 resources</a>
+                                                        </li>
+                                                        <li class="inactive">
+                                                            <a href="https://msdn.microsoft.com/sqlserver2014expressresources" title="SQL Server 2014 Express resources" role="link">SQL Server 2014 Express resources</a>
+                                                        </li>
+                                                        <li class="inactive">
+                                                            <a href="https://msdn.microsoft.com/windowsserver2012r2resources" title="Windows Server 2012 resources" role="link">Windows Server 2012 resources</a>
+                                                        </li>
+                                                </ul>
+                                        </li>
+                                </ul>
+                        </li>
+                        <li class="inactive toggle">
+                                <a href="javascript:void(0)" role="button" aria-expanded="false">Programs</a>
+                                <ul class="navL2">
+                                        <li class="inactive toggle">
+
+                                                <a href="javascript:void(0)" title="Subscriptions" role="button" aria-expanded="false">Subscriptions</a>
+                                                <ul class="navL3">
+                                                        <li class="inactive">
+                                                            <a href="https://msdn.microsoft.com/msdn-subscriptions-overview" title="Overview" role="link">Overview</a>
+                                                        </li>
+                                                        <li class="inactive">
+                                                            <a href="https://msdn.microsoft.com/msdn-subscriptions-administration" title="Administrators" role="link">Administrators</a>
+                                                        </li>
+                                                </ul>
+                                        </li>
+                                        <li class="inactive toggle">
+
+                                                <a href="javascript:void(0)" title="Students" role="button" aria-expanded="false">Students</a>
+                                                <ul class="navL3">
+                                                        <li class="inactive">
+                                                            <a href="https://msdn.microsoft.com/imagine/imagine-home" title="Microsoft Imagine" role="link">Microsoft Imagine</a>
+                                                        </li>
+                                                        <li class="inactive">
+                                                            <a href="https://msdn.microsoft.com/microsoftstudentpartners" title="Microsoft Student Partners" role="link">Microsoft Student Partners</a>
+                                                        </li>
+                                                </ul>
+                                        </li>
+                                        <li class="inactive">
+
+                                                <a href="https://msdn.microsoft.com/applicationbuilder" role="link" title="ISV">ISV</a>
+                                        </li>
+                                        <li class="inactive">
+
+                                                <a href="https://www.microsoft.com/bizspark" role="link" title="Startups">Startups</a>
+                                        </li>
+                                        <li class="inactive">
+
+                                                <a href="https://rewards.msdn.microsoft.com/" role="link" title="TechRewards">TechRewards</a>
+                                        </li>
+                                        <li class="inactive">
+
+                                                <a href="http://events.msdn.microsoft.com/" role="link" title="Events">Events</a>
+                                        </li>
+                                </ul>
+                        </li>
+                        <li class="inactive toggle">
+                                <a href="javascript:void(0)" role="button" aria-expanded="false">Community</a>
+                                <ul class="navL2">
+                                        <li class="inactive">
+
+                                                <a href="https://msdn.microsoft.com/magazine/dd767791" role="link" title="Magazine">Magazine</a>
+                                        </li>
+                                        <li class="inactive">
+
+                                                <a href="https://social.msdn.microsoft.com/forums/" role="link" title="Forums">Forums</a>
+                                        </li>
+                                        <li class="inactive">
+
+                                                <a href="https://blogs.msdn.microsoft.com/" role="link" title="Blogs">Blogs</a>
+                                        </li>
+                                        <li class="inactive">
+
+                                                <a href="http://channel9.msdn.com/" role="link" title="Channel 9">Channel 9</a>
+                                        </li>
+                                </ul>
+                        </li>
+                        <li class="inactive current toggle">
+                                <a href="javascript:void(0)" role="button" aria-expanded="false">Documentation</a>
+                                <ul class="navL2">
+                                        <li class="inactive current">
+
+                                                <a href="https://msdn.microsoft.com/library" role="link" title="APIs and reference">APIs and reference</a>
+                                        </li>
+                                        <li class="inactive">
+
+                                                <a href="https://msdn.microsoft.com/developer-centers-msdn" role="link" title="Dev centers">Dev centers</a>
+                                        </li>
+                                        <li class="inactive">
+
+                                                <a href="https://code.msdn.microsoft.com/" role="link" title="Samples">Samples</a>
+                                        </li>
+                                        <li class="inactive">
+
+                                                <a href="https://msdn.microsoft.com/retiredcontent" role="link" title="Retired content">Retired content</a>
+                                        </li>
+                                </ul>
+                        </li>
+            </ul>
+        </nav>
+
+                  </div>
+                </div>
+              </div>
+              <div class="right" ms.title="search" role="search">
+                <div data-fragmentName="SearchBox" id="Fragment_SearchBox" xmlns="http://www.w3.org/1999/xhtml">
+  <div class="SearchBox">
+    <form id="HeaderSearchForm" name="HeaderSearchForm" method="get">
+      <button id="FakeHeaderSearchButton" value="Search" type="submit" class="header-search-button" role="button" aria-label="search finder">
+        <div id="search-finder-div" class="clip16x20">
+          <img alt="search finder" id="search-finder" class="search-finder" src="https://i-msdn.sec.s-msft.com/Areas/Centers/Themes/StandardDevCenter/Content/HeaderFooterSprite.png?v=636164955987254475" />
+        </div>
+      </button>
+      <button id="HeaderSearchButton" style="display:none"></button>
+      <div id="searchSplitter"></div>
+      <div id="searchCloseIconDiv" class="clip16x20" tabindex="0">
+        <img alt="search clear" id="searchCloseIcon" class="search-clear-x" src="https://i-msdn.sec.s-msft.com/Areas/Centers/Themes/StandardDevCenter/Content/HeaderFooterSprite.png?v=636164955987254475" />
+      </div>
+      <div id="searchTextContainer" style="width: 0;">
+        <input id="HeaderSearchTextBox" name="query" type="text" aria-label="search edit textbox" maxlength="200" onfocus="Epx.Controls.SearchBox.watermarkFocus(event, this.title)" onblur="Epx.Controls.SearchBox.watermarkBlur(event, this.title)" />
+      </div>
+    </form>
+    
+    
+  </div>
+</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </header>
+
+    </div>
+
+    
+    
+    
+    <div id="jumpInfo" style="display: none">We’re sorry. The content you requested has been removed. You’ll be auto redirected in 1 second.</div>
+
+
+
+
+
+<link type="text/css" rel="stylesheet" />
+<link type="text/css" rel="stylesheet" />
+
+
+    <div id="breadcrumbs" ms.pgarea="body" ms.cmpgrp="breadcrumbs">
+        <div id="breadcrumbDesktop" class="breadCrumb">
+                        <span class="breadcrumbEllipsis"><a href="https://msdn.microsoft.com/en-us/library/dd318661(v=vs.85).aspx" title="Internationalization for Windows Applications"></a></span>
+                        <span><a href="https://msdn.microsoft.com/en-us/library/dd374083(v=vs.85).aspx" title="Unicode and Character Sets"><span>Unicode and Character Sets</span></a></span>
+                        <span><a href="https://msdn.microsoft.com/en-us/library/dd374087(v=vs.85).aspx" title="Unicode and Character Set Reference"><span>Unicode and Character Set Reference</span></a></span>
+                        <span class="breadcrumbDropSmall">
+                            <a id="breadcrumbDropDownButton" href="#" targethref="https://msdn.microsoft.com/en-us/library/dd374087(v=vs.85).aspx" title="Unicode and Character Set Constants"><span>Unicode and Character Set Constants</span></a>
+                        </span>
+        </div>
+        <div id="breadcrumbDropDownMenu"></div>
+
+        <div id="breadcrumbTablet" class="breadCrumb">
+                        <span class="breadcrumbEllipsis"><a href="https://msdn.microsoft.com/en-us/library/dd374087(v=vs.85).aspx" title="Unicode and Character Set Reference"></a></span>
+                    <span><a href="https://msdn.microsoft.com/en-us/library/dd374084(v=vs.85).aspx" title="Unicode and Character Set Constants"><span>Unicode and Character Set Constants</span></a></span>
+                <span class="breadcrumbDropSmall"><a id="tocDropDownButton" href="#" title="Code Page Identifiers"><span>Code Page Identifiers</span></a></span>
+        </div>
+        <div id="tocDropDownMenu"></div>
+        <div id="breadcrumbMobile" class="breadCrumb">
+                <span class="breadcrumbEllipsis"><a href="https://msdn.microsoft.com/en-us/library/dd374084(v=vs.85).aspx" title="Unicode and Character Set Constants"></a></span>
+            <span class="breadcrumbDropSmall"><a id="tocPopupButton" href="#" title="Code Page Identifiers"><span>Code Page Identifiers</span></a></span>
+        </div>
+    </div>
+    <div id="tocPopupMenu">
+        <div id="tocPopMenuClose" class="tocCloseLarge"></div>
+        <div id="tocTitle">Code Page Identifiers</div>        
+    </div>
+
+    
+
+
+        <div id="body" ms.pgarea="body" class="">
+            <span id="tabletView_large"></span>
+            <span id="tabletView_small"></span>
+            <span id="mobileView"></span>
+            
+
+
+
+
+
+
+
+
+
+    <div id="leftNav" ms.cmpgrp="left toc" role="navigation" aria-label="left toc">
+
+    
+
+
+<div id="tocnav" class="ArchiveV2">
+    <div class="tocunselected">
+        <div id="tocExpandArea">
+            <span class="toc_empty"></span>
+            <span id="tocExpandButton"><a href="javascript:void(0)" aria-label="expand sibling toc" role="button"></a></span>
+        </div>
+        <div id="tocExpand"></div>
+    </div>
+    <div class="tocselected"></div>
+    <div class="tocunselected">
+                <div class="toclevel " data-toclevel="1">
+<a href="https://msdn.microsoft.com/en-us/library/dd317754(v=vs.85).aspx" mtpsaliasid="" mtpsassetid="" mtpsshortid="" title="Code Page Bitfields">Code Page Bitfields</a>                </div>
+                <div class="toclevel current" data-toclevel="1">
+<a href="https://msdn.microsoft.com/en-us/library/dd317756(v=vs.85).aspx" mtpsaliasid="" mtpsassetid="" mtpsshortid="" title="Code Page Identifiers">Code Page Identifiers</a>                </div>
+                <div class="toclevel " data-toclevel="1">
+<a href="https://msdn.microsoft.com/en-us/library/dd374090(v=vs.85).aspx" mtpsaliasid="" mtpsassetid="" mtpsshortid="" title="Unicode Subset Bitfields">Unicode Subset Bitfields</a>                </div>
+    </div>
+    <a id="tocMenuToggler" href="javascript:void(0)" role="button">
+        <span id="tocMenuTogglerIcon" class="tocMenuCollapse" role="button" aria-expanded="true" aria-label="Table of contents menu"></span>
+        <div id="tocMenuTogglerLabel">TOC</div>
+    </a>
+</div>            <div style="display:none">
+                <div id="CollapseLocalizeString">Collapse the table of content</div>
+                <div id="ExpandLocalizeString">Expand the table of content</div>
+            </div>
+        <div>
+            <a id="isd_archiveControlResponsive" style="display:none;" href="javascript:void(0)" role="button" aria-label="Hide Archived Versions" data-include-archive="Show Archived Versions" data-exclude-archive="Hide Archived Versions">
+            </a>
+            <div id="isd_archiveInstrument" style="display:none">This documentation is archived and is not being maintained.</div>
+        </div>
+    </div>
+     <div id="content" class="content" ms.cmpgrp="content body" role="main">
+
+
+
+
+
+
+
+
+    <div id="archiveDisclaimerText" style="display:none">This documentation is archived and is not being maintained.</div>
+
+
+
+
+<div class="topic" xmlns="http://www.w3.org/1999/xhtml">
+  <h1 class="title">Code Page Identifiers</h1>
+  
+  <div id="mainSection">
+<div class="clsServerSDKContent">
+
+</div>
+<p>The following table defines the available code page identifiers.</p>
+<div class="alert"><strong>Note</strong>  
+           ANSI code pages can be different on different computers, or can be changed for a single computer, leading to data corruption. For the most consistent results, applications should use Unicode, such as UTF-8 or UTF-16, instead of a specific code page.
+        </div>
+<div> </div>
+<table Responsive="true" summary="table">
+<tr Responsive="true"><th scope="col">Identifier</th><th scope="col">.NET Name</th><th scope="col">Additional information</th></tr>
+<tr><td data-th="Identifier">037</td><td data-th=".NET Name">IBM037</td><td data-th="Additional information">IBM EBCDIC US-Canada</td></tr>
+<tr><td data-th="Identifier">437</td><td data-th=".NET Name">IBM437</td><td data-th="Additional information">OEM United States</td></tr>
+<tr><td data-th="Identifier">500</td><td data-th=".NET Name">IBM500</td><td data-th="Additional information">IBM EBCDIC International</td></tr>
+<tr><td data-th="Identifier">708</td><td data-th=".NET Name">ASMO-708</td><td data-th="Additional information">Arabic (ASMO 708)</td></tr>
+<tr><td data-th="Identifier">709</td><td data-th=".NET Name" /><td data-th="Additional information">Arabic (ASMO-449+, BCON V4)</td></tr>
+<tr><td data-th="Identifier">710</td><td data-th=".NET Name" /><td data-th="Additional information">Arabic - Transparent Arabic</td></tr>
+<tr><td data-th="Identifier">720</td><td data-th=".NET Name">DOS-720</td><td data-th="Additional information">Arabic (Transparent ASMO); Arabic (DOS)</td></tr>
+<tr><td data-th="Identifier">737</td><td data-th=".NET Name">ibm737</td><td data-th="Additional information">OEM Greek (formerly 437G); Greek (DOS)</td></tr>
+<tr><td data-th="Identifier">775</td><td data-th=".NET Name">ibm775</td><td data-th="Additional information">OEM Baltic; Baltic (DOS)</td></tr>
+<tr><td data-th="Identifier">850</td><td data-th=".NET Name">ibm850</td><td data-th="Additional information">OEM Multilingual Latin 1; Western European (DOS)</td></tr>
+<tr><td data-th="Identifier">852</td><td data-th=".NET Name">ibm852</td><td data-th="Additional information">OEM Latin 2; Central European (DOS)</td></tr>
+<tr><td data-th="Identifier">855</td><td data-th=".NET Name">IBM855</td><td data-th="Additional information">OEM Cyrillic (primarily Russian)</td></tr>
+<tr><td data-th="Identifier">857</td><td data-th=".NET Name">ibm857</td><td data-th="Additional information">OEM Turkish; Turkish (DOS)</td></tr>
+<tr><td data-th="Identifier">858</td><td data-th=".NET Name">IBM00858</td><td data-th="Additional information">OEM Multilingual Latin 1 + Euro symbol</td></tr>
+<tr><td data-th="Identifier">860</td><td data-th=".NET Name">IBM860</td><td data-th="Additional information">OEM Portuguese; Portuguese (DOS)</td></tr>
+<tr><td data-th="Identifier">861</td><td data-th=".NET Name">ibm861</td><td data-th="Additional information">OEM Icelandic; Icelandic (DOS)</td></tr>
+<tr><td data-th="Identifier">862</td><td data-th=".NET Name">DOS-862</td><td data-th="Additional information">OEM Hebrew; Hebrew (DOS)</td></tr>
+<tr><td data-th="Identifier">863</td><td data-th=".NET Name">IBM863</td><td data-th="Additional information">OEM French Canadian; French Canadian (DOS)</td></tr>
+<tr><td data-th="Identifier">864</td><td data-th=".NET Name">IBM864</td><td data-th="Additional information">OEM Arabic; Arabic (864)</td></tr>
+<tr><td data-th="Identifier">865</td><td data-th=".NET Name">IBM865</td><td data-th="Additional information">OEM Nordic; Nordic (DOS)</td></tr>
+<tr><td data-th="Identifier">866</td><td data-th=".NET Name">cp866</td><td data-th="Additional information">OEM Russian; Cyrillic (DOS)</td></tr>
+<tr><td data-th="Identifier">869</td><td data-th=".NET Name">ibm869</td><td data-th="Additional information">OEM Modern Greek; Greek, Modern (DOS)</td></tr>
+<tr><td data-th="Identifier">870</td><td data-th=".NET Name">IBM870</td><td data-th="Additional information">IBM EBCDIC Multilingual/ROECE (Latin 2); IBM EBCDIC Multilingual Latin 2</td></tr>
+<tr><td data-th="Identifier">874</td><td data-th=".NET Name">windows-874</td><td data-th="Additional information">ANSI/OEM Thai (ISO 8859-11); Thai (Windows)</td></tr>
+<tr><td data-th="Identifier">875</td><td data-th=".NET Name">cp875</td><td data-th="Additional information">IBM EBCDIC Greek Modern</td></tr>
+<tr><td data-th="Identifier">932</td><td data-th=".NET Name">shift_jis</td><td data-th="Additional information">ANSI/OEM Japanese; Japanese (Shift-JIS)</td></tr>
+<tr><td data-th="Identifier">936</td><td data-th=".NET Name">gb2312</td><td data-th="Additional information">ANSI/OEM Simplified Chinese (PRC, Singapore); Chinese Simplified (GB2312)</td></tr>
+<tr><td data-th="Identifier">949</td><td data-th=".NET Name">ks_c_5601-1987</td><td data-th="Additional information">ANSI/OEM Korean (Unified Hangul Code)</td></tr>
+<tr><td data-th="Identifier">950</td><td data-th=".NET Name">big5</td><td data-th="Additional information">ANSI/OEM Traditional Chinese (Taiwan; Hong Kong SAR, PRC); Chinese Traditional (Big5)</td></tr>
+<tr><td data-th="Identifier">1026</td><td data-th=".NET Name">IBM1026</td><td data-th="Additional information">IBM EBCDIC Turkish (Latin 5)</td></tr>
+<tr><td data-th="Identifier">1047</td><td data-th=".NET Name">IBM01047</td><td data-th="Additional information">IBM EBCDIC Latin 1/Open System</td></tr>
+<tr><td data-th="Identifier">1140</td><td data-th=".NET Name">IBM01140</td><td data-th="Additional information">IBM EBCDIC US-Canada (037 + Euro symbol); IBM EBCDIC (US-Canada-Euro)</td></tr>
+<tr><td data-th="Identifier">1141</td><td data-th=".NET Name">IBM01141</td><td data-th="Additional information">IBM EBCDIC Germany (20273 + Euro symbol); IBM EBCDIC (Germany-Euro)</td></tr>
+<tr><td data-th="Identifier">1142</td><td data-th=".NET Name">IBM01142</td><td data-th="Additional information">IBM EBCDIC Denmark-Norway (20277 + Euro symbol); IBM EBCDIC (Denmark-Norway-Euro)</td></tr>
+<tr><td data-th="Identifier">1143</td><td data-th=".NET Name">IBM01143</td><td data-th="Additional information">IBM EBCDIC Finland-Sweden (20278 + Euro symbol); IBM EBCDIC (Finland-Sweden-Euro)</td></tr>
+<tr><td data-th="Identifier">1144</td><td data-th=".NET Name">IBM01144</td><td data-th="Additional information">IBM EBCDIC Italy (20280 + Euro symbol); IBM EBCDIC (Italy-Euro)</td></tr>
+<tr><td data-th="Identifier">1145</td><td data-th=".NET Name">IBM01145</td><td data-th="Additional information">IBM EBCDIC Latin America-Spain (20284 + Euro symbol); IBM EBCDIC (Spain-Euro)</td></tr>
+<tr><td data-th="Identifier">1146</td><td data-th=".NET Name">IBM01146</td><td data-th="Additional information">IBM EBCDIC United Kingdom (20285 + Euro symbol); IBM EBCDIC (UK-Euro)</td></tr>
+<tr><td data-th="Identifier">1147</td><td data-th=".NET Name">IBM01147</td><td data-th="Additional information">IBM EBCDIC France (20297 + Euro symbol); IBM EBCDIC (France-Euro)</td></tr>
+<tr><td data-th="Identifier">1148</td><td data-th=".NET Name">IBM01148</td><td data-th="Additional information">IBM EBCDIC International (500 + Euro symbol); IBM EBCDIC (International-Euro)</td></tr>
+<tr><td data-th="Identifier">1149</td><td data-th=".NET Name">IBM01149</td><td data-th="Additional information">IBM EBCDIC Icelandic (20871 + Euro symbol); IBM EBCDIC (Icelandic-Euro)</td></tr>
+<tr><td data-th="Identifier">1200</td><td data-th=".NET Name">utf-16</td><td data-th="Additional information">Unicode UTF-16, little endian byte order (BMP of ISO 10646); available only to managed applications</td></tr>
+<tr><td data-th="Identifier">1201</td><td data-th=".NET Name">unicodeFFFE</td><td data-th="Additional information">Unicode UTF-16, big endian byte order; available only to managed applications</td></tr>
+<tr><td data-th="Identifier">1250</td><td data-th=".NET Name">windows-1250</td><td data-th="Additional information">ANSI Central European; Central European (Windows)</td></tr>
+<tr><td data-th="Identifier">1251</td><td data-th=".NET Name">windows-1251</td><td data-th="Additional information">ANSI Cyrillic; Cyrillic (Windows)</td></tr>
+<tr><td data-th="Identifier">1252</td><td data-th=".NET Name">windows-1252</td><td data-th="Additional information">ANSI Latin 1; Western European (Windows)</td></tr>
+<tr><td data-th="Identifier">1253</td><td data-th=".NET Name">windows-1253</td><td data-th="Additional information">ANSI Greek; Greek (Windows)</td></tr>
+<tr><td data-th="Identifier">1254</td><td data-th=".NET Name">windows-1254</td><td data-th="Additional information">ANSI Turkish; Turkish (Windows)</td></tr>
+<tr><td data-th="Identifier">1255</td><td data-th=".NET Name">windows-1255</td><td data-th="Additional information">ANSI Hebrew; Hebrew (Windows)</td></tr>
+<tr><td data-th="Identifier">1256</td><td data-th=".NET Name">windows-1256</td><td data-th="Additional information">ANSI Arabic; Arabic (Windows)</td></tr>
+<tr><td data-th="Identifier">1257</td><td data-th=".NET Name">windows-1257</td><td data-th="Additional information">ANSI Baltic; Baltic (Windows)</td></tr>
+<tr><td data-th="Identifier">1258</td><td data-th=".NET Name">windows-1258</td><td data-th="Additional information">ANSI/OEM Vietnamese; Vietnamese (Windows)</td></tr>
+<tr><td data-th="Identifier">1361</td><td data-th=".NET Name">Johab</td><td data-th="Additional information">Korean (Johab)</td></tr>
+<tr><td data-th="Identifier">10000</td><td data-th=".NET Name">macintosh</td><td data-th="Additional information">MAC Roman; Western European (Mac)</td></tr>
+<tr><td data-th="Identifier">10001</td><td data-th=".NET Name">x-mac-japanese</td><td data-th="Additional information">Japanese (Mac)</td></tr>
+<tr><td data-th="Identifier">10002</td><td data-th=".NET Name">x-mac-chinesetrad</td><td data-th="Additional information">MAC Traditional Chinese (Big5); Chinese Traditional (Mac)</td></tr>
+<tr><td data-th="Identifier">10003</td><td data-th=".NET Name">x-mac-korean</td><td data-th="Additional information">Korean (Mac)</td></tr>
+<tr><td data-th="Identifier">10004</td><td data-th=".NET Name">x-mac-arabic</td><td data-th="Additional information">Arabic (Mac)</td></tr>
+<tr><td data-th="Identifier">10005</td><td data-th=".NET Name">x-mac-hebrew</td><td data-th="Additional information">Hebrew (Mac)</td></tr>
+<tr><td data-th="Identifier">10006</td><td data-th=".NET Name">x-mac-greek</td><td data-th="Additional information">Greek (Mac)</td></tr>
+<tr><td data-th="Identifier">10007</td><td data-th=".NET Name">x-mac-cyrillic</td><td data-th="Additional information">Cyrillic (Mac)</td></tr>
+<tr><td data-th="Identifier">10008</td><td data-th=".NET Name">x-mac-chinesesimp</td><td data-th="Additional information">MAC Simplified Chinese (GB 2312); Chinese Simplified (Mac)</td></tr>
+<tr><td data-th="Identifier">10010</td><td data-th=".NET Name">x-mac-romanian</td><td data-th="Additional information">Romanian (Mac)</td></tr>
+<tr><td data-th="Identifier">10017</td><td data-th=".NET Name">x-mac-ukrainian</td><td data-th="Additional information">Ukrainian (Mac)</td></tr>
+<tr><td data-th="Identifier">10021</td><td data-th=".NET Name">x-mac-thai</td><td data-th="Additional information">Thai (Mac)</td></tr>
+<tr><td data-th="Identifier">10029</td><td data-th=".NET Name">x-mac-ce</td><td data-th="Additional information">MAC Latin 2; Central European (Mac)</td></tr>
+<tr><td data-th="Identifier">10079</td><td data-th=".NET Name">x-mac-icelandic</td><td data-th="Additional information">Icelandic (Mac)</td></tr>
+<tr><td data-th="Identifier">10081</td><td data-th=".NET Name">x-mac-turkish</td><td data-th="Additional information">Turkish (Mac)</td></tr>
+<tr><td data-th="Identifier">10082</td><td data-th=".NET Name">x-mac-croatian</td><td data-th="Additional information">Croatian (Mac)</td></tr>
+<tr><td data-th="Identifier">12000</td><td data-th=".NET Name">utf-32</td><td data-th="Additional information">Unicode UTF-32, little endian byte order; available only to managed applications</td></tr>
+<tr><td data-th="Identifier">12001</td><td data-th=".NET Name">utf-32BE</td><td data-th="Additional information">Unicode UTF-32, big endian byte order; available only to managed applications</td></tr>
+<tr><td data-th="Identifier">20000</td><td data-th=".NET Name">x-Chinese_CNS</td><td data-th="Additional information">CNS Taiwan; Chinese Traditional (CNS)</td></tr>
+<tr><td data-th="Identifier">20001</td><td data-th=".NET Name">x-cp20001</td><td data-th="Additional information">TCA Taiwan</td></tr>
+<tr><td data-th="Identifier">20002</td><td data-th=".NET Name">x_Chinese-Eten</td><td data-th="Additional information">Eten Taiwan; Chinese Traditional (Eten)</td></tr>
+<tr><td data-th="Identifier">20003</td><td data-th=".NET Name">x-cp20003</td><td data-th="Additional information">IBM5550 Taiwan</td></tr>
+<tr><td data-th="Identifier">20004</td><td data-th=".NET Name">x-cp20004</td><td data-th="Additional information">TeleText Taiwan</td></tr>
+<tr><td data-th="Identifier">20005</td><td data-th=".NET Name">x-cp20005</td><td data-th="Additional information">Wang Taiwan</td></tr>
+<tr><td data-th="Identifier">20105</td><td data-th=".NET Name">x-IA5</td><td data-th="Additional information">IA5 (IRV International Alphabet No. 5, 7-bit); Western European (IA5)</td></tr>
+<tr><td data-th="Identifier">20106</td><td data-th=".NET Name">x-IA5-German</td><td data-th="Additional information">IA5 German (7-bit)</td></tr>
+<tr><td data-th="Identifier">20107</td><td data-th=".NET Name">x-IA5-Swedish</td><td data-th="Additional information">IA5 Swedish (7-bit)</td></tr>
+<tr><td data-th="Identifier">20108</td><td data-th=".NET Name">x-IA5-Norwegian</td><td data-th="Additional information">IA5 Norwegian (7-bit)</td></tr>
+<tr><td data-th="Identifier">20127</td><td data-th=".NET Name">us-ascii</td><td data-th="Additional information">US-ASCII (7-bit)</td></tr>
+<tr><td data-th="Identifier">20261</td><td data-th=".NET Name">x-cp20261</td><td data-th="Additional information">T.61</td></tr>
+<tr><td data-th="Identifier">20269</td><td data-th=".NET Name">x-cp20269</td><td data-th="Additional information">ISO 6937 Non-Spacing Accent</td></tr>
+<tr><td data-th="Identifier">20273</td><td data-th=".NET Name">IBM273</td><td data-th="Additional information">IBM EBCDIC Germany</td></tr>
+<tr><td data-th="Identifier">20277</td><td data-th=".NET Name">IBM277</td><td data-th="Additional information">IBM EBCDIC Denmark-Norway</td></tr>
+<tr><td data-th="Identifier">20278</td><td data-th=".NET Name">IBM278</td><td data-th="Additional information">IBM EBCDIC Finland-Sweden</td></tr>
+<tr><td data-th="Identifier">20280</td><td data-th=".NET Name">IBM280</td><td data-th="Additional information">IBM EBCDIC Italy</td></tr>
+<tr><td data-th="Identifier">20284</td><td data-th=".NET Name">IBM284</td><td data-th="Additional information">IBM EBCDIC Latin America-Spain</td></tr>
+<tr><td data-th="Identifier">20285</td><td data-th=".NET Name">IBM285</td><td data-th="Additional information">IBM EBCDIC United Kingdom</td></tr>
+<tr><td data-th="Identifier">20290</td><td data-th=".NET Name">IBM290</td><td data-th="Additional information">IBM EBCDIC Japanese Katakana Extended</td></tr>
+<tr><td data-th="Identifier">20297</td><td data-th=".NET Name">IBM297</td><td data-th="Additional information">IBM EBCDIC France</td></tr>
+<tr><td data-th="Identifier">20420</td><td data-th=".NET Name">IBM420</td><td data-th="Additional information">IBM EBCDIC Arabic</td></tr>
+<tr><td data-th="Identifier">20423</td><td data-th=".NET Name">IBM423</td><td data-th="Additional information">IBM EBCDIC Greek</td></tr>
+<tr><td data-th="Identifier">20424</td><td data-th=".NET Name">IBM424</td><td data-th="Additional information">IBM EBCDIC Hebrew</td></tr>
+<tr><td data-th="Identifier">20833</td><td data-th=".NET Name">x-EBCDIC-KoreanExtended</td><td data-th="Additional information">IBM EBCDIC Korean Extended</td></tr>
+<tr><td data-th="Identifier">20838</td><td data-th=".NET Name">IBM-Thai</td><td data-th="Additional information">IBM EBCDIC Thai</td></tr>
+<tr><td data-th="Identifier">20866</td><td data-th=".NET Name">koi8-r</td><td data-th="Additional information">Russian (KOI8-R); Cyrillic (KOI8-R)</td></tr>
+<tr><td data-th="Identifier">20871</td><td data-th=".NET Name">IBM871</td><td data-th="Additional information">IBM EBCDIC Icelandic</td></tr>
+<tr><td data-th="Identifier">20880</td><td data-th=".NET Name">IBM880</td><td data-th="Additional information">IBM EBCDIC Cyrillic Russian</td></tr>
+<tr><td data-th="Identifier">20905</td><td data-th=".NET Name">IBM905</td><td data-th="Additional information">IBM EBCDIC Turkish</td></tr>
+<tr><td data-th="Identifier">20924</td><td data-th=".NET Name">IBM00924</td><td data-th="Additional information">IBM EBCDIC Latin 1/Open System (1047 + Euro symbol)</td></tr>
+<tr><td data-th="Identifier">20932</td><td data-th=".NET Name">EUC-JP</td><td data-th="Additional information">Japanese (JIS 0208-1990 and 0212-1990)</td></tr>
+<tr><td data-th="Identifier">20936</td><td data-th=".NET Name">x-cp20936</td><td data-th="Additional information">Simplified Chinese (GB2312); Chinese Simplified (GB2312-80)</td></tr>
+<tr><td data-th="Identifier">20949</td><td data-th=".NET Name">x-cp20949</td><td data-th="Additional information">Korean Wansung</td></tr>
+<tr><td data-th="Identifier">21025</td><td data-th=".NET Name">cp1025</td><td data-th="Additional information">IBM EBCDIC Cyrillic Serbian-Bulgarian</td></tr>
+<tr><td data-th="Identifier">21027</td><td data-th=".NET Name" /><td data-th="Additional information">(deprecated)</td></tr>
+<tr><td data-th="Identifier">21866</td><td data-th=".NET Name">koi8-u</td><td data-th="Additional information">Ukrainian (KOI8-U); Cyrillic (KOI8-U)</td></tr>
+<tr><td data-th="Identifier">28591</td><td data-th=".NET Name">iso-8859-1</td><td data-th="Additional information">ISO 8859-1 Latin 1; Western European (ISO)</td></tr>
+<tr><td data-th="Identifier">28592</td><td data-th=".NET Name">iso-8859-2</td><td data-th="Additional information">ISO 8859-2 Central European; Central European (ISO)</td></tr>
+<tr><td data-th="Identifier">28593</td><td data-th=".NET Name">iso-8859-3</td><td data-th="Additional information">ISO 8859-3 Latin 3</td></tr>
+<tr><td data-th="Identifier">28594</td><td data-th=".NET Name">iso-8859-4</td><td data-th="Additional information">ISO 8859-4 Baltic</td></tr>
+<tr><td data-th="Identifier">28595</td><td data-th=".NET Name">iso-8859-5</td><td data-th="Additional information">ISO 8859-5 Cyrillic</td></tr>
+<tr><td data-th="Identifier">28596</td><td data-th=".NET Name">iso-8859-6</td><td data-th="Additional information">ISO 8859-6 Arabic</td></tr>
+<tr><td data-th="Identifier">28597</td><td data-th=".NET Name">iso-8859-7</td><td data-th="Additional information">ISO 8859-7 Greek</td></tr>
+<tr><td data-th="Identifier">28598</td><td data-th=".NET Name">iso-8859-8</td><td data-th="Additional information">ISO 8859-8 Hebrew; Hebrew (ISO-Visual)</td></tr>
+<tr><td data-th="Identifier">28599</td><td data-th=".NET Name">iso-8859-9</td><td data-th="Additional information">ISO 8859-9 Turkish</td></tr>
+<tr><td data-th="Identifier">28603</td><td data-th=".NET Name">iso-8859-13</td><td data-th="Additional information">ISO 8859-13 Estonian</td></tr>
+<tr><td data-th="Identifier">28605</td><td data-th=".NET Name">iso-8859-15</td><td data-th="Additional information">ISO 8859-15 Latin 9</td></tr>
+<tr><td data-th="Identifier">29001</td><td data-th=".NET Name">x-Europa</td><td data-th="Additional information">Europa 3</td></tr>
+<tr><td data-th="Identifier">38598</td><td data-th=".NET Name">iso-8859-8-i</td><td data-th="Additional information">ISO 8859-8 Hebrew; Hebrew (ISO-Logical)</td></tr>
+<tr><td data-th="Identifier">50220</td><td data-th=".NET Name">iso-2022-jp</td><td data-th="Additional information">ISO 2022 Japanese with no halfwidth Katakana; Japanese (JIS)</td></tr>
+<tr><td data-th="Identifier">50221</td><td data-th=".NET Name">csISO2022JP</td><td data-th="Additional information">ISO 2022 Japanese with halfwidth Katakana; Japanese (JIS-Allow 1 byte Kana)</td></tr>
+<tr><td data-th="Identifier">50222</td><td data-th=".NET Name">iso-2022-jp</td><td data-th="Additional information">ISO 2022 Japanese JIS X 0201-1989; Japanese (JIS-Allow 1 byte Kana - SO/SI)</td></tr>
+<tr><td data-th="Identifier">50225</td><td data-th=".NET Name">iso-2022-kr</td><td data-th="Additional information">ISO 2022 Korean</td></tr>
+<tr><td data-th="Identifier">50227</td><td data-th=".NET Name">x-cp50227</td><td data-th="Additional information">ISO 2022 Simplified Chinese; Chinese Simplified (ISO 2022)</td></tr>
+<tr><td data-th="Identifier">50229</td><td data-th=".NET Name" /><td data-th="Additional information">ISO 2022 Traditional Chinese</td></tr>
+<tr><td data-th="Identifier">50930</td><td data-th=".NET Name" /><td data-th="Additional information">EBCDIC Japanese (Katakana) Extended</td></tr>
+<tr><td data-th="Identifier">50931</td><td data-th=".NET Name" /><td data-th="Additional information">EBCDIC US-Canada and Japanese</td></tr>
+<tr><td data-th="Identifier">50933</td><td data-th=".NET Name" /><td data-th="Additional information">EBCDIC Korean Extended and Korean</td></tr>
+<tr><td data-th="Identifier">50935</td><td data-th=".NET Name" /><td data-th="Additional information">EBCDIC Simplified Chinese Extended and Simplified Chinese</td></tr>
+<tr><td data-th="Identifier">50936</td><td data-th=".NET Name" /><td data-th="Additional information">EBCDIC Simplified Chinese</td></tr>
+<tr><td data-th="Identifier">50937</td><td data-th=".NET Name" /><td data-th="Additional information">EBCDIC US-Canada and Traditional Chinese</td></tr>
+<tr><td data-th="Identifier">50939</td><td data-th=".NET Name" /><td data-th="Additional information">EBCDIC Japanese (Latin) Extended and Japanese</td></tr>
+<tr><td data-th="Identifier">51932</td><td data-th=".NET Name">euc-jp</td><td data-th="Additional information">EUC Japanese</td></tr>
+<tr><td data-th="Identifier">51936</td><td data-th=".NET Name">EUC-CN</td><td data-th="Additional information">EUC Simplified Chinese; Chinese Simplified (EUC)</td></tr>
+<tr><td data-th="Identifier">51949</td><td data-th=".NET Name">euc-kr</td><td data-th="Additional information">EUC Korean</td></tr>
+<tr><td data-th="Identifier">51950</td><td data-th=".NET Name" /><td data-th="Additional information">EUC Traditional Chinese</td></tr>
+<tr><td data-th="Identifier">52936</td><td data-th=".NET Name">hz-gb-2312</td><td data-th="Additional information">HZ-GB2312 Simplified Chinese; Chinese Simplified (HZ)</td></tr>
+<tr><td data-th="Identifier">54936</td><td data-th=".NET Name">GB18030</td><td data-th="Additional information"><strong>Windows XP and later:</strong> GB18030 Simplified Chinese (4 byte); Chinese Simplified (GB18030)</td></tr>
+<tr><td data-th="Identifier">57002</td><td data-th=".NET Name">x-iscii-de</td><td data-th="Additional information">ISCII Devanagari</td></tr>
+<tr><td data-th="Identifier">57003</td><td data-th=".NET Name">x-iscii-be</td><td data-th="Additional information">ISCII Bangla</td></tr>
+<tr><td data-th="Identifier">57004</td><td data-th=".NET Name">x-iscii-ta</td><td data-th="Additional information">ISCII Tamil</td></tr>
+<tr><td data-th="Identifier">57005</td><td data-th=".NET Name">x-iscii-te</td><td data-th="Additional information">ISCII Telugu</td></tr>
+<tr><td data-th="Identifier">57006</td><td data-th=".NET Name">x-iscii-as</td><td data-th="Additional information">ISCII Assamese</td></tr>
+<tr><td data-th="Identifier">57007</td><td data-th=".NET Name">x-iscii-or</td><td data-th="Additional information">ISCII Odia</td></tr>
+<tr><td data-th="Identifier">57008</td><td data-th=".NET Name">x-iscii-ka</td><td data-th="Additional information">ISCII Kannada</td></tr>
+<tr><td data-th="Identifier">57009</td><td data-th=".NET Name">x-iscii-ma</td><td data-th="Additional information">ISCII Malayalam</td></tr>
+<tr><td data-th="Identifier">57010</td><td data-th=".NET Name">x-iscii-gu</td><td data-th="Additional information">ISCII Gujarati</td></tr>
+<tr><td data-th="Identifier">57011</td><td data-th=".NET Name">x-iscii-pa</td><td data-th="Additional information">ISCII Punjabi</td></tr>
+<tr><td data-th="Identifier">65000</td><td data-th=".NET Name">utf-7</td><td data-th="Additional information">Unicode (UTF-7)</td></tr>
+<tr><td data-th="Identifier">65001</td><td data-th=".NET Name">utf-8</td><td data-th="Additional information">Unicode (UTF-8)</td></tr>
+</table>
+<p> </p>
+<p> </p>
+<p> </p>
+</div>
+</div>
+
+
+
+
+
+
+<div class="libraryMemberFilter">
+    <div class="filterContainer">
+        <span>Show:</span>
+        <label>
+            <input type="checkbox" class="libraryFilterInherited" checked="checked" value="Inherit" />Inherited
+        </label>
+        <label>
+            <input type="checkbox" class="libraryFilterProtected" checked="checked" value="Protected" />Protected
+        </label>
+    </div>
+</div>
+    
+<input type="hidden" id="libraryMemberFilterEmptyWarning" value="There are no members available with your current filter settings." />
+
+
+
+    </div>
+<div id="rightNavigationMenu" ms.cmpgrp="right nav">
+    <div id="mobileButtons">
+        <div id="navigationButtons">
+            <a id="isd_print" href="https://msdn.microsoft.com/en-us/library/dd317756(d=printer).aspx" rel="nofollow"><ins class="print"></ins>Print </a>
+            <a id="isd_printABook" href="/en-us/library/export/help/?returnurl=%2fen-us%2flibrary%2fdd317756.aspx">
+                <ins class="export"></ins>Export (<span class="count">0</span>)
+            </a>
+        </div>
+    </div>
+    <div id="navMain">
+        <div id="closeNavigation">
+            <a class="tocCloseSmall" id="closeButton"></a>
+        </div>
+        <div id="navigationButtons">
+            <a id="isd_print" href="https://msdn.microsoft.com/en-us/library/dd317756(d=printer).aspx" rel="nofollow"><ins class="print"></ins>Print </a>
+            <a id="isd_printABook2" href="/en-us/library/export/help/?returnurl=%2fen-us%2flibrary%2fdd317756.aspx">
+                <ins class="export"></ins>Export (<span class="count">0</span>)
+            </a>
+            <a id="isdShare" href="#" role="button" aria-expanded="false">
+                <ins class="share"></ins>Share
+            </a>
+            <div id="socials" style="display: none">
+                <a class="isdFacebook" href="#" aria-label="Share on Facebook">
+                    <ins class="facebook"></ins>
+                </a>
+                <a class="isdTwitter" href="#" aria-label="Share on Twitter">
+                    <ins class="twitter"></ins>
+                </a>
+                <a class="isdGooglePlus" href="#" aria-label="Share on Google+">
+                    <ins class="googlePlus"></ins>
+                </a>
+            </div>
+        </div>
+        <div id="indoc_toc" style="display: none" ms.cmpgrp="indoc toc">
+            <div id="indoc_title">IN THIS ARTICLE</div>
+            <ul id="indoc_toclist"></ul>
+        </div>
+    </div>
+</div>
+<div id="rightNavigationMenuThumbnail" class="rightNavigationMenuThumbnail">
+</div>
+
+
+
+
+
+        </div>
+        <div class="clear"></div>
+
+        
+
+<input name="__RequestVerificationToken" type="hidden" value="KmHUuVYBWHxIlEykCnVkU8hJqkVcQrtgvlQWpohlwkP6o6usR073UMkBvjv-9hP84JlzjYMVBf84ziDbARDHgve2e4g1" />
+<input id="ratingValueSubmitUrl" type="hidden" value="https://msdn.microsoft.com/en-us/library/feedback/rate/dd317756.aspx" />
+<input id="ratingAdditionalSubmitUrl" type="hidden" value="https://msdn.microsoft.com/en-us/library/feedback/additional/dd317756.aspx" />
+<input id="isTopicRated" type="hidden" value="false" />
+
+
+
+
+    <div id="lib-footer">
+        
+
+    
+    <link type="text/css" rel="stylesheet" />
+    
+        
+    <div id="ux-footer" class="" style="" dir="ltr" ms.pgarea="footer">
+
+
+    <div id="standardRatingBefore" class="clear stdr-container-before"></div>
+    <div id="standardRating" class="stdr-container" ms.pgarea="body">
+        <div class="stdr-close"></div>
+        <div class="stdr-vote stdr-content">
+            <div class="stdr-content">
+                <span class="stdr-votetitle">Is this page helpful?</span>
+                <button class="stdr-yes" aria-label="Yes, this page was helpful">Yes</button>
+                <button class="stdr-no" aria-label="No, this page was not helpful">No</button>
+                <input id="s_ratingValue" type="hidden" value="" />
+            </div>
+        </div>
+        <div class="stdr-feedback" style="display: none">
+            <div class="stdr-form">
+                <div class="stdr-fieldtitle">Additional feedback?</div>
+                <textarea class="stdr-detail" rows="6" maxlength="1500"></textarea>
+                <div>
+                    <span class="stdr-count"><span class="stdr-charcnt">1500</span> characters remaining</span>
+                    <div class="stdr-buttons">
+                        <button class="stdr-provide" aria-label="Submit my additional feedback">Submit</button>
+                        <button class="stdr-skip" aria-label="Skip additional feedback">Skip this</button>
+                    </div>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </div>
+        <div class="stdr-thanks" style="display: none">
+            <div class="stdr-content">
+                <span class="stdr-thankyou">Thank you!</span>
+                <span class="stdr-appreciate">We appreciate your feedback.</span>
+            </div>
+        </div>
+
+        
+        <div id="contentFeedbackQAContainer" style="display: none;"></div>
+    </div>
+    <div id="standardRatingPlaceholder" style="display: none"></div>
+    
+
+        <footer class="top" role="navigation" aria-label="footer">
+            <div data-fragmentName="LeftLinks" id="Fragment_LeftLinks" xmlns="http://www.w3.org/1999/xhtml">
+  
+  <div class="linkList">
+    <h4 class="linkListTitle">Dev centers</h4>
+    <ul class="links">
+      <li>
+        <a href="https://dev.windows.com" id="LeftLinks_2148_1" class="windowsBlue" xmlns="http://www.w3.org/1999/xhtml">Windows</a>
+      </li>
+      <li>
+        <a href="http://dev.office.com" id="LeftLinks_2148_3" class="office" xmlns="http://www.w3.org/1999/xhtml">Office</a>
+      </li>
+      <li>
+        <a href="https://msdn.microsoft.com/vstudio" id="LeftLinks_2148_4" class="visualStudio" xmlns="http://www.w3.org/1999/xhtml">Visual Studio</a>
+      </li>
+      <li>
+        <a href="http://azure.microsoft.com/en-us/documentation/" target="_blank" id="LeftLinks_2148_12" xmlns="http://www.w3.org/1999/xhtml">Microsoft Azure</a>
+      </li>
+      <li>
+        <a href="https://msdn.microsoft.com/developer-centers-msdn" id="LeftLinks_2148_5" xmlns="http://www.w3.org/1999/xhtml">More...</a>
+      </li>
+    </ul>
+  </div>
+</div>
+            <div id="rightLinks">
+                <div data-fragmentName="CenterLinks1" id="Fragment_CenterLinks1" xmlns="http://www.w3.org/1999/xhtml">
+  
+  <div class="linkList">
+    <h4 class="linkListTitle">Learning resources</h4>
+    <ul class="links">
+      <li>
+        <a href="http://www.microsoftvirtualacademy.com/" id="CenterLinks1_2151_4" xmlns="http://www.w3.org/1999/xhtml">Microsoft Virtual Academy</a>
+      </li>
+      <li>
+        <a href="http://channel9.msdn.com/" id="CenterLinks1_2151_5" xmlns="http://www.w3.org/1999/xhtml">Channel 9</a>
+      </li>
+      <li>
+        <a href="https://msdn.microsoft.com/magazine/" id="CenterLinks1_2151_7" xmlns="http://www.w3.org/1999/xhtml">MSDN Magazine</a>
+      </li>
+    </ul>
+  </div>
+</div>
+                <div data-fragmentName="CenterLinks2" id="Fragment_CenterLinks2" xmlns="http://www.w3.org/1999/xhtml">
+  
+  <div class="linkList">
+    <h4 class="linkListTitle">Community</h4>
+    <ul class="links">
+      <li>
+        <a href="https://social.msdn.microsoft.com/forums/en-us/home" id="CenterLinks2_2151_8" xmlns="http://www.w3.org/1999/xhtml">Forums</a>
+      </li>
+      <li>
+        <a href="http://blogs.msdn.com/b/developer-tools/" id="CenterLinks2_2151_9" xmlns="http://www.w3.org/1999/xhtml">Blogs</a>
+      </li>
+      <li>
+        <a href="http://www.codeplex.com" id="CenterLinks2_2151_10" xmlns="http://www.w3.org/1999/xhtml">Codeplex</a>
+      </li>
+    </ul>
+  </div>
+</div>
+                <div data-fragmentName="CenterLinks3" id="Fragment_CenterLinks3" xmlns="http://www.w3.org/1999/xhtml">
+  
+  <div class="linkList">
+    <h4 class="linkListTitle">Support</h4>
+    <ul class="links">
+      <li>
+        <a href="https://msdn.microsoft.com/hh361695" id="CenterLinks3_2151_11" xmlns="http://www.w3.org/1999/xhtml">Self support</a>
+      </li>
+    </ul>
+  </div>
+</div>
+                <div data-fragmentName="CenterLinks4" id="Fragment_CenterLinks4" xmlns="http://www.w3.org/1999/xhtml">
+  
+  <div class="linkList">
+    <h4 class="linkListTitle">Programs</h4>
+    <ul class="links">
+      <li>
+        <a href="https://www.microsoft.com/bizspark/" id="CenterLinks4_2151_13" xmlns="http://www.w3.org/1999/xhtml">BizSpark (for startups)</a>
+      </li>
+      <li>
+        <a href="https://imagine.microsoft.com/en-us" id="CenterLinks4_2151_22" xmlns="http://www.w3.org/1999/xhtml">Microsoft Imagine (for students)</a>
+      </li>
+    </ul>
+  </div>
+</div>
+            </div>
+        </footer>
+
+        <footer class="bottom" role="contentinfo">
+            <span class="localeContainer">
+                
+    <form class="selectLocale" id="selectLocaleForm" action="https://msdn.microsoft.com/en-us/selectlocale-dmc">
+        <input type="hidden" name="fromPage" value="https%3a%2f%2fmsdn.microsoft.com%2fen-us%2flibrary%2fdd317756.aspx" />
+        <a href="#" onclick="$('#selectLocaleForm').submit();return false;" title="Change your language">United States (English)</a>
+    </form>
+
+
+            </span>
+
+            <div data-fragmentName="BottomLinks" id="Fragment_BottomLinks" xmlns="http://www.w3.org/1999/xhtml">
+  
+  <div class="linkList">
+    <ul class="links horizontal">
+      <li>
+        <a href="https://msdn.microsoft.com/newsletter.aspx" id="BottomLinks_2148_7" xmlns="http://www.w3.org/1999/xhtml">Newsletter</a>
+      </li>
+      <li>
+        <a href="https://msdn.microsoft.com/dn529288" id="BottomLinks_2148_8" xmlns="http://www.w3.org/1999/xhtml">Privacy &amp; cookies</a>
+      </li>
+      <li>
+        <a href="https://msdn.microsoft.com/cc300389" id="BottomLinks_2148_9" xmlns="http://www.w3.org/1999/xhtml">Terms of use</a>
+      </li>
+      <li>
+        <a href="https://www.microsoft.com/en-us/legal/intellectualproperty/Trademarks/" id="BottomLinks_2148_10" xmlns="http://www.w3.org/1999/xhtml">Trademarks</a>
+      </li>
+    </ul>
+  </div>
+</div>
+            <span class="logoLegal">
+                <span class="logoSpan clip67x13" role="img" tabindex="0" aria-label="microsoft logo">
+                    <img alt="logo" class="logo" src="https://i-msdn.sec.s-msft.com/Areas/Centers/Themes/StandardDevCenter/Content/HeaderFooterSprite.png?v=636164955987254475" />
+                </span>
+                <span class="copyright">© 2016 Microsoft</span>
+            </span>
+        </footer>
+    </div>
+    
+
+    </div>
+
+
+        <div class="footerPrintView">
+            <div class="footerCopyrightPrintView">© 2016 Microsoft</div>
+        </div>
+
+        
+        
+
+        
+        
+        
+
+    <input id="tocPaddingPerLevel" type="hidden" value="17" />
+
+
+
+        <input id="MtpsDevice" type="hidden" value="Default" />
+
+
+<![CDATA[ Third party scripts and code linked to or referenced from this website are licensed to you by the parties that own such code, not by Microsoft.  See ASP.NET Ajax CDN Terms of Use – http://www.asp.net/ajaxlibrary/CDN.ashx. ]]>
+
+        
+        
+        
+            
+        
+
+<![CDATA[ WebTrends view model not available or IncludeLegacyWebTrendsScriptInGlobal feature flag is off]]>
+
+
+
+
+<div id="globalRequestVerification">
+    <input name="__RequestVerificationToken" type="hidden" value="7w_6QLLVqiqhBklAIjYwYGU8oE7WFN_paycgosP0-M8oTBgefonx4IMuA6iai3quo4jwZKVUD8W3GcR5d41NC_W7eWc1" />
+</div>
+
+
+    </div>
+
+    
+    
+
+    
+
+    
+<script type="text/javascript" class="mtps-injected">
+/*<![CDATA[*/
+(function(window,document){"use strict";function preload(scripts){for(var result=[],script,e,i=0;i<scripts.length;i++)script=scripts[i],script.hasOwnProperty("url")&&(e=document.createElement("script"),e.src=script.url,script.throwaway=e),result.push(script);return result}function inject(scripts,index){var script,elem;if(index>=scripts.length){delete mtps.injectScripts;return}script=scripts[index];elem=document.createElement("script");elem.className="mtps-injected";elem.async=!1;var isLoaded=!1,timeoutId=0,injectNextFnName="",injectNext=elem.onerror=function(){isLoaded||(isLoaded=!0,inject(scripts,index+1),window.clearTimeout(timeoutId),elem.onload=elem.onerror=elem.onreadystatechange=null,injectNextFnName&&delete mtps[injectNextFnName],elem.removeEventListener&&elem.removeEventListener("load",injectNext,!1))};elem.addEventListener?elem.addEventListener("load",injectNext,!1):elem.readyState==="uninitialized"?elem.onreadystatechange=function(){(this.readyState==="loaded"||this.readyState==="complete")&&injectNext()}:elem.onload=injectNext;script.hasOwnProperty("url")?(timeoutId=window.setTimeout(injectNext,12e4),elem.src=script.url):(injectNextFnName="_injectNextScript_"+index,mtps[injectNextFnName]=injectNext,timeoutId=window.setTimeout(injectNext,2e3),elem.text="try {\n"+script.txt+"\n} finally { MTPS."+injectNextFnName+" && MTPS."+injectNextFnName+"(); }");parent.appendChild(elem)}var mtps=window.MTPS||(window.MTPS={}),parent=document.getElementsByTagName("head")[0];mtps.injectScripts=function(scripts){inject(preload(scripts),0)}})(window,document);
+MTPS.injectScripts([
+	{ txt: "/**/\r\n(window.MTPS || (window.MTPS = {})).cdnDomains || (window.MTPS.cdnDomains = { \r\n\t\"image\": \"https://i-msdn.sec.s-msft.com\", \r\n\t\"js\": \"https://i2-msdn.sec.s-msft.com\", \r\n\t\"css\": \"https://i-msdn.sec.s-msft.com\", \r\n\t\"ttf\": \"https://i-msdn.sec.s-msft.com\"\r\n});\r\n/**/" },
+	{ txt: "//\n\n        window.appInsightsId = \u00275eb1b2eb-c47a-497a-a7ac-a1c230b2882f\u0027;\n        //" },
+	{ url: "https://i2-msdn.sec.s-msft.com/Combined.js?resources=0:Utilities,1:Layout,2:Header,3:Breadcrumbs,4:LibraryRightNavigationMenu,4:PrintExportButton,5:StandardRating,2:Footer,0:Topic,3:ResponsiveSupport,0:AppInsightsPerf,3:ResponsiveToc,0:ABTestControl,4:WEDCS,3:CmpgrpForHeader,1:SearchBox;/Areas/Epx/Content/Scripts:0,/Areas/Epx/Themes/Base/Content:1,/Areas/Centers/Themes/StandardDevCenter/Content:2,/Areas/Library/Content:3,/Areas/Library/Themes/Base/Content:4,/Areas/Global/Content:5\u0026amp;hashKey=A8C1FA1E3148C1189E416B0DBD7A345F\u0026amp;v=4B1C317A5F206AC60EFBCBA7D356C1AE" },
+	{ url: "https://i1.services.social.microsoft.com/search/Widgets/SearchBox.jss?boxid=HeaderSearchTextBox\u0026btnid=HeaderSearchButton\u0026minimumTermLength=2\u0026pgArea=header\u0026brand=Msdn\u0026loc=en-us\u0026focusOnInit=false\u0026emptyWatermark=true\u0026searchButtonTooltip=Search MSDN" },
+	{ url: "https://i2-msdn.sec.s-msft.com/Combined.js?resources=0:JumpRedirect,1:LibraryMemberFilter,2:Toc_Fixed,2:CodeSnippet,2:TopicNotInScope,2:VersionSelector,2:SurveyBroker;/Areas/Epx/Themes/Base/Content:0,/Areas/Library/Content:1,/Areas/Epx/Content/Scripts:2\u0026amp;hashKey=8B88EB517137869CDE8F8A6DFD775854\u0026amp;v=4B1C317A5F206AC60EFBCBA7D356C1AE" },
+	{ txt: "$(document).ready(function() {\n        try {\n            var token = $(\"#globalRequestVerification input[name=\u0027__RequestVerificationToken\u0027]\").clone();\n            $(\"#siteFeedbackForm\").append(token);\n        } catch(err) {\n            \n        }\n    });" }
+]);
+
+/*]]>*/
+</script></body>
+</html>
