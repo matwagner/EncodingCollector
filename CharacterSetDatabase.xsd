@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           xmlns:xlink="http://www.w3.org/1999/xlink">
+   <xs:simpleType name="DataSourceType">
+      <xs:restriction base="xs:string">
+         <xs:enumeration value="IANA"/>
+         <xs:enumeration value="ICONV"/>
+         <xs:enumeration value="ICU"/>
+         <xs:enumeration value="UTR22"/>
+         <xs:enumeration value="JAVA"/>
+      </xs:restriction>
+   </xs:simpleType>
+   <xs:simpleType name="StateType">
+      <xs:restriction base="xs:string">
+         <xs:enumeration value="checked"/>
+         <xs:enumeration value="unchecked"/>
+         <xs:enumeration value="unsave"/>
+      </xs:restriction>
+   </xs:simpleType>
+   <xs:simpleType name="TristateType">
+      <xs:restriction base="xs:string">
+         <xs:enumeration value="no"/>
+         <xs:enumeration value="yes"/>
+         <xs:enumeration value="maybe"/>
+      </xs:restriction>
+   </xs:simpleType>
+   <xs:simpleType name="WidthType">
+      <xs:restriction base="xs:string">
+         <xs:enumeration value="fixed8"/>
+         <xs:enumeration value="fixed16"/>
+         <xs:enumeration value="fixed32"/>
+         <xs:enumeration value="varying8"/>
+         <xs:enumeration value="varying16"/>
+      </xs:restriction>
+   </xs:simpleType>
+   <xs:simpleType name="DomainType">
+      <xs:restriction base="xs:string">
+         <xs:enumeration value="ascii"/>
+         <xs:enumeration value="ebcdic"/>
+         <xs:enumeration value="braille"/>
+      </xs:restriction>
+   </xs:simpleType>
+   <xs:complexType name="TextType" mixed="true">
+      <xs:sequence maxOccurs="unbounded">
+         <xs:any namespace="http://www.w3.org/1999/xhtml" processContents="skip"/>
+      </xs:sequence>
+   </xs:complexType>
+   <xs:complexType name="RelationType">
+      <xs:attribute name="data-source"        type="DataSourceType"   use="required"/>
+      <xs:attribute name="xlink:href"         type="xs:string"        use="required"/>
+   </xs:complexType>
+   <xs:complexType name="AliasType" mixed="true">
+      <xs:sequence>
+         <xs:element name="Relation"          type="RelationType"     minOccurs="0" maxOccurs="unbounded"/>
+      </xs:sequence>
+      <xs:attribute name="data-source"        type="xs:string"        use="required"/>
+      <xs:attribute name="original"           type="xs:string"        use="required"/>
+      <xs:attribute name="name"               type="xs:string"        use="required"/>
+      <xs:attribute name="simplified"         type="xs:string"        use="required"/>
+      <xs:attribute name="IANA"               type="TristateType"     use="required"/>
+      <xs:attribute name="ICONV"              type="TristateType"     use="required"/>
+      <xs:attribute name="LIBC"               type="TristateType"     use="required"/>
+      <xs:attribute name="ICU"                type="TristateType"     use="required"/>
+      <xs:attribute name="UTR22"              type="TristateType"     use="required"/>
+      <xs:attribute name="JAVA"               type="TristateType"     use="required"/>
+      <xs:attribute name="MIME"               type="TristateType"     use="required"/>
+      <xs:attribute name="IBM"                type="TristateType"     use="required"/>
+      <xs:attribute name="WINDOWS"            type="TristateType"     use="required"/>
+      <xs:attribute name="UNTAGGED"           type="TristateType"     use="required"/>
+      <xs:attribute name="MS"                 type="TristateType"     use="required"/>
+      <xs:attribute name="MSID"               type="xs:nonNegativeInteger" use="required"/>
+      <xs:attribute name="IBMCPID"            type="xs:nonNegativeInteger" use="required"/>
+      <xs:attribute name="IBMCPURL"           type="xs:string"        use="required"/>
+      <xs:attribute name="IBMCCSID"           type="xs:nonNegativeInteger" use="required"/>
+      <xs:attribute name="IBMCCSURL"          type="xs:string"        use="required"/>
+   </xs:complexType>
+   <xs:complexType name="CharacterSetType">
+      <xs:sequence>
+         <xs:element name="Description"       type="TextType"         minOccurs="0"/>
+         <xs:element name="MSDescription"     type="TextType"         minOccurs="0"/>
+         <xs:element name="IBMCPDescription"  type="TextType"         minOccurs="0" maxOccurs="unbounded">
+            <xs:attribute name="cpid"         type="xs:nonNegativeInteger" use="required"/>
+         </xs:element>
+         <xs:element name="IBMCCSDescription" type="TextType"         minOccurs="0" maxOccurs="unbounded">
+            <xs:attribute name="ccsid"        type="xs:nonNegativeInteger" use="required"/>
+         </xs:element>
+         <xs:element name="IANASource"        type="TextType"         minOccurs="0"/>
+         <xs:element name="Alias"             type="AliasType"        minOccurs="0" maxOccurs="unbounded"/>
+      </xs:sequence>
+      <xs:attribute name="state"              type="StateType"        use="required"/>
+      <xs:attribute name="number"             type="xs:nonNegativeInteger" use="required"/>
+      <xs:attribute name="data-source"        type="xs:string"        use="required"/>
+      <xs:attribute name="name"               type="xs:string"        use="required"/>
+      <xs:attribute name="identifier"         type="xs:string"        use="required"/>
+      <xs:attribute name="year"               type="xs:string"        use="required"/>
+      <xs:attribute name="standard"           type="xs:string"        use="required"/>
+      <xs:attribute name="platform"           type="xs:string"        use="required"/>
+      <xs:attribute name="language"           type="xs:string"        use="required"/>
+      <xs:attribute name="data-source-iana"   type="TristateType"     use="required"/>
+      <xs:attribute name="data-source-iconv"  type="TristateType"     use="required"/>
+      <xs:attribute name="data-source-icu"    type="TristateType"     use="required"/>
+      <xs:attribute name="data-source-java"   type="TristateType"     use="required"/>
+      <xs:attribute name="data-source-ms"     type="TristateType"     use="required"/>
+      <xs:attribute name="data-source-ibmcp"  type="TristateType"     use="required"/>
+      <xs:attribute name="data-source-ibmccs" type="TristateType"     use="required"/>
+      <xs:attribute name="domain"             type="DomainType"       use="required"/>
+      <xs:attribute name="width"              type="WidthType"        use="required"/>
+      <xs:attribute name="min-width"          type="xs:nonNegativeInteger" use="required"/>
+      <xs:attribute name="max-width"          type="xs:nonNegativeInteger" use="required"/>
+      <xs:attribute name="replacement-char"   type="xs:string"        use="required"/>
+      <xs:attribute name="generates-nfc"      type="TristateType"     use="required"/>
+      <xs:attribute name="contains-bidi"      type="TristateType"     use="required"/>
+      <xs:attribute name="mib-enum"           type="xs:nonNegativeInteger" use="required"/>
+      <xs:attribute name="pcl5-symbol-set-id" type="xs:string"        use="required"/>
+      <xs:attribute name="iso-ir"             type="xs:string"        use="required"/>
+      <xs:attribute name="iana-url"           type="xs:string"        use="required"/>
+      <xs:attribute name="icu-name"           type="xs:string"        use="required"/>
+      <xs:attribute name="icu-url"            type="xs:string"        use="required"/>
+      <xs:attribute name="wikipedia-url"      type="xs:string"        use="required"/>
+      <xs:attribute name="java-library"       type="xs:string"        use="required"/>
+      <xs:attribute name="mb-to-wc-func"      type="xs:string"        use="required"/>
+      <xs:attribute name="flush-func"         type="xs:string"        use="required"/>
+      <xs:attribute name="wc-to-mb-func"      type="xs:string"        use="required"/>
+      <xs:attribute name="reset-func"         type="xs:string"        use="required"/>
+   </xs:complexType>
+   <xs:complexType name="ReferenceType" mixed="true">
+      <xs:attribute name="xlink:label"        type="xs:string"        use="required"/>
+      <xs:attribute name="iana-url"           type="xs:string"        use="required"/>
+   </xs:complexType>
+   <xs:element name="CharacterSetDatabase">
+      <xs:sequence>
+         <xs:element name="CharacterSet"      type="CharacterSetType" maxOccurs="unbounded"/>
+         <xs:element name="Reference"         type="ReferenceType"    maxOccurs="unbounded"/>
+      </xs:sequence>
+      <xs:attribute name="version"            type="xs:string"        default="1.0"/>
+   </xs:element>
+</xs:schema>
