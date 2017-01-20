@@ -1,0 +1,272 @@
+* ----------------------------------------------------------------------
+* Copyright IBM Corporation 1989. All rights reserved.
+* C-H 3-3220-050       : REGISTRY, Graphic Character Sets and Code Pages
+* Code Page (CPGID)    : 01041
+* Common Name          : Japanese Extended - Personal Computer
+* Registration Date    : 1989
+* Last Revision Date   :
+* Default Encoding     : 2100
+* Code                 : IBM-PC
+* Maximal Character
+* Set (GCSGID)         : 01187
+* Other GCSGIDs        : 01122, 01170, 01171, 01172
+* ----------------------------------------------------------------------
+*- GCGID --------- GCGID Name ------------------------------------------
+00
+01 SF390000        Upper Left Box Corner Double
+02 SF250000        Upper Right Box Corner Double
+03 SF380000        Lower Left Box Corner Double
+04 SF260000        Lower Right Box Corner Double
+05 SF240000        Center Box Bar Vertical Double
+06 SF430000        Center Box Bar Horizontal Double
+07 SM330000        Down Arrow
+08
+09 SM750000        Open Circle
+0A
+0B SP500000        Box X (DBCS Fill Character)
+0C
+0D
+0E SM470000        Solid Square/Histogram/Square Bullet
+0F SM690000        Sun Symbol
+10 SF440000        Box Intersection Double
+11
+12 SM760000        Up-Down Arrow
+13
+14 SF160000        Fill Character, Heavy
+15 SF400000        Middle Box Bottom Double
+16 SF410000        Middle Box Top Double
+17 SF230000        Right Box Side Double
+18
+19 SF420000        Left Box Side Double
+1A SF140000        Fill Character, Light
+1B SM720000        Return Arrow, Left
+1C SM320000        Up Arrow
+1D SF110000        Center Box Bar Vertical
+1E SM310000        Right Arrow
+1F SM300000        Left Arrow
+20 SP010000        Space
+21 SP020000        Exclamation Point
+22 SP040000        Quotation Marks
+23 SM010000        Number Sign
+24 SC030000        Dollar Sign
+25 SM020000        Percent Sign
+26 SM030000        Ampersand
+27 SP050000        Apostrophe
+28 SP060000        Left Parenthesis
+29 SP070000        Right Parenthesis
+2A SM040000        Asterisk
+2B SA010000        Plus Sign
+2C SP080000        Comma
+2D SP100000        Hyphen/Minus Sign
+2E SP110000        Period/Full Stop
+2F SP120000        Slash
+30 ND100000        Zero
+31 ND010000        One
+32 ND020000        Two
+33 ND030000        Three
+34 ND040000        Four
+35 ND050000        Five
+36 ND060000        Six
+37 ND070000        Seven
+38 ND080000        Eight
+39 ND090000        Nine
+3A SP130000        Colon
+3B SP140000        Semicolon
+3C SA030000        Less Than Sign/Greater Than Sign (Arabic)
+3D SA040000        Equal Sign
+3E SA050000        Greater Than Sign/Less Than Sign (Arabic)
+3F SP150000        Question Mark
+40 SM050000        At Sign
+41 LA020000        A Capital
+42 LB020000        B Capital
+43 LC020000        C Capital
+44 LD020000        D Capital
+45 LE020000        E Capital
+46 LF020000        F Capital
+47 LG020000        G Capital
+48 LH020000        H Capital
+49 LI020000        I Capital
+4A LJ020000        J Capital
+4B LK020000        K Capital
+4C LL020000        L Capital
+4D LM020000        M Capital
+4E LN020000        N Capital
+4F LO020000        O Capital
+50 LP020000        P Capital
+51 LQ020000        Q Capital
+52 LR020000        R Capital
+53 LS020000        S Capital
+54 LT020000        T Capital
+55 LU020000        U Capital
+56 LV020000        V Capital
+57 LW020000        W Capital
+58 LX020000        X Capital
+59 LY020000        Y Capital
+5A LZ020000        Z Capital
+5B SM060000        Left Bracket
+5C SC050000        Yen Sign
+5D SM080000        Right Bracket
+5E SD150000        Circumflex Accent
+5F SP090000        Underline/Continuous Underscore
+60 SD130000        Grave Accent
+61 LA010000        a Small
+62 LB010000        b Small
+63 LC010000        c Small
+64 LD010000        d Small
+65 LE010000        e Small
+66 LF010000        f Small
+67 LG010000        g Small
+68 LH010000        h Small
+69 LI010000        i Small
+6A LJ010000        j Small
+6B LK010000        k Small
+6C LL010000        l Small
+6D LM010000        m Small
+6E LN010000        n Small
+6F LO010000        o Small
+70 LP010000        p Small
+71 LQ010000        q Small
+72 LR010000        r Small
+73 LS010000        s Small
+74 LT010000        t Small
+75 LU010000        u Small
+76 LV010000        v Small
+77 LW010000        w Small
+78 LX010000        x Small
+79 LY010000        y Small
+7A LZ010000        z Small
+7B SM110000        Left Brace
+7C SM130000        Vertical Line/Logical OR
+7D SM140000        Right Brace
+7E SM150000        Overline
+7F
+80 SC040000        Cent Sign
+81
+82
+83
+84
+85
+86
+87
+88
+89
+8A
+8B
+8C
+8D
+8E
+8F
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+9A
+9B
+9C
+9D
+9E
+9F
+A0 SC020000        Pound Sterling Sign
+A1 JQ700000        Katakana Full Stop
+A2 JQ710000        Katakana Left Bracket
+A3 JQ720000        Katakana Right Bracket
+A4 JQ730000        Katakana Comma
+A5 JQ740000        Katakana Conjunctive Symbol
+A6 JW500000        WO, Katakana Participle
+A7 JA010000        a
+A8 JI010000        i
+A9 JU010000        u
+AA JE010000        e
+AB JO010000        o
+AC JY110000        ya
+AD JY310000        yu
+AE JY510000        yo
+AF JT310000        tu or tsu
+B0 JX700000        Prolonged Sound Symbol
+B1 JA000000        A
+B2 JI000000        I
+B3 JU000000        U
+B4 JE000000        E
+B5 JO000000        O
+B6 JK100000        KA
+B7 JK200000        KI
+B8 JK300000        KU
+B9 JK400000        KE
+BA JK500000        KO
+BB JS100000        SA
+BC JS200000        SI or SHI
+BD JS300000        SU
+BE JS400000        SE
+BF JS500000        SO
+C0 JT100000        TA
+C1 JT200000        TI or CHI
+C2 JT300000        TU or TSU
+C3 JT400000        TE
+C4 JT500000        TO
+C5 JN100000        NA
+C6 JN200000        NI
+C7 JN300000        NU
+C8 JN400000        NE
+C9 JN500000        NO
+CA JH100000        HA
+CB JH200000        HI
+CC JH300000        HU or FU
+CD JH400000        HE
+CE JH500000        HO
+CF JM100000        MA
+D0 JM200000        MI
+D1 JM300000        MU
+D2 JM400000        ME
+D3 JM500000        MO
+D4 JY100000        YA
+D5 JY300000        YU
+D6 JY500000        YO
+D7 JR100000        RA
+D8 JR200000        RI
+D9 JR300000        RU
+DA JR400000        RE
+DB JR500000        RO
+DC JW100000        WA
+DD JN000000        N
+DE JX710000        Voiced Sound Symbol
+DF JX720000        Semi-Voiced Sound Symbol
+E0
+E1
+E2
+E3
+E4
+E5
+E6
+E7
+E8
+E9
+EA
+EB
+EC
+ED
+EE
+EF
+F0
+F1
+F2
+F3
+F4
+F5
+F6
+F7
+F8
+F9
+FA
+FB
+FC
+FD SM660000        Logical NOT/End Of Line Symbol
+FE SM070000        Backslash
+FF SD190000        Tilde Accent
+/* END of table --------------------------------------------------------
+

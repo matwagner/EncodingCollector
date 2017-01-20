@@ -1,0 +1,191 @@
+* ----------------------------------------------------------------------
+* Copyright IBM Corporation 1998. All rights reserved.
+* C-H 3-3220-050       : REGISTRY, Graphic Character Sets and Code Pages
+* Char. Set (GCSGID)   : 01351
+* Common Name          : Indian Script Code (ISCII-91)
+* Registration Date    : 1998
+* Last Revision Date   :
+* Size                 : 177
+* Principal Code Pages
+* Containing this CSet : 00806
+* ----------------------------------------------------------------------
+*-GCGID ---------- GCGID Name ------------------------------------------
+LA010000           a Small
+LA020000           A Capital
+LB010000           b Small
+LB020000           B Capital
+LC010000           c Small
+LC020000           C Capital
+LD010000           d Small
+LD020000           D Capital
+LE010000           e Small
+LE020000           E Capital
+LF010000           f Small
+LF020000           F Capital
+LG010000           g Small
+LG020000           G Capital
+LH010000           h Small
+LH020000           H Capital
+LI010000           i Small
+LI020000           I Capital
+LJ010000           j Small
+LJ020000           J Capital
+LK010000           k Small
+LK020000           K Capital
+LL010000           l Small
+LL020000           L Capital
+LM010000           m Small
+LM020000           M Capital
+LN010000           n Small
+LN020000           N Capital
+LO010000           o Small
+LO020000           O Capital
+LP010000           p Small
+LP020000           P Capital
+LQ010000           q Small
+LQ020000           Q Capital
+LR010000           r Small
+LR020000           R Capital
+LS010000           s Small
+LS020000           S Capital
+LT010000           t Small
+LT020000           T Capital
+LU010000           u Small
+LU020000           U Capital
+LV010000           v Small
+LV020000           V Capital
+LW010000           w Small
+LW020000           W Capital
+LX010000           x Small
+LX020000           X Capital
+LY010000           y Small
+LY020000           Y Capital
+LZ010000           z Small
+LZ020000           Z Capital
+ND010000           One
+ND020000           Two
+ND030000           Three
+ND040000           Four
+ND050000           Five
+ND060000           Six
+ND070000           Seven
+ND080000           Eight
+ND090000           Nine
+ND100000           Zero
+SA010000           Plus Sign
+SA030000           Less Than Sign/Greater Than Sign (Arabic)
+SA040000           Equal Sign
+SA050000           Greater Than Sign/Less Than Sign (Arabic)
+SC030000           Dollar Sign
+SD130000           Grave Accent
+SD150000           Circumflex Accent
+SD190000           Tilde Accent
+SM010000           Number Sign
+SM020000           Percent Sign
+SM030000           Ampersand
+SM040000           Asterisk
+SM050000           At Sign
+SM060000           Left Bracket
+SM070000           Backslash
+SM080000           Right Bracket
+SM110000           Left Brace
+SM130000           Vertical Line/Logical OR
+SM140000           Right Brace
+SP020000           Exclamation Point
+SP040000           Quotation Marks
+SP050000           Apostrophe
+SP060000           Left Parenthesis
+SP070000           Right Parenthesis
+SP080000           Comma
+SP090000           Underline/Continuous Underscore
+SP100000           Hyphen/Minus Sign
+SP110000           Period/Full Stop
+SP120000           Slash
+SP130000           Colon
+SP140000           Semicolon
+SP150000           Question Mark
+U0000901           DEVANAGARI SIGN CANDRABINDU
+U0000902           DEVANAGARI SIGN ANUSVARA
+U0000903           DEVANAGARI SIGN VISARGA
+U0000905           DEVANAGARI LETTER A
+U0000906           DEVANAGARI LETTER AA
+U0000907           DEVANAGARI LETTER I
+U0000908           DEVANAGARI LETTER II
+U0000909           DEVANAGARI LETTER U
+U000090A           DEVANAGARI LETTER UU
+U000090B           DEVANAGARI LETTER VOCALIC R
+U000090D           DEVANAGARI LETTER CANDRA E
+U000090E           DEVANAGARI LETTER SHORT E
+U000090F           DEVANAGARI LETTER E
+U0000910           DEVANAGARI LETTER AI
+U0000911           DEVANAGARI LETTER CANDRA O
+U0000912           DEVANAGARI LETTER SHORT O
+U0000913           DEVANAGARI LETTER O
+U0000914           DEVANAGARI LETTER AU
+U0000915           DEVANAGARI LETTER KA
+U0000916           DEVANAGARI LETTER KHA
+U0000917           DEVANAGARI LETTER GA
+U0000918           DEVANAGARI LETTER GHA
+U0000919           DEVANAGARI LETTER NGA
+U000091A           DEVANAGARI LETTER CA
+U000091B           DEVANAGARI LETTER CHA
+U000091C           DEVANAGARI LETTER JA
+U000091D           DEVANAGARI LETTER JHA
+U000091E           DEVANAGARI LETTER NYA
+U000091F           DEVANAGARI LETTER TTA
+U0000920           DEVANAGARI LETTER TTHA
+U0000921           DEVANAGARI LETTER DDA
+U0000922           DEVANAGARI LETTER DDHA
+U0000923           DEVANAGARI LETTER NNA
+U0000924           DEVANAGARI LETTER TA
+U0000925           DEVANAGARI LETTER THA
+U0000926           DEVANAGARI LETTER DA
+U0000927           DEVANAGARI LETTER DHA
+U0000928           DEVANAGARI LETTER NA
+U0000929           DEVANAGARI LETTER NNNA
+U000092A           DEVANAGARI LETTER PA
+U000092B           DEVANAGARI LETTER PHA
+U000092C           DEVANAGARI LETTER BA
+U000092D           DEVANAGARI LETTER BHA
+U000092E           DEVANAGARI LETTER MA
+U000092F           DEVANAGARI LETTER YA
+U0000930           DEVANAGARI LETTER RA
+U0000931           DEVANAGARI LETTER RRA
+U0000932           DEVANAGARI LETTER LA
+U0000933           DEVANAGARI LETTER LLA
+U0000934           DEVANAGARI LETTER LLLA
+U0000935           DEVANAGARI LETTER VA
+U0000936           DEVANAGARI LETTER SHA
+U0000937           DEVANAGARI LETTER SSA
+U0000938           DEVANAGARI LETTER SA
+U0000939           DEVANAGARI LETTER HA
+U000093C           DEVANAGARI SIGN NUKTA
+U000093E           DEVANAGARI VOWEL SIGN AA
+U000093F           DEVANAGARI VOWEL SIGN I
+U0000940           DEVANAGARI VOWEL SIGN II
+U0000941           DEVANAGARI VOWEL SIGN U
+U0000942           DEVANAGARI VOWEL SIGN UU
+U0000943           DEVANAGARI VOWEL SIGN VOCALIC R
+U0000945           DEVANAGARI VOWEL SIGN CANDRA E
+U0000946           DEVANAGARI VOWEL SIGN SHORT E
+U0000947           DEVANAGARI VOWEL SIGN E
+U0000948           DEVANAGARI VOWEL SIGN AI
+U0000949           DEVANAGARI VOWEL SIGN CANDRA O
+U000094A           DEVANAGARI VOWEL SIGN SHORT O
+U000094B           DEVANAGARI VOWEL SIGN O
+U000094C           DEVANAGARI VOWEL SIGN AU
+U000094D           DEVANAGARI SIGN VIRAMA (HALANT IN ISCII)
+U000095F           DEVANAGARI LETTER YYA
+U0000964           DEVANAGARI DANDA (VIRAM IN ISCII)
+U0000966           DEVANAGARI DIGIT ZERO
+U0000967           DEVANAGARI DIGIT ONE
+U0000968           DEVANAGARI DIGIT TWO
+U0000969           DEVANAGARI DIGIT THREE
+U000096A           DEVANAGARI DIGIT FOUR
+U000096B           DEVANAGARI DIGIT FIVE
+U000096C           DEVANAGARI DIGIT SIX
+U000096D           DEVANAGARI DIGIT SEVEN
+U000096E           DEVANAGARI DIGIT EIGHT
+U000096F           DEVANAGARI DIGIT NINE
+/* END of table --------------------------------------------------------
+

@@ -1,0 +1,208 @@
+* ----------------------------------------------------------------------
+* Copyright IBM Corporation 1992. All rights reserved.
+* C-H 3-3220-050       : REGISTRY, Graphic Character Sets and Code Pages
+* Code Page (CPGID)    : 00838
+* Common Name          : Thai with Low Tone Marks & Ancient Characters
+* Registration Date    : 1992
+* Last Revision Date   :
+* Default Encoding     : 1100
+* Code                 : EBCDIC
+* Maximal Character
+* Set (GCSGID)         : 01279
+* Other GCSGIDs        : 00938, 01102, 01176
+* ----------------------------------------------------------------------
+*- GCGID --------- GCGID Name ------------------------------------------
+40 SP010000        Space
+41 SP300000        Required Space
+42 BK100000        Ko Kai
+43 BK200000        Kho Khai
+44 BK300000        Kho Khuat
+45 BK400000        Kho Khwai
+46 BK500000        Kho Khon
+47 BK600000        Kho Rakhang
+48 BN100000        Ngo Ngu
+49 SM060000        Left Bracket
+4A SC040000        Cent Sign
+4B SP110000        Period/Full Stop
+4C SA030000        Less Than Sign/Greater Than Sign (Arabic)
+4D SP060000        Left Parenthesis
+4E SA010000        Plus Sign
+4F SM130000        Vertical Line/Logical OR
+50 SM030000        Ampersand
+51 BZ100300        Mai Ek, Low Position
+52 BC100000        Cho Chan
+53 BX100000        Cho Ching
+54 BS100000        Cho Chang
+55 BX200000        So So
+56 BX300000        Cho Choe
+57 BY100000        Yo Ying
+58 BD100000        Do Chada
+59 SM080000        Right Bracket
+5A SP020000        Exclamation Point
+5B SC030000        Dollar Sign
+5C SM040000        Asterisk
+5D SP070000        Right Parenthesis
+5E SP140000        Semicolon
+5F SM660000        Logical NOT/End Of Line Symbol
+60 SP100000        Hyphen/Minus Sign
+61 SP120000        Slash
+62 BT100000        To Patak
+63 BT200000        Tho Than
+64 BT300000        Tho Nangmontho
+65 BT400000        Tho Phuthao
+66 BN200000        No Nen
+67 BD200000        Do Dek
+68 BT500000        To Tao
+69 SD150000        Circumflex Accent
+6A SM650000        Vertical Line, Broken
+6B SP080000        Comma
+6C SM020000        Percent Sign
+6D SP090000        Underline/Continuous Underscore
+6E SA050000        Greater Than Sign/Less Than Sign (Arabic)
+6F SP150000        Question Mark
+70 SC130000        Currency Symbol Baht
+71 BE400000        Yamakkan
+72 BT600000        Tho Thung
+73 BT700000        Tho Thahan
+74 BT800000        Tho Thong
+75 BN300000        No Nu
+76 BB100000        Bo Baimai
+77 BP100000        Po Pla
+78 BP200000        Pho Phung
+79 SD130000        Grave Accent
+7A SP130000        Colon
+7B SM010000        Number Sign
+7C SM050000        At Sign
+7D SP050000        Apostrophe
+7E SA040000        Equal Sign
+7F SP040000        Quotation Marks
+80 BQ400000        Fongman
+81 LA010000        a Small
+82 LB010000        b Small
+83 LC010000        c Small
+84 LD010000        d Small
+85 LE010000        e Small
+86 LF010000        f Small
+87 LG010000        g Small
+88 LH010000        h Small
+89 LI010000        i Small
+8A BF100000        Fo Fa
+8B BP300000        Pho Phan
+8C BF200000        Fo Fan
+8D BP400000        Pho Samphao
+8E BM100000        Mo Ma
+8F BY200000        Yo Yak
+90 BQ500000        Angkhankhu
+91 LJ010000        j Small
+92 LK010000        k Small
+93 LL010000        l Small
+94 LM010000        m Small
+95 LN010000        n Small
+96 LO010000        o Small
+97 LP010000        p Small
+98 LQ010000        q Small
+99 LR010000        r Small
+9A BR100000        Ro Rua
+9B BR200000        Ru
+9C BL100000        Lo Ling
+9D BL200000        Lu
+9E BW100000        Wo Waen
+9F BS200000        So Sala
+A0 BQ600000        Khomut
+A1 SD190000        Tilde Accent
+A2 LS010000        s Small
+A3 LT010000        t Small
+A4 LU010000        u Small
+A5 LV010000        v Small
+A6 LW010000        w Small
+A7 LX010000        x Small
+A8 LY010000        y Small
+A9 LZ010000        z Small
+AA BS300000        So Rusi
+AB BS400000        So Sua
+AC BH100000        Ho Hip
+AD BL300000        Lo Chula
+AE BO100000        O Ang
+AF BH200000        Ho Nokhuk
+B0 ND100002        Thai Digit Zero
+B1 ND010002        One, Thai
+B2 ND020002        Thai Digit Two
+B3 ND030002        Thai Digit Three
+B4 ND040002        Thai Digit Four
+B5 ND050002        Thai Digit Five
+B6 ND060002        Thai Digit Six
+B7 ND070002        Thai Digit Seven
+B8 ND080002        Thai Digit Eight
+B9 ND090002        Thai Digit Nine
+BA BQ200000        Paiyannoi
+BB BA200000        Sara A
+BC BA100000        Mai Han-Akat
+BD BA300000        Sara Aa
+BE BA400000        Sara Am
+BF BI100000        Sara I
+C0 SM110000        Left Brace
+C1 LA020000        A Capital
+C2 LB020000        B Capital
+C3 LC020000        C Capital
+C4 LD020000        D Capital
+C5 LE020000        E Capital
+C6 LF020000        F Capital
+C7 LG020000        G Capital
+C8 LH020000        H Capital
+C9 LI020000        I Capital
+CA BZ200300        Mai Tho, Low Position
+CB BI200000        Sara Ii
+CC BU100000        Sara Ue
+CD BU200000        Sara Uee
+CE BU300000        Sara U
+CF BU400000        Sara Uu
+D0 SM140000        Right Brace
+D1 LJ020000        J Capital
+D2 LK020000        K Capital
+D3 LL020000        L Capital
+D4 LM020000        M Capital
+D5 LN020000        N Capital
+D6 LO020000        O Capital
+D7 LP020000        P Capital
+D8 LQ020000        Q Capital
+D9 LR020000        R Capital
+DA BQ300000        Phinthu
+DB BE200000        Sara E
+DC BE300000        Sara Ae
+DD BO200000        Sara O
+DE BA500000        Sara Ai maimuan
+DF BA600000        Sara Ai maimalai
+E0 SM070000        Backslash
+E1 BZ300300        Mai Tri, Low Position
+E2 LS020000        S Capital
+E3 LT020000        T Capital
+E4 LU020000        U Capital
+E5 LV020000        V Capital
+E6 LW020000        W Capital
+E7 LX020000        X Capital
+E8 LY020000        Y Capital
+E9 LZ020000        Z Capital
+EA BA700000        Lakkhangyao
+EB BQ100000        Maiyamok
+EC BE100000        Maitaikhu
+ED BZ100000        Mai Ek
+EE BZ200000        Mai Tho
+EF BZ300000        Mai Tri
+F0 ND100000        Zero
+F1 ND010000        One
+F2 ND020000        Two
+F3 ND030000        Three
+F4 ND040000        Four
+F5 ND050000        Five
+F6 ND060000        Six
+F7 ND070000        Seven
+F8 ND080000        Eight
+F9 ND090000        Nine
+FA BZ400000        Mai Chattawa
+FB BZ500000        Thanthakhat
+FC BN400000        Nikkhahit
+FD BZ400300        Mai Chattawa, Low Position
+FE BZ500300        Thanthakhat, Low Position
+FF
+/* END of table --------------------------------------------------------
+

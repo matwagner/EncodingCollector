@@ -1,0 +1,240 @@
+* ----------------------------------------------------------------------
+* Copyright IBM Corporation 1995, 2003. All rights reserved.
+* C-H 3-3220-050       : REGISTRY, Graphic Character Sets and Code Pages
+* Code Page (CPGID)    : 01256
+* Common Name          : Windows, Arabic
+* Registration Date    : 1995
+* Last Revision Date   : 2003
+* Default Encoding     : 4105
+* Code                 : MS Windows (ISO 8 variant)
+* Maximal Character
+* Set (GCSGID)         : 01420
+* Other GCSGIDs        : 01406,, 01416
+* ----------------------------------------------------------------------
+*- GCGID --------- GCGID Name ------------------------------------------
+20 SP010000        Space
+21 SP020000        Exclamation Point
+22 SP040000        Quotation Marks
+23 SM010000        Number Sign
+24 SC030000        Dollar Sign
+25 SM020000        Percent Sign
+26 SM030000        Ampersand
+27 SP050000        Apostrophe
+28 SP060000        Left Parenthesis
+29 SP070000        Right Parenthesis
+2A SM040000        Asterisk
+2B SA010000        Plus Sign
+2C SP080000        Comma
+2D SP100000        Hyphen/Minus Sign
+2E SP110000        Period/Full Stop
+2F SP120000        Slash
+30 ND100000        Zero
+31 ND010000        One
+32 ND020000        Two
+33 ND030000        Three
+34 ND040000        Four
+35 ND050000        Five
+36 ND060000        Six
+37 ND070000        Seven
+38 ND080000        Eight
+39 ND090000        Nine
+3A SP130000        Colon
+3B SP140000        Semicolon
+3C SA030000        Less Than Sign/Greater Than Sign (Arabic)
+3D SA040000        Equal Sign
+3E SA050000        Greater Than Sign/Less Than Sign (Arabic)
+3F SP150000        Question Mark
+40 SM050000        At Sign
+41 LA020000        A Capital
+42 LB020000        B Capital
+43 LC020000        C Capital
+44 LD020000        D Capital
+45 LE020000        E Capital
+46 LF020000        F Capital
+47 LG020000        G Capital
+48 LH020000        H Capital
+49 LI020000        I Capital
+4A LJ020000        J Capital
+4B LK020000        K Capital
+4C LL020000        L Capital
+4D LM020000        M Capital
+4E LN020000        N Capital
+4F LO020000        O Capital
+50 LP020000        P Capital
+51 LQ020000        Q Capital
+52 LR020000        R Capital
+53 LS020000        S Capital
+54 LT020000        T Capital
+55 LU020000        U Capital
+56 LV020000        V Capital
+57 LW020000        W Capital
+58 LX020000        X Capital
+59 LY020000        Y Capital
+5A LZ020000        Z Capital
+5B SM060000        Left Bracket
+5C SM070000        Backslash
+5D SM080000        Right Bracket
+5E SD150000        Circumflex Accent
+5F SP090000        Underline/Continuous Underscore
+60 SD130000        Grave Accent
+61 LA010000        a Small
+62 LB010000        b Small
+63 LC010000        c Small
+64 LD010000        d Small
+65 LE010000        e Small
+66 LF010000        f Small
+67 LG010000        g Small
+68 LH010000        h Small
+69 LI010000        i Small
+6A LJ010000        j Small
+6B LK010000        k Small
+6C LL010000        l Small
+6D LM010000        m Small
+6E LN010000        n Small
+6F LO010000        o Small
+70 LP010000        p Small
+71 LQ010000        q Small
+72 LR010000        r Small
+73 LS010000        s Small
+74 LT010000        t Small
+75 LU010000        u Small
+76 LV010000        v Small
+77 LW010000        w Small
+78 LX010000        x Small
+79 LY010000        y Small
+7A LZ010000        z Small
+7B SM110000        Left Brace
+7C SM130000        Vertical Line/Logical OR
+7D SM140000        Right Brace
+7E SD190000        Tilde Accent
+7F
+80 SC200000        Euro symbol
+81 AP010009        Peh (F/U)
+82 SP260000        Left Lower Single Quote
+83 SC070000        Florin Sign
+84 SP230000        Left Lower Double Quotes
+85 SV520000        Ellipsis
+86 SM340000        Dagger
+87 SM350000        Double Dagger
+88 SD150100        Circumflex Accent (Over Small Alphabetics Without Ascenders)
+89 SM560000        Permille Symbol
+8A AT030009        Tteh (U)
+8B SP270000        Left Angle Single Quote
+8C LO520000        OE Ligature Capital
+8D AC210009        Tcheh (F/U)
+8E AZ210009        Zheh (F), Zzeh (U)
+8F AD030009        Ddal (U)
+90 AG010009        Gaf (F/U)
+91 SP190000        Left Single Quote
+92 SP200000        Right Single Quote
+93 SP210000        Left Double Quotes
+94 SP220000        Right Double Quotes
+95 SM570000        Bullet
+96 SS680000        En Dash
+97 SM900000        Em Dash
+98 AK020009        Keheh (A/F/U)
+99 SM540000        Trademark Symbol, Serif
+9A AR030009        Rreh (U)
+9B SP280000        Right Angle Single Quote
+9C LO510000        oe Ligature Small
+9D SP5300Z0        Non-Joiner, Zero Width
+9E SP5400Z0        Joiner, Zero Width
+9F AN020009        Noon Ghunna (U)
+A0 SP300000        Required Space
+A1 SP080007        Comma Rotated (Arabic)
+A2 SC040000        Cent Sign
+A3 SC020000        Pound Sterling Sign
+A4 SC010000        International Currency Symbol
+A5 SC050000        Yen Sign
+A6 SM650000        Vertical Line, Broken
+A7 SM240000        Section Symbol (USA)/Paragraph Symbol (Europe)
+A8 SD170000        Diaeresis/Umlaut Accent
+A9 SM520000        Copyright Symbol
+AA AH030009        Heh Doachashmee (U)
+AB SP170000        Left Angle Quotes
+AC SM660000        Logical NOT/End Of Line Symbol
+AD SP320000        Syllable Hyphen
+AE SM530000        Registered Trademark Symbol
+AF SD310000        Macron Accent
+B0 SM190000        Degree Symbol
+B1 SA020000        Plus or Minus Sign
+B2 ND021000        Two Superscript
+B3 ND031000        Three Superscript
+B4 SD110000        Acute Accent
+B5 SM170000        Micro Symbol
+B6 SM250000        Paragraph Symbol (USA)
+B7 SD630000        Middle Dot
+B8 SD410000        Cedilla or Sedila Accent
+B9 ND011000        One Superscript
+BA SP140007        Semicolon, Rotated (Arabic)
+BB SP180000        Right Angle Quotes
+BC NF040000        One Quarter
+BD NF010000        One Half
+BE NF050000        Three Quarters
+BF SP150007        Question Mark, Reversed (Arabic)
+C0 AH020009        Heh Goal (U)
+C1 AX300009        Hamza (A)
+C2 AA210009        Aleph Madda (A)
+C3 AA310009        Aleph Hamza (A)
+C4 AW310009        Waw Hamza (A)
+C5 AA310409        Hamza under Aleph (A)
+C6 AY310009        Yeh Hamza (A)
+C7 AA010009        Aleph (A)
+C8 AB010009        Beh (A)
+C9 AT020009        Teh Marbuta (A)
+CA AT010009        Teh (A)
+CB AT470009        Theh (A)
+CC AG230009        Jeem (A)
+CD AH450009        Hah (A)
+CE AH470009        Khah (A)
+CF AD010009        Dal (A)
+D0 AD470009        Thal (A)
+D1 AR010009        Reh (A)
+D2 AZ010009        Zayn (A)
+D3 AS010009        Seen (A)
+D4 AS230009        Sheen (A)
+D5 AS450009        Sad (A)
+D6 AD450009        Dud (A)
+D7 SA070000        Multiply Sign
+D8 AT450009        Tah (A)
+D9 AZ450009        Zah (A)
+DA AC470009        Ayn (A)
+DB AG310009        Ghayn (A)
+DC SM860000        Tatweel (Connector)
+DD AF010009        Feh (A)
+DE AQ010009        Qaf (A)
+DF AK010009        Caf (A)
+E0 LA130000        a Grave Small
+E1 AL010009        Lam (A)
+E2 LA150000        a Circumflex Small
+E3 AM010009        Meem (A)
+E4 AN010009        Noon (A)
+E5 AH010009        Heh (A)
+E6 AW010009        Waw (A)
+E7 LC410000        c Cedilla Small
+E8 LE130000        e Grave Small
+E9 LE110000        e Acute Small
+EA LE150000        e Circumflex Small
+EB LE170000        e Diaeresis Small
+EC AA020009        Aleph Maksura (A)
+ED AY010009        Yeh (A)
+EE LI150000        i Circumflex Small
+EF LI170000        i Diaeresis Small
+F0 AA070009        Fathatan (A)
+F1 AU070009        Dammatan (A)
+F2 AI070009        Kasratan (A)
+F3 AA050009        Fatha (A)
+F4 LO150000        o Circumflex Small
+F5 AU050009        Damma (A)
+F6 AI050009        Kasra (A)
+F7 SA060000        Divide Sign
+F8 AX100009        Shadda (A)
+F9 LU130000        u Grave Small
+FA AE050009        Sukun (A)
+FB LU150000        u Circumflex Small
+FC LU170000        u Diaeresis Small
+FD SP5500Z0        Left-To_Right Mark, Zero Width
+FE SP5600Z0        Right_To_Left Mark, Zero Width
+FF AY040009        Yeh Barree (U)
+/* END of table --------------------------------------------------------
+

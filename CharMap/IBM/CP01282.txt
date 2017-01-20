@@ -1,0 +1,272 @@
+* ----------------------------------------------------------------------
+* Copyright IBM Corporation 1995. All rights reserved.
+* C-H 3-3220-050       : REGISTRY, Graphic Character Sets and Code Pages
+* Code Page (CPGID)    : 01282
+* Common Name          : Apple Central European
+* Registration Date    : 1995
+* Last Revision Date   :
+* Default Encoding     : 4105
+* Code                 : MS Windows (ISO 8 variant)
+* Maximal Character
+* Set (GCSGID)         : 01432
+* Other GCSGIDs        :
+* ----------------------------------------------------------------------
+*- GCGID --------- GCGID Name ------------------------------------------
+00
+01
+02
+03
+04
+05
+06
+07
+08
+09
+0A
+0B
+0C
+0D
+0E
+0F
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+1A
+1B
+1C
+1D
+1E
+1F
+20 SP010000        Space
+21 SP020000        Exclamation Point
+22 SP040000        Quotation Marks
+23 SM010000        Number Sign
+24 SC030000        Dollar Sign
+25 SM020000        Percent Sign
+26 SM030000        Ampersand
+27 SP050000        Apostrophe
+28 SP060000        Left Parenthesis
+29 SP070000        Right Parenthesis
+2A SM040000        Asterisk
+2B SA010000        Plus Sign
+2C SP080000        Comma
+2D SP100000        Hyphen/Minus Sign
+2E SP110000        Period/Full Stop
+2F SP120000        Slash
+30 ND100000        Zero
+31 ND010000        One
+32 ND020000        Two
+33 ND030000        Three
+34 ND040000        Four
+35 ND050000        Five
+36 ND060000        Six
+37 ND070000        Seven
+38 ND080000        Eight
+39 ND090000        Nine
+3A SP130000        Colon
+3B SP140000        Semicolon
+3C SA030000        Less Than Sign/Greater Than Sign (Arabic)
+3D SA040000        Equal Sign
+3E SA050000        Greater Than Sign/Less Than Sign (Arabic)
+3F SP150000        Question Mark
+40 SM050000        At Sign
+41 LA020000        A Capital
+42 LB020000        B Capital
+43 LC020000        C Capital
+44 LD020000        D Capital
+45 LE020000        E Capital
+46 LF020000        F Capital
+47 LG020000        G Capital
+48 LH020000        H Capital
+49 LI020000        I Capital
+4A LJ020000        J Capital
+4B LK020000        K Capital
+4C LL020000        L Capital
+4D LM020000        M Capital
+4E LN020000        N Capital
+4F LO020000        O Capital
+50 LP020000        P Capital
+51 LQ020000        Q Capital
+52 LR020000        R Capital
+53 LS020000        S Capital
+54 LT020000        T Capital
+55 LU020000        U Capital
+56 LV020000        V Capital
+57 LW020000        W Capital
+58 LX020000        X Capital
+59 LY020000        Y Capital
+5A LZ020000        Z Capital
+5B SM060000        Left Bracket
+5C SM070000        Backslash
+5D SM080000        Right Bracket
+5E SD150000        Circumflex Accent
+5F SP090000        Underline/Continuous Underscore
+60 SD130000        Grave Accent
+61 LA010000        a Small
+62 LB010000        b Small
+63 LC010000        c Small
+64 LD010000        d Small
+65 LE010000        e Small
+66 LF010000        f Small
+67 LG010000        g Small
+68 LH010000        h Small
+69 LI010000        i Small
+6A LJ010000        j Small
+6B LK010000        k Small
+6C LL010000        l Small
+6D LM010000        m Small
+6E LN010000        n Small
+6F LO010000        o Small
+70 LP010000        p Small
+71 LQ010000        q Small
+72 LR010000        r Small
+73 LS010000        s Small
+74 LT010000        t Small
+75 LU010000        u Small
+76 LV010000        v Small
+77 LW010000        w Small
+78 LX010000        x Small
+79 LY010000        y Small
+7A LZ010000        z Small
+7B SM110000        Left Brace
+7C SM130000        Vertical Line/Logical OR
+7D SM140000        Right Brace
+7E SD190000        Tilde Accent
+7F
+80 LA180000        A Diaeresis Capital
+81 LA320000        a Macron Capital
+82 LA310000        a Macron Small
+83 LE120000        E Acute Capital
+84 LA440000        A Ogonek Capital
+85 LO180000        O Diaeresis Capital
+86 LU180000        U Diaeresis Capital
+87 LA110000        a Acute Small
+88 LA430000        a Ogonek Small
+89 LC220000        C Caron Capital
+8A LA170000        a Diaeresis Small
+8B LC210000        c Caron Small
+8C LC120000        C Acute Capital
+8D LC110000        c Acute Small
+8E LE110000        e Acute Small
+8F LZ120000        Z Acute Capital
+90 LZ110000        z Acute Small
+91 LD220000        D Caron Capital
+92 LI110000        i Acute Small
+93 LD210000        d Caron Small
+94 LE320000        E Macron Capital
+95 LE310000        e Macron Small
+96 LE300000        E Overdot Capital
+97 LO110000        o Acute Small
+98 LE290000        e Overdot Small
+99 LO150000        o Circumflex Small
+9A LO170000        o Diaeresis Small
+9B LO190000        o Tilde Small
+9C LU110000        u Acute Small
+9D LE220000        E Caron Capital
+9E LE210000        e Caron Small
+9F LU170000        u Diaeresis Small
+A0 SM340000        Dagger
+A1 SM190000        Degree Symbol
+A2 LE440000        E Ogonek Capital
+A3 SC020000        Pound Sterling Sign
+A4 SM240000        Section Symbol (USA)/Paragraph Symbol (Europe)
+A5 SM570000        Bullet
+A6 SM250000        Paragraph Symbol (USA)
+A7 LS610000        Sharp s Small
+A8 SM530000        Registered Trademark Symbol
+A9 SM520000        Copyright Symbol
+AA SM540000        Trademark Symbol, Serif
+AB LE430000        e Ogonek Small
+AC SD170000        Diaeresis/Umlaut Accent
+AD SA540000        Not Equal Sign
+AE LG410000        g Cedilla Small
+AF LI440000        I Ogonek Capital
+B0 LI430000        i Ogonek Small
+B1 LI320000        I Macron Capital
+B2 SA520000        Less Than Or Equal Sign/Greater Than Or Equal Sign (Arabic)
+B3 SA530000        Greater Than Or Equal Sign/Less Than Or Equal Sign (Arabic)
+B4 LI310000        i Macron Small
+B5 LK420000        K Cedilla Capital
+B6 SA490000        Partial Differential Symbol
+B7 SS400000        Summation Symbol
+B8 LL610000        l Stroke Small
+B9 LL420000        L Cedilla Capital
+BA LL410000        l Cedilla Small
+BB LL220000        L Caron Capital
+BC LL210000        l Caron Small
+BD LL120000        L Acute Capital
+BE LL110000        l Acute Small
+BF LN420000        N Cedilla Capital
+C0 LN410000        n Cedilla Small
+C1 LN120000        N Acute Capital
+C2 SM660000        Logical NOT/End Of Line Symbol
+C3 SA800000        Radical Symbol
+C4 LN110000        n Acute Small
+C5 LN220000        N Caron Capital
+C6 SL060000        Delta (APL)
+C7 SP170000        Left Angle Quotes
+C8 SP180000        Right Angle Quotes
+C9 SV520000        Ellipsis
+CA SP300000        Required Space
+CB LN210000        n Caron Small
+CC LO260000        O Double Acute Capital
+CD LO200000        O Tilde Capital
+CE LO250000        o Double Acute Small
+CF LO320000        O Macron Capital
+D0 SS680000        En Dash
+D1 SM900000        Em Dash
+D2 SP210000        Left Double Quotes
+D3 SP220000        Right Double Quotes
+D4 SP190000        Left Single Quote
+D5 SP200000        Right Single Quote
+D6 SA060000        Divide Sign
+D7 SL370000        Less Greater (APL)
+D8 LO310000        o Macron Small
+D9 LR120000        R Acute Capital
+DA LR110000        r Acute Small
+DB LR220000        R Caron Capital
+DC SP270000        Left Angle Single Quote
+DD SP280000        Right Angle Single Quote
+DE LR210000        r Caron Small
+DF LR420000        R Cedillia Capital
+E0 LR410000        r Cedilla Small
+E1 LS220000        S Caron Capital
+E2 SP260000        Left Lower Single Quote
+E3 SP230000        Left Lower Double Quotes
+E4 LS210000        s Caron Small
+E5 LS120000        S Acute Capital
+E6 LS110000        s Acute Small
+E7 LA120000        A Acute Capital
+E8 LT220000        T Caron Capital
+E9 LT210000        t Caron Small
+EA LI120000        I Acute Capital
+EB LZ220000        Z Caron Capital
+EC LZ210000        z Caron Small
+ED LU320000        U Macron Capital
+EE LO120000        O Acute Capital
+EF LO160000        O Circumflex Capital
+F0 LU310000        u Macron Small
+F1 LU280000        u Overcircle Capital
+F2 LU120000        U Acute Capital
+F3 LU270000        u Overcircle Small
+F4 LU260000        U Double Acute Capital
+F5 LU250000        u Double Acute Small
+F6 LU440000        U Ogonek Capital
+F7 LU430000        u Ogonek Small
+F8 LY120000        Y Acute Capital
+F9 LY110000        y Acute Small
+FA LK410000        k Cedilla Small
+FB LZ300000        Z Overdot Capital
+FC LL620000        L Stroke Capital
+FD LZ290000        z Overdot Small
+FE LG420000        G Cedilla Capital
+FF SD210000        Caron Accent
+/* END of table --------------------------------------------------------
+

@@ -1,0 +1,206 @@
+* ----------------------------------------------------------------------
+* Copyright IBM Corporation 1998. All rights reserved.
+* C-H 3-3220-050       : REGISTRY, Graphic Character Sets and Code Pages
+* Char. Set (GCSGID)   : 01415
+* Common Name          : Windows, Hebrew + euro
+* Registration Date    : 1998
+* Last Revision Date   :
+* Size                 : 192
+* Principal Code Pages
+* Containing this CSet : 01255
+* ----------------------------------------------------------------------
+*-GCGID ---------- GCGID Name ------------------------------------------
+HB010000           Bet
+HD010000           Dalet
+HG010000           Gimel
+HH010000           He
+HH450000           Het
+HK010000           Kaf
+HK610000           Kaf (Final Form)
+HL010000           Lamed
+HM010000           Mem
+HM610000           Mem (Final Form)
+HN010000           Nun
+HN610000           Nun (Final Form)
+HP010000           Pe
+HP610000           Pe (Final Form)
+HQ010000           Qof
+HR010000           Resh
+HS010000           Samech
+HS210000           Shin
+HS450000           Zadi
+HS610000           Zadi (Final Form)
+HT010000           Tav
+HT450000           Tet
+HW010000           Vav
+HW610000           Hebrew ligature Yiddish Double Vav
+HW630000           Hebrew ligature Yiddish Vav Yod
+HX330000           Alef
+HX350000           Ayin
+HY010000           Yod
+HY610000           Hebrew ligature Yiddish Double Yod
+HZ010000           Zayin
+LA010000           a Small
+LA020000           A Capital
+LB010000           b Small
+LB020000           B Capital
+LC010000           c Small
+LC020000           C Capital
+LD010000           d Small
+LD020000           D Capital
+LE010000           e Small
+LE020000           E Capital
+LF010000           f Small
+LF020000           F Capital
+LG010000           g Small
+LG020000           G Capital
+LH010000           h Small
+LH020000           H Capital
+LI010000           i Small
+LI020000           I Capital
+LJ010000           j Small
+LJ020000           J Capital
+LK010000           k Small
+LK020000           K Capital
+LL010000           l Small
+LL020000           L Capital
+LM010000           m Small
+LM020000           M Capital
+LN010000           n Small
+LN020000           N Capital
+LO010000           o Small
+LO020000           O Capital
+LP010000           p Small
+LP020000           P Capital
+LQ010000           q Small
+LQ020000           Q Capital
+LR010000           r Small
+LR020000           R Capital
+LS010000           s Small
+LS020000           S Capital
+LT010000           t Small
+LT020000           T Capital
+LU010000           u Small
+LU020000           U Capital
+LV010000           v Small
+LV020000           V Capital
+LW010000           w Small
+LW020000           W Capital
+LX010000           x Small
+LX020000           X Capital
+LY010000           y Small
+LY020000           Y Capital
+LZ010000           z Small
+LZ020000           Z Capital
+ND010000           One
+ND011000           One Superscript
+ND020000           Two
+ND021000           Two Superscript
+ND030000           Three
+ND031000           Three Superscript
+ND040000           Four
+ND050000           Five
+ND060000           Six
+ND070000           Seven
+ND080000           Eight
+ND090000           Nine
+ND100000           Zero
+NF010000           One Half
+NF040000           One Quarter
+NF050000           Three Quarters
+SA010000           Plus Sign
+SA020000           Plus or Minus Sign
+SA030000           Less Than Sign/Greater Than Sign (Arabic)
+SA040000           Equal Sign
+SA050000           Greater Than Sign/Less Than Sign (Arabic)
+SC020000           Pound Sterling Sign
+SC030000           Dollar Sign
+SC040000           Cent Sign
+SC050000           Yen Sign
+SC070000           Florin Sign
+SC170000           New Sheqel Sign
+SC200000           Euro symbol
+SD110000           Acute Accent
+SD130000           Grave Accent
+SD150000           Circumflex Accent
+SD150100           Circumflex Accent (Over Small Alphabetics Without Ascenders)
+SD170000           Diaeresis/Umlaut Accent
+SD190000           Tilde Accent
+SD190100           Tilde Accent (Over Small Alphabetics Without Ascenders)
+SD310000           Macron Accent
+SD630000           Middle Dot
+SD640000           Hebrew Punctuation Maqaf
+SD650000           Hebrew Punctuation Paseq
+SD660000           Hebrew Punctuation Sof Pasuq
+SD808000           Hebrew Point Sheva, Non-Spacing
+SD818000           Hebrew Point Hataf Segol, Non-Spacing
+SD828000           Hebrew Point Hataf Patah, Non-Spacing
+SD838000           Hebrew Point Hataf Qamats, Non-Spacing
+SD848000           Hebrew Point Hiriq, Non-Spacing
+SD858000           Hebrew Point Tsere, Non-Spacing
+SD868000           Hebrew Point Segol, Non-Spacing
+SD878000           Hebrew Point Patah, Non-Spacing
+SD888000           Hebrew Point Qamats, Non-Spacing
+SD898000           Hebrew Point Holam, Non-Spacing
+SD928000           Hebrew Point Qubuts, Non-Spacing
+SD938000           Hebrew Point Dagesh or Mapiq, Non-Spacing
+SD948000           Hebrew Point Meteg, Non-Spacing
+SD958000           Hebrew Point Rafe, Non-Spacing
+SD968000           Hebrew Point Shin Dot, Non-Spacing
+SD978000           Hebrew Point Sin Dot, Non-Spacing
+SM010000           Number Sign
+SM020000           Percent Sign
+SM030000           Ampersand
+SM040000           Asterisk
+SM050000           At Sign
+SM060000           Left Bracket
+SM070000           Backslash
+SM080000           Right Bracket
+SM110000           Left Brace
+SM130000           Vertical Line/Logical OR
+SM140000           Right Brace
+SM170000           Micro Symbol
+SM190000           Degree Symbol
+SM240000           Section Symbol (USA)/Paragraph Symbol (Europe)
+SM250000           Paragraph Symbol (USA)
+SM340000           Dagger
+SM350000           Double Dagger
+SM520000           Copyright Symbol
+SM530000           Registered Trademark Symbol
+SM540000           Trademark Symbol, Serif
+SM560000           Permille Symbol
+SM570000           Bullet
+SM650000           Vertical Line, Broken
+SM660000           Logical NOT/End Of Line Symbol
+SM900000           Em Dash
+SP020000           Exclamation Point
+SP040000           Quotation Marks
+SP050000           Apostrophe
+SP060000           Left Parenthesis
+SP070000           Right Parenthesis
+SP080000           Comma
+SP090000           Underline/Continuous Underscore
+SP100000           Hyphen/Minus Sign
+SP110000           Period/Full Stop
+SP120000           Slash
+SP130000           Colon
+SP140000           Semicolon
+SP150000           Question Mark
+SP170000           Left Angle Quotes
+SP180000           Right Angle Quotes
+SP190000           Left Single Quote
+SP200000           Right Single Quote
+SP210000           Left Double Quotes
+SP220000           Right Double Quotes
+SP230000           Left Lower Double Quotes
+SP260000           Left Lower Single Quote
+SP270000           Left Angle Single Quote
+SP280000           Right Angle Single Quote
+SP300000           Required Space
+SP320000           Syllable Hyphen
+SP5500Z0           Left-To_Right Mark, Zero Width
+SP5600Z0           Right_To_Left Mark, Zero Width
+SS680000           En Dash
+SV520000           Ellipsis
+/* END of table --------------------------------------------------------
+

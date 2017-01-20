@@ -1,0 +1,82 @@
+* ----------------------------------------------------------------------
+* Copyright IBM Corporation 1992. All rights reserved.
+* C-H 3-3220-050       : REGISTRY, Graphic Character Sets and Code Pages
+* Char. Set (GCSGID)   : 01284
+* Common Name          : Japan Katakana Extended
+* Registration Date    : 1992
+* Last Revision Date   :
+* Size                 : 68
+* Principal Code Pages
+* Containing this CSet : 00896
+* ----------------------------------------------------------------------
+*-GCGID ---------- GCGID Name ------------------------------------------
+JA000000           A
+JA010000           a
+JE000000           E
+JE010000           e
+JH100000           HA
+JH200000           HI
+JH300000           HU or FU
+JH400000           HE
+JH500000           HO
+JI000000           I
+JI010000           i
+JK100000           KA
+JK200000           KI
+JK300000           KU
+JK400000           KE
+JK500000           KO
+JM100000           MA
+JM200000           MI
+JM300000           MU
+JM400000           ME
+JM500000           MO
+JN000000           N
+JN100000           NA
+JN200000           NI
+JN300000           NU
+JN400000           NE
+JN500000           NO
+JO000000           O
+JO010000           o
+JQ700000           Katakana Full Stop
+JQ710000           Katakana Left Bracket
+JQ720000           Katakana Right Bracket
+JQ730000           Katakana Comma
+JQ740000           Katakana Conjunctive Symbol
+JR100000           RA
+JR200000           RI
+JR300000           RU
+JR400000           RE
+JR500000           RO
+JS100000           SA
+JS200000           SI or SHI
+JS300000           SU
+JS400000           SE
+JS500000           SO
+JT100000           TA
+JT200000           TI or CHI
+JT300000           TU or TSU
+JT310000           tu or tsu
+JT400000           TE
+JT500000           TO
+JU000000           U
+JU010000           u
+JW100000           WA
+JW500000           WO, Katakana Participle
+JX700000           Prolonged Sound Symbol
+JX710000           Voiced Sound Symbol
+JX720000           Semi-Voiced Sound Symbol
+JY100000           YA
+JY110000           ya
+JY300000           YU
+JY310000           yu
+JY500000           YO
+JY510000           yo
+SC020000           Pound Sterling Sign
+SC040000           Cent Sign
+SD190000           Tilde Accent
+SM070000           Backslash
+SM660000           Logical NOT/End Of Line Symbol
+/* END of table --------------------------------------------------------
+

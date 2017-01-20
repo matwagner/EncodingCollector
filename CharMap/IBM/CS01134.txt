@@ -1,0 +1,54 @@
+* ----------------------------------------------------------------------
+* Copyright IBM Corporation 1988. All rights reserved.
+* C-H 3-3220-050       : REGISTRY, Graphic Character Sets and Code Pages
+* Char. Set (GCSGID)   : 01134
+* Common Name          : SNA Character Set, Type AR
+* Registration Date    : 1988
+* Last Revision Date   :
+* Size                 : 36
+* Principal Code Pages
+* Containing this CSet : 00037, 00256, 00273, 00274, 00275, 00277, 00278,
+*                        00280, 00281, 00282, 00284, 00285, 00297, 00500,
+*                        00871, 01070, 01071, 01072, 01073, 01074, 01075,
+*                        01076, 01077, 01078, 01079, 01080, 01081, 01084,
+*                        01085
+* ----------------------------------------------------------------------
+*-GCGID ---------- GCGID Name ------------------------------------------
+LA020000           A Capital
+LB020000           B Capital
+LC020000           C Capital
+LD020000           D Capital
+LE020000           E Capital
+LF020000           F Capital
+LG020000           G Capital
+LH020000           H Capital
+LI020000           I Capital
+LJ020000           J Capital
+LK020000           K Capital
+LL020000           L Capital
+LM020000           M Capital
+LN020000           N Capital
+LO020000           O Capital
+LP020000           P Capital
+LQ020000           Q Capital
+LR020000           R Capital
+LS020000           S Capital
+LT020000           T Capital
+LU020000           U Capital
+LV020000           V Capital
+LW020000           W Capital
+LX020000           X Capital
+LY020000           Y Capital
+LZ020000           Z Capital
+ND010000           One
+ND020000           Two
+ND030000           Three
+ND040000           Four
+ND050000           Five
+ND060000           Six
+ND070000           Seven
+ND080000           Eight
+ND090000           Nine
+ND100000           Zero
+/* END of table --------------------------------------------------------
+

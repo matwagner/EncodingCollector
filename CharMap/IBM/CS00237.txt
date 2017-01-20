@@ -1,0 +1,188 @@
+* ----------------------------------------------------------------------
+* Copyright IBM Corporation 1984. All rights reserved.
+* C-H 3-3220-050       : REGISTRY, Graphic Character Sets and Code Pages
+* Char. Set (GCSGID)   : 00237
+* Common Name          : Maghreb/French
+* Registration Date    : 1984
+* Last Revision Date   :
+* Size                 : 174
+* Principal Code Pages
+* Containing this CSet : 00421
+* ----------------------------------------------------------------------
+*-GCGID ---------- GCGID Name ------------------------------------------
+AA010000           Aleph (A/F/U)
+AA010002           Aleph (A/F/U)
+AA020000           Aleph Maksura (A)
+AA020002           Aleph Maksura (A)
+AA210000           Aleph Madda (A), Aleph Maddeh (F), Aleph Madd (U)
+AA210002           Aleph Madda (A)
+AA310000           Aleph Hamza (A)
+AA310002           Aleph Hamza (A)
+AB010000           Beh (A/F/U)
+AB010003           Beh (A/F/U)
+AC470000           Ayn (A/F/U)
+AC470002           Ayn (A/F/U)
+AC470003           Ayn (A/F/U)
+AC470004           Ayn (A/F/U)
+AD010000           Dal (A/F/U)
+AD450000           Dud (1st part) (A)
+AD450003           Dud (A), Zad (F), Duad (U)
+AD470000           Thal (A), Zal (F/U)
+AF010000           Feh (A/F/U)
+AF010003           Feh (A/F/U)
+AG230000           Jeem (A/F/U)
+AG230003           Jeem (A/F/U)
+AG310000           Ghayn (A/F/U)
+AG310002           Ghayn (A/F/U)
+AG310003           Ghayn (A/F/U)
+AG310004           Ghayn (A/F/U)
+AH010000           Heh (A/F)
+AH010003           Heh (A/F)
+AH010004           Heh (A/F)
+AH450000           Hah (A), Heh (F/U)
+AH450003           Hah (A), Heh (F/U)
+AH470000           Khah (A), Kheh (F/U)
+AH470003           Khah (A), Kheh (F/U)
+AK010000           Caf (A)
+AK010003           Caf (A/F/U)
+AL010000           Lam (A/F/U)
+AL010003           Lam (A/F)
+AL020000           Lamaleph (A/F)
+AL020003           Lamaleph (A/F)
+AL220000           Lamaleph Madda (A), Lamaleph Maddeh (F)
+AL220003           Lamaleph Madda (A), Lamaleph Maddeh (F)
+AL320000           Lamaleph Hamza (A), Lamaleph Hamzeh (F)
+AL320003           Lamaleph Hamza (A), Lamaleph Hamzeh (F)
+AM010000           Meem (A/F/U)
+AM010003           Meem (A/F/U)
+AN010000           Noon (A/F/U)
+AN010003           Noon (A/F/U)
+AQ010000           Qaf (A/F/U)
+AQ010003           Qaf (A/F/U)
+AR010000           Reh (A/F/U)
+AS010000           Seen (1st part) (A)
+AS010003           Seen (A/F/U)
+AS230000           Sheen (1st part) (A)
+AS230003           Sheen (A/F/U)
+AS450000           Sad (1st part) (A)
+AS450003           Sad (A/F), Suad (U)
+AT010000           Teh (A/F/U)
+AT010003           Teh (A/F/U)
+AT020000           Teh Marbuta (A), Teh Mudawara (U)
+AT450000           Tah (A/F), Toey (U)
+AT470000           Theh (A/F/U)
+AT470003           Theh (A/F/U)
+AW010000           Waw (A), Vav (F), Waow (U)
+AW310000           Waw Hamza (A), Vav Hamzeh (F), Waow Hamza (U)
+AX100000           Shadda (A/F), Shadd (U)
+AX100004           Shadda (A/F), Shadd (U)
+AX300000           Hamza (A), Hamzeh (F), Hamza (U)
+AY010000           Yeh (A)
+AY010002           Yeh (A)
+AY010003           Yeh (A)
+AY310000           Yeh Hamza (A)
+AZ010000           Zayn (A), Zey (F), Zeh (U)
+AZ450000           Zah (F), Zoey (U)
+LA010000           a Small
+LA020000           A Capital
+LA110000           a Acute Small
+LB010000           b Small
+LB020000           B Capital
+LC010000           c Small
+LC020000           C Capital
+LC410000           c Cedilla Small
+LD010000           d Small
+LD020000           D Capital
+LE010000           e Small
+LE020000           E Capital
+LE110000           e Acute Small
+LE130000           e Grave Small
+LF010000           f Small
+LF020000           F Capital
+LG010000           g Small
+LG020000           G Capital
+LH010000           h Small
+LH020000           H Capital
+LI010000           i Small
+LI020000           I Capital
+LJ010000           j Small
+LJ020000           J Capital
+LK010000           k Small
+LK020000           K Capital
+LL010000           l Small
+LL020000           L Capital
+LM010000           m Small
+LM020000           M Capital
+LN010000           n Small
+LN020000           N Capital
+LO010000           o Small
+LO020000           O Capital
+LP010000           p Small
+LP020000           P Capital
+LQ010000           q Small
+LQ020000           Q Capital
+LR010000           r Small
+LR020000           R Capital
+LS010000           s Small
+LS020000           S Capital
+LT010000           t Small
+LT020000           T Capital
+LU010000           u Small
+LU020000           U Capital
+LU110000           u Acute Small
+LV010000           v Small
+LV020000           V Capital
+LW010000           w Small
+LW020000           W Capital
+LX010000           x Small
+LX020000           X Capital
+LY010000           y Small
+LY020000           Y Capital
+LZ010000           z Small
+LZ020000           Z Capital
+ND010000           One
+ND020000           Two
+ND030000           Three
+ND040000           Four
+ND050000           Five
+ND060000           Six
+ND070000           Seven
+ND080000           Eight
+ND090000           Nine
+ND100000           Zero
+SA010000           Plus Sign
+SA030000           Less Than Sign/Greater Than Sign (Arabic)
+SA040000           Equal Sign
+SA050000           Greater Than Sign/Less Than Sign (Arabic)
+SA060000           Divide Sign
+SA070000           Multiply Sign
+SC020000           Pound Sterling Sign
+SC030000           Dollar Sign
+SD150000           Circumflex Accent
+SD170000           Diaeresis/Umlaut Accent
+SM020000           Percent Sign
+SM030000           Ampersand
+SM040000           Asterisk
+SM170000           Micro Symbol
+SM190000           Degree Symbol
+SM240000           Section Symbol (USA)/Paragraph Symbol (Europe)
+SM860000           Tatweel (Connector)
+SM870000           Kasseh (Tail)
+SP020000           Exclamation Point
+SP040000           Quotation Marks
+SP050000           Apostrophe
+SP060000           Left Parenthesis
+SP070000           Right Parenthesis
+SP080000           Comma
+SP080007           Comma Rotated (Arabic)
+SP090000           Underline/Continuous Underscore
+SP100000           Hyphen/Minus Sign
+SP110000           Period/Full Stop
+SP120000           Slash
+SP130000           Colon
+SP140000           Semicolon
+SP140007           Semicolon, Rotated (Arabic)
+SP150000           Question Mark
+SP150007           Question Mark, Reversed (Arabic)
+/* END of table --------------------------------------------------------
+

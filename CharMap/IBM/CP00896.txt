@@ -1,0 +1,144 @@
+* ----------------------------------------------------------------------
+* Copyright IBM Corporation 1992. All rights reserved.
+* C-H 3-3220-050       : REGISTRY, Graphic Character Sets and Code Pages
+* Code Page (CPGID)    : 00896
+* Common Name          : Japan 7-Bit Katakana Extended
+* Registration Date    : 1992
+* Last Revision Date   :
+* Default Encoding     : 5100
+* Code                 : ISO 7-Bit
+* Maximal Character
+* Set (GCSGID)         : 01284
+* Other GCSGIDs        : 01121
+* ----------------------------------------------------------------------
+*- GCGID --------- GCGID Name ------------------------------------------
+00
+01
+02
+03
+04
+05
+06
+07
+08
+09
+0A
+0B
+0C
+0D
+0E
+0F
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+1A
+1B
+1C
+1D
+1E
+1F
+20 SP010000        Space
+21 JQ700000        Katakana Full Stop
+22 JQ710000        Katakana Left Bracket
+23 JQ720000        Katakana Right Bracket
+24 JQ730000        Katakana Comma
+25 JQ740000        Katakana Conjunctive Symbol
+26 JW500000        WO, Katakana Participle
+27 JA010000        a
+28 JI010000        i
+29 JU010000        u
+2A JE010000        e
+2B JO010000        o
+2C JY110000        ya
+2D JY310000        yu
+2E JY510000        yo
+2F JT310000        tu or tsu
+30 JX700000        Prolonged Sound Symbol
+31 JA000000        A
+32 JI000000        I
+33 JU000000        U
+34 JE000000        E
+35 JO000000        O
+36 JK100000        KA
+37 JK200000        KI
+38 JK300000        KU
+39 JK400000        KE
+3A JK500000        KO
+3B JS100000        SA
+3C JS200000        SI or SHI
+3D JS300000        SU
+3E JS400000        SE
+3F JS500000        SO
+40 JT100000        TA
+41 JT200000        TI or CHI
+42 JT300000        TU or TSU
+43 JT400000        TE
+44 JT500000        TO
+45 JN100000        NA
+46 JN200000        NI
+47 JN300000        NU
+48 JN400000        NE
+49 JN500000        NO
+4A JH100000        HA
+4B JH200000        HI
+4C JH300000        HU or FU
+4D JH400000        HE
+4E JH500000        HO
+4F JM100000        MA
+50 JM200000        MI
+51 JM300000        MU
+52 JM400000        ME
+53 JM500000        MO
+54 JY100000        YA
+55 JY300000        YU
+56 JY500000        YO
+57 JR100000        RA
+58 JR200000        RI
+59 JR300000        RU
+5A JR400000        RE
+5B JR500000        RO
+5C JW100000        WA
+5D JN000000        N
+5E JX710000        Voiced Sound Symbol
+5F JX720000        Semi-Voiced Sound Symbol
+60 SC040000        Cent Sign
+61 SC020000        Pound Sterling Sign
+62 SM660000        Logical NOT/End Of Line Symbol
+63 SM070000        Backslash
+64 SD190000        Tilde Accent
+65
+66
+67
+68
+69
+6A
+6B
+6C
+6D
+6E
+6F
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+7A
+7B
+7C
+7D
+7E
+7F
+/* END of table --------------------------------------------------------
+

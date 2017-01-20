@@ -1,0 +1,208 @@
+* ----------------------------------------------------------------------
+* Copyright IBM Corporation 1987, 1998. All rights reserved.
+* C-H 3-3220-050       : REGISTRY, Graphic Character Sets and Code Pages
+* Code Page (CPGID)    : 00424
+* Common Name          : Israel (Hebrew)
+* Registration Date    : 1987
+* Last Revision Date   : 1998
+* Default Encoding     : 1100
+* Code                 : EBCDIC
+* Maximal Character
+* Set (GCSGID)         : 01356
+* Other GCSGIDs        : 01349, 00941, 00687
+* ----------------------------------------------------------------------
+*- GCGID --------- GCGID Name ------------------------------------------
+40 SP010000        Space
+41 HX330000        Alef
+42 HB010000        Bet
+43 HG010000        Gimel
+44 HD010000        Dalet
+45 HH010000        He
+46 HW010000        Vav
+47 HZ010000        Zayin
+48 HH450000        Het
+49 HT450000        Tet
+4A SC040000        Cent Sign
+4B SP110000        Period/Full Stop
+4C SA030000        Less Than Sign/Greater Than Sign (Arabic)
+4D SP060000        Left Parenthesis
+4E SA010000        Plus Sign
+4F SM130000        Vertical Line/Logical OR
+50 SM030000        Ampersand
+51 HY010000        Yod
+52 HK610000        Kaf (Final Form)
+53 HK010000        Kaf
+54 HL010000        Lamed
+55 HM610000        Mem (Final Form)
+56 HM010000        Mem
+57 HN610000        Nun (Final Form)
+58 HN010000        Nun
+59 HS010000        Samech
+5A SP020000        Exclamation Point
+5B SC030000        Dollar Sign
+5C SM040000        Asterisk
+5D SP070000        Right Parenthesis
+5E SP140000        Semicolon
+5F SM660000        Logical NOT/End Of Line Symbol
+60 SP100000        Hyphen/Minus Sign
+61 SP120000        Slash
+62 HX350000        Ayin
+63 HP610000        Pe (Final Form)
+64 HP010000        Pe
+65 HS610000        Zadi (Final Form)
+66 HS450000        Zadi
+67 HQ010000        Qof
+68 HR010000        Resh
+69 HS210000        Shin
+6A SM650000        Vertical Line, Broken
+6B SP080000        Comma
+6C SM020000        Percent Sign
+6D SP090000        Underline/Continuous Underscore
+6E SA050000        Greater Than Sign/Less Than Sign (Arabic)
+6F SP150000        Question Mark
+70
+71 HT010000        Tav
+72
+73
+74 SP300000        Required Space
+75
+76
+77
+78 SM100000        Double Underscore
+79 SD130000        Grave Accent
+7A SP130000        Colon
+7B SM010000        Number Sign
+7C SM050000        At Sign
+7D SP050000        Apostrophe
+7E SA040000        Equal Sign
+7F SP040000        Quotation Marks
+80
+81 LA010000        a Small
+82 LB010000        b Small
+83 LC010000        c Small
+84 LD010000        d Small
+85 LE010000        e Small
+86 LF010000        f Small
+87 LG010000        g Small
+88 LH010000        h Small
+89 LI010000        i Small
+8A SP170000        Left Angle Quotes
+8B SP180000        Right Angle Quotes
+8C
+8D
+8E
+8F SA020000        Plus or Minus Sign
+90 SM190000        Degree Symbol
+91 LJ010000        j Small
+92 LK010000        k Small
+93 LL010000        l Small
+94 LM010000        m Small
+95 LN010000        n Small
+96 LO010000        o Small
+97 LP010000        p Small
+98 LQ010000        q Small
+99 LR010000        r Small
+9A
+9B
+9C SC200000        Euro symbol
+9D SD410000        Cedilla or Sedila Accent
+9E SC170000        New Sheqel Sign
+9F SC010000        International Currency Symbol
+A0 SM170000        Micro Symbol
+A1 SD190000        Tilde Accent
+A2 LS010000        s Small
+A3 LT010000        t Small
+A4 LU010000        u Small
+A5 LV010000        v Small
+A6 LW010000        w Small
+A7 LX010000        x Small
+A8 LY010000        y Small
+A9 LZ010000        z Small
+AA
+AB
+AC
+AD
+AE
+AF SM530000        Registered Trademark Symbol
+B0 SD150000        Circumflex Accent
+B1 SC020000        Pound Sterling Sign
+B2 SC050000        Yen Sign
+B3 SM570000        Bullet
+B4 SM520000        Copyright Symbol
+B5 SM240000        Section Symbol (USA)/Paragraph Symbol (Europe)
+B6 SM250000        Paragraph Symbol (USA)
+B7 NF040000        One Quarter
+B8 NF010000        One Half
+B9 NF050000        Three Quarters
+BA SM060000        Left Bracket
+BB SM080000        Right Bracket
+BC SM150000        Overline
+BD SD170000        Diaeresis/Umlaut Accent
+BE SD110000        Acute Accent
+BF SA070000        Multiply Sign
+C0 SM110000        Left Brace
+C1 LA020000        A Capital
+C2 LB020000        B Capital
+C3 LC020000        C Capital
+C4 LD020000        D Capital
+C5 LE020000        E Capital
+C6 LF020000        F Capital
+C7 LG020000        G Capital
+C8 LH020000        H Capital
+C9 LI020000        I Capital
+CA SP320000        Syllable Hyphen
+CB
+CC
+CD
+CE
+CF
+D0 SM140000        Right Brace
+D1 LJ020000        J Capital
+D2 LK020000        K Capital
+D3 LL020000        L Capital
+D4 LM020000        M Capital
+D5 LN020000        N Capital
+D6 LO020000        O Capital
+D7 LP020000        P Capital
+D8 LQ020000        Q Capital
+D9 LR020000        R Capital
+DA ND011000        One Superscript
+DB SP6000Z0        Left-To-Right Override, Zero Width
+DC SP6100Z0        Right-To-Left Override, Zero Width
+DD SP5900Z0        Pop Directional Format, Zero Width
+DE
+DF
+E0 SM070000        Backslash
+E1 SA060000        Divide Sign
+E2 LS020000        S Capital
+E3 LT020000        T Capital
+E4 LU020000        U Capital
+E5 LV020000        V Capital
+E6 LW020000        W Capital
+E7 LX020000        X Capital
+E8 LY020000        Y Capital
+E9 LZ020000        Z Capital
+EA ND021000        Two Superscript
+EB
+EC
+ED
+EE
+EF
+F0 ND100000        Zero
+F1 ND010000        One
+F2 ND020000        Two
+F3 ND030000        Three
+F4 ND040000        Four
+F5 ND050000        Five
+F6 ND060000        Six
+F7 ND070000        Seven
+F8 ND080000        Eight
+F9 ND090000        Nine
+FA ND031000        Three Superscript
+FB SP5700Z0        Left-To-Right Embedding, Zero Width
+FC SP5800Z0        Right-To-Left Embedding, Zero Width
+FD SP5500Z0        Left-To_Right Mark, Zero Width
+FE SP5600Z0        Right_To_Left Mark, Zero Width
+FF
+/* END of table --------------------------------------------------------
+

@@ -1,0 +1,208 @@
+* ----------------------------------------------------------------------
+* Copyright IBM Corporation 1988. All rights reserved.
+* C-H 3-3220-050       : REGISTRY, Graphic Character Sets and Code Pages
+* Code Page (CPGID)    : 00803
+* Common Name          : Hebrew Character Set A
+* Registration Date    : 1988
+* Last Revision Date   :
+* Default Encoding     : 1100
+* Code                 : EBCDIC
+* Maximal Character
+* Set (GCSGID)         : 01357
+* Other GCSGIDs        : 01147
+* ----------------------------------------------------------------------
+*- GCGID --------- GCGID Name ------------------------------------------
+40 SP010000        Space
+41
+42
+43
+44
+45
+46
+47
+48
+49
+4A SC030000        Dollar Sign
+4B SP110000        Period/Full Stop
+4C SA030000        Less Than Sign/Greater Than Sign (Arabic)
+4D SP060000        Left Parenthesis
+4E SA010000        Plus Sign
+4F SM130000        Vertical Line/Logical OR
+50 HX330000        Alef
+51
+52
+53
+54
+55
+56
+57
+58
+59
+5A SP020000        Exclamation Point
+5B SC150000        Lira Sign, Hebrew
+5C SM040000        Asterisk
+5D SP070000        Right Parenthesis
+5E SP140000        Semicolon
+5F SM660000        Logical NOT/End Of Line Symbol
+60 SP100000        Hyphen/Minus Sign
+61 SP120000        Slash
+62
+63
+64
+65
+66
+67
+68
+69
+6A
+6B SP080000        Comma
+6C SM020000        Percent Sign
+6D SP090000        Underline/Continuous Underscore
+6E SA050000        Greater Than Sign/Less Than Sign (Arabic)
+6F SP150000        Question Mark
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+7A SP130000        Colon
+7B SM010000        Number Sign
+7C SM050000        At Sign
+7D SP050000        Apostrophe
+7E SA040000        Equal Sign
+7F SP040000        Quotation Marks
+80
+81 HB010000        Bet
+82 HG010000        Gimel
+83 HD010000        Dalet
+84 HH010000        He
+85 HW010000        Vav
+86 HZ010000        Zayin
+87 HH450000        Het
+88 HT450000        Tet
+89 HY010000        Yod
+8A
+8B
+8C
+8D
+8E
+8F
+90
+91 HK610000        Kaf (Final Form)
+92 HK010000        Kaf
+93 HL010000        Lamed
+94 HM610000        Mem (Final Form)
+95 HM010000        Mem
+96 HN610000        Nun (Final Form)
+97 HN010000        Nun
+98 HS010000        Samech
+99 HX350000        Ayin
+9A
+9B
+9C SC200000        Euro symbol
+9D
+9E SC170000        New Sheqel Sign
+9F
+A0
+A1
+A2 HP610000        Pe (Final Form)
+A3 HP010000        Pe
+A4 HS610000        Zadi (Final Form)
+A5 HS450000        Zadi
+A6 HQ010000        Qof
+A7 HR010000        Resh
+A8 HS210000        Shin
+A9 HT010000        Tav
+AA
+AB
+AC
+AD
+AE
+AF
+B0
+B1
+B2
+B3
+B4
+B5
+B6
+B7
+B8
+B9
+BA
+BB
+BC
+BD
+BE
+BF
+C0
+C1 LA020000        A Capital
+C2 LB020000        B Capital
+C3 LC020000        C Capital
+C4 LD020000        D Capital
+C5 LE020000        E Capital
+C6 LF020000        F Capital
+C7 LG020000        G Capital
+C8 LH020000        H Capital
+C9 LI020000        I Capital
+CA
+CB
+CC
+CD
+CE
+CF
+D0
+D1 LJ020000        J Capital
+D2 LK020000        K Capital
+D3 LL020000        L Capital
+D4 LM020000        M Capital
+D5 LN020000        N Capital
+D6 LO020000        O Capital
+D7 LP020000        P Capital
+D8 LQ020000        Q Capital
+D9 LR020000        R Capital
+DA
+DB SP6000Z0        Left-To-Right Override, Zero Width
+DC SP6100Z0        Right-To-Left Override, Zero Width
+DD SP5900Z0        Pop Directional Format, Zero Width
+DE
+DF
+E0
+E1
+E2 LS020000        S Capital
+E3 LT020000        T Capital
+E4 LU020000        U Capital
+E5 LV020000        V Capital
+E6 LW020000        W Capital
+E7 LX020000        X Capital
+E8 LY020000        Y Capital
+E9 LZ020000        Z Capital
+EA
+EB
+EC
+ED
+EE
+EF
+F0 ND100000        Zero
+F1 ND010000        One
+F2 ND020000        Two
+F3 ND030000        Three
+F4 ND040000        Four
+F5 ND050000        Five
+F6 ND060000        Six
+F7 ND070000        Seven
+F8 ND080000        Eight
+F9 ND090000        Nine
+FA
+FB SP5700Z0        Left-To-Right Embedding, Zero Width
+FC SP5800Z0        Right-To-Left Embedding, Zero Width
+FD SP5500Z0        Left-To_Right Mark, Zero Width
+FE SP5600Z0        Right_To_Left Mark, Zero Width
+FF
+/* END of table --------------------------------------------------------
+

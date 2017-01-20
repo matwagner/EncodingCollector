@@ -1,0 +1,272 @@
+* ----------------------------------------------------------------------
+* Copyright IBM Corporation 1995. All rights reserved.
+* C-H 3-3220-050       : REGISTRY, Graphic Character Sets and Code Pages
+* Code Page (CPGID)    : 01275
+* Common Name          : Apple, Latin 1
+* Registration Date    : 1995
+* Last Revision Date   :
+* Default Encoding     : 4105
+* Code                 : MS Windows (ISO 8 variant)
+* Maximal Character
+* Set (GCSGID)         : 01425
+* Other GCSGIDs        : 01428
+* ----------------------------------------------------------------------
+*- GCGID --------- GCGID Name ------------------------------------------
+00
+01
+02
+03
+04
+05
+06
+07
+08
+09
+0A
+0B
+0C
+0D
+0E
+0F
+10
+11 SS300000        Option/Point of interest
+12 SV010000        Check Mark
+13 SS030000        Diamond Suit Symbol
+14 SV640000        Apple logo
+15
+16
+17
+18
+19
+1A
+1B
+1C
+1D
+1E
+1F
+20 SP010000        Space
+21 SP020000        Exclamation Point
+22 SP040000        Quotation Marks
+23 SM010000        Number Sign
+24 SC030000        Dollar Sign
+25 SM020000        Percent Sign
+26 SM030000        Ampersand
+27 SP050000        Apostrophe
+28 SP060000        Left Parenthesis
+29 SP070000        Right Parenthesis
+2A SM040000        Asterisk
+2B SA010000        Plus Sign
+2C SP080000        Comma
+2D SP100000        Hyphen/Minus Sign
+2E SP110000        Period/Full Stop
+2F SP120000        Slash
+30 ND100000        Zero
+31 ND010000        One
+32 ND020000        Two
+33 ND030000        Three
+34 ND040000        Four
+35 ND050000        Five
+36 ND060000        Six
+37 ND070000        Seven
+38 ND080000        Eight
+39 ND090000        Nine
+3A SP130000        Colon
+3B SP140000        Semicolon
+3C SA030000        Less Than Sign/Greater Than Sign (Arabic)
+3D SA040000        Equal Sign
+3E SA050000        Greater Than Sign/Less Than Sign (Arabic)
+3F SP150000        Question Mark
+40 SM050000        At Sign
+41 LA020000        A Capital
+42 LB020000        B Capital
+43 LC020000        C Capital
+44 LD020000        D Capital
+45 LE020000        E Capital
+46 LF020000        F Capital
+47 LG020000        G Capital
+48 LH020000        H Capital
+49 LI020000        I Capital
+4A LJ020000        J Capital
+4B LK020000        K Capital
+4C LL020000        L Capital
+4D LM020000        M Capital
+4E LN020000        N Capital
+4F LO020000        O Capital
+50 LP020000        P Capital
+51 LQ020000        Q Capital
+52 LR020000        R Capital
+53 LS020000        S Capital
+54 LT020000        T Capital
+55 LU020000        U Capital
+56 LV020000        V Capital
+57 LW020000        W Capital
+58 LX020000        X Capital
+59 LY020000        Y Capital
+5A LZ020000        Z Capital
+5B SM060000        Left Bracket
+5C SM070000        Backslash
+5D SM080000        Right Bracket
+5E SD150000        Circumflex Accent
+5F SP090000        Underline/Continuous Underscore
+60 SD130000        Grave Accent
+61 LA010000        a Small
+62 LB010000        b Small
+63 LC010000        c Small
+64 LD010000        d Small
+65 LE010000        e Small
+66 LF010000        f Small
+67 LG010000        g Small
+68 LH010000        h Small
+69 LI010000        i Small
+6A LJ010000        j Small
+6B LK010000        k Small
+6C LL010000        l Small
+6D LM010000        m Small
+6E LN010000        n Small
+6F LO010000        o Small
+70 LP010000        p Small
+71 LQ010000        q Small
+72 LR010000        r Small
+73 LS010000        s Small
+74 LT010000        t Small
+75 LU010000        u Small
+76 LV010000        v Small
+77 LW010000        w Small
+78 LX010000        x Small
+79 LY010000        y Small
+7A LZ010000        z Small
+7B SM110000        Left Brace
+7C SM130000        Vertical Line/Logical OR
+7D SM140000        Right Brace
+7E SD190000        Tilde Accent
+7F
+80 LA180000        A Diaeresis Capital
+81 LA280000        A Overcircle Capital
+82 LC420000        C Cedilla Capital
+83 LE120000        E Acute Capital
+84 LN200000        N Tilde Capital
+85 LO180000        O Diaeresis Capital
+86 LU180000        U Diaeresis Capital
+87 LA110000        a Acute Small
+88 LA130000        a Grave Small
+89 LA150000        a Circumflex Small
+8A LA170000        a Diaeresis Small
+8B LA190000        a Tilde Small
+8C LA270000        a Overcircle Small
+8D LC410000        c Cedilla Small
+8E LE110000        e Acute Small
+8F LE130000        e Grave Small
+90 LE150000        e Circumflex Small
+91 LE170000        e Diaeresis Small
+92 LI110000        i Acute Small
+93 LI130000        i Grave Small
+94 LI150000        i Circumflex Small
+95 LI170000        i Diaeresis Small
+96 LN190000        n Tilde Small
+97 LO110000        o Acute Small
+98 LO130000        o Grave Small
+99 LO150000        o Circumflex Small
+9A LO170000        o Diaeresis Small
+9B LO190000        o Tilde Small
+9C LU110000        u Acute Small
+9D LU130000        u Grave Small
+9E LU150000        u Circumflex Small
+9F LU170000        u Diaeresis Small
+A0 SM340000        Dagger
+A1 SM190000        Degree Symbol
+A2 SC040000        Cent Sign
+A3 SC020000        Pound Sterling Sign
+A4 SM240000        Section Symbol (USA)/Paragraph Symbol (Europe)
+A5 SM570000        Bullet
+A6 SM250000        Paragraph Symbol (USA)
+A7 LS610000        Sharp s Small
+A8 SM530000        Registered Trademark Symbol
+A9 SM520000        Copyright Symbol
+AA SM540000        Trademark Symbol, Serif
+AB SD110000        Acute Accent
+AC SD170000        Diaeresis/Umlaut Accent
+AD SA540000        Not Equal Sign
+AE LA520000        ae Diphthong Capital
+AF LO620000        O Slash Capital
+B0 SA450000        Infinity Symbol
+B1 SA020000        Plus or Minus Sign
+B2 SA520000        Less Than Or Equal Sign/Greater Than Or Equal Sign (Arabic)
+B3 SA530000        Greater Than Or Equal Sign/Less Than Or Equal Sign (Arabic)
+B4 SC050000        Yen Sign
+B5 SM170000        Micro Symbol
+B6 SA490000        Partial Differential Symbol
+B7 SS400000        Summation Symbol
+B8 SA810000        Product Sign
+B9 GP010000        Pi Small
+BA SA510000        Integral Symbol
+BB SM210000        Ordinal Indicator, Feminine
+BC SM200000        Ordinal Indicator, Masculine
+BD SM180000        Ohm Sign
+BE LA510000        ae Diphthong Small
+BF LO610000        o Slash Small
+C0 SP160000        Question Mark, Inverted
+C1 SP030000        Exclamation Point, Inverted
+C2 SM660000        Logical NOT/End Of Line Symbol
+C3 SA800000        Radical Symbol
+C4 SC070000        Florin Sign
+C5 SA700000        Nearly Equals Symbol
+C6 SL060000        Delta (APL)
+C7 SP170000        Left Angle Quotes
+C8 SP180000        Right Angle Quotes
+C9 SV520000        Ellipsis
+CA SP300000        Required Space
+CB LA140000        A Grave Capital
+CC LA200000        A Tilde Capital
+CD LO200000        O Tilde Capital
+CE LO520000        OE Ligature Capital
+CF LO510000        oe Ligature Small
+D0 SS680000        En Dash
+D1 SM900000        Em Dash
+D2 SP210000        Left Double Quotes
+D3 SP220000        Right Double Quotes
+D4 SP190000        Left Single Quote
+D5 SP200000        Right Single Quote
+D6 SA060000        Divide Sign
+D7 SL370000        Less Greater (APL)
+D8 LY170000        y Diaeresis Small
+D9 LY180000        Y Diaeresis Capital
+DA SP120001        Fractional Slash
+DB SC010000        International Currency Symbol
+DC SP270000        Left Angle Single Quote
+DD SP280000        Right Angle Single Quote
+DE LF530000        fi Ligature
+DF LF550000        fl Ligature
+E0 SM350000        Double Dagger
+E1 SD630000        Middle Dot
+E2 SP260000        Left Lower Single Quote
+E3 SP230000        Left Lower Double Quotes
+E4 SM560000        Permille Symbol
+E5 LA160000        A Circumflex Capital
+E6 LE160000        E Circumflex Capital
+E7 LA120000        A Acute Capital
+E8 LE180000        E Diaeresis Capital
+E9 LE140000        E Grave Capital
+EA LI120000        I Acute Capital
+EB LI160000        I Circumflex Capital
+EC LI180000        I Diaeresis Capital
+ED LI140000        I Grave Capital
+EE LO120000        O Acute Capital
+EF LO160000        O Circumflex Capital
+F0 SV640000        Apple logo
+F1 LO140000        O Grave Capital
+F2 LU120000        U Acute Capital
+F3 LU160000        U Circumflex Capital
+F4 LU140000        U Grave Capital
+F5 LI610000        i Dotless Small
+F6 SD150100        Circumflex Accent (Over Small Alphabetics Without Ascenders)
+F7 SD190100        Tilde Accent (Over Small Alphabetics Without Ascenders)
+F8 SD310000        Macron Accent
+F9 SD230000        Breve Accent
+FA SD290000        Overdot Accent
+FB SD270000        Overcircle Accent
+FC SD410000        Cedilla or Sedila Accent
+FD SD250000        Double Acute Accent
+FE SD430000        Ogonek Accent
+FF SD210000        Caron Accent
+/* END of table --------------------------------------------------------
+

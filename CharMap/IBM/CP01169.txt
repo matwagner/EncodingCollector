@@ -1,0 +1,272 @@
+* ----------------------------------------------------------------------
+* Copyright IBM Corporation 2002. All rights reserved.
+* C-H 3-3220-050       : REGISTRY, Graphic Character Sets and Code Pages
+* Code Page (CPGID)    : 01169
+* Common Name          : Windows, Cyrillic Asian
+* Registration Date    : 2002
+* Last Revision Date   :
+* Default Encoding     : 4105
+* Code                 : MS Windows (ISO 8 variant)
+* Maximal Character
+* Set (GCSGID)         : 01507
+* Other GCSGIDs        :
+* ----------------------------------------------------------------------
+*- GCGID --------- GCGID Name ------------------------------------------
+00
+01
+02
+03
+04
+05
+06
+07
+08
+09
+0A
+0B
+0C
+0D
+0E
+0F
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+1A
+1B
+1C
+1D
+1E
+1F
+20 SP010000        Space
+21 SP020000        Exclamation Point
+22 SP040000        Quotation Marks
+23 SM010000        Number Sign
+24 SC030000        Dollar Sign
+25 SM020000        Percent Sign
+26 SM030000        Ampersand
+27 SP050000        Apostrophe
+28 SP060000        Left Parenthesis
+29 SP070000        Right Parenthesis
+2A SM040000        Asterisk
+2B SA010000        Plus Sign
+2C SP080000        Comma
+2D SP100000        Hyphen/Minus Sign
+2E SP110000        Period/Full Stop
+2F SP120000        Slash
+30 ND100000        Zero
+31 ND010000        One
+32 ND020000        Two
+33 ND030000        Three
+34 ND040000        Four
+35 ND050000        Five
+36 ND060000        Six
+37 ND070000        Seven
+38 ND080000        Eight
+39 ND090000        Nine
+3A SP130000        Colon
+3B SP140000        Semicolon
+3C SA030000        Less Than Sign/Greater Than Sign (Arabic)
+3D SA040000        Equal Sign
+3E SA050000        Greater Than Sign/Less Than Sign (Arabic)
+3F SP150000        Question Mark
+40 SM050000        At Sign
+41 LA020000        A Capital
+42 LB020000        B Capital
+43 LC020000        C Capital
+44 LD020000        D Capital
+45 LE020000        E Capital
+46 LF020000        F Capital
+47 LG020000        G Capital
+48 LH020000        H Capital
+49 LI020000        I Capital
+4A LJ020000        J Capital
+4B LK020000        K Capital
+4C LL020000        L Capital
+4D LM020000        M Capital
+4E LN020000        N Capital
+4F LO020000        O Capital
+50 LP020000        P Capital
+51 LQ020000        Q Capital
+52 LR020000        R Capital
+53 LS020000        S Capital
+54 LT020000        T Capital
+55 LU020000        U Capital
+56 LV020000        V Capital
+57 LW020000        W Capital
+58 LX020000        X Capital
+59 LY020000        Y Capital
+5A LZ020000        Z Capital
+5B SM060000        Left Bracket
+5C SM070000        Backslash
+5D SM080000        Right Bracket
+5E SD150000        Circumflex Accent
+5F SP090000        Underline/Continuous Underscore
+60 SD130000        Grave Accent
+61 LA010000        a Small
+62 LB010000        b Small
+63 LC010000        c Small
+64 LD010000        d Small
+65 LE010000        e Small
+66 LF010000        f Small
+67 LG010000        g Small
+68 LH010000        h Small
+69 LI010000        i Small
+6A LJ010000        j Small
+6B LK010000        k Small
+6C LL010000        l Small
+6D LM010000        m Small
+6E LN010000        n Small
+6F LO010000        o Small
+70 LP010000        p Small
+71 LQ010000        q Small
+72 LR010000        r Small
+73 LS010000        s Small
+74 LT010000        t Small
+75 LU010000        u Small
+76 LV010000        v Small
+77 LW010000        w Small
+78 LX010000        x Small
+79 LY010000        y Small
+7A LZ010000        z Small
+7B SM110000        Left Brace
+7C SM130000        Vertical Line/Logical OR
+7D SM140000        Right Brace
+7E SD190000        Tilde Accent
+7F
+80 KZ480000        ZHE Capital with Descender
+81 KG620000        GHE Capital with Stroke
+82 KU320000        U Capital with Macron
+83 KG610000        ghe Small with Stroke
+84 SP230000        Left Lower Double Quotes
+85 SV520000        Ellipsis
+86 KC480000        CHE Capital with Descender
+87 KU680000        Straight U Capital
+88 KH460000        HA Capital with Descender
+89 KU670000        Straight u Small
+8A KK680000        Bashkir KA Capital
+8B KI320000        I Capital with Macron
+8C KN460000        EN Capital with Descender
+8D KK460000        KA Capital with Descender
+8E KH640000        SHHA Capital
+8F KC660000        CHE Capital with Vertical Stroke
+90 KZ470000        zhe Small with Descender
+91 SP190000        Left Single Quote
+92 SP200000        Right Single Quote
+93 SP210000        Left Double Quotes
+94 SP220000        Right Double Quotes
+95 SM570000        Bullet
+96 SS680000        En Dash
+97 SM900000        Em Dash
+98 KH450000        ha Small with Descender
+99 KC470000        che Small with Descender
+9A KK670000        Bashkir ka Small
+9B KI310000        i Small with Macron
+9C KN450000        en Small with Descender
+9D KK450000        ka Small with Descender
+9E KH630000        shha Small
+9F KC650000        che Small with Vertical Stroke
+A0 SP300000        Required Space
+A1 KU240000        U Breve Capital
+A2 KU230000        u Breve Small
+A3 KJ020000        J Capital
+A4 KO680000        Barred O Capital
+A5 KZ460000        ZE Capital with Descender
+A6 KU700000        Straight U Capital with Stroke
+A7 SM240000        Section Symbol (USA)/Paragraph Symbol (Europe)
+A8 KE180000        E Diaeresis Capital
+A9 SM520000        Copyright Symbol
+AA KE680000        SCHWA Capital
+AB SP170000        Left Angle Quotes
+AC SM660000        Logical NOT/End Of Line Symbol
+AD KU310000        u Small with Macron
+AE SM530000        Registered Trademark Symbol
+AF KK660000        KA Capital with Vertical Stroke
+B0 SM190000        Degree Symbol
+B1 KU690000        Straight u Small with Stroke
+B2 KI120000        I Special Capital
+B3 KI110000        i Special Small
+B4 KZ450000        ze Small with Descender
+B5 KO670000        Barred o Small
+B6 SM250000        Paragraph Symbol (USA)
+B7 SD630000        Middle Dot
+B8 KE170000        e Diaeresis Small
+B9 SM000000        Numero Sign
+BA KE670000        schwa Small
+BB SP180000        Right Angle Quotes
+BC KJ010000        j Small
+BD KS460000        ES Capital with Descender
+BE KS450000        es Small with Descender
+BF KK650000        ka Small with Vertical Stroke
+C0 KA020000        A Capital
+C1 KB020000        B Capital
+C2 KV020000        V Capital
+C3 KG020000        G Capital
+C4 KD020000        D Capital
+C5 KE020000        E Capital
+C6 KZ220000        zh Capital
+C7 KZ020000        Z Capital
+C8 KI020000        I Capital
+C9 KJ120000        J Special Capital
+CA KK020000        K Capital
+CB KL020000        L Capital
+CC KM020000        M Capital
+CD KN020000        N Capital
+CE KO020000        O Capital
+CF KP020000        P Capital
+D0 KR020000        R Capital
+D1 KS020000        S Capital
+D2 KT020000        T Capital
+D3 KU020000        U Capital
+D4 KF020000        F Capital
+D5 KH020000        KH Capital
+D6 KC020000        TS Capital
+D7 KC220000        CH Capital
+D8 KS220000        SH Capital
+D9 KS160000        SHCH Capital
+DA KU220000        Hard Sign Capital
+DB KY020000        Y Capital
+DC KX120000        Soft Sign Capital
+DD KE140000        E Special Capital
+DE KU160000        YU Capital
+DF KA160000        YA Capital
+E0 KA010000        a Small
+E1 KB010000        b Small
+E2 KV010000        v Small
+E3 KG010000        g Small
+E4 KD010000        d Small
+E5 KE010000        e Small
+E6 KZ210000        zh Small
+E7 KZ010000        z Small
+E8 KI010000        i Small
+E9 KJ110000        j Special Small
+EA KK010000        k Small
+EB KL010000        l Small
+EC KM010000        m Small
+ED KN010000        n Small
+EE KO010000        o Small
+EF KP010000        p Small
+F0 KR010000        r Small
+F1 KS010000        s Small
+F2 KT010000        t Small
+F3 KU010000        u Small
+F4 KF010000        f Small
+F5 KH010000        kh Small
+F6 KC010000        ts Small
+F7 KC210000        ch Small
+F8 KS210000        sh Small
+F9 KS150000        shch Small
+FA KU210000        Hard Sign Small
+FB KY010000        y Small
+FC KX110000        Soft Sign Small
+FD KE130000        e Special Small
+FE KU150000        yu Small
+FF KA150000        ya Small
+/* END of table --------------------------------------------------------
+

@@ -1,0 +1,152 @@
+* ----------------------------------------------------------------------
+* Copyright IBM Corporation 1988. All rights reserved.
+* C-H 3-3220-050       : REGISTRY, Graphic Character Sets and Code Pages
+* Char. Set (GCSGID)   : 00963
+* Common Name          : Graphic Escape APL2/TN - 138
+* Registration Date    : 1988
+* Last Revision Date   :
+* Size                 : 138
+* Principal Code Pages
+* Containing this CSet : 00310
+* ----------------------------------------------------------------------
+*-GCGID ---------- GCGID Name ------------------------------------------
+LA480000           A Line Below Capital/A Underscore (APL)
+LB480000           B Line Below Capital/B Underscore (APL)
+LC480000           C Line Below Capital/C Underscore (APL)
+LD480000           D Line Below Capital/D Underscore (APL)
+LE480000           E Line Below Capital/E Underscore (APL)
+LF480000           F Line Below Capital/F Underscore (APL)
+LG480000           G Line Below Capital/G Underscore (APL)
+LH480000           H Line Below Capital/H Underscore (APL)
+LI480000           I Line Below Capital/I Underscore (APL)
+LJ480000           J Line Below Capital/J Underscore (APL)
+LK480000           K Line Below Capital/K Underscore (APL)
+LL480000           L Line Below Capital/L Underscore (APL)
+LM480000           M Line Below Capital/M Underscore (APL)
+LN012000           n Small Subscript
+LN480000           N Line Below Capital/N Underscore (APL)
+LO480000           O Line Below Capital/O Underscore (APL)
+LP480000           P Line Below Capital/P Underscore (APL)
+LQ480000           Q Line Below Capital/Q Underscore (APL)
+LR480000           R Line Below Capital/R Underscore (APL)
+LS480000           S Line Below Capital/S Underscore (APL)
+LT480000           T Line Below Capital/T Underscore (APL)
+LU480000           U Line Below Capital/U Underscore (APL)
+LV480000           V Line Below Capital/V Underscore (APL)
+LW480000           W Line Below Capital/W Underscore (APL)
+LX480000           X Line Below Capital/X Underscore (APL)
+LY480000           Y Line Below Capital/Y Underscore (APL)
+LZ480000           Z Line Below Capital/Z Underscore (APL)
+ND011000           One Superscript
+ND012000           One Subscript
+ND021000           Two Superscript
+ND022000           Two Subscript
+ND031000           Three Superscript
+ND032000           Three Subscript
+ND041000           Four Superscript
+ND051000           Five Superscript
+ND061000           Six Superscript
+ND071000           Seven Superscript
+ND081000           Eight Superscript
+ND091000           Nine Superscript
+ND101000           Zero Superscript
+SA011000           Plus Sign Superscript
+SA020000           Plus or Minus Sign
+SF010000           Upper Left Box Corner
+SF020000           Lower Left Box Corner
+SF030000           Upper Right Box Corner
+SF040000           Lower Right Box Corner
+SF050000           Box Intersection
+SF060000           Middle Box Top
+SF070000           Middle Box Bottom
+SF080000           Left Middle Box Side
+SF090000           Right Middle Box Side
+SF100000           Center Box Bar Horizontal
+SF570000           Solid Fill Character, Bottom Half
+SF580000           Solid Fill Character, Left Half
+SF590000           Solid Fill Character, Right Half
+SF600000           Solid Fill Character, Top Half
+SF610000           Solid Fill Character
+SF620000           Double Horizontal, Bar Graphic
+SF630000           Double Vertical, Bar Graphic
+SF640000           Left Vertical, Bar Graphic
+SF650000           Right Vertical, Bar Graphic
+SF660000           Center Vertical, Bar Graphic
+SL010000           Up Stile (APL)
+SL020000           Down Stile (APL)
+SL030000           Del (APL)
+SL040000           Del Tilde (APL)
+SL050000           Del Stile (APL)
+SL060000           Delta (APL)
+SL070000           Delta Stile (APL)
+SL080000           Circle (APL)
+SL090000           Circle Stile (APL)
+SL100000           Circle Slope (APL)
+SL110000           Circle Star (APL)
+SL120000           Circle Bar
+SL130000           Quad Quote (APL)
+SL140000           Quad Divide (APL)
+SL150000           Slash Bar (APL)
+SL160000           Slope Bar (APL)
+SL170000           Up Caret Tilde (APL)
+SL180000           Down Caret Tilde (APL)
+SL190000           Down Tack Jot (APL)
+SL200000           Up Tack Jot (APL)
+SL210000           Up Shoe Null (APL)
+SL220000           Up Tack (APL)
+SL230000           Down Tack (APL)
+SL240000           Down Tack Up Tack (APL)
+SL250000           Jot (APL)
+SL260000           Left Bracket Right Bracket (APL)
+SL270000           Quad Jot (APL)
+SL280000           Quad Slope (APL)
+SL300000           Equal Underbar (APL)
+SL320000           Diaeresis Dot (APL)
+SL330000           Delta Underbar (APL)
+SL340000           Left Tack (APL)
+SL350000           Right Tack (APL)
+SL360000           Quad (APL)
+SL370000           Less Greater (APL)
+SL380000           Stile (APL)
+SL400000           Up Shoe (APL)
+SL410000           Down Shoe (APL)
+SL420000           Left Shoe (APL)
+SL430000           Right Shoe (APL)
+SL450000           Diaeresis (APL)
+SL460000           Tilde (APL)
+SL500000           Down Caret (APL)
+SL510000           Up Caret (APL)
+SL540000           Divide (APL)
+SL550000           Times (APL)
+SL560000           Not Greater (APL)
+SL570000           Not Less (APL)
+SL580000           Quote Dot (APL)
+SL590000           Left Arrow (APL)
+SL600000           Right Arrow (APL)
+SL610000           Up Arrow (APL)
+SL620000           Down Arrow (APL)
+SL630000           Overbar (APL)
+SL640000           Slope (APL)
+SL710000           Alpha (APL)
+SL720000           Epsilon (APL)
+SL730000           Iota (APL)
+SL740000           Rho (APL)
+SL750000           Omega (APL)
+SL770000           Left Bracket (APL)
+SL780000           Right Bracket (APL)
+SL820000           Not Equal (APL)
+SL860000           Iota Underbar (APL)
+SL870000           Epsilon Underbar (APL)
+SM110000           Left Brace
+SM140000           Right Brace
+SM190000           Degree Symbol
+SM240000           Section Symbol (USA)/Paragraph Symbol (Europe)
+SM250000           Paragraph Symbol (USA)
+SM470000           Solid Square/Histogram/Square Bullet
+SM490000           Lozenge
+SM570000           Bullet
+SP061000           Left Parenthesis Superscript
+SP071000           Right Parenthesis Superscript
+SP101000           Minus Sign Superscript
+/* END of table --------------------------------------------------------
+

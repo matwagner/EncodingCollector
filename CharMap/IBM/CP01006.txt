@@ -1,0 +1,272 @@
+* ----------------------------------------------------------------------
+* Copyright IBM Corporation 1988. All rights reserved.
+* C-H 3-3220-050       : REGISTRY, Graphic Character Sets and Code Pages
+* Code Page (CPGID)    : 01006
+* Common Name          : Urdu, 8-Bit
+* Registration Date    : 1988
+* Last Revision Date   :
+* Default Encoding     : 4100
+* Code                 : ISO 8-Bit
+* Maximal Character
+* Set (GCSGID)         : 01160
+* Other GCSGIDs        : 01168
+* ----------------------------------------------------------------------
+*- GCGID --------- GCGID Name ------------------------------------------
+00
+01
+02
+03
+04
+05
+06
+07
+08
+09
+0A
+0B
+0C
+0D
+0E
+0F
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+1A
+1B
+1C
+1D
+1E
+1F
+20 SP010000        Space
+21 SP020000        Exclamation Point
+22 SP040000        Quotation Marks
+23 SM010000        Number Sign
+24 SC030000        Dollar Sign
+25 SM020007        Percent Sign (Arabic)
+26 SM030000        Ampersand
+27 SP050000        Apostrophe
+28 SP060000        Left Parenthesis
+29 SP070000        Right Parenthesis
+2A SM040007        Asterisk (Arabic Preference - 5 points)
+2B SA010000        Plus Sign
+2C SP080000        Comma
+2D SP100000        Hyphen/Minus Sign
+2E SP110000        Period/Full Stop
+2F SP120000        Slash
+30 ND100000        Zero
+31 ND010000        One
+32 ND020000        Two
+33 ND030000        Three
+34 ND040000        Four
+35 ND050000        Five
+36 ND060000        Six
+37 ND070000        Seven
+38 ND080000        Eight
+39 ND090000        Nine
+3A SP130000        Colon
+3B SP140000        Semicolon
+3C SA030000        Less Than Sign/Greater Than Sign (Arabic)
+3D SA040000        Equal Sign
+3E SA050000        Greater Than Sign/Less Than Sign (Arabic)
+3F SP150000        Question Mark
+40 SM050000        At Sign
+41 LA020000        A Capital
+42 LB020000        B Capital
+43 LC020000        C Capital
+44 LD020000        D Capital
+45 LE020000        E Capital
+46 LF020000        F Capital
+47 LG020000        G Capital
+48 LH020000        H Capital
+49 LI020000        I Capital
+4A LJ020000        J Capital
+4B LK020000        K Capital
+4C LL020000        L Capital
+4D LM020000        M Capital
+4E LN020000        N Capital
+4F LO020000        O Capital
+50 LP020000        P Capital
+51 LQ020000        Q Capital
+52 LR020000        R Capital
+53 LS020000        S Capital
+54 LT020000        T Capital
+55 LU020000        U Capital
+56 LV020000        V Capital
+57 LW020000        W Capital
+58 LX020000        X Capital
+59 LY020000        Y Capital
+5A LZ020000        Z Capital
+5B SM060000        Left Bracket
+5C SM070000        Backslash
+5D SM080000        Right Bracket
+5E SD150000        Circumflex Accent
+5F SP090000        Underline/Continuous Underscore
+60 SD130000        Grave Accent
+61 LA010000        a Small
+62 LB010000        b Small
+63 LC010000        c Small
+64 LD010000        d Small
+65 LE010000        e Small
+66 LF010000        f Small
+67 LG010000        g Small
+68 LH010000        h Small
+69 LI010000        i Small
+6A LJ010000        j Small
+6B LK010000        k Small
+6C LL010000        l Small
+6D LM010000        m Small
+6E LN010000        n Small
+6F LO010000        o Small
+70 LP010000        p Small
+71 LQ010000        q Small
+72 LR010000        r Small
+73 LS010000        s Small
+74 LT010000        t Small
+75 LU010000        u Small
+76 LV010000        v Small
+77 LW010000        w Small
+78 LX010000        x Small
+79 LY010000        y Small
+7A LZ010000        z Small
+7B SM110000        Left Brace
+7C SM130000        Vertical Line/Logical OR
+7D SM140000        Right Brace
+7E SD190000        Tilde Accent
+7F
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+8A
+8B
+8C
+8D
+8E
+8F
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+9A
+9B
+9C
+9D
+9E
+9F
+A0 SP300000        Required Space
+A1 ND100001        Zero (Arabic, Urdu)
+A2 ND010001        One (Arabic, Farsi, Urdu)
+A3 ND020001        Two (Arabic, Farsi, Urdu)
+A4 ND030001        Three (Arabic, Farsi, Urdu)
+A5 ND040004        Four (Urdu)
+A6 ND050004        Five (Farsi, Urdu)
+A7 ND060001        Six (Arabic, Urdu)
+A8 ND070004        Seven (Urdu)
+A9 ND080001        Eight (Arabic, Farsi, Urdu)
+AA ND090001        Nine (Arabic, Farsi, Urdu)
+AB SP080007        Comma Rotated (Arabic)
+AC SP140007        Semicolon, Rotated (Arabic)
+AD SP320000        Syllable Hyphen
+AE SP150007        Question Mark, Reversed (Arabic)
+AF AA210000        Aleph Madda (A), Aleph Maddeh (F), Aleph Madd (U)
+B0 AA010000        Aleph (A/F/U)
+B1 AA010002        Aleph (A/F/U)
+B2 AA010006        Aleph (after Lam) (A/F/U)
+B3 AB010000        Beh (A/F/U)
+B4 AB010003        Beh (A/F/U)
+B5 AP010000        Peh (F/U)
+B6 AP010003        Peh (F/U)
+B7 AT020000        Teh Marbuta (A), Teh Mudawara (U)
+B8 AT010000        Teh (A/F/U)
+B9 AT010003        Teh (A/F/U)
+BA AT030000        Tteh (U)
+BB AT030003        Tteh (U)
+BC AT470000        Theh (A/F/U)
+BD AT470003        Theh (A/F/U)
+BE AG230000        Jeem (A/F/U)
+BF AG230003        Jeem (A/F/U)
+C0 AC210000        Tcheh (F/U)
+C1 AC210003        Tcheh (F/U)
+C2 AH450000        Hah (A), Heh (F/U)
+C3 AH450003        Hah (A), Heh (F/U)
+C4 AH470000        Khah (A), Kheh (F/U)
+C5 AH470003        Khah (A), Kheh (F/U)
+C6 AD010000        Dal (A/F/U)
+C7 AD030000        Ddal (U)
+C8 AD470000        Thal (A), Zal (F/U)
+C9 AR010000        Reh (A/F/U)
+CA AR030000        Rreh (U)
+CB AZ010000        Zayn (A), Zey (F), Zeh (U)
+CC AZ210000        Zheh (F), Zzeh (U)
+CD AS010006        Seen (A/F/U)
+CE AS010003        Seen (A/F/U)
+CF AS230006        Sheen (A/F/U)
+D0 AS230003        Sheen (A/F/U)
+D1 AS450006        Sad (A/F), Suad (U)
+D2 AS450003        Sad (A/F), Suad (U)
+D3 AD450006        Dud (A), Zad (F), Duad (U)
+D4 AD450003        Dud (A), Zad (F), Duad (U)
+D5 AT450000        Tah (A/F), Toey (U)
+D6 AZ450000        Zah (F), Zoey (U)
+D7 AC470000        Ayn (A/F/U)
+D8 AC470002        Ayn (A/F/U)
+D9 AC470003        Ayn (A/F/U)
+DA AC470004        Ayn (A/F/U)
+DB AG310000        Ghayn (A/F/U)
+DC AG310002        Ghayn (A/F/U)
+DD AG310003        Ghayn (A/F/U)
+DE AG310004        Ghayn (A/F/U)
+DF AF010000        Feh (A/F/U)
+E0 AF010003        Feh (A/F/U)
+E1 AQ010000        Qaf (A/F/U)
+E2 AQ010003        Qaf (A/F/U)
+E3 AK010006        Caf (F/U)
+E4 AK010003        Caf (A/F/U)
+E5 AG010000        Gaf (F/U)
+E6 AG010003        Gaf (F/U)
+E7 AL010000        Lam (A/F/U)
+E8 AL010006        Lam (A/F/U)
+E9 AL010004        Lam (A/F/U)
+EA AM010000        Meem (A/F/U)
+EB AM010003        Meem (A/F/U)
+EC AN020000        Noon Ghunna (U)
+ED AN010000        Noon (A/F/U)
+EE AN010003        Noon (A/F/U)
+EF AW310000        Waw Hamza (A), Vav Hamzeh (F), Waow Hamza (U)
+F0 AW010000        Waw (A), Vav (F), Waow (U)
+F1 AH020000        Heh Goal (U)
+F2 AH020003        Heh Goal (U)
+F3 AH020004        Heh Goal (U)
+F4 AH030000        Heh Doachashmee (U)
+F5 AX300000        Hamza (A), Hamzeh (F), Hamza (U)
+F6 AY320000        Yeh Chotee Hamza (U)
+F7 AY320002        Yeh Hamzeh (F), Yeh Chotee Hamza (U)
+F8 AY320003        Yeh Hamzeh (F), Yeh Chotee Hamza (U)
+F9 AY020000        Yeh (F), Yeh Chotee (U)
+FA AY020002        Yeh (F), Yeh Chotee (U)
+FB AY020003        Yeh (F), Yeh Chotee (U)
+FC AY340000        Yeh Barree Hamza (U)
+FD AY040000        Yeh Barree (U)
+FE AX100000        Shadda (A/F), Shadd (U)
+FF AX100004        Shadda (A/F), Shadd (U)
+/* END of table --------------------------------------------------------
+

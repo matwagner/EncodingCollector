@@ -1,0 +1,272 @@
+* ----------------------------------------------------------------------
+* Copyright IBM Corporation 1992. All rights reserved.
+* C-H 3-3220-050       : REGISTRY, Graphic Character Sets and Code Pages
+* Code Page (CPGID)    : 01098
+* Common Name          : Farsi - Personal Computer
+* Registration Date    : 1992
+* Last Revision Date   :
+* Default Encoding     : 2100
+* Code                 : IBM-PC
+* Maximal Character
+* Set (GCSGID)         : 01285
+* Other GCSGIDs        : 01288
+* ----------------------------------------------------------------------
+*- GCGID --------- GCGID Name ------------------------------------------
+00
+01 SS000000        Smiling Face
+02 SS010000        Smiling Face, Reverse Image
+03 SS020000        Heart Suit Symbol
+04 SS030000        Diamond Suit Symbol
+05 SS040000        Club Suit Symbol
+06 SS050000        Spade Suit Symbol
+07 SM570000        Bullet
+08 SM570001        Bullet, Reverse Image
+09 SM750000        Open Circle
+0A SM750002        Open Circle, Reverse Image
+0B SM280000        Male Symbol
+0C SM290000        Female Symbol
+0D SM930000        Musical Note
+0E SM910000        Two Musical Notes
+0F SM690000        Sun Symbol
+10 SM590000        Forward Arrow Indicator
+11 SM630000        Back Arrow Indicator
+12 SM760000        Up-Down Arrow
+13 SP330000        Double Exclamation Points
+14 SM250000        Paragraph Symbol (USA)
+15 SM240000        Section Symbol (USA)/Paragraph Symbol (Europe)
+16 SM700000        Solid Horizontal Rectangle
+17 SM770000        Up-Down Arrow, Perpendicular
+18 SM320000        Up Arrow
+19 SM330000        Down Arrow
+1A SM310000        Right Arrow
+1B SM300000        Left Arrow
+1C SA420000        Right Angle Symbol
+1D SM780000        Left-Right Arrow
+1E SM600000        Solid Triangle
+1F SV040000        Solid Triangle, Inverted
+20 SP010000        Space
+21 SP020000        Exclamation Point
+22 SP040000        Quotation Marks
+23 SM010000        Number Sign
+24 SC030000        Dollar Sign
+25 SM020007        Percent Sign (Arabic)
+26 SM030000        Ampersand
+27 SP050000        Apostrophe
+28 SP060000        Left Parenthesis
+29 SP070000        Right Parenthesis
+2A SM040007        Asterisk (Arabic Preference - 5 points)
+2B SA010000        Plus Sign
+2C SP080000        Comma
+2D SP100000        Hyphen/Minus Sign
+2E SP110000        Period/Full Stop
+2F SP120000        Slash
+30 ND100000        Zero
+31 ND010000        One
+32 ND020000        Two
+33 ND030000        Three
+34 ND040000        Four
+35 ND050000        Five
+36 ND060000        Six
+37 ND070000        Seven
+38 ND080000        Eight
+39 ND090000        Nine
+3A SP130000        Colon
+3B SP140000        Semicolon
+3C SA030000        Less Than Sign/Greater Than Sign (Arabic)
+3D SA040000        Equal Sign
+3E SA050000        Greater Than Sign/Less Than Sign (Arabic)
+3F SP150000        Question Mark
+40 SM050000        At Sign
+41 LA020000        A Capital
+42 LB020000        B Capital
+43 LC020000        C Capital
+44 LD020000        D Capital
+45 LE020000        E Capital
+46 LF020000        F Capital
+47 LG020000        G Capital
+48 LH020000        H Capital
+49 LI020000        I Capital
+4A LJ020000        J Capital
+4B LK020000        K Capital
+4C LL020000        L Capital
+4D LM020000        M Capital
+4E LN020000        N Capital
+4F LO020000        O Capital
+50 LP020000        P Capital
+51 LQ020000        Q Capital
+52 LR020000        R Capital
+53 LS020000        S Capital
+54 LT020000        T Capital
+55 LU020000        U Capital
+56 LV020000        V Capital
+57 LW020000        W Capital
+58 LX020000        X Capital
+59 LY020000        Y Capital
+5A LZ020000        Z Capital
+5B SM060000        Left Bracket
+5C SM070000        Backslash
+5D SM080000        Right Bracket
+5E SD150000        Circumflex Accent
+5F SP090000        Underline/Continuous Underscore
+60 SD130000        Grave Accent
+61 LA010000        a Small
+62 LB010000        b Small
+63 LC010000        c Small
+64 LD010000        d Small
+65 LE010000        e Small
+66 LF010000        f Small
+67 LG010000        g Small
+68 LH010000        h Small
+69 LI010000        i Small
+6A LJ010000        j Small
+6B LK010000        k Small
+6C LL010000        l Small
+6D LM010000        m Small
+6E LN010000        n Small
+6F LO010000        o Small
+70 LP010000        p Small
+71 LQ010000        q Small
+72 LR010000        r Small
+73 LS010000        s Small
+74 LT010000        t Small
+75 LU010000        u Small
+76 LV010000        v Small
+77 LW010000        w Small
+78 LX010000        x Small
+79 LY010000        y Small
+7A LZ010000        z Small
+7B SM110000        Left Brace
+7C SM130000        Vertical Line/Logical OR
+7D SM140000        Right Brace
+7E SD190000        Tilde Accent
+7F SM790000        Small House
+80
+81
+82 SP080007        Comma Rotated (Arabic)
+83 SP140007        Semicolon, Rotated (Arabic)
+84 SP150007        Question Mark, Reversed (Arabic)
+85 AA070009        Fathatan (A)
+86 AA210000        Aleph Madda (A), Aleph Maddeh (F), Aleph Madd (U)
+87 AA210002        Aleph Madda (A)
+88 AA210006        Aleph Madda (after Lam) (A)
+89 AA010000        Aleph (A/F/U)
+8A AA010002        Aleph (A/F/U)
+8B AA010006        Aleph (after Lam) (A/F/U)
+8C AX300000        Hamza (A), Hamzeh (F), Hamza (U)
+8D AA310000        Aleph Hamza (A)
+8E AA310002        Aleph Hamza (A)
+8F AA310006        Aleph Hamza (after Lam) (A)
+90 AW310000        Waw Hamza (A), Vav Hamzeh (F), Waow Hamza (U)
+91 AY320003        Yeh Hamzeh (F), Yeh Chotee Hamza (U)
+92 AB010000        Beh (A/F/U)
+93 AB010003        Beh (A/F/U)
+94 AP010000        Peh (F/U)
+95 AP010003        Peh (F/U)
+96 AT010000        Teh (A/F/U)
+97 AT010003        Teh (A/F/U)
+98 AT470000        Theh (A/F/U)
+99 AT470003        Theh (A/F/U)
+9A AG230000        Jeem (A/F/U)
+9B AG230003        Jeem (A/F/U)
+9C AC210000        Tcheh (F/U)
+9D AC210003        Tcheh (F/U)
+9E SA070000        Multiply Sign
+9F AH450000        Hah (A), Heh (F/U)
+A0 AH450003        Hah (A), Heh (F/U)
+A1 AH470000        Khah (A), Kheh (F/U)
+A2 AH470003        Khah (A), Kheh (F/U)
+A3 AD010000        Dal (A/F/U)
+A4 AD470000        Thal (A), Zal (F/U)
+A5 AR010000        Reh (A/F/U)
+A6 AZ010000        Zayn (A), Zey (F), Zeh (U)
+A7 AZ210000        Zheh (F), Zzeh (U)
+A8 AS010006        Seen (A/F/U)
+A9 AS010003        Seen (A/F/U)
+AA AS230006        Sheen (A/F/U)
+AB AS230003        Sheen (A/F/U)
+AC AS450006        Sad (A/F), Suad (U)
+AD AS450003        Sad (A/F), Suad (U)
+AE SP170000        Left Angle Quotes
+AF SP180000        Right Angle Quotes
+B0 SF140000        Fill Character, Light
+B1 SF150000        Fill Character, Medium
+B2 SF160000        Fill Character, Heavy
+B3 SF110000        Center Box Bar Vertical
+B4 SF090000        Right Middle Box Side
+B5 AD450006        Dud (A), Zad (F), Duad (U)
+B6 AD450003        Dud (A), Zad (F), Duad (U)
+B7 AT450001        Tah (A/F), Toey (U)
+B8 AT450002        Tah (A/F), Toey (U)
+B9 SF230000        Right Box Side Double
+BA SF240000        Center Box Bar Vertical Double
+BB SF250000        Upper Right Box Corner Double
+BC SF260000        Lower Right Box Corner Double
+BD SC160000        Rial Sign, Iran
+BE AZ450001        Zah (A/F), Zoey (U)
+BF SF030000        Upper Right Box Corner
+C0 SF020000        Lower Left Box Corner
+C1 SF070000        Middle Box Bottom
+C2 SF060000        Middle Box Top
+C3 SF080000        Left Middle Box Side
+C4 SF100000        Center Box Bar Horizontal
+C5 SF050000        Box Intersection
+C6 AZ450002        Zah (A/F), Zoey (U)
+C7 AC470000        Ayn (A/F/U)
+C8 SF380000        Lower Left Box Corner Double
+C9 SF390000        Upper Left Box Corner Double
+CA SF400000        Middle Box Bottom Double
+CB SF410000        Middle Box Top Double
+CC SF420000        Left Box Side Double
+CD SF430000        Center Box Bar Horizontal Double
+CE SF440000        Box Intersection Double
+CF
+D0 AC470002        Ayn (A/F/U)
+D1 AC470003        Ayn (A/F/U)
+D2 AC470004        Ayn (A/F/U)
+D3 AG310000        Ghayn (A/F/U)
+D4 AG310002        Ghayn (A/F/U)
+D5 AG310003        Ghayn (A/F/U)
+D6 AG310004        Ghayn (A/F/U)
+D7 AF010000        Feh (A/F/U)
+D8 AF010003        Feh (A/F/U)
+D9 SF040000        Lower Right Box Corner
+DA SF010000        Upper Left Box Corner
+DB SF610000        Solid Fill Character
+DC SF570000        Solid Fill Character, Bottom Half
+DD AQ010000        Qaf (A/F/U)
+DE AQ010003        Qaf (A/F/U)
+DF SF600000        Solid Fill Character, Top Half
+E0 AK010006        Caf (F/U)
+E1 AK010003        Caf (A/F/U)
+E2 AG010000        Gaf (F/U)
+E3 AG010003        Gaf (F/U)
+E4 AL010000        Lam (A/F/U)
+E5 AL010003        Lam (A/F)
+E6 AM010000        Meem (A/F/U)
+E7 AM010003        Meem (A/F/U)
+E8 AN010000        Noon (A/F/U)
+E9 AN010003        Noon (A/F/U)
+EA AW010000        Waw (A), Vav (F), Waow (U)
+EB AH010000        Heh (A/F)
+EC AH010003        Heh (A/F)
+ED AH010004        Heh (A/F)
+EE AH210000        Heh Yeh (F)
+EF AY020000        Yeh (F), Yeh Chotee (U)
+F0 SP320000        Syllable Hyphen
+F1 AY020002        Yeh (F), Yeh Chotee (U)
+F2 AY020003        Yeh (F), Yeh Chotee (U)
+F3 SM860000        Tatweel (Connector)
+F4 ND100003        Zero (Farsi)
+F5 ND010001        One (Arabic, Farsi, Urdu)
+F6 ND020001        Two (Arabic, Farsi, Urdu)
+F7 ND030001        Three (Arabic, Farsi, Urdu)
+F8 ND040003        Four (Farsi)
+F9 ND050004        Five (Farsi, Urdu)
+FA ND060003        Six (Farsi)
+FB ND070001        Seven (Arabic, Farsi)
+FC ND080001        Eight (Arabic, Farsi, Urdu)
+FD ND090001        Nine (Arabic, Farsi, Urdu)
+FE SM470000        Solid Square/Histogram/Square Bullet
+FF SP300000        Required Space
+/* END of table --------------------------------------------------------
+

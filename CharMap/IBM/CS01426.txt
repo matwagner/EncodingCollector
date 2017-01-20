@@ -1,0 +1,162 @@
+* ----------------------------------------------------------------------
+* Copyright IBM Corporation 1995. All rights reserved.
+* C-H 3-3220-050       : REGISTRY, Graphic Character Sets and Code Pages
+* Char. Set (GCSGID)   : 01426
+* Common Name          : Postscript Standard Encoding
+* Registration Date    : 1995
+* Last Revision Date   :
+* Size                 : 148
+* Principal Code Pages
+* Containing this CSet : 01276, 01278
+* ----------------------------------------------------------------------
+*-GCGID ---------- GCGID Name ------------------------------------------
+LA010000           a Small
+LA020000           A Capital
+LA510000           ae Diphthong Small
+LA520000           ae Diphthong Capital
+LB010000           b Small
+LB020000           B Capital
+LC010000           c Small
+LC020000           C Capital
+LD010000           d Small
+LD020000           D Capital
+LE010000           e Small
+LE020000           E Capital
+LF010000           f Small
+LF020000           F Capital
+LF530000           fi Ligature
+LF550000           fl Ligature
+LG010000           g Small
+LG020000           G Capital
+LH010000           h Small
+LH020000           H Capital
+LI010000           i Small
+LI020000           I Capital
+LI610000           i Dotless Small
+LJ010000           j Small
+LJ020000           J Capital
+LK010000           k Small
+LK020000           K Capital
+LL010000           l Small
+LL020000           L Capital
+LL610000           l Stroke Small
+LL620000           L Stroke Capital
+LM010000           m Small
+LM020000           M Capital
+LN010000           n Small
+LN020000           N Capital
+LO010000           o Small
+LO020000           O Capital
+LO510000           oe Ligature Small
+LO520000           OE Ligature Capital
+LO610000           o Slash Small
+LO620000           O Slash Capital
+LP010000           p Small
+LP020000           P Capital
+LQ010000           q Small
+LQ020000           Q Capital
+LR010000           r Small
+LR020000           R Capital
+LS010000           s Small
+LS020000           S Capital
+LS610000           Sharp s Small
+LT010000           t Small
+LT020000           T Capital
+LU010000           u Small
+LU020000           U Capital
+LV010000           v Small
+LV020000           V Capital
+LW010000           w Small
+LW020000           W Capital
+LX010000           x Small
+LX020000           X Capital
+LY010000           y Small
+LY020000           Y Capital
+LZ010000           z Small
+LZ020000           Z Capital
+ND010000           One
+ND020000           Two
+ND030000           Three
+ND040000           Four
+ND050000           Five
+ND060000           Six
+ND070000           Seven
+ND080000           Eight
+ND090000           Nine
+ND100000           Zero
+SA010000           Plus Sign
+SA030000           Less Than Sign/Greater Than Sign (Arabic)
+SA040000           Equal Sign
+SA050000           Greater Than Sign/Less Than Sign (Arabic)
+SC010000           International Currency Symbol
+SC020000           Pound Sterling Sign
+SC030000           Dollar Sign
+SC040000           Cent Sign
+SC050000           Yen Sign
+SC070000           Florin Sign
+SD110000           Acute Accent
+SD130000           Grave Accent
+SD150000           Circumflex Accent
+SD150100           Circumflex Accent (Over Small Alphabetics Without Ascenders)
+SD170000           Diaeresis/Umlaut Accent
+SD190000           Tilde Accent
+SD190100           Tilde Accent (Over Small Alphabetics Without Ascenders)
+SD210000           Caron Accent
+SD230000           Breve Accent
+SD250000           Double Acute Accent
+SD270000           Overcircle Accent
+SD290000           Overdot Accent
+SD310000           Macron Accent
+SD410000           Cedilla or Sedila Accent
+SD430000           Ogonek Accent
+SD630000           Middle Dot
+SM010000           Number Sign
+SM020000           Percent Sign
+SM030000           Ampersand
+SM040000           Asterisk
+SM050000           At Sign
+SM060000           Left Bracket
+SM070000           Backslash
+SM080000           Right Bracket
+SM110000           Left Brace
+SM130000           Vertical Line/Logical OR
+SM140000           Right Brace
+SM200000           Ordinal Indicator, Masculine
+SM210000           Ordinal Indicator, Feminine
+SM240000           Section Symbol (USA)/Paragraph Symbol (Europe)
+SM250000           Paragraph Symbol (USA)
+SM340000           Dagger
+SM350000           Double Dagger
+SM560000           Permille Symbol
+SM570000           Bullet
+SM900000           Em Dash
+SP020000           Exclamation Point
+SP030000           Exclamation Point, Inverted
+SP040000           Quotation Marks
+SP050000           Apostrophe
+SP060000           Left Parenthesis
+SP070000           Right Parenthesis
+SP080000           Comma
+SP090000           Underline/Continuous Underscore
+SP100000           Hyphen/Minus Sign
+SP110000           Period/Full Stop
+SP120000           Slash
+SP120001           Fractional Slash
+SP130000           Colon
+SP140000           Semicolon
+SP150000           Question Mark
+SP160000           Question Mark, Inverted
+SP170000           Left Angle Quotes
+SP180000           Right Angle Quotes
+SP190000           Left Single Quote
+SP200000           Right Single Quote
+SP210000           Left Double Quotes
+SP220000           Right Double Quotes
+SP230000           Left Lower Double Quotes
+SP260000           Left Lower Single Quote
+SP270000           Left Angle Single Quote
+SP280000           Right Angle Single Quote
+SS680000           En Dash
+SV520000           Ellipsis
+/* END of table --------------------------------------------------------
+

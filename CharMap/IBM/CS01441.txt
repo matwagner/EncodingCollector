@@ -1,0 +1,204 @@
+* ----------------------------------------------------------------------
+* Copyright IBM Corporation 2001. All rights reserved.
+* C-H 3-3220-050       : REGISTRY, Graphic Character Sets and Code Pages
+* Char. Set (GCSGID)   : 01441
+* Common Name          : Cyrillic Multilingual with euro
+* Registration Date    : 2001
+* Last Revision Date   :
+* Size                 : 190
+* Principal Code Pages
+* Containing this CSet : 01166
+* ----------------------------------------------------------------------
+*-GCGID ---------- GCGID Name ------------------------------------------
+KA010000           a Small
+KA020000           A Capital
+KA150000           ya Small
+KA160000           YA Capital
+KB010000           b Small
+KB020000           B Capital
+KC010000           ts Small
+KC020000           TS Capital
+KC210000           ch Small
+KC220000           CH Capital
+KD010000           d Small
+KD020000           D Capital
+KE010000           e Small
+KE020000           E Capital
+KE130000           e Special Small
+KE140000           E Special Capital
+KE150000           ye Small
+KE160000           YE Capital
+KE170000           e Diaeresis Small
+KE180000           E Diaeresis Capital
+KE670000           schwa Small
+KE680000           SCHWA Capital
+KF010000           f Small
+KF020000           F Capital
+KG010000           g Small
+KG020000           G Capital
+KG610000           ghe Small with Stroke
+KG620000           GHE Capital with Stroke
+KH010000           kh Small
+KH020000           KH Capital
+KH630000           shha Small
+KH640000           SHHA Capital
+KI010000           i Small
+KI020000           I Capital
+KI110000           i Special Small
+KI120000           I Special Capital
+KJ010000           j Small
+KJ020000           J Capital
+KJ110000           j Special Small
+KJ120000           J Special Capital
+KK010000           k Small
+KK020000           K Capital
+KK450000           ka Small with Descender
+KK460000           KA Capital with Descender
+KL010000           l Small
+KL020000           L Capital
+KM010000           m Small
+KM020000           M Capital
+KN010000           n Small
+KN020000           N Capital
+KN450000           en Small with Descender
+KN460000           EN Capital with Descender
+KO010000           o Small
+KO020000           O Capital
+KO670000           Barred o Small
+KO680000           Barred O Capital
+KP010000           p Small
+KP020000           P Capital
+KR010000           r Small
+KR020000           R Capital
+KS010000           s Small
+KS020000           S Capital
+KS150000           shch Small
+KS160000           SHCH Capital
+KS210000           sh Small
+KS220000           SH Capital
+KT010000           t Small
+KT020000           T Capital
+KU010000           u Small
+KU020000           U Capital
+KU150000           yu Small
+KU160000           YU Capital
+KU210000           Hard Sign Small
+KU220000           Hard Sign Capital
+KU230000           u Breve Small
+KU240000           U Breve Capital
+KU670000           Straight u Small
+KU680000           Straight U Capital
+KU690000           Straight u Small with Stroke
+KU700000           Straight U Capital with Stroke
+KV010000           v Small
+KV020000           V Capital
+KX110000           Soft Sign Small
+KX120000           Soft Sign Capital
+KY010000           y Small
+KY020000           Y Capital
+KZ010000           z Small
+KZ020000           Z Capital
+KZ150000           s Special Small
+KZ160000           S Special Capital
+KZ210000           zh Small
+KZ220000           zh Capital
+LA010000           a Small
+LA020000           A Capital
+LB010000           b Small
+LB020000           B Capital
+LC010000           c Small
+LC020000           C Capital
+LD010000           d Small
+LD020000           D Capital
+LE010000           e Small
+LE020000           E Capital
+LF010000           f Small
+LF020000           F Capital
+LG010000           g Small
+LG020000           G Capital
+LH010000           h Small
+LH020000           H Capital
+LI010000           i Small
+LI020000           I Capital
+LJ010000           j Small
+LJ020000           J Capital
+LK010000           k Small
+LK020000           K Capital
+LL010000           l Small
+LL020000           L Capital
+LM010000           m Small
+LM020000           M Capital
+LN010000           n Small
+LN020000           N Capital
+LO010000           o Small
+LO020000           O Capital
+LP010000           p Small
+LP020000           P Capital
+LQ010000           q Small
+LQ020000           Q Capital
+LR010000           r Small
+LR020000           R Capital
+LS010000           s Small
+LS020000           S Capital
+LT010000           t Small
+LT020000           T Capital
+LU010000           u Small
+LU020000           U Capital
+LV010000           v Small
+LV020000           V Capital
+LW010000           w Small
+LW020000           W Capital
+LX010000           x Small
+LX020000           X Capital
+LY010000           y Small
+LY020000           Y Capital
+LZ010000           z Small
+LZ020000           Z Capital
+ND010000           One
+ND020000           Two
+ND030000           Three
+ND040000           Four
+ND050000           Five
+ND060000           Six
+ND070000           Seven
+ND080000           Eight
+ND090000           Nine
+ND100000           Zero
+SA010000           Plus Sign
+SA030000           Less Than Sign/Greater Than Sign (Arabic)
+SA040000           Equal Sign
+SA050000           Greater Than Sign/Less Than Sign (Arabic)
+SC030000           Dollar Sign
+SC200000           Euro symbol
+SD130000           Grave Accent
+SD150000           Circumflex Accent
+SD190000           Tilde Accent
+SM000000           Numero Sign
+SM010000           Number Sign
+SM020000           Percent Sign
+SM030000           Ampersand
+SM040000           Asterisk
+SM050000           At Sign
+SM060000           Left Bracket
+SM070000           Backslash
+SM080000           Right Bracket
+SM110000           Left Brace
+SM130000           Vertical Line/Logical OR
+SM140000           Right Brace
+SP020000           Exclamation Point
+SP040000           Quotation Marks
+SP050000           Apostrophe
+SP060000           Left Parenthesis
+SP070000           Right Parenthesis
+SP080000           Comma
+SP090000           Underline/Continuous Underscore
+SP100000           Hyphen/Minus Sign
+SP110000           Period/Full Stop
+SP120000           Slash
+SP130000           Colon
+SP140000           Semicolon
+SP150000           Question Mark
+SP300000           Required Space
+SP320000           Syllable Hyphen
+/* END of table --------------------------------------------------------
+

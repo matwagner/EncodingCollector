@@ -1,0 +1,268 @@
+* ----------------------------------------------------------------------
+* Copyright IBM Corporation 1996. All rights reserved.
+* C-H 3-3220-050       : REGISTRY, Graphic Character Sets and Code Pages
+* Char. Set (GCSGID)   : 01331
+* Common Name          : Cyrillic, Ukrainian PC-display
+* Registration Date    : 1996
+* Last Revision Date   :
+* Size                 : 254
+* Principal Code Pages
+* Containing this CSet : 01125
+* ----------------------------------------------------------------------
+*-GCGID ---------- GCGID Name ------------------------------------------
+KA010000           a Small
+KA020000           A Capital
+KA150000           ya Small
+KA160000           YA Capital
+KB010000           b Small
+KB020000           B Capital
+KC010000           ts Small
+KC020000           TS Capital
+KC210000           ch Small
+KC220000           CH Capital
+KD010000           d Small
+KD020000           D Capital
+KE010000           e Small
+KE020000           E Capital
+KE130000           e Special Small
+KE140000           E Special Capital
+KE150000           ye Small
+KE160000           YE Capital
+KE170000           e Diaeresis Small
+KE180000           E Diaeresis Capital
+KF010000           f Small
+KF020000           F Capital
+KG010000           g Small
+KG020000           G Capital
+KG290000           CYRILLIC SMALL LETTER GHE WITH UPTURN
+KG300000           CYRILLIC CAPITAL LETTER GHE WITH UPTURN
+KH010000           kh Small
+KH020000           KH Capital
+KI010000           i Small
+KI020000           I Capital
+KI110000           i Special Small
+KI120000           I Special Capital
+KI170000           i Diaeresis Small
+KI180000           I Diaeresis Capital
+KJ110000           j Special Small
+KJ120000           J Special Capital
+KK010000           k Small
+KK020000           K Capital
+KL010000           l Small
+KL020000           L Capital
+KM010000           m Small
+KM020000           M Capital
+KN010000           n Small
+KN020000           N Capital
+KO010000           o Small
+KO020000           O Capital
+KP010000           p Small
+KP020000           P Capital
+KR010000           r Small
+KR020000           R Capital
+KS010000           s Small
+KS020000           S Capital
+KS150000           shch Small
+KS160000           SHCH Capital
+KS210000           sh Small
+KS220000           SH Capital
+KT010000           t Small
+KT020000           T Capital
+KU010000           u Small
+KU020000           U Capital
+KU150000           yu Small
+KU160000           YU Capital
+KU210000           Hard Sign Small
+KU220000           Hard Sign Capital
+KV010000           v Small
+KV020000           V Capital
+KX110000           Soft Sign Small
+KX120000           Soft Sign Capital
+KY010000           y Small
+KY020000           Y Capital
+KZ010000           z Small
+KZ020000           Z Capital
+KZ210000           zh Small
+KZ220000           zh Capital
+LA010000           a Small
+LA020000           A Capital
+LB010000           b Small
+LB020000           B Capital
+LC010000           c Small
+LC020000           C Capital
+LD010000           d Small
+LD020000           D Capital
+LE010000           e Small
+LE020000           E Capital
+LF010000           f Small
+LF020000           F Capital
+LG010000           g Small
+LG020000           G Capital
+LH010000           h Small
+LH020000           H Capital
+LI010000           i Small
+LI020000           I Capital
+LJ010000           j Small
+LJ020000           J Capital
+LK010000           k Small
+LK020000           K Capital
+LL010000           l Small
+LL020000           L Capital
+LM010000           m Small
+LM020000           M Capital
+LN010000           n Small
+LN020000           N Capital
+LO010000           o Small
+LO020000           O Capital
+LP010000           p Small
+LP020000           P Capital
+LQ010000           q Small
+LQ020000           Q Capital
+LR010000           r Small
+LR020000           R Capital
+LS010000           s Small
+LS020000           S Capital
+LT010000           t Small
+LT020000           T Capital
+LU010000           u Small
+LU020000           U Capital
+LV010000           v Small
+LV020000           V Capital
+LW010000           w Small
+LW020000           W Capital
+LX010000           x Small
+LX020000           X Capital
+LY010000           y Small
+LY020000           Y Capital
+LZ010000           z Small
+LZ020000           Z Capital
+ND010000           One
+ND020000           Two
+ND030000           Three
+ND040000           Four
+ND050000           Five
+ND060000           Six
+ND070000           Seven
+ND080000           Eight
+ND090000           Nine
+ND100000           Zero
+SA010000           Plus Sign
+SA020000           Plus or Minus Sign
+SA030000           Less Than Sign/Greater Than Sign (Arabic)
+SA040000           Equal Sign
+SA050000           Greater Than Sign/Less Than Sign (Arabic)
+SA060000           Divide Sign
+SA420000           Right Angle Symbol
+SC010000           International Currency Symbol
+SC030000           Dollar Sign
+SD130000           Grave Accent
+SD150000           Circumflex Accent
+SD190000           Tilde Accent
+SF010000           Upper Left Box Corner
+SF020000           Lower Left Box Corner
+SF030000           Upper Right Box Corner
+SF040000           Lower Right Box Corner
+SF050000           Box Intersection
+SF060000           Middle Box Top
+SF070000           Middle Box Bottom
+SF080000           Left Middle Box Side
+SF090000           Right Middle Box Side
+SF100000           Center Box Bar Horizontal
+SF110000           Center Box Bar Vertical
+SF140000           Fill Character, Light
+SF150000           Fill Character, Medium
+SF160000           Fill Character, Heavy
+SF190000           Right Box Side Double to Single
+SF200000           Right Box Side Single To Double
+SF210000           Upper Right Box Corner Single To Double
+SF220000           Upper Right Box Corner Double To Single
+SF230000           Right Box Side Double
+SF240000           Center Box Bar Vertical Double
+SF250000           Upper Right Box Corner Double
+SF260000           Lower Right Box Corner Double
+SF270000           Lower Right Box Corner Single To Double
+SF280000           Lower Right Box Corner Double To Single
+SF360000           Left Box Side Single to Double
+SF370000           Left Box Side Double To Single
+SF380000           Lower Left Box Corner Double
+SF390000           Upper Left Box Corner Double
+SF400000           Middle Box Bottom Double
+SF410000           Middle Box Top Double
+SF420000           Left Box Side Double
+SF430000           Center Box Bar Horizontal Double
+SF440000           Box Intersection Double
+SF450000           Middle Box Bottom Single To Double
+SF460000           Middle Box Bottom Double To Single
+SF470000           Middle Box Top Double To Single
+SF480000           Middle Box Top Single To Double
+SF490000           Lower Left Box Corner Double To Single
+SF500000           Lower Left Box Corner Single To Double
+SF510000           Upper Left Box Corner Single To Double
+SF520000           Upper Left Box Corner Double To Single
+SF530000           Box Intersection Single To Double
+SF540000           Box Intersection Double To Single
+SF570000           Solid Fill Character, Bottom Half
+SF580000           Solid Fill Character, Left Half
+SF590000           Solid Fill Character, Right Half
+SF600000           Solid Fill Character, Top Half
+SF610000           Solid Fill Character
+SM000000           Numero Sign
+SM010000           Number Sign
+SM020000           Percent Sign
+SM030000           Ampersand
+SM040000           Asterisk
+SM050000           At Sign
+SM060000           Left Bracket
+SM070000           Backslash
+SM080000           Right Bracket
+SM110000           Left Brace
+SM130000           Vertical Line/Logical OR
+SM140000           Right Brace
+SM240000           Section Symbol (USA)/Paragraph Symbol (Europe)
+SM250000           Paragraph Symbol (USA)
+SM280000           Male Symbol
+SM290000           Female Symbol
+SM300000           Left Arrow
+SM310000           Right Arrow
+SM320000           Up Arrow
+SM330000           Down Arrow
+SM470000           Solid Square/Histogram/Square Bullet
+SM570000           Bullet
+SM570001           Bullet, Reverse Image
+SM590000           Forward Arrow Indicator
+SM600000           Solid Triangle
+SM630000           Back Arrow Indicator
+SM690000           Sun Symbol
+SM700000           Solid Horizontal Rectangle
+SM750000           Open Circle
+SM750002           Open Circle, Reverse Image
+SM760000           Up-Down Arrow
+SM770000           Up-Down Arrow, Perpendicular
+SM780000           Left-Right Arrow
+SM790000           Small House
+SM910000           Two Musical Notes
+SM930000           Musical Note
+SP020000           Exclamation Point
+SP040000           Quotation Marks
+SP050000           Apostrophe
+SP060000           Left Parenthesis
+SP070000           Right Parenthesis
+SP080000           Comma
+SP090000           Underline/Continuous Underscore
+SP100000           Hyphen/Minus Sign
+SP110000           Period/Full Stop
+SP120000           Slash
+SP130000           Colon
+SP140000           Semicolon
+SP150000           Question Mark
+SP300000           Required Space
+SP330000           Double Exclamation Points
+SS000000           Smiling Face
+SS010000           Smiling Face, Reverse Image
+SS020000           Heart Suit Symbol
+SS030000           Diamond Suit Symbol
+SS040000           Club Suit Symbol
+SS050000           Spade Suit Symbol
+SV040000           Solid Triangle, Inverted
+/* END of table --------------------------------------------------------
+

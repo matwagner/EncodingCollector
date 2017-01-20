@@ -1,0 +1,208 @@
+* ----------------------------------------------------------------------
+* Copyright IBM Corporation 1999. All rights reserved.
+* C-H 3-3220-050       : REGISTRY, Graphic Character Sets and Code Pages
+* Code Page (CPGID)    : 01156
+* Common Name          : EBCDIC Baltic multi with euro
+* Registration Date    : 1999
+* Last Revision Date   :
+* Default Encoding     : 1100
+* Code                 : EBCDIC
+* Maximal Character
+* Set (GCSGID)         : 01393
+* Other GCSGIDs        :
+* ----------------------------------------------------------------------
+*- GCGID --------- GCGID Name ------------------------------------------
+40 SP010000        Space
+41 SP300000        Required Space
+42 LS210000        s Caron Small
+43 LA170000        a Diaeresis Small
+44 LA430000        a Ogonek Small
+45 LI430000        i Ogonek Small
+46 LU310000        u Macron Small
+47 LA270000        a Overcircle Small
+48 LE310000        e Macron Small
+49 LZ210000        z Caron Small
+4A SC040000        Cent Sign
+4B SP110000        Period/Full Stop
+4C SA030000        Less Than Sign/Greater Than Sign (Arabic)
+4D SP060000        Left Parenthesis
+4E SA010000        Plus Sign
+4F SM130000        Vertical Line/Logical OR
+50 SM030000        Ampersand
+51 LE110000        e Acute Small
+52 LE430000        e Ogonek Small
+53 LE290000        e Overdot Small
+54 LC210000        c Caron Small
+55 LU430000        u Ogonek Small
+56 SP230000        Left Lower Double Quotes
+57 SP210000        Left Double Quotes
+58 LG410000        g Cedilla Small
+59 LS610000        Sharp s Small
+5A SP020000        Exclamation Point
+5B SC030000        Dollar Sign
+5C SM040000        Asterisk
+5D SP070000        Right Parenthesis
+5E SP140000        Semicolon
+5F SM660000        Logical NOT/End Of Line Symbol
+60 SP100000        Hyphen/Minus Sign
+61 SP120000        Slash
+62 LS220000        S Caron Capital
+63 LA180000        A Diaeresis Capital
+64 LA440000        A Ogonek Capital
+65 LI440000        I Ogonek Capital
+66 LU320000        U Macron Capital
+67 LA280000        A Overcircle Capital
+68 LE320000        E Macron Capital
+69 LZ220000        Z Caron Capital
+6A SM650000        Vertical Line, Broken
+6B SP080000        Comma
+6C SM020000        Percent Sign
+6D SP090000        Underline/Continuous Underscore
+6E SA050000        Greater Than Sign/Less Than Sign (Arabic)
+6F SP150000        Question Mark
+70 LO610000        o Slash Small
+71 LE120000        E Acute Capital
+72 LE440000        E Ogonek Capital
+73 LE300000        E Overdot Capital
+74 LC220000        C Caron Capital
+75 LU440000        U Ogonek Capital
+76 LI320000        I Macron Capital
+77 LL420000        L Cedilla Capital
+78 LG420000        G Cedilla Capital
+79 SD130000        Grave Accent
+7A SP130000        Colon
+7B SM010000        Number Sign
+7C SM050000        At Sign
+7D SP050000        Apostrophe
+7E SA040000        Equal Sign
+7F SP040000        Quotation Marks
+80 LO620000        O Slash Capital
+81 LA010000        a Small
+82 LB010000        b Small
+83 LC010000        c Small
+84 LD010000        d Small
+85 LE010000        e Small
+86 LF010000        f Small
+87 LG010000        g Small
+88 LH010000        h Small
+89 LI010000        i Small
+8A SP170000        Left Angle Quotes
+8B SP180000        Right Angle Quotes
+8C LA310000        a Macron Small
+8D LZ290000        z Overdot Small
+8E LN110000        n Acute Small
+8F SA020000        Plus or Minus Sign
+90 SM190000        Degree Symbol
+91 LJ010000        j Small
+92 LK010000        k Small
+93 LL010000        l Small
+94 LM010000        m Small
+95 LN010000        n Small
+96 LO010000        o Small
+97 LP010000        p Small
+98 LQ010000        q Small
+99 LR010000        r Small
+9A LR420000        R Cedillia Capital
+9B LR410000        r Cedilla Small
+9C LA510000        ae Diphthong Small
+9D LK410000        k Cedilla Small
+9E LA520000        ae Diphthong Capital
+9F SC200000        Euro symbol
+A0 SM170000        Micro Symbol
+A1 SD190000        Tilde Accent
+A2 LS010000        s Small
+A3 LT010000        t Small
+A4 LU010000        u Small
+A5 LV010000        v Small
+A6 LW010000        w Small
+A7 LX010000        x Small
+A8 LY010000        y Small
+A9 LZ010000        z Small
+AA SP220000        Right Double Quotes
+AB LZ110000        z Acute Small
+AC LA320000        a Macron Capital
+AD LZ300000        Z Overdot Capital
+AE LN120000        N Acute Capital
+AF SM530000        Registered Trademark Symbol
+B0 SD150000        Circumflex Accent
+B1 SC020000        Pound Sterling Sign
+B2 LI310000        i Macron Small
+B3 SD630000        Middle Dot
+B4 SM520000        Copyright Symbol
+B5 SM240000        Section Symbol (USA)/Paragraph Symbol (Europe)
+B6 SM250000        Paragraph Symbol (USA)
+B7 NF040000        One Quarter
+B8 NF010000        One Half
+B9 NF050000        Three Quarters
+BA SM060000        Left Bracket
+BB SM080000        Right Bracket
+BC LZ120000        Z Acute Capital
+BD LK420000        K Cedilla Capital
+BE LL410000        l Cedilla Small
+BF SA070000        Multiply Sign
+C0 SM110000        Left Brace
+C1 LA020000        A Capital
+C2 LB020000        B Capital
+C3 LC020000        C Capital
+C4 LD020000        D Capital
+C5 LE020000        E Capital
+C6 LF020000        F Capital
+C7 LG020000        G Capital
+C8 LH020000        H Capital
+C9 LI020000        I Capital
+CA SP320000        Syllable Hyphen
+CB LO310000        o Macron Small
+CC LO170000        o Diaeresis Small
+CD LN410000        n Cedilla Small
+CE LO110000        o Acute Small
+CF LO190000        o Tilde Small
+D0 SM140000        Right Brace
+D1 LJ020000        J Capital
+D2 LK020000        K Capital
+D3 LL020000        L Capital
+D4 LM020000        M Capital
+D5 LN020000        N Capital
+D6 LO020000        O Capital
+D7 LP020000        P Capital
+D8 LQ020000        Q Capital
+D9 LR020000        R Capital
+DA ND011000        One Superscript
+DB LC110000        c Acute Small
+DC LU170000        u Diaeresis Small
+DD LL610000        l Stroke Small
+DE LS110000        s Acute Small
+DF SP200000        Right Single Quote
+E0 SM070000        Backslash
+E1 SA060000        Divide Sign
+E2 LS020000        S Capital
+E3 LT020000        T Capital
+E4 LU020000        U Capital
+E5 LV020000        V Capital
+E6 LW020000        W Capital
+E7 LX020000        X Capital
+E8 LY020000        Y Capital
+E9 LZ020000        Z Capital
+EA ND021000        Two Superscript
+EB LO320000        O Macron Capital
+EC LO180000        O Diaeresis Capital
+ED LN420000        N Cedilla Capital
+EE LO120000        O Acute Capital
+EF LO200000        O Tilde Capital
+F0 ND100000        Zero
+F1 ND010000        One
+F2 ND020000        Two
+F3 ND030000        Three
+F4 ND040000        Four
+F5 ND050000        Five
+F6 ND060000        Six
+F7 ND070000        Seven
+F8 ND080000        Eight
+F9 ND090000        Nine
+FA ND031000        Three Superscript
+FB LC120000        C Acute Capital
+FC LU180000        U Diaeresis Capital
+FD LL620000        L Stroke Capital
+FE LS120000        S Acute Capital
+FF
+/* END of table --------------------------------------------------------
+

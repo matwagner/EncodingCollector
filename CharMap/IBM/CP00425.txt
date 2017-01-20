@@ -1,0 +1,208 @@
+* ----------------------------------------------------------------------
+* Copyright IBM Corporation 2000. All rights reserved.
+* C-H 3-3220-050       : REGISTRY, Graphic Character Sets and Code Pages
+* Code Page (CPGID)    : 00425
+* Common Name          : Arabic/Latin for OS/390 Open Edition
+* Registration Date    : 2000
+* Last Revision Date   :
+* Default Encoding     : 1100
+* Code                 : EBCDIC
+* Maximal Character
+* Set (GCSGID)         : 01468
+* Other GCSGIDs        :
+* ----------------------------------------------------------------------
+*- GCGID --------- GCGID Name ------------------------------------------
+40 SP010000        Space
+41 SP300000        Required Space
+42 LA150000        a Circumflex Small
+43 SP080007        Comma Rotated (Arabic)
+44 LA130000        a Grave Small
+45 SP140007        Semicolon, Rotated (Arabic)
+46 SM860000        Tatweel (Connector)
+47 SP150007        Question Mark, Reversed (Arabic)
+48 LC410000        c Cedilla Small
+49 AX300009        Hamza (A)
+4A AA210009        Aleph Madda (A)
+4B SP110000        Period/Full Stop
+4C SA030000        Less Than Sign/Greater Than Sign (Arabic)
+4D SP060000        Left Parenthesis
+4E SA010000        Plus Sign
+4F SM130000        Vertical Line/Logical OR
+50 SM030000        Ampersand
+51 LE110000        e Acute Small
+52 LE150000        e Circumflex Small
+53 LE170000        e Diaeresis Small
+54 LE130000        e Grave Small
+55 AA310009        Aleph Hamza (A)
+56 LI150000        i Circumflex Small
+57 LI170000        i Diaeresis Small
+58 AW310009        Waw Hamza (A)
+59 AA310409        Hamza under Aleph (A)
+5A SP020000        Exclamation Point
+5B SC030000        Dollar Sign
+5C SM040007        Asterisk (Arabic Preference - 5 points)
+5D SP070000        Right Parenthesis
+5E SP140000        Semicolon
+5F SD150000        Circumflex Accent
+60 SP100000        Hyphen/Minus Sign
+61 SP120000        Slash
+62 LA160000        A Circumflex Capital
+63 AY310009        Yeh Hamza (A)
+64 LA140000        A Grave Capital
+65 AA010009        Aleph (A)
+66 AB010009        Beh (A)
+67 AT020009        Teh Marbuta (A)
+68 LC420000        C Cedilla Capital
+69 AT010009        Teh (A)
+6A AT470009        Theh (A)
+6B SP080000        Comma
+6C SM020007        Percent Sign (Arabic)
+6D SP090000        Underline/Continuous Underscore
+6E SA050000        Greater Than Sign/Less Than Sign (Arabic)
+6F SP150000        Question Mark
+70 AG230009        Jeem (A)
+71 LE120000        E Acute Capital
+72 LE160000        E Circumflex Capital
+73 LE180000        E Diaeresis Capital
+74 LE140000        E Grave Capital
+75 AH450009        Hah (A)
+76 LI160000        I Circumflex Capital
+77 LI180000        I Diaeresis Capital
+78 AH470009        Khah (A)
+79 SD130000        Grave Accent
+7A SP130000        Colon
+7B SM010000        Number Sign
+7C SM050000        At Sign
+7D SP050000        Apostrophe
+7E SA040000        Equal Sign
+7F SP040000        Quotation Marks
+80 AD010009        Dal (A)
+81 LA010000        a Small
+82 LB010000        b Small
+83 LC010000        c Small
+84 LD010000        d Small
+85 LE010000        e Small
+86 LF010000        f Small
+87 LG010000        g Small
+88 LH010000        h Small
+89 LI010000        i Small
+8A SP170000        Left Angle Quotes
+8B SP180000        Right Angle Quotes
+8C AD470009        Thal (A)
+8D AR010009        Reh (A)
+8E AZ010009        Zayn (A)
+8F AS010009        Seen (A)
+90 AS230009        Sheen (A)
+91 LJ010000        j Small
+92 LK010000        k Small
+93 LL010000        l Small
+94 LM010000        m Small
+95 LN010000        n Small
+96 LO010000        o Small
+97 LP010000        p Small
+98 LQ010000        q Small
+99 LR010000        r Small
+9A AS450009        Sad (A)
+9B AD450009        Dud (A)
+9C LA510000        ae Diphthong Small
+9D AT450009        Tah (A)
+9E LA520000        ae Diphthong Capital
+9F SC200000        Euro symbol
+A0 SM170000        Micro Symbol
+A1 SD190000        Tilde Accent
+A2 LS010000        s Small
+A3 LT010000        t Small
+A4 LU010000        u Small
+A5 LV010000        v Small
+A6 LW010000        w Small
+A7 LX010000        x Small
+A8 LY010000        y Small
+A9 LZ010000        z Small
+AA AZ450009        Zah (A)
+AB AC470009        Ayn (A)
+AC AG310009        Ghayn (A)
+AD SM060000        Left Bracket
+AE AF010009        Feh (A)
+AF AQ010009        Qaf (A)
+B0 AK010009        Caf (A)
+B1 AL010009        Lam (A)
+B2 AM010009        Meem (A)
+B3 AN010009        Noon (A)
+B4 SM520000        Copyright Symbol
+B5 SM240000        Section Symbol (USA)/Paragraph Symbol (Europe)
+B6 AH010009        Heh (A)
+B7 LO520000        OE Ligature Capital
+B8 LO510000        oe Ligature Small
+B9 LY180000        Y Diaeresis Capital
+BA AW010009        Waw (A)
+BB AA020009        Aleph Maksura (A)
+BC AY010009        Yeh (A)
+BD SM080000        Right Bracket
+BE AA070009        Fathatan (A)
+BF SA070000        Multiply Sign
+C0 SM110000        Left Brace
+C1 LA020000        A Capital
+C2 LB020000        B Capital
+C3 LC020000        C Capital
+C4 LD020000        D Capital
+C5 LE020000        E Capital
+C6 LF020000        F Capital
+C7 LG020000        G Capital
+C8 LH020000        H Capital
+C9 LI020000        I Capital
+CA SP320000        Syllable Hyphen
+CB LO150000        o Circumflex Small
+CC AU070009        Dammatan (A)
+CD AI070009        Kasratan (A)
+CE AA050009        Fatha (A)
+CF AU050009        Damma (A)
+D0 SM140000        Right Brace
+D1 LJ020000        J Capital
+D2 LK020000        K Capital
+D3 LL020000        L Capital
+D4 LM020000        M Capital
+D5 LN020000        N Capital
+D6 LO020000        O Capital
+D7 LP020000        P Capital
+D8 LQ020000        Q Capital
+D9 LR020000        R Capital
+DA AI050009        Kasra (A)
+DB LU150000        u Circumflex Small
+DC LU170000        u Diaeresis Small
+DD LU130000        u Grave Small
+DE AX100009        Shadda (A)
+DF LY170000        y Diaeresis Small
+E0 SM070000        Backslash
+E1 SA060000        Divide Sign
+E2 LS020000        S Capital
+E3 LT020000        T Capital
+E4 LU020000        U Capital
+E5 LV020000        V Capital
+E6 LW020000        W Capital
+E7 LX020000        X Capital
+E8 LY020000        Y Capital
+E9 LZ020000        Z Capital
+EA AE050009        Sukun (A)
+EB LO160000        O Circumflex Capital
+EC SP5300Z0        Non-Joiner, Zero Width
+ED SP5400Z0        Joiner, Zero Width
+EE SP5500Z0        Left-To_Right Mark, Zero Width
+EF SP5600Z0        Right_To_Left Mark, Zero Width
+F0 ND100000        Zero
+F1 ND010000        One
+F2 ND020000        Two
+F3 ND030000        Three
+F4 ND040000        Four
+F5 ND050000        Five
+F6 ND060000        Six
+F7 ND070000        Seven
+F8 ND080000        Eight
+F9 ND090000        Nine
+FA
+FB LU160000        U Circumflex Capital
+FC LU180000        U Diaeresis Capital
+FD LU140000        U Grave Capital
+FE SC010000        International Currency Symbol
+FF
+/* END of table --------------------------------------------------------
+

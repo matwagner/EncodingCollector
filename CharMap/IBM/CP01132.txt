@@ -1,0 +1,208 @@
+* ----------------------------------------------------------------------
+* Copyright IBM Corporation 1996. All rights reserved.
+* C-H 3-3220-050       : REGISTRY, Graphic Character Sets and Code Pages
+* Code Page (CPGID)    : 01132
+* Common Name          : Lao EBCDIC
+* Registration Date    : 1996
+* Last Revision Date   :
+* Default Encoding     : 1100
+* Code                 : EBCDIC
+* Maximal Character
+* Set (GCSGID)         : 01341
+* Other GCSGIDs        :
+* ----------------------------------------------------------------------
+*- GCGID --------- GCGID Name ------------------------------------------
+40 SP010000        Space
+41 SP300000        Required Space
+42 U0000E81        Lao Letter KO
+43 U0000E82        Lao Letter KHO SUNG
+44 U0000E84        Lao Letter KHO TAM
+45 U0000E87        Lao Letter NGO
+46 U0000E88        Lao Letter CO
+47 U0000EAA        Lao Letter SO SUNG
+48 U0000E8A        Lao Letter SO TAM
+49 SM060000        Left Bracket
+4A SC040000        Cent Sign
+4B SP110000        Period/Full Stop
+4C SA030000        Less Than Sign/Greater Than Sign (Arabic)
+4D SP060000        Left Parenthesis
+4E SA010000        Plus Sign
+4F SM130000        Vertical Line/Logical OR
+50 SM030000        Ampersand
+51
+52 U0000E8D        Lao Letter NYO
+53 U0000E94        Lao Letter DO
+54 U0000E95        Lao Letter TO
+55 U0000E96        Lao Letter THO SUNG
+56 U0000E97        Lao Letter THO TAM
+57 U0000E99        Lao Letter NO
+58 U0000E9A        Lao Letter BO
+59 SM080000        Right Bracket
+5A SP020000        Exclamation Point
+5B SC030000        Dollar Sign
+5C SM040000        Asterisk
+5D SP070000        Right Parenthesis
+5E SP140000        Semicolon
+5F SM660000        Logical NOT/End Of Line Symbol
+60 SP100000        Hyphen/Minus Sign
+61 SP120000        Slash
+62 U0000E9B        Lao Letter PO
+63 U0000E9C        Lao Letter PHO SUNG
+64 U0000E9D        Lao Letter FO TAM
+65 U0000E9E        Lao Letter PHO TAM
+66 U0000E9F        Lao Letter FO SUNG
+67 U0000EA1        Lao Letter MO
+68 U0000EA2        Lao Letter YO
+69 SD150000        Circumflex Accent
+6A SM650000        Vertical Line, Broken
+6B SP080000        Comma
+6C SM020000        Percent Sign
+6D SP090000        Underline/Continuous Underscore
+6E SA050000        Greater Than Sign/Less Than Sign (Arabic)
+6F SP150000        Question Mark
+70 SC190000        Lao Kip Sign
+71
+72 U0000EA3        Lao Letter LO LING
+73 U0000EA5        Lao Letter LO LOOT
+74 U0000EA7        Lao Letter WO
+75 U0000EAB        Lao Letter HO SUNG
+76 U0000EAD        Lao Letter O
+77 U0000EAE        Lao Letter HO TAM
+78
+79 SD130000        Grave Accent
+7A SP130000        Colon
+7B SM010000        Number Sign
+7C SM050000        At Sign
+7D SP050000        Apostrophe
+7E SA040000        Equal Sign
+7F SP040000        Quotation Marks
+80
+81 LA010000        a Small
+82 LB010000        b Small
+83 LC010000        c Small
+84 LD010000        d Small
+85 LE010000        e Small
+86 LF010000        f Small
+87 LG010000        g Small
+88 LH010000        h Small
+89 LI010000        i Small
+8A
+8B
+8C U0000EAF        Lao Ellipsis
+8D U0000EB0        Lao Vowel Sign A
+8E U0000EB2        Lao Vowel Sign AA
+8F U0000EB3        Lao Vowel Sign AM
+90
+91 LJ010000        j Small
+92 LK010000        k Small
+93 LL010000        l Small
+94 LM010000        m Small
+95 LN010000        n Small
+96 LO010000        o Small
+97 LP010000        p Small
+98 LQ010000        q Small
+99 LR010000        r Small
+9A U0000EB4        Lao Vowel Sign I
+9B U0000EB5        Lao Vowel Sign II
+9C U0000EB6        Lao Vowel Sign Y
+9D U0000EB7        Lao Vowel Sign YY
+9E U0000EB8        Lao Vowel Sign U
+9F U0000EB9        Lao Vowel Sign UU
+A0
+A1 SD190000        Tilde Accent
+A2 LS010000        s Small
+A3 LT010000        t Small
+A4 LU010000        u Small
+A5 LV010000        v Small
+A6 LW010000        w Small
+A7 LX010000        x Small
+A8 LY010000        y Small
+A9 LZ010000        z Small
+AA U0000EBC        Lao Semivowel Sign LO
+AB U0000EB1        Lao Vowel Sign MAI KAN
+AC U0000EBB        Lao Vowel Sign MAI KON
+AD U0000EBD        Lao Semivowel Sign NYO
+AE
+AF
+B0 U0000ED0        Lao Digit Zero
+B1 U0000ED1        Lao Digit One
+B2 U0000ED2        Lao Digit Two
+B3 U0000ED3        Lao Digit Three
+B4 U0000ED4        Lao Digit Four
+B5 U0000ED5        Lao Digit Five
+B6 U0000ED6        Lao Digit Six
+B7 U0000ED7        Lao Digit Seven
+B8 U0000ED8        Lao Digit Eight
+B9 U0000ED9        Lao Digit Nine
+BA
+BB U0000EC0        Lao Vowel Sign E
+BC U0000EC1        Lao Vowel Sign EI
+BD U0000EC2        Lao Vowel Sign O
+BE U0000EC3        Lao Vowel Sign AY
+BF U0000EC4        Lao Vowel Sign AI
+C0 SM110000        Left Brace
+C1 LA020000        A Capital
+C2 LB020000        B Capital
+C3 LC020000        C Capital
+C4 LD020000        D Capital
+C5 LE020000        E Capital
+C6 LF020000        F Capital
+C7 LG020000        G Capital
+C8 LH020000        H Capital
+C9 LI020000        I Capital
+CA
+CB U0000EC8        Lao Tone MAI EK
+CC U0000EC9        Lao Tone MAI THO
+CD U0000ECA        Lao Tone MAI TI
+CE U0000ECB        Lao Tone MAI CATAWA
+CF U0000ECC        Lao Cancellation Mark
+D0 SM140000        Right Brace
+D1 LJ020000        J Capital
+D2 LK020000        K Capital
+D3 LL020000        L Capital
+D4 LM020000        M Capital
+D5 LN020000        N Capital
+D6 LO020000        O Capital
+D7 LP020000        P Capital
+D8 LQ020000        Q Capital
+D9 LR020000        R Capital
+DA U0000ECD        Lao NIGGAHITA
+DB U0000EC6        Lao KO LA
+DC
+DD U0000EDC        Lao HO NO
+DE U0000EDD        Lao HO MO
+DF
+E0 SM070000        Backslash
+E1
+E2 LS020000        S Capital
+E3 LT020000        T Capital
+E4 LU020000        U Capital
+E5 LV020000        V Capital
+E6 LW020000        W Capital
+E7 LX020000        X Capital
+E8 LY020000        Y Capital
+E9 LZ020000        Z Capital
+EA
+EB
+EC
+ED
+EE
+EF
+F0 ND100000        Zero
+F1 ND010000        One
+F2 ND020000        Two
+F3 ND030000        Three
+F4 ND040000        Four
+F5 ND050000        Five
+F6 ND060000        Six
+F7 ND070000        Seven
+F8 ND080000        Eight
+F9 ND090000        Nine
+FA
+FB
+FC
+FD
+FE
+FF
+/* END of table --------------------------------------------------------
+

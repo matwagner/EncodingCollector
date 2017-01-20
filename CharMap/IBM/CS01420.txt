@@ -1,0 +1,236 @@
+* ----------------------------------------------------------------------
+* Copyright IBM Corporation 2003. All rights reserved.
+* C-H 3-3220-050       : REGISTRY, Graphic Character Sets and Code Pages
+* Char. Set (GCSGID)   : 01420
+* Common Name          : Windows, Arabic extended including euro
+* Registration Date    : 2003
+* Last Revision Date   :
+* Size                 : 222
+* Principal Code Pages
+* Containing this CSet : 01256
+* ----------------------------------------------------------------------
+*-GCGID ---------- GCGID Name ------------------------------------------
+AA010009           Aleph (A)
+AA020009           Aleph Maksura (A)
+AA050009           Fatha (A)
+AA070009           Fathatan (A)
+AA210009           Aleph Madda (A)
+AA310009           Aleph Hamza (A)
+AA310409           Hamza under Aleph (A)
+AB010009           Beh (A)
+AC210009           Tcheh (F/U)
+AC470009           Ayn (A)
+AD010009           Dal (A)
+AD030009           Ddal (U)
+AD450009           Dud (A)
+AD470009           Thal (A)
+AE050009           Sukun (A)
+AF010009           Feh (A)
+AG010009           Gaf (F/U)
+AG230009           Jeem (A)
+AG310009           Ghayn (A)
+AH010009           Heh (A)
+AH020009           Heh Goal (U)
+AH030009           Heh Doachashmee (U)
+AH450009           Hah (A)
+AH470009           Khah (A)
+AI050009           Kasra (A)
+AI070009           Kasratan (A)
+AK010009           Caf (A)
+AK020009           Keheh (A/F/U)
+AL010009           Lam (A)
+AM010009           Meem (A)
+AN010009           Noon (A)
+AN020009           Noon Ghunna (U)
+AP010009           Peh (F/U)
+AQ010009           Qaf (A)
+AR010009           Reh (A)
+AR030009           Rreh (U)
+AS010009           Seen (A)
+AS230009           Sheen (A)
+AS450009           Sad (A)
+AT010009           Teh (A)
+AT020009           Teh Marbuta (A)
+AT030009           Tteh (U)
+AT450009           Tah (A)
+AT470009           Theh (A)
+AU050009           Damma (A)
+AU070009           Dammatan (A)
+AW010009           Waw (A)
+AW310009           Waw Hamza (A)
+AX100009           Shadda (A)
+AX300009           Hamza (A)
+AY010009           Yeh (A)
+AY040009           Yeh Barree (U)
+AY310009           Yeh Hamza (A)
+AZ010009           Zayn (A)
+AZ210009           Zheh (F), Zzeh (U)
+AZ450009           Zah (A)
+LA010000           a Small
+LA020000           A Capital
+LA130000           a Grave Small
+LA150000           a Circumflex Small
+LB010000           b Small
+LB020000           B Capital
+LC010000           c Small
+LC020000           C Capital
+LC410000           c Cedilla Small
+LD010000           d Small
+LD020000           D Capital
+LE010000           e Small
+LE020000           E Capital
+LE110000           e Acute Small
+LE130000           e Grave Small
+LE150000           e Circumflex Small
+LE170000           e Diaeresis Small
+LF010000           f Small
+LF020000           F Capital
+LG010000           g Small
+LG020000           G Capital
+LH010000           h Small
+LH020000           H Capital
+LI010000           i Small
+LI020000           I Capital
+LI150000           i Circumflex Small
+LI170000           i Diaeresis Small
+LJ010000           j Small
+LJ020000           J Capital
+LK010000           k Small
+LK020000           K Capital
+LL010000           l Small
+LL020000           L Capital
+LM010000           m Small
+LM020000           M Capital
+LN010000           n Small
+LN020000           N Capital
+LO010000           o Small
+LO020000           O Capital
+LO150000           o Circumflex Small
+LO510000           oe Ligature Small
+LO520000           OE Ligature Capital
+LP010000           p Small
+LP020000           P Capital
+LQ010000           q Small
+LQ020000           Q Capital
+LR010000           r Small
+LR020000           R Capital
+LS010000           s Small
+LS020000           S Capital
+LT010000           t Small
+LT020000           T Capital
+LU010000           u Small
+LU020000           U Capital
+LU130000           u Grave Small
+LU150000           u Circumflex Small
+LU170000           u Diaeresis Small
+LV010000           v Small
+LV020000           V Capital
+LW010000           w Small
+LW020000           W Capital
+LX010000           x Small
+LX020000           X Capital
+LY010000           y Small
+LY020000           Y Capital
+LZ010000           z Small
+LZ020000           Z Capital
+ND010000           One
+ND011000           One Superscript
+ND020000           Two
+ND021000           Two Superscript
+ND030000           Three
+ND031000           Three Superscript
+ND040000           Four
+ND050000           Five
+ND060000           Six
+ND070000           Seven
+ND080000           Eight
+ND090000           Nine
+ND100000           Zero
+NF010000           One Half
+NF040000           One Quarter
+NF050000           Three Quarters
+SA010000           Plus Sign
+SA020000           Plus or Minus Sign
+SA030000           Less Than Sign/Greater Than Sign (Arabic)
+SA040000           Equal Sign
+SA050000           Greater Than Sign/Less Than Sign (Arabic)
+SA060000           Divide Sign
+SA070000           Multiply Sign
+SC010000           International Currency Symbol
+SC020000           Pound Sterling Sign
+SC030000           Dollar Sign
+SC040000           Cent Sign
+SC050000           Yen Sign
+SC070000           Florin Sign
+SC200000           Euro symbol
+SD110000           Acute Accent
+SD130000           Grave Accent
+SD150000           Circumflex Accent
+SD150100           Circumflex Accent (Over Small Alphabetics Without Ascenders)
+SD170000           Diaeresis/Umlaut Accent
+SD190000           Tilde Accent
+SD310000           Macron Accent
+SD410000           Cedilla or Sedila Accent
+SD630000           Middle Dot
+SM010000           Number Sign
+SM020000           Percent Sign
+SM030000           Ampersand
+SM040000           Asterisk
+SM050000           At Sign
+SM060000           Left Bracket
+SM070000           Backslash
+SM080000           Right Bracket
+SM110000           Left Brace
+SM130000           Vertical Line/Logical OR
+SM140000           Right Brace
+SM170000           Micro Symbol
+SM190000           Degree Symbol
+SM240000           Section Symbol (USA)/Paragraph Symbol (Europe)
+SM250000           Paragraph Symbol (USA)
+SM340000           Dagger
+SM350000           Double Dagger
+SM520000           Copyright Symbol
+SM530000           Registered Trademark Symbol
+SM540000           Trademark Symbol, Serif
+SM560000           Permille Symbol
+SM570000           Bullet
+SM650000           Vertical Line, Broken
+SM660000           Logical NOT/End Of Line Symbol
+SM860000           Tatweel (Connector)
+SM900000           Em Dash
+SP020000           Exclamation Point
+SP040000           Quotation Marks
+SP050000           Apostrophe
+SP060000           Left Parenthesis
+SP070000           Right Parenthesis
+SP080000           Comma
+SP080007           Comma Rotated (Arabic)
+SP090000           Underline/Continuous Underscore
+SP100000           Hyphen/Minus Sign
+SP110000           Period/Full Stop
+SP120000           Slash
+SP130000           Colon
+SP140000           Semicolon
+SP140007           Semicolon, Rotated (Arabic)
+SP150000           Question Mark
+SP150007           Question Mark, Reversed (Arabic)
+SP170000           Left Angle Quotes
+SP180000           Right Angle Quotes
+SP190000           Left Single Quote
+SP200000           Right Single Quote
+SP210000           Left Double Quotes
+SP220000           Right Double Quotes
+SP230000           Left Lower Double Quotes
+SP260000           Left Lower Single Quote
+SP270000           Left Angle Single Quote
+SP280000           Right Angle Single Quote
+SP300000           Required Space
+SP320000           Syllable Hyphen
+SP5300Z0           Non-Joiner, Zero Width
+SP5400Z0           Joiner, Zero Width
+SP5500Z0           Left-To_Right Mark, Zero Width
+SP5600Z0           Right_To_Left Mark, Zero Width
+SS680000           En Dash
+SV520000           Ellipsis
+/* END of table --------------------------------------------------------
+
