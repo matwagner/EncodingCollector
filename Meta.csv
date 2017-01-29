@@ -171,9 +171,9 @@
 9999;unchecked;IANA;Extended_UNIX_Code_Packed_Format_for_Japanese;EUC_JP;;;;unix;japanese;;ascii;varying8;1;3;U+001A;yes;no;
 9999;unchecked;IANA;Shift_JIS;Shift_JIS;;;;national;japanese;;ascii;varying8;1;2;U+001A;yes;no;
 9999;checked;GNU_ICONV;CP932;CP932;1999;Japan (Kanji);IBMPC;dos;japanese;https://en.wikipedia.org/wiki/Code_page_932;ascii;varying8;1;2;U+001A;yes;no;
-9999;unchecked;IANA;ISO-2022-JP;ISO_2022_JP;;;ISO2022;international;japanese;;ascii;varying8;1;3;U+001A;yes;no;
-9999;unchecked;GNU_ICONV;ISO-2022-JP-1;ISO_2022_JP_1;;;ISO2022;international;japanese;;ascii;varying8;1;3;U+001A;yes;no;
-9999;unchecked;IANA;ISO-2022-JP-2;ISO_2022_JP_2;;;ISO2022;international;japanese;;ascii;varying8;1;3;U+001A;yes;no;
+9999;checked;IANA;ISO-2022-JP;ISO_2022_JP;1983;;ISO2022;international;japanese;https://en.wikipedia.org/wiki/ISO/IEC_2022;ascii;varying8;1;2;U+001A;yes;no;
+9999;checked;GNU_ICONV;ISO-2022-JP-1;ISO_2022_JP_1;1990;;ISO2022;international;japanese;https://en.wikipedia.org/wiki/ISO/IEC_2022;ascii;varying8;1;2;U+001A;yes;no;
+9999;checked;IANA;ISO-2022-JP-2;ISO_2022_JP_2;1992;;ISO2022;international;japanese;https://en.wikipedia.org/wiki/ISO/IEC_2022;ascii;varying8;1;2;U+001A;yes;no;
 9999;unchecked;IANA;GB2312;GB_2312;;;;national;chinese;;ascii;varying8;1;2;U+001A;yes;no;
 9999;unchecked;IANA;GBK;GBK;;;;national;chinese;;ascii;varying8;1;2;U+001A;yes;no;
 9999;unchecked;IANA;GB18030;GB18030;;;;national;chinese;;ascii;varying8;1;4;U+001A;yes;no;
@@ -195,7 +195,8 @@
 9999;unchecked;Name;ISO-2022-KR-1;ISO_2022_KR_1;;;ISO2022;international;korean;;ascii;varying8;1;3;U+001A;yes;no;
 9999;unchecked;GNU_ICONV;EUC-JISX0213;EUC_JIS_X0213;;;;unix;japanese;;ascii;varying8;1;3;U+001A;yes;no;
 9999;unchecked;GNU_ICONV;SHIFT_JISX0213;Shift_JIS_X0213;2004;;;national;japanese;;ascii;varying8;1;2;U+001A;yes;no;
-9999;unchecked;GNU_ICONV;ISO-2022-JP-3;ISO_2022_JP_3;;;ISO2022;international;japanese;;ascii;varying8;1;3;U+001A;yes;no;
+9999;checked;GNU_ICONV;ISO-2022-JP-3;ISO_2022_JP_3;2000;;ISO2022;international;japanese;https://en.wikipedia.org/wiki/ISO/IEC_2022;ascii;varying8;1;2;U+001A;yes;no;
+9999;checked;SELF;ISO-2022-JP-2004;ISO_2022_JP_2004;2004;;ISO2022;international;japanese;https://en.wikipedia.org/wiki/ISO/IEC_2022;ascii;varying8;1;2;U+001A;yes;no;
 9999;unchecked;Name;Big5-2003;Big5_2003;;;;national;chinese;;ascii;varying8;1;3;U+001A;yes;no;
 9999;checked;GNU_ICONV;TDS565;TDS565;2000;Turkmen Standard TDS 565;ISO2022;national;latin;;ascii;fixed8;1;1;U+001A;yes;no;
 9999;checked;GNU_ICONV;ATARIST;AtariST;1985;Atari ST;VENDOR;atari;latin;https://en.wikipedia.org/wiki/Atari_ST_character_set;ascii;fixed8;1;1;U+001A;yes;no;
