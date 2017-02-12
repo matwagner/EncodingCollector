@@ -123,13 +123,21 @@
       <xs:attribute name="wc-to-mb-func"      type="xs:string"        use="required"/>
       <xs:attribute name="reset-func"         type="xs:string"        use="required"/>
    </xs:complexType>
+   <xs:complexType name="GroupType">
+      <xs:sequence>
+         <xs:element name="CharacterSet"      type="CharacterSetType" maxOccurs="unbounded"/>
+      </xs:sequence>
+      <xs:attribute name="identifier"         type="xs:string"        use="required"/>
+      <xs:attribute name="name"               type="xs:string"        use="required"/>
+      <xs:attribute name="description"        type="xs:string"        use="required"/>
+   </xs:complexType>
    <xs:complexType name="ReferenceType" mixed="true">
       <xs:attribute name="xlink:label"        type="xs:string"        use="required"/>
       <xs:attribute name="iana-url"           type="xs:string"        use="required"/>
    </xs:complexType>
    <xs:element name="CharacterSetDatabase">
       <xs:sequence>
-         <xs:element name="CharacterSet"      type="CharacterSetType" maxOccurs="unbounded"/>
+         <xs:element name="Group"             type="GroupType"        maxOccurs="unbounded"/>
          <xs:element name="Reference"         type="ReferenceType"    maxOccurs="unbounded"/>
       </xs:sequence>
       <xs:attribute name="version"            type="xs:string"        default="1.0"/>

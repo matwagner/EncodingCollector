@@ -121,6 +121,7 @@ class Meta
 {
    // General information
    var $Used;              ///< bool: Indicates that this meta information has been used or not
+   var $Group;             ///< Group: Group to which the character set belongs to
    var $Number;            ///< int: Unique number of the encoding over all data sources
    var $State;             ///< string: State 'checked' or 'unchecked' of the encoding
    var $DataSource;        ///< string: Name of the data source of first appearance
@@ -147,6 +148,7 @@ class Meta
 
    /// @brief  Constructor with essential encoding information
    ///
+   /// @param  $group      Group to which the character set belongs to
    /// @param  $number     Unique number of the encoding
    /// @param  $state      State of the encoding
    /// @param  $datasource Name of the data source of first appearance
@@ -166,12 +168,13 @@ class Meta
    /// @param  $nfc        Indicates that the encoding always generates Unicode normalisation form NFC
    /// @param  $bidi       Indicates that the encoding contains bidirectional characters
    /// @param  $javalib    Java library (rt.jar or charsets.jar)
-   function __construct( $number, $state, $datasource, $name, $identifier
+   function __construct( $group, $number, $state, $datasource, $name, $identifier
                        , $year, $descr, $standard, $platform, $language
                        , $wikipediaurl, $domain, $width, $minwidth, $maxwidth
                        , $replchar, $nfc, $bidi, $javalib )
    {
       $this->Used            = false;
+      $this->Group           = $group;
       $this->Number          = intval( $number );
       $this->State           = $state;
       $this->DataSource      = $datasource;
@@ -363,6 +366,82 @@ class Reference
 
 //============================================================================
 //
+//                  G r o u p
+//
+/// @brief          Group name of encodings
+///
+/// @author         Matthias Wagner
+/// @version        1.0
+/// @since          1.0
+/// @date           2017-02-10 Wagner First release
+///
+//============================================================================
+
+class Group
+{
+   // General information
+   var $Identifier;        ///< string: Unique identifier name of the group as a programming language symbol
+   var $Name;              ///< string: Name of the Group
+   var $Description;       ///< string: Description of the Group
+   var $CharacterSet;      ///< CharacterSet[]: Array of character sets
+
+   /// @brief  Single constructor
+   ///
+   /// @param $identifier  Unique identifier name of the group as a programming language symbol
+   /// @param $name        Name of the Group
+   /// @param $description Description of the Group
+   function __construct( $identifier, $name, $description )
+   {
+      if ( DEBUG_METHOD ) print "<p>Construct Group(".$name.")</p>".PHP_EOL;
+
+      $this->Identifier  = $identifier;
+      $this->Name        = $name;
+      $this->Description = $description;
+
+   } // end Constructor
+
+   /// @brief  Compares this group to the other group only by key.
+   ///
+   /// @param  $other      Other instance of group to compare to
+   /// @return signed int  The difference
+   function CompareTo( $other )
+   {
+      return strcmp( $this->Identifier, $other->Identifier );
+   } // end CompareTo
+
+   /// @brief  Writes all information of the group to XML.
+   ///
+   /// @param  $file       XML file to write to
+   /// @param  $cs         Count of character sets
+   /// @param  $checked    Count of checked character sets
+   /// @param  $unsave     Count of unsave character sets
+   /// @param  $unchecked  Count of unchecked character sets
+   function WriteXML( $file, &$cs, &$checked, &$unsave, &$unchecked )
+   {
+      fputs( $file, "   <Group identifier=\"" .$this->Identifier     ."\"".PHP_EOL );
+      fputs( $file, "          name=\""       .$this->Name           ."\"".PHP_EOL );
+      fputs( $file, "          description=\"".$this->Description    ."\">".PHP_EOL );
+      ksort( $this->CharacterSet );
+      foreach ( $this->CharacterSet as $charset )
+      {
+         $cs++;
+         $charset->WriteXML( $file );
+         if ( $charset->State == "checked" )
+            $checked++;
+         else
+         if ( $charset->State == "unsave" )
+            $unsave++;
+         else
+         if ( $charset->State == "unchecked" )
+            $unchecked++;
+      }
+      fputs( $file, "   </Group>".PHP_EOL );
+   } // end WriteXML
+}; // endclass Group
+
+
+//============================================================================
+//
 //                  C h a r a c t e r S e t
 //
 /// @brief          Representation of an encoding resp. character set with
@@ -378,6 +457,7 @@ class Reference
 class CharacterSet
 {
    // General information
+   var $Group;             ///< Group: Group to which the character set belongs to
    var $State;             ///< string: State 'checked' or 'unchecked' of the encoding
    var $Number;            ///< int: Unique number of the encoding over all data sources
    var $DataSource;        ///< string: Name of the data source of first appearance
@@ -433,7 +513,7 @@ class CharacterSet
    /// @param  $datasource Name of the data source of first appearance
    /// @param  $name       Name of the encoding
    /// @param  $meta       Meta information for this encoding (optional)
-   function __construct( $datasource, $name, $meta = NULL )
+   function __construct( $datasource, $name, $meta )
    {
       if ( DEBUG_METHOD ) print "<p>Construct CharacterSet(".$datasource.", ".$name.")</p>".PHP_EOL;
 
@@ -442,8 +522,9 @@ class CharacterSet
 
       if ( isset( $meta ) )
       {
-         $this->Number          = $meta->Number;
+         $this->Group           = $meta->Group;
          $this->State           = $meta->State;
+         $this->Number          = $meta->Number;
          $this->DataSource      = $meta->DataSource;
          $this->Identifier      = $meta->Identifier;
          $this->Year            = $meta->Year;
@@ -460,6 +541,8 @@ class CharacterSet
          $this->ContainsBIDI    = $meta->ContainsBIDI;
          $this->WikipediaURL    = $meta->WikipediaURL;
          $this->JavaLibrary     = $meta->JavaLibrary;
+
+         $this->Group->CharacterSet[ $this->Number ] = $this;
       }
       else
       {
@@ -502,10 +585,16 @@ class CharacterSet
       if ( DEBUG_METHOD ) print "<p>CharacterSet.SetMeta(".$meta->Identifier.")</p>".PHP_EOL;
 
       //----------------------------------------------------------------------
+      // Remove this character set from old group.
+
+      unset( $this->Group->CharacterSet[ $this->Number ] );
+
+      //----------------------------------------------------------------------
       // Take meta infromation.
 
-      $this->Number          = $meta->Number;
+      $this->Group           = $meta->Group;
       $this->State           = $meta->State;
+      $this->Number          = $meta->Number;
       $this->DataSource      = $meta->DataSource;
       $this->Identifier      = $meta->Identifier;
       $this->Year            = $meta->Year;
@@ -522,6 +611,12 @@ class CharacterSet
       $this->ContainsBIDI    = $meta->ContainsBIDI;
       $this->WikipediaURL    = $meta->WikipediaURL;
       $this->JavaLibrary     = $meta->JavaLibrary;
+
+      //----------------------------------------------------------------------
+      // Add this character set to new group.
+
+      $this->Group->CharacterSet[ $this->Number ] = $this;
+
    } // end SetMeta
 
    /// @brief  Compares this character set to the other character set
@@ -757,57 +852,57 @@ class CharacterSet
    /// @param  $file       XML file to write to
    function WriteXML( $file )
    {
-      fputs( $file, "   <CharacterSet state=\""             .$this->State           ."\"".PHP_EOL );
-      fputs( $file, "                 number=\""            .$this->Number          ."\"".PHP_EOL );
-      fputs( $file, "                 data-source=\""       .$this->DataSource      ."\"".PHP_EOL );
-      fputs( $file, "                 name=\""              .$this->Name->Original  ."\"".PHP_EOL );
-      fputs( $file, "                 identifier=\""        .$this->Identifier      ."\"".PHP_EOL );
-      fputs( $file, "                 year=\""              .$this->Year            ."\"".PHP_EOL );
-      fputs( $file, "                 standard=\""          .$this->Standard        ."\"".PHP_EOL );
-      fputs( $file, "                 platform=\""          .$this->Platform        ."\"".PHP_EOL );
-      fputs( $file, "                 language=\""          .$this->Language        ."\"".PHP_EOL );
-      fputs( $file, "                 data-source-iana=\""  .$this->DataSourceIANA  ."\"".PHP_EOL );
-      fputs( $file, "                 data-source-iconv=\"" .$this->DataSourceICONV ."\"".PHP_EOL );
-      fputs( $file, "                 data-source-icu=\""   .$this->DataSourceICU   ."\"".PHP_EOL );
-      fputs( $file, "                 data-source-java=\""  .$this->DataSourceJAVA  ."\"".PHP_EOL );
-      fputs( $file, "                 data-source-ms=\""    .$this->DataSourceMS    ."\"".PHP_EOL );
-      fputs( $file, "                 data-source-ibmcp=\"" .$this->DataSourceIBMCP ."\"".PHP_EOL );
-      fputs( $file, "                 data-source-ibmccs=\"".$this->DataSourceIBMCCS."\"".PHP_EOL );
-      fputs( $file, "                 domain=\""            .$this->Domain          ."\"".PHP_EOL );
-      fputs( $file, "                 width=\""             .$this->Width           ."\"".PHP_EOL );
-      fputs( $file, "                 min-width=\""         .$this->MinWidth        ."\"".PHP_EOL );
-      fputs( $file, "                 max-width=\""         .$this->MaxWidth        ."\"".PHP_EOL );
-      fputs( $file, "                 replacement-char=\""  .$this->ReplacementChar ."\"".PHP_EOL );
-      fputs( $file, "                 generates-nfc=\""     .$this->GeneratesNFC    ."\"".PHP_EOL );
-      fputs( $file, "                 contains-bidi=\""     .$this->ContainsBIDI    ."\"".PHP_EOL );
-      fputs( $file, "                 mib-enum=\""          .$this->MIBenum         ."\"".PHP_EOL );
-      fputs( $file, "                 pcl5-symbol-set-id=\"".$this->PCL5SymbolSetId ."\"".PHP_EOL );
-      fputs( $file, "                 iso-ir=\""            .$this->ISOIR           ."\"".PHP_EOL );
-      fputs( $file, "                 iana-url=\""          .htmlspecialchars( $this->IANAURL, ENT_COMPAT | ENT_XML1 )."\"".PHP_EOL );
-      fputs( $file, "                 icu-name=\""          .$this->ICUName         ."\"".PHP_EOL );
-      fputs( $file, "                 icu-url=\""           .htmlspecialchars( $this->ICUURL, ENT_COMPAT | ENT_XML1 )."\"".PHP_EOL );
-      fputs( $file, "                 wikipedia-url=\""     .$this->WikipediaURL    ."\"".PHP_EOL );
-      fputs( $file, "                 java-library=\""      .$this->JavaLibrary     ."\"".PHP_EOL );
-      // fputs( $file, "                 char-map-file=\""   .(isset( $this->CharMap    ) $this->CharMap->GetFileName() : "")."\"".PHP_EOL );
-      fputs( $file, "                 mb-to-wc-func=\""     .$this->MbtowcFunc      ."\"".PHP_EOL );
-      fputs( $file, "                 flush-func=\""        .$this->FlushFunc       ."\"".PHP_EOL );
-      fputs( $file, "                 wc-to-mb-func=\""     .$this->WctombFunc      ."\"".PHP_EOL );
-      fputs( $file, "                 reset-func=\""        .$this->ResetFunc       ."\">".PHP_EOL );
+      fputs( $file, "      <CharacterSet state=\""             .$this->State           ."\"".PHP_EOL );
+      fputs( $file, "                    number=\""            .$this->Number          ."\"".PHP_EOL );
+      fputs( $file, "                    data-source=\""       .$this->DataSource      ."\"".PHP_EOL );
+      fputs( $file, "                    name=\""              .$this->Name->Original  ."\"".PHP_EOL );
+      fputs( $file, "                    identifier=\""        .$this->Identifier      ."\"".PHP_EOL );
+      fputs( $file, "                    year=\""              .$this->Year            ."\"".PHP_EOL );
+      fputs( $file, "                    standard=\""          .$this->Standard        ."\"".PHP_EOL );
+      fputs( $file, "                    platform=\""          .$this->Platform        ."\"".PHP_EOL );
+      fputs( $file, "                    language=\""          .$this->Language        ."\"".PHP_EOL );
+      fputs( $file, "                    data-source-iana=\""  .$this->DataSourceIANA  ."\"".PHP_EOL );
+      fputs( $file, "                    data-source-iconv=\"" .$this->DataSourceICONV ."\"".PHP_EOL );
+      fputs( $file, "                    data-source-icu=\""   .$this->DataSourceICU   ."\"".PHP_EOL );
+      fputs( $file, "                    data-source-java=\""  .$this->DataSourceJAVA  ."\"".PHP_EOL );
+      fputs( $file, "                    data-source-ms=\""    .$this->DataSourceMS    ."\"".PHP_EOL );
+      fputs( $file, "                    data-source-ibmcp=\"" .$this->DataSourceIBMCP ."\"".PHP_EOL );
+      fputs( $file, "                    data-source-ibmccs=\"".$this->DataSourceIBMCCS."\"".PHP_EOL );
+      fputs( $file, "                    domain=\""            .$this->Domain          ."\"".PHP_EOL );
+      fputs( $file, "                    width=\""             .$this->Width           ."\"".PHP_EOL );
+      fputs( $file, "                    min-width=\""         .$this->MinWidth        ."\"".PHP_EOL );
+      fputs( $file, "                    max-width=\""         .$this->MaxWidth        ."\"".PHP_EOL );
+      fputs( $file, "                    replacement-char=\""  .$this->ReplacementChar ."\"".PHP_EOL );
+      fputs( $file, "                    generates-nfc=\""     .$this->GeneratesNFC    ."\"".PHP_EOL );
+      fputs( $file, "                    contains-bidi=\""     .$this->ContainsBIDI    ."\"".PHP_EOL );
+      fputs( $file, "                    mib-enum=\""          .$this->MIBenum         ."\"".PHP_EOL );
+      fputs( $file, "                    pcl5-symbol-set-id=\"".$this->PCL5SymbolSetId ."\"".PHP_EOL );
+      fputs( $file, "                    iso-ir=\""            .$this->ISOIR           ."\"".PHP_EOL );
+      fputs( $file, "                    iana-url=\""          .htmlspecialchars( $this->IANAURL, ENT_COMPAT | ENT_XML1 )."\"".PHP_EOL );
+      fputs( $file, "                    icu-name=\""          .$this->ICUName         ."\"".PHP_EOL );
+      fputs( $file, "                    icu-url=\""           .htmlspecialchars( $this->ICUURL, ENT_COMPAT | ENT_XML1 )."\"".PHP_EOL );
+      fputs( $file, "                    wikipedia-url=\""     .$this->WikipediaURL    ."\"".PHP_EOL );
+      fputs( $file, "                    java-library=\""      .$this->JavaLibrary     ."\"".PHP_EOL );
+      // fputs( $file, "                    char-map-file=\""   .(isset( $this->CharMap    ) $this->CharMap->GetFileName() : "")."\"".PHP_EOL );
+      fputs( $file, "                    mb-to-wc-func=\""     .$this->MbtowcFunc      ."\"".PHP_EOL );
+      fputs( $file, "                    flush-func=\""        .$this->FlushFunc       ."\"".PHP_EOL );
+      fputs( $file, "                    wc-to-mb-func=\""     .$this->WctombFunc      ."\"".PHP_EOL );
+      fputs( $file, "                    reset-func=\""        .$this->ResetFunc       ."\">".PHP_EOL );
       if ( strlen( $this->Description ) != 0 )
-      fputs( $file, "      <Description>".$this->Description."</Description>".PHP_EOL );
+      fputs( $file, "         <Description>".$this->Description."</Description>".PHP_EOL );
       if ( strlen( $this->MSDescription ) != 0 )
-      fputs( $file, "      <MSDescription>".$this->MSDescription."</MSDescription>".PHP_EOL );
+      fputs( $file, "         <MSDescription>".$this->MSDescription."</MSDescription>".PHP_EOL );
       if ( isset( $this->IBMCPDescription ) )
          foreach ( $this->IBMCPDescription as $id => $text )
-            fputs( $file, "      <IBMCPDescription cpid=\"".$id."\">".$text."</IBMCPDescription>".PHP_EOL );
+            fputs( $file, "         <IBMCPDescription cpid=\"".$id."\">".$text."</IBMCPDescription>".PHP_EOL );
       if ( isset( $this->IBMCCSDescription ) )
          foreach ( $this->IBMCCSDescription as $id => $text )
-            fputs( $file, "      <IBMCCSDescription ccsid=\"".$id."\">".$text."</IBMCCSDescription>".PHP_EOL );
+            fputs( $file, "         <IBMCCSDescription ccsid=\"".$id."\">".$text."</IBMCCSDescription>".PHP_EOL );
       if ( isset( $this->IANASource ) )
-      fputs( $file, "      <IANASource>".$this->IANASource."</IANASource>".PHP_EOL );
+      fputs( $file, "         <IANASource>".$this->IANASource."</IANASource>".PHP_EOL );
       foreach ( $this->Alias as $alias )
          $alias->WriteXML( $file );
-      fputs( $file, "   </CharacterSet>".PHP_EOL );
+      fputs( $file, "      </CharacterSet>".PHP_EOL );
    } // end WriteXML
 }; // endclass CharacterSet
 
@@ -1018,29 +1113,29 @@ class Alias
    /// @param  $file       XML file to write to
    function WriteXML( $file )
    {
-      fputs( $file, "      <Alias data-source=\"".$this->DataSource     ."\"".PHP_EOL );
-      fputs( $file, "             original=\""   .$this->Original       ."\"".PHP_EOL );
-      fputs( $file, "             name=\""       .$this->Name           ."\"".PHP_EOL );
-      fputs( $file, "             simplified=\"" .$this->Simplified     ."\"".PHP_EOL );
-      fputs( $file, "             IANA=\""       .$this->KnownByIANA    ."\"".PHP_EOL );
-      fputs( $file, "             ICONV=\""      .$this->KnownByICONV   ."\"".PHP_EOL );
-      fputs( $file, "             LIBC=\""       .$this->KnownByLIBC    ."\"".PHP_EOL );
-      fputs( $file, "             ICU=\""        .$this->KnownByICU     ."\"".PHP_EOL );
-      fputs( $file, "             UTR22=\""      .$this->KnownByUTR22   ."\"".PHP_EOL );
-      fputs( $file, "             JAVA=\""       .$this->KnownByJAVA    ."\"".PHP_EOL );
-      fputs( $file, "             MIME=\""       .$this->KnownByMIME    ."\"".PHP_EOL );
-      fputs( $file, "             IBM=\""        .$this->KnownByIBM     ."\"".PHP_EOL );
-      fputs( $file, "             WINDOWS=\""    .$this->KnownByWINDOWS ."\"".PHP_EOL );
-      fputs( $file, "             UNTAGGED=\""   .$this->KnownByUNTAGGED."\"".PHP_EOL );
-      fputs( $file, "             MS=\""         .$this->KnownByMS      ."\"".PHP_EOL );
-      fputs( $file, "             MSID=\""       .$this->MSID           ."\"".PHP_EOL );
-      fputs( $file, "             IBMCPID=\""    .$this->IBMCPID        ."\"".PHP_EOL );
-      fputs( $file, "             IBMCPURL=\""   .$this->IBMCPURL       ."\"".PHP_EOL );
-      fputs( $file, "             IBMCCSID=\""   .$this->IBMCCSID       ."\"".PHP_EOL );
-      fputs( $file, "             IBMCCSURL=\""  .$this->IBMCCSURL      ."\">".PHP_EOL );
+      fputs( $file, "         <Alias data-source=\"".$this->DataSource     ."\"".PHP_EOL );
+      fputs( $file, "                original=\""   .$this->Original       ."\"".PHP_EOL );
+      fputs( $file, "                name=\""       .$this->Name           ."\"".PHP_EOL );
+      fputs( $file, "                simplified=\"" .$this->Simplified     ."\"".PHP_EOL );
+      fputs( $file, "                IANA=\""       .$this->KnownByIANA    ."\"".PHP_EOL );
+      fputs( $file, "                ICONV=\""      .$this->KnownByICONV   ."\"".PHP_EOL );
+      fputs( $file, "                LIBC=\""       .$this->KnownByLIBC    ."\"".PHP_EOL );
+      fputs( $file, "                ICU=\""        .$this->KnownByICU     ."\"".PHP_EOL );
+      fputs( $file, "                UTR22=\""      .$this->KnownByUTR22   ."\"".PHP_EOL );
+      fputs( $file, "                JAVA=\""       .$this->KnownByJAVA    ."\"".PHP_EOL );
+      fputs( $file, "                MIME=\""       .$this->KnownByMIME    ."\"".PHP_EOL );
+      fputs( $file, "                IBM=\""        .$this->KnownByIBM     ."\"".PHP_EOL );
+      fputs( $file, "                WINDOWS=\""    .$this->KnownByWINDOWS ."\"".PHP_EOL );
+      fputs( $file, "                UNTAGGED=\""   .$this->KnownByUNTAGGED."\"".PHP_EOL );
+      fputs( $file, "                MS=\""         .$this->KnownByMS      ."\"".PHP_EOL );
+      fputs( $file, "                MSID=\""       .$this->MSID           ."\"".PHP_EOL );
+      fputs( $file, "                IBMCPID=\""    .$this->IBMCPID        ."\"".PHP_EOL );
+      fputs( $file, "                IBMCPURL=\""   .$this->IBMCPURL       ."\"".PHP_EOL );
+      fputs( $file, "                IBMCCSID=\""   .$this->IBMCCSID       ."\"".PHP_EOL );
+      fputs( $file, "                IBMCCSURL=\""  .$this->IBMCCSURL      ."\">".PHP_EOL );
       foreach ( $this->Relation as $relation )
          $relation->WriteXML( $file );
-      fputs( $file, "      </Alias>".PHP_EOL );
+      fputs( $file, "         </Alias>".PHP_EOL );
    } // end WriteXML
 }; // endclass Alias
 
@@ -1081,7 +1176,7 @@ class Relation
    /// @param  $file       XML file to write to
    function WriteXML( $file )
    {
-      fputs( $file, "         <Relation data-source=\"".$this->DataSource );
+      fputs( $file, "            <Relation data-source=\"".$this->DataSource );
       fputs( $file, "\" xlink:href=\"".$this->Reference->Identifier."\"/>".PHP_EOL );
    } // end WriteXML
 }; // endclass Relation
@@ -1101,6 +1196,22 @@ class Relation
 //============================================================================
 
 $MetaSet = [];
+
+
+//============================================================================
+//
+//                  G r o u p S e t
+//
+/// @brief          Set of groups indexed by the identifier
+///
+/// @author         Matthias Wagner
+/// @version        1.0
+/// @since          1.0
+/// @date           2017-02-10 Wagner First release
+///
+//============================================================================
+
+$GroupSet = [];
 
 
 //============================================================================
@@ -1285,6 +1396,7 @@ function ReadParameters( $argc, $argv )
 
 function ReadMeta( $filename )
 {
+   global $GroupSet;
    global $MetaSet;
 
    //-------------------------------------------------------------------------
@@ -1303,21 +1415,32 @@ function ReadMeta( $filename )
    $count_unset = 0;
    while ( ($field = fgetcsv( $file, 0, ";" )) != NULL )
    {
+      if ( empty( $field[0] ) )
+         $field[0] = "0";
+
       if ( $field[0][0] != '#' ) // Skip comment.
       {
          $count++;
-         $meta = new Meta( $field[ 0], $field[ 1], $field[ 2], $field[ 3]
-                         , $field[ 4], $field[ 5], $field[ 6], $field[ 7]
-                         , $field[ 8], $field[ 9], $field[10], $field[11]
-                         , $field[12], $field[13], $field[14], $field[15]
-                         , $field[16], $field[17], $field[18] );
-         $MetaSet[ $field[3] ] = $meta;
-         if ( strlen( $field[6] ) == 0   // Description
-           && strlen( $field[7] ) == 0   // Domain
-           && strlen( $field[8] ) == 0 ) // Width
+         if ( strcmp( $field[2], "Group" ) == 0 )
          {
-            $count_unset++;
-            print "         <p class=\"error\">Meta information for '".$field[3]."' is not set.</p>\n";
+            $group = new Group( $field[4], $field[3], $field[6] );
+            $GroupSet[ $field[4] ] = $group;
+         }
+         else
+         {
+            $meta = new Meta( $group,     $field[ 0], $field[ 1], $field[ 2]
+                            , $field[ 3], $field[ 4], $field[ 5], $field[ 6]
+                            , $field[ 7], $field[ 8], $field[ 9], $field[10]
+                            , $field[11], $field[12], $field[13], $field[14]
+                            , $field[15], $field[16], $field[17], $field[18] );
+            $MetaSet[ $field[3] ] = $meta;
+            if ( strlen( $field[6] ) == 0   // Description
+              && strlen( $field[7] ) == 0   // Domain
+              && strlen( $field[8] ) == 0 ) // Width
+            {
+               $count_unset++;
+               print "         <p class=\"error\">Meta information for '".$field[3]."' is not set.</p>\n";
+            }
          }
       }
    }
@@ -1566,6 +1689,7 @@ function SelectOrInsertCharset( $datasource, $aliasname, &$count )
    }
    else
       $charset = @$CharacterSetSet[ $aliasname ];
+
    if ( !isset( $charset ) )
    {
       $charset = new CharacterSet( $datasource, $aliasname, $meta );
@@ -2621,67 +2745,6 @@ function ReadJAVA( $filename )
 
 //============================================================================
 //
-//                  R e a d A l i a s e s
-//
-/// @brief          Reads the Alias.csv to manually add aliases to existent
-///                 character sets.
-///
-/// @param          $filename           URL to read from
-///
-/// @author         Matthias Wagner
-/// @version        1.0
-/// @since          1.0
-/// @date           2017-01-09 Wagner   First release
-///
-//============================================================================
-
-function ReadAliases( $filename )
-{
-   global $CharacterSetSet;
-
-   //-------------------------------------------------------------------------
-   //  Open the input file.
-
-   if ( ($file = fopen( $filename, "r")) == NULL )
-   {
-      print "         <h2 class=\"error\">Alias file '".$filename."' could not be opened for reading.</h2>".PHP_EOL;
-      return 1;
-   }
-
-   //-------------------------------------------------------------------------
-   //  Read the lines and add the aliases.
-
-   $count = 0;
-   while ( ($field = fgetcsv( $file, 0, ";" )) != NULL )
-   {
-      if ( $field[0][0] != '#' ) // Skip comment.
-      {
-         $count++;
-         $charset = @$CharacterSetSet[ $field[0] ];
-         if ( !isset( $charset ) )
-            print "         <p class=\"error\">Character set ".DATASOURCE_SELF."/".$field[0]." not found.</p>".PHP_EOL;
-         else
-         {
-            $reflist = RefnamesToArray( DATASOURCE_SELF, $field[2] );
-            SelectOrInsertAlias( DATASOURCE_SELF, $field[1], $charset, $reflist, false );
-         }
-      }
-   }
-
-   //-------------------------------------------------------------------------
-   //  Good bye ...
-
-   fclose( $file );
-
-   print "         <p><b>".$count."</b> ".DATASOURCE_SELF." aliases read in.</p>\n";
-
-   return 0;
-
-} // end ReadAliases
-
-
-//============================================================================
-//
 //                  R e a d M i c r o s o f t
 //
 /// @brief          Reads the Microsoft code page list web page and creates
@@ -2886,6 +2949,67 @@ function CreateOrRenameCharacterSets( )
    return 0;
 
 } // end CreateOrRenameCharacterSets
+
+
+//============================================================================
+//
+//                  R e a d A l i a s e s
+//
+/// @brief          Reads the Alias.csv to manually add aliases to existent
+///                 character sets.
+///
+/// @param          $filename           URL to read from
+///
+/// @author         Matthias Wagner
+/// @version        1.0
+/// @since          1.0
+/// @date           2017-01-09 Wagner   First release
+///
+//============================================================================
+
+function ReadAliases( $filename )
+{
+   global $CharacterSetSet;
+
+   //-------------------------------------------------------------------------
+   //  Open the input file.
+
+   if ( ($file = fopen( $filename, "r")) == NULL )
+   {
+      print "         <h2 class=\"error\">Alias file '".$filename."' could not be opened for reading.</h2>".PHP_EOL;
+      return 1;
+   }
+
+   //-------------------------------------------------------------------------
+   //  Read the lines and add the aliases.
+
+   $count = 0;
+   while ( ($field = fgetcsv( $file, 0, ";" )) != NULL )
+   {
+      if ( $field[0][0] != '#' ) // Skip comment.
+      {
+         $count++;
+         $charset = @$CharacterSetSet[ $field[0] ];
+         if ( !isset( $charset ) )
+            print "         <p class=\"error\">Character set ".DATASOURCE_SELF."/".$field[0]." not found.</p>".PHP_EOL;
+         else
+         {
+            $reflist = RefnamesToArray( DATASOURCE_SELF, $field[2] );
+            SelectOrInsertAlias( DATASOURCE_SELF, $field[1], $charset, $reflist, false );
+         }
+      }
+   }
+
+   //-------------------------------------------------------------------------
+   //  Good bye ...
+
+   fclose( $file );
+
+   print "         <p><b>".$count."</b> ".DATASOURCE_SELF." aliases read in.</p>\n";
+
+   return 0;
+
+} // end ReadAliases
 
 
 //============================================================================
@@ -3410,7 +3534,7 @@ function CheckUnusedMeta( )
    global $MetaSet;
 
    //-------------------------------------------------------------------------
-   //  Second, check that each alias has relations.
+   //  Scan all meta informations and check that it is used.
 
    $count = 0;
    foreach ( $MetaSet as $meta )
@@ -3448,7 +3572,7 @@ function CheckUnusedMeta( )
 
 function WriteXML( $filename )
 {
-   global $CharacterSetSet;
+   global $GroupSet;
    global $ReferenceSet;
 
    if ( ($file = fopen( $filename, "w" )) == NULL )
@@ -3466,22 +3590,15 @@ function WriteXML( $filename )
    fputs( $file, "                      xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"".PHP_EOL );
    fputs( $file, "                      xsi:schemaLocation=\"CharacterSetDatabase.xsd\">".PHP_EOL );
 
+   $count_group     = 0;
    $count_cs        = 0;
    $count_checked   = 0;
    $count_unsave    = 0;
    $count_unchecked = 0;
-   foreach ( $CharacterSetSet as $charset )
+   foreach ( $GroupSet as $group )
    {
-      $count_cs++;
-      $charset->WriteXML( $file );
-      if ( $charset->State == "checked" )
-         $count_checked++;
-      else
-      if ( $charset->State == "unsave" )
-         $count_unsave++;
-      else
-      if ( $charset->State == "unchecked" )
-         $count_unchecked++;
+      $count_group++;
+      $group->WriteXML( $file, $count_cs, $count_checked, $count_unsave, $count_unchecked );
    }
 
    $count_ref = 0;
@@ -3498,7 +3615,7 @@ function WriteXML( $filename )
 
    fclose( $file );
 
-   print "         <p><b>".$count_cs."</b> character sets and <b>".$count_ref."</b> references written.</p>\n";
+   print "         <p><b>".$count_cs."</b> character sets in <b>".$count_group."</b> groups and <b>".$count_ref."</b> references written.</p>\n";
    print "         <p><b>".$count_checked."</b> checked, <b>".$count_unsave."</b> unsave and <b>".$count_unchecked."</b> unchecked character sets written.</p>\n";
 
    return 0;
@@ -3628,13 +3745,6 @@ if ( $rc == 0 )
 
 if ( $rc == 0 )
 {
-   $filename = "Alias.csv";
-   print "      <h1>Reading SELF aliases from ".$filename."</h1>".PHP_EOL;
-   $rc = ReadAliases( $filename );
-}
-
-if ( $rc == 0 )
-{
    $filename = $microsoft_url;
    print "      <h1>Reading MICROSOFT code pages from ".$filename."</h1>".PHP_EOL;
    $rc = ReadMicrosoft( $filename );
@@ -3644,6 +3754,13 @@ if ( $rc == 0 )
 {
    print "      <h1>Creating or renaming character sets</h1>".PHP_EOL;
    $rc = CreateOrRenameCharacterSets();
+}
+
+if ( $rc == 0 )
+{
+   $filename = "Alias.csv";
+   print "      <h1>Reading SELF aliases from ".$filename."</h1>".PHP_EOL;
+   $rc = ReadAliases( $filename );
 }
 
 if ( $rc == 0 )

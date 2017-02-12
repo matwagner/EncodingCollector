@@ -13,6 +13,9 @@
       <xsl:text>No;</xsl:text>
       <xsl:text>DataSource;</xsl:text>
       <xsl:text>Official Name;</xsl:text>
+      <xsl:text>GroupIdentifier;</xsl:text>
+      <xsl:text>GroupName;</xsl:text>
+      <xsl:text>GroupDescription;</xsl:text>
       <xsl:text>Identifier;</xsl:text>
       <xsl:text>Year;</xsl:text>
       <xsl:text>Description;</xsl:text>
@@ -61,9 +64,10 @@
       <xsl:apply-templates/>
    </xsl:template>
 
-   <xsl:template match="/CharacterSetDatabase/CharacterSet/Alias/Relation">
+   <xsl:template match="/CharacterSetDatabase/Group/CharacterSet/Alias/Relation">
       <xsl:variable name="alias" select=".."/>
       <xsl:variable name="charset" select="../.."/>
+      <xsl:variable name="group" select="../../.."/>
       <xsl:value-of select="$charset/@state"/>
       <xsl:text>;</xsl:text>
       <xsl:value-of select="$charset/@number"/>
@@ -71,6 +75,12 @@
       <xsl:value-of select="$charset/@data-source"/>
       <xsl:text>;</xsl:text>
       <xsl:value-of select="$charset/@name"/>
+      <xsl:text>;</xsl:text>
+      <xsl:value-of select="$group/@identifier"/>
+      <xsl:text>;</xsl:text>
+      <xsl:value-of select="$group/@name"/>
+      <xsl:text>;</xsl:text>
+      <xsl:value-of select="$group/@description"/>
       <xsl:text>;</xsl:text>
       <xsl:value-of select="$charset/@identifier"/>
       <xsl:text>;</xsl:text>

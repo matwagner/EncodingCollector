@@ -1,5 +1,5 @@
 #Identifier;DataSource;Alias;BelongsTo;Reason
-#;Standard stuff;;;
+#;Unicode stuff;;;
 US_ASCII;IBM_ICU;iso_646.irv:1983;;ISO646.irv:1983 has nothing to do with US-ASCII, see IANA character-sets.txt.
 US_ASCII;IBM_ICU;ISO646IRV1983;;ISO646.irv:1983 has nothing to do with US-ASCII, see IANA character-sets.txt.
 US_ASCII;ORACLE_JAVA;iso_646.irv:1983;;ISO646.IRV:1983 has nothing to do with US-ASCII, IANA and RFC1345 distinguish them.
@@ -29,6 +29,7 @@ UCS_2BE;GNU_ICONV;UNICODE-1-1;;IANA treats UCS_2BE and UNICODE-1-1 as being diff
 UCS_2BE;GNU_ICONV;csUnicode11;;IANA treats UCS_2BE and UNICODE-1-1 as being different.
 UCS_4LE;MS;utf-32;;Microsoft lives in the little endian world. UTF-32 can be either of both endiannesses.
 UCS_4BE;MS;utf-32BE;;This is not unique to UTF-32BE.
+#;Standard stuff;;;
 ISO_8859_6;IBM_ICU;ISO-8859-6-E;ISO_8859_6_E;ISO-8859-6 and ISO-8859-6-E are definitely _not_ the same. IANA distinguishes them.
 ISO_8859_6;IBM_ICU;ISO-8859-6-I;ISO_8859_6_I;ISO-8859-6 and ISO-8859-6-I are definitely _not_ the same. IANA distinguishes them.
 ISO_8859_7;ORACLE_JAVA;ibm-813;IBM813;IBM813 and ISO-8859-7 are not the same. ICU distinguishes them.
@@ -58,7 +59,7 @@ HP_Thai8;GNU_ICONV;THAI8;;This is not unique to ISO-8859-11.
 GBK;IANA;CP936;;GBK and CP936, MS936 and windows-936 have are definitely _not_the same. GNU libiconv distinguishes them.
 GBK;IANA;MS936;;GBK and CP936, MS936 and windows-936 have are definitely _not_the same. GNU libiconv distinguishes them.
 GBK;IANA;windows-936;;GBK and CP936, MS936 and windows-936 have are definitely _not_the same. GNU libiconv distinguishes them.
-GBK;IANA;CP936;;GBK and CP936 aka Windows-936 are not the same. 
+GBK;IANA;CP936;;GBK and CP936 aka Windows-936 are not the same.
 GBK;IANA;MS936;;GBK and MS936 aka Windows-936 are not the same. GNU ICONV distinguishes them.
 GBK;IANA;windows-936;;GBK and Windows-936 are not the same. GNU ICONV distinguishes them.
 GBK;ORACLE_JAVA;CP936;;GBK and CP936 aka Windows-936 are not the same. GNU ICONV distinguishes them.

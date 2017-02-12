@@ -14,7 +14,16 @@
 	   </xsl:element>
 	</xsl:template>
 
-   <xsl:template match="/CharacterSetDatabase/CharacterSet">
+   <xsl:template match="/CharacterSetDatabase/Group">
+	   <xsl:element name="StagingArea-Group">
+	      <xsl:element name="Identifier"><xsl:value-of select="@identifier"/></xsl:element>
+	      <xsl:element name="Name"><xsl:value-of select="@name"/></xsl:element>
+	      <xsl:element name="Description"><xsl:value-of select="@description"/></xsl:element>
+	   </xsl:element>
+      <xsl:apply-templates/>
+	</xsl:template>
+
+   <xsl:template match="/CharacterSetDatabase/Group/CharacterSet">
 	   <xsl:element name="StagingArea-CharacterSet">
 	      <xsl:element name="State"><xsl:value-of select="@state"/></xsl:element>
 	      <xsl:element name="CharacterSetId"><xsl:value-of select="@number"/></xsl:element>
@@ -54,7 +63,7 @@
       <xsl:apply-templates/>
    </xsl:template>
 
-   <xsl:template match="/CharacterSetDatabase/CharacterSet/Alias">
+   <xsl:template match="/CharacterSetDatabase/Group/CharacterSet/Alias">
 	   <xsl:element name="StagingArea-Alias">
 	      <xsl:element name="CharacterSetId"><xsl:value-of select="../@number"/></xsl:element>
 	      <xsl:element name="AliasId"><xsl:number level="single"/></xsl:element>
@@ -80,7 +89,7 @@
       <xsl:apply-templates/>
    </xsl:template>
 
-   <xsl:template match="/CharacterSetDatabase/CharacterSet/Alias/Relation">
+   <xsl:template match="/CharacterSetDatabase/Group/CharacterSet/Alias/Relation">
 	   <xsl:element name="StagingArea-Relation">
 	      <xsl:element name="CharacterSetId"><xsl:value-of select="../../@number"/></xsl:element>
 	      <xsl:element name="Alias"><xsl:value-of select="../@original"/></xsl:element>

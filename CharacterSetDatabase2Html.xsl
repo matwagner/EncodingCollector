@@ -184,7 +184,7 @@
             </xsl:element>
          </xsl:element>
          <xsl:element name="tbody">
-            <xsl:apply-templates select="CharacterSet"/>
+            <xsl:apply-templates select="Group"/>
          </xsl:element>
          <xsl:element name="tfoot">
             <xsl:element name="tr">
@@ -192,7 +192,7 @@
                   <xsl:attribute name="colspan">
                      <xsl:text>27</xsl:text>
                   </xsl:attribute>
-                  <xsl:value-of select="count(CharacterSet)"/>
+                  <xsl:value-of select="count(Group/CharacterSet)"/>
                   <xsl:text> characters sets reported.</xsl:text>
                </xsl:element>
             </xsl:element>
@@ -239,7 +239,28 @@
       </xsl:element>
    </xsl:template>
 
-   <xsl:template match="/CharacterSetDatabase/CharacterSet">
+   <xsl:template match="/CharacterSetDatabase/Group">
+      <xsl:element name="tr">
+         <xsl:element name="th">
+         </xsl:element>
+         <xsl:element name="th">
+            <xsl:value-of select="@name"/>
+            <xsl:element name="br"/>
+            <xsl:value-of select="@identifier"/>
+         </xsl:element>
+         <xsl:element name="th">
+            <xsl:value-of select="@description"/>
+         </xsl:element>
+         <xsl:element name="th">
+            <xsl:attribute name="colspan">
+               <xsl:text>24</xsl:text>
+            </xsl:attribute>
+         </xsl:element>
+      </xsl:element>
+      <xsl:apply-templates select="CharacterSet"/>
+   </xsl:template>
+
+   <xsl:template match="/CharacterSetDatabase/Group/CharacterSet">
       <xsl:variable name="rowspan" select="count(Alias)"/>
       <xsl:element name="tr">
          <xsl:attribute name="class">
@@ -499,7 +520,7 @@
       <xsl:apply-templates select="Alias"/>
    </xsl:template>
 
-   <xsl:template match="/CharacterSetDatabase/CharacterSet/Alias">
+   <xsl:template match="/CharacterSetDatabase/Group/CharacterSet/Alias">
       <xsl:if test="position()>1">
          <xsl:element name="tr">
             <xsl:attribute name="class">

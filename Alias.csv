@@ -1,5 +1,4 @@
 #Identifier;Alias;Reference;Reason
-Invariant;iso-ir-170;ISO;ISO-IR lists this.
 UTF_1;iso-ir-178;ISO;ISO-IR lists this, Wikipedia references this.
 MacIntosh;ibm-1275;IBMCCS;IBMCCS lists this.
 MacIntosh;cp1275;IBMCCS;IBMCCS lists this.
@@ -15,3 +14,4 @@ MacCyrillic;ibm-1283;IBMCCS;IBMCCS lists this.
 MacCyrillic;cp1283;IBMCCS;IBMCCS lists this.
 MacGreek;ibm-1280;IBMCCS;IBMCCS lists this.
 MacGreek;cp1280;IBMCCS;IBMCCS lists this.
+Invariant;iso-ir-170;ISO;ISO-IR lists this.
