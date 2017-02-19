@@ -44,6 +44,7 @@ ISO_8859_8;ORACLE_JAVA;ibm916;IBM916;IBM916 and ISO-8859-8 are not the same. ICU
 ISO_8859_8;ORACLE_JAVA;cp916;IBM916;IBM916 and ISO-8859-8 are not the same. ICU distinguishes them.
 ISO_8859_8;ORACLE_JAVA;916;IBM916;IBM916 and ISO-8859-8 are not the same. ICU distinguishes them.
 KOI8_R;IBM_ICU;koi8;;KOI8 and KOI8-R for russian alone are definitely _not_ the same.
+KOI8_R;ORACLE_JAVA;koi8;;KOI8 and KOI8-R for russian alone are definitely _not_ the same.
 #;ISO646 7 bit stuff;;;
 NATS_DANO;IANA;ISOIR91;;Speciality for NATS-DANO* which simplified name conflicts with JIS_C6229-1984-* for the prefix ISO-IR-9:
 NATS_DANO;GNU_ICONV;ISOIR91;;NATS-DANO/-ADD JIS_C6229-1984-a/b Simplified in both character sets

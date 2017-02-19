@@ -29,21 +29,16 @@
 27;checked;IANA;BOCU-1;BOCU_1;2002;Binary Ordered Compression for Unicode, MIME-Compatible Unicode Compression, note that IBM1214 adds a PUA;UNICODE;unicode;any;https://en.wikipedia.org/wiki/BOCU-1;ascii;varying8;1;6;U+001A;yes;no;
 30;checked;SELF;ibm-1210;IBM1210;2004;UTF-EBCDIC with IBM PUA;IBM;unicode;any;;ebcdic;varying8;1;2;U+001A;yes;no;
 31;checked;SELF;ibm-1211;IBM1211;2004;UTF-EBCDIC;IBM;unicode;any;;ebcdic;varying8;1;2;U+001A;yes;no;
-32;checked;IANA;ISO-Unicode-IBM-1261;IBM1261;1993;IBM Latin-2, -3, -5, Extended Presentation Set, GCSGID: 1261;UNICODE;unicode;latin;https://en.wikipedia.org/w/index.php?title=Code_page_1261&action=edit&redlink=1;ascii;fixed8;1;1;U+001A;yes;no;
-33;checked;IANA;ISO-Unicode-IBM-1268;IBM1268;1993;IBM Latin-4 Extended Presentation Set, GCSGID: 1268;UNICODE;unicode;latin;;ascii;fixed8;1;1;U+001A;yes;no;
-34;checked;IANA;ISO-Unicode-IBM-1276;Adobe_Standard_Encoding;1995;Adobe PostScript Standard Encoding;UNICODE;unicode;latin;https://en.wikipedia.org/w/index.php?title=Code_page_1276&action=edit&redlink=1;ascii;fixed8;1;1;U+001A;yes;no;
-35;checked;IANA;ISO-Unicode-IBM-1264;IBM1264;1993;IBM Arabic Presentation Set, GCSGID: 1264;UNICODE;unicode;arabic;;ascii;fixed8;1;1;U+001A;yes;yes;
-36;checked;IANA;ISO-Unicode-IBM-1265;IBM1265;1993;IBM Hebrew Presentation Set, GCSGID: 1265;UNICODE;unicode;hebrew;;ascii;fixed8;1;1;U+001A;yes;yes;
-37;checked;SELF;ibm-1400;IBM1400;1999;ISO 10646 UCS-Basic Multilingual Plane, based on Unicode V6.0;IBM;unicode;any;;ascii;fixed16;2;2;U+001A;yes;no;
-38;checked;SELF;ibm-1401;IBM1401;2004;ISO 10646 UCS-Supplementary Multilingual Plane (Plane 1), based on Unicode V6.0;IBM;unicode;any;;ascii;fixed16;2;2;U+001A;yes;no;
-39;checked;SELF;ibm-1402;IBM1402;2004;ISO 10646 UCS-Supplementary Ideographic Plane (Plane 2), based on Unicode V6.0;IBM;unicode;any;;ascii;fixed16;2;2;U+001A;yes;no;
-40;checked;SELF;ibm-1414;IBM1414;2004;ISO 10646 UCS-Supplementary Special-purpose Plane (Plane 14), Based on Unicode 4.0;IBM;unicode;any;;ascii;fixed16;2;2;U+001A;yes;no;
-41;checked;SELF;ibm-1445;IBM1445;2011;ISO 10646 Advanced Function Printing (AFP) Private User Area (PUA) No.1 (Plane 15);IBM;unicode;any;;ascii;fixed16;2;2;U+001A;yes;no;
-42;checked;SELF;ibm-1446;IBM1446;2004;ISO 10646 UCS-Private Use Plane 15, based on Unicode 4.0;IBM;unicode;any;;ascii;fixed16;2;2;U+001A;yes;no;
-43;checked;SELF;ibm-1447;IBM1447;2004;ISO 10646 UCS-Private Use Plane 16, based on Unicode 4.0;IBM;unicode;any;;ascii;fixed16;2;2;U+001A;yes;no;
-44;checked;SELF;ibm-1448;IBM1448;2004;ISO 10646 UCS-Basic Multilingual Plane Private Use Area (Plane 15 and 16), generic UDC;IBM;unicode;any;;ascii;fixed16;2;2;U+001A;yes;no;
-45;checked;SELF;ibm-1449;IBM1449;1999;ISO 10646 UCS-Basic Multilingual Plane Private Use Area (Plane 15 and 16), IBM default;IBM;unicode;any;;ascii;fixed16;2;2;U+001A;yes;no;
-46;checked;SELF;ibm-65520;IBM65520;2004;Empty Unicode Plane;IBM;unicode;any;;ascii;fixed16;2;2;U+001A;yes;no;
+32;checked;SELF;ibm-1400;IBM1400;1999;ISO 10646 UCS-Basic Multilingual Plane, based on Unicode V6.0;IBM;unicode;any;;ascii;fixed16;2;2;U+001A;yes;no;
+33;checked;SELF;ibm-1401;IBM1401;2004;ISO 10646 UCS-Supplementary Multilingual Plane (Plane 1), based on Unicode V6.0;IBM;unicode;any;;ascii;fixed16;2;2;U+001A;yes;no;
+34;checked;SELF;ibm-1402;IBM1402;2004;ISO 10646 UCS-Supplementary Ideographic Plane (Plane 2), based on Unicode V6.0;IBM;unicode;any;;ascii;fixed16;2;2;U+001A;yes;no;
+35;checked;SELF;ibm-1414;IBM1414;2004;ISO 10646 UCS-Supplementary Special-purpose Plane (Plane 14), Based on Unicode 4.0;IBM;unicode;any;;ascii;fixed16;2;2;U+001A;yes;no;
+36;checked;SELF;ibm-1445;IBM1445;2011;ISO 10646 Advanced Function Printing (AFP) Private User Area (PUA) No.1 (Plane 15);IBM;unicode;any;;ascii;fixed16;2;2;U+001A;yes;no;
+37;checked;SELF;ibm-1446;IBM1446;2004;ISO 10646 UCS-Private Use Plane 15, based on Unicode 4.0;IBM;unicode;any;;ascii;fixed16;2;2;U+001A;yes;no;
+38;checked;SELF;ibm-1447;IBM1447;2004;ISO 10646 UCS-Private Use Plane 16, based on Unicode 4.0;IBM;unicode;any;;ascii;fixed16;2;2;U+001A;yes;no;
+39;checked;SELF;ibm-1448;IBM1448;2004;ISO 10646 UCS-Basic Multilingual Plane Private Use Area (Plane 15 and 16), generic UDC;IBM;unicode;any;;ascii;fixed16;2;2;U+001A;yes;no;
+40;checked;SELF;ibm-1449;IBM1449;1999;ISO 10646 UCS-Basic Multilingual Plane Private Use Area (Plane 15 and 16), IBM default;IBM;unicode;any;;ascii;fixed16;2;2;U+001A;yes;no;
+41;checked;SELF;ibm-65520;IBM65520;2004;Empty Unicode Plane;IBM;unicode;any;;ascii;fixed16;2;2;U+001A;yes;no;
 ;;Group;International standards;International;;International standard encodings, mostly ISO in standard number order;;;;;;;;;;;;
 50;unchecked;IANA;ISO-2022-CN;ISO_2022_CN;;;ISO2022;international;chinese;;ascii;varying8;1;3;U+001A;yes;no;charsets.jar
 51;unchecked;GNU_ICONV;x-ISO-2022-CN-GB;ISO_2022_CN_GB;;;ISO2022;international;chinese;;ascii;varying8;1;3;U+001A;yes;no;charsets.jar
@@ -56,7 +51,7 @@
 58;checked;Name;ISO-2022_JP_4;ISO_2022_JP_2004;2004;;ISO2022;international;japanese;https://en.wikipedia.org/wiki/ISO/IEC_2022;ascii;varying8;1;2;U+001A;yes;no;
 59;unchecked;IANA;ISO-2022-KR;ISO_2022_KR;;;ISO2022;international;korean;;ascii;varying8;1;3;U+001A;yes;no;charsets.jar
 60;unchecked;Name;ISO-2022-KR-1;ISO_2022_KR_1;;;ISO2022;international;korean;;ascii;varying8;1;3;U+001A;yes;no;
-61;checked;IANA;ISO_2033-1983;ISO_2033_1983;1983;Information processing - Coding of machine readable characters (MICR and OCR);ISO2033;international;latin;;ascii;fixed8;1;1;U+001A;yes;no;
+70;checked;IANA;ISO_2033-1983;ISO_2033_1983;1983;Information processing - Coding of machine readable characters (MICR and OCR);ISO2033;international;latin;;ascii;fixed8;1;1;U+001A;yes;no;
 80;checked;IANA;ISO_6937-2-add;ISO_6937_2_add;1983;Communication of text in conformance with ISO 6937/2 plus addendum 1;ISO6937;international;latin;https://en.wikipedia.org/wiki/ISO/IEC_6937;ascii;varying8;1;2;U+001A;yes;no;
 81;checked;IANA;ISO_6937-2-25;ISO_6937_2_25;1989;This set of graphic characters comprises the 25 characters specified in ISO 6937-2:1983 but not in parts 1 to 9 of ISO 8859;ISO6937;international;latin;https://en.wikipedia.org/wiki/ISO/IEC_6937;ascii;varying8;1;2;U+001A;yes;no;
 82;checked;Name;ISO-6937:2001;ISO_6937_2001;2001;Information technology - Coded graphic character set for text communication - Latin alphabet;ISO6937;international;latin;https://en.wikipedia.org/wiki/ISO/IEC_6937;ascii;varying8;1;2;U+001A;yes;no;
@@ -77,7 +72,7 @@
 113;checked;SELF;ISO_8859-9E;ISO_8859_9E;1989;Latin-5 Turkish, deprecated;ISO8859;international;latin;;ascii;fixed8;1;1;U+001A;yes;no;
 114;checked;IANA;ISO-8859-10;ISO_8859_10;1992;Latin-6 Nordic;ISO8859;international;latin;https://en.wikipedia.org/wiki/ISO/IEC_8859-10;ascii;fixed8;1;1;U+001A;yes;no;
 115;checked;GNU_ICONV;ISO-8859-11;ISO_8859_11;2001;Latin/Thai;ISO8859;international;thai;https://en.wikipedia.org/wiki/ISO/IEC_8859-11;ascii;fixed8;1;1;U+001A;yes;no;charsets.jar
-116;checked;Deprecated;ISO-8859-12;ISO_8859_12;1997;Latin/Devanagari, never finished in favour of Unicode;ISO8859;international;indic;https://en.wikipedia.org/wiki/ISO/IEC_8859-12;ascii;fixed8;1;1;U+001A;yes;no;
+116;checked;SELF;ISO-8859-12;ISO_8859_12;1997;Deprecated: Latin/Devanagari, never finished in favour of Unicode;ISO8859;international;indic;https://en.wikipedia.org/wiki/ISO/IEC_8859-12;ascii;fixed8;1;1;U+001A;yes;no;
 117;checked;IANA;ISO-8859-13;ISO_8859_13;1998;Latin-7 Baltic Rim;ISO8859;international;latin;https://en.wikipedia.org/wiki/ISO/IEC_8859-13;ascii;fixed8;1;1;U+001A;yes;no;rt.jar
 118;checked;IANA;ISO-8859-14;ISO_8859_14;1998;Latin-8 Celtic;ISO8859;international;latin;https://en.wikipedia.org/wiki/ISO/IEC_8859-14;ascii;fixed8;1;1;U+001A;yes;no;
 119;checked;IANA;ISO-8859-15;ISO_8859_15;1999;Latin-9 with euro;ISO8859;international;latin;https://en.wikipedia.org/wiki/ISO/IEC_8859-15;ascii;fixed8;1;1;U+001A;yes;no;rt.jar
@@ -99,77 +94,70 @@
 204;checked;GNU_ICONV;CP936;Windows_936;1992;ANSI/OEM Simplified Chinese including 1880 UDC, based on GB2312;MICROSOFT;windows;chinese;https://en.wikipedia.org/wiki/Code_page_1386;ascii;varying8;1;2;U+001A;yes;no;charsets.jar
 205;checked;IBM_ICU;windows-936-2000;Windows_936_2000;1996;ANSI/OEM Simplified Chinese including 1880 UDC, based on GB2312;MICROSOFT;windows;chinese;https://en.wikipedia.org/wiki/Code_page_1386;ascii;fixed8;1;1;U+001A;yes;no;
 206;checked;Name;Windows-949;Windows_949;1992;ANSI/OEM Korean (Unified Hangul Code);MICROSOFT;windows;korean;https://en.wikipedia.org/wiki/Code_page_949;ascii;fixed8;1;1;U+001A;yes;no;
-207;checked;GNU_ICONV;CP950;CP950;1999;"ANSI/OEM Traditional Chinese (Taiwan; Hong Kong SAR, PRC), based on Big-5 with some ETEN characters at F9D6-F9FE and 34 box drawing characters and block elements";MSIBM;windows;chinese;https://en.wikipedia.org/wiki/Code_page_950;ascii;varying8;1;2;U+001A;yes;no;charsets.jar
+207;checked;GNU_ICONV;CP950;CP950;1999;ANSI/OEM Traditional Chinese (Taiwan, Hong Kong SAR, PRC), based on Big-5 with some ETEN characters at F9D6-F9FE and 34 box drawing characters and block elements;MSIBM;windows;chinese;https://en.wikipedia.org/wiki/Code_page_950;ascii;varying8;1;2;U+001A;yes;no;charsets.jar
 208;unchecked;Name;Windows-950_2000;Windows_950_2000;;;MICROSOFT;windows;chinese;;ascii;varying8;1;2;U+001A;yes;no;
-209;unchecked;Name;MS950-HKSCS;MS950_HKSCS;;;MICROSOFT;windows;chinese;;ascii;varying8;1;2;U+001A;yes;no;
-210;unchecked;ORACLE_JAVA;x-MS950-HKSCS;MS950_HKSCS;;;MICROSOFT;windows;chinese;;ascii;varying8;1;2;U+001A;yes;no;charsets.jar
-211;unchecked;ORACLE_JAVA;x-MS950-HKSCS-XP;MS950_HKSCS_XP;;;MICROSOFT;windows;chinese;;ascii;varying8;1;2;U+001A;yes;no;
-212;checked;Name;ibm-1004;IBM1004;1991;Latin-1 Extended, Desk Top Publishing/Windows;MICROSOFT;windows;latin;https://en.wikipedia.org/w/index.php?title=Code_page_1004&action=edit&redlink=1;ascii;fixed8;1;1;U+001A;yes;no;
-213;checked;GNU_ICONV;CP1162;IBM1162;1999;Thai MS Windows with euro;MSIBM;windows;thai;https://en.wikipedia.org/wiki/Code_page_1162;ascii;fixed8;1;1;U+001A;yes;no;
-214;checked;IANA;windows-1250;Windows_1250;1991;ANSI Central European;MICROSOFT;windows;latin;https://en.wikipedia.org/wiki/Windows-1250;ascii;fixed8;1;1;U+001A;yes;no;rt.jar
-215;checked;IANA;windows-1251;Windows_1251;1991;ANSI Cyrillic;MICROSOFT;windows;cyrillic;https://en.wikipedia.org/wiki/Windows-1251;ascii;fixed8;1;1;U+001A;yes;no;rt.jar
-216;checked;IANA;windows-1252;Windows_1252;1991;ANSI Western European;MICROSOFT;windows;latin;https://en.wikipedia.org/wiki/Windows-1252;ascii;fixed8;1;1;U+001A;yes;no;rt.jar
-217;checked;IANA;windows-1253;Windows_1253;1991;ANSI Greek;MICROSOFT;windows;cyrillic;https://en.wikipedia.org/wiki/Windows-1253;ascii;fixed8;1;1;U+001A;yes;no;rt.jar
-218;checked;IANA;windows-1254;Windows_1254;1991;ANSI Turkish;MICROSOFT;windows;latin;https://en.wikipedia.org/wiki/Windows-1254;ascii;fixed8;1;1;U+001A;yes;no;rt.jar
-219;checked;IANA;windows-1255;Windows_1255;1991;ANSI Hebrew;MICROSOFT;windows;hebrew;https://en.wikipedia.org/wiki/Windows-1255;ascii;fixed8;1;1;U+001A;yes;yes;charsets.jar
-220;checked;IANA;windows-1256;Windows_1256;1991;ANSI Arabic;MICROSOFT;windows;arabic;https://en.wikipedia.org/wiki/Windows-1256;ascii;fixed8;1;1;U+001A;yes;yes;charsets.jar
-221;checked;IANA;windows-1257;Windows_1257;1991;ANSI Baltic;MICROSOFT;windows;latin;https://en.wikipedia.org/wiki/Windows-1257;ascii;fixed8;1;1;U+001A;yes;no;rt.jar
-222;checked;IANA;windows-1258;Windows_1258;1991;ANSI/OEM Vietnam;MICROSOFT;windows;vietnamese;https://en.wikipedia.org/wiki/Windows-1258;ascii;fixed8;1;1;U+001A;yes;no;charsets.jar
-223;checked;Name;ibm-1277;IBM1277;1995;Adobe PostScript Latin-1;MSIBM;windows;latin;https://en.wikipedia.org/w/index.php?title=Code_page_1277&action=edit&redlink=1;ascii;fixed8;1;1;U+001A;yes;no;
-224;checked;Name;Windows-1361;Windows_1361;2000;Korean (Johab);MICROSOFT;windows;korean;https://en.wikipedia.org/w/index.php?title=Code_page_1361&action=edit&redlink=1;ascii;fixed8;1;1;U+001A;yes;no;
-225;checked;Name;ibm-1362;IBM1362;1997;Windows Korean including 11172 full Hangul;IBM;windows;korean;https://en.wikipedia.org/w/index.php?title=Code_page_1362&action=edit&redlink=1;ascii;fixed16;2;2;U+001A;yes;no;
-226;checked;Name;ibm-1363;IBM1363;1997;Windows Korean including 11172 full Hangul;IBM;windows;korean;https://en.wikipedia.org/wiki/Code_page_1363;ascii;varying8;1;2;U+001A;yes;no;
-227;checked;SELF;ibm-1372;IBM1372;2002;MS Traditional Chinese Big-5 (Special for DB2);MSIBM;windows;chinese;https://en.wikipedia.org/w/index.php?title=Code_page_1372&action=edit&redlink=1;ascii;varying8;1;2;U+001A;yes;no;
-228;unsave;MS;x-Chinese_CNS;CP20000;;Taiwan CNS, traditional chinese;MICROSOFT;windows;chinese;;ascii;fixed8;1;1;U+001A;yes;no;
-229;unsave;MS;x-cp20001;CP20001;;Taiwan TCA;MICROSOFT;windows;chinese;;ascii;fixed8;1;1;U+001A;yes;no;
-230;unsave;MS;x_Chinese-Eten;CP20002;;Taiwan Eten, traditional chinese;MICROSOFT;windows;chinese;;ascii;fixed8;1;1;U+001A;yes;no;
-231;unsave;MS;x-cp20003;CP20003;;Taiwan IBM5550;MICROSOFT;windows;chinese;;ascii;fixed8;1;1;U+001A;yes;no;
-232;unsave;MS;x-cp20004;CP20004;;Taiwan Teletext;MICROSOFT;windows;chinese;;ascii;fixed8;1;1;U+001A;yes;no;
-233;unsave;MS;x-cp20005;CP20005;;Taiwan Wang;MICROSOFT;windows;chinese;;ascii;fixed8;1;1;U+001A;yes;no;
-234;unchecked;MS;x-cp20949;CP20949;;Korean Wansung;MICROSOFT;windows;korean;;ascii;fixed8;1;1;U+001A;yes;no;
-235;unsave;MS;CP21027;CP21027;;Ext Alpha Lowercase;MICROSOFT;windows;latin;;ascii;fixed8;1;1;U+001A;yes;no;
-236;unsave;MS;x-Europa;CP29001;;Europa 3;MICROSOFT;windows;latin;;ascii;fixed8;1;1;U+001A;yes;no;
-237;checked;MS;CP50930;IBM930;;IBM EBCDIC Japanese (Katakana) Extended;MICROSOFT;windows;japanese;;ebcdic;fixed8;1;1;U+001A;yes;no;
-238;checked;MS;CP50931;IBM931;;IBM EBCDIC Latin and Japanese;MICROSOFT;windows;japanese;;ebcdic;fixed8;1;1;U+001A;yes;no;
-239;checked;MS;CP50933;IBM933;;IBM EBCDIC Korean Extended;MICROSOFT;windows;korean;;ebcdic;fixed8;1;1;U+001A;yes;no;
-240;checked;MS;CP50935;IBM935;;IBM EBCDIC Simplified Chinese Extended and Simplified Chinese;MICROSOFT;windows;chinese;;ebcdic;fixed8;1;1;U+001A;yes;no;
-241;checked;MS;CP50937;IBM937;;IBM EBCDIC US-Canada and Traditional Chinese;MICROSOFT;windows;chinese;;ebcdic;fixed8;1;1;U+001A;yes;no;
-242;checked;MS;CP50939;IBM939;;IBM EBCDIC Japanese (Latin) Extended and Japanese;MICROSOFT;windows;japanese;;ebcdic;fixed8;1;1;U+001A;yes;no;
-243;unchecked;IANA;CP50220;CP50220;;;MICROSOFT;windows;japanese;;ascii;fixed8;1;1;U+001A;yes;no;charsets.jar
-244;unchecked;Name;CP50221;CP50221;;;MICROSOFT;windows;japanese;;ascii;fixed8;1;1;U+001A;yes;no;charsets.jar
-245;unsave;MS;x-cp50227;CP50227;;ISO 2022, simplified chinese;ISO2022;windows;chinese;;ascii;fixed8;1;1;U+001A;yes;no;
-246;unsave;MS;CP50229;CP50229;;ISO 2022, traditional chinese;ISO2022;windows;chinese;;ascii;fixed8;1;1;U+001A;yes;no;
-247;unchecked;ORACLE_JAVA;x-windows-iso2022jp;Windows_ISO2022_JP;;ISO 2022, japanese;ISO2022;windows;japanese;;ascii;varying8;1;2;U+001A;yes;no;
-248;checked;Deprecated;Windows-Sami2;Windows_Sami2;2003;Sami language in Norway, based on Windows-1252;MICROSOFT;windows;latin;;ascii;fixed8;1;1;U+001A;yes;no;
+209;unchecked;Name;MS950-HKSCS;MS950_HKSCS;;;MICROSOFT;windows;chinese;;ascii;varying8;1;2;U+001A;yes;no;charsets.jar
+210;unchecked;ORACLE_JAVA;x-MS950-HKSCS-XP;MS950_HKSCS_XP;;;MICROSOFT;windows;chinese;;ascii;varying8;1;2;U+001A;yes;no;
+211;checked;Name;ibm-1004;IBM1004;1991;Latin-1 Extended, Desk Top Publishing/Windows;MICROSOFT;windows;latin;https://en.wikipedia.org/w/index.php?title=Code_page_1004&action=edit&redlink=1;ascii;fixed8;1;1;U+001A;yes;no;
+212;checked;GNU_ICONV;CP1162;IBM1162;1999;Thai MS Windows with euro;MSIBM;windows;thai;https://en.wikipedia.org/wiki/Code_page_1162;ascii;fixed8;1;1;U+001A;yes;no;
+213;checked;IANA;windows-1250;Windows_1250;1991;ANSI Central European;MICROSOFT;windows;latin;https://en.wikipedia.org/wiki/Windows-1250;ascii;fixed8;1;1;U+001A;yes;no;rt.jar
+214;checked;IANA;windows-1251;Windows_1251;1991;ANSI Cyrillic;MICROSOFT;windows;cyrillic;https://en.wikipedia.org/wiki/Windows-1251;ascii;fixed8;1;1;U+001A;yes;no;rt.jar
+215;checked;IANA;windows-1252;Windows_1252;1991;ANSI Western European;MICROSOFT;windows;latin;https://en.wikipedia.org/wiki/Windows-1252;ascii;fixed8;1;1;U+001A;yes;no;rt.jar
+216;checked;IANA;windows-1253;Windows_1253;1991;ANSI Greek;MICROSOFT;windows;cyrillic;https://en.wikipedia.org/wiki/Windows-1253;ascii;fixed8;1;1;U+001A;yes;no;rt.jar
+217;checked;IANA;windows-1254;Windows_1254;1991;ANSI Turkish;MICROSOFT;windows;latin;https://en.wikipedia.org/wiki/Windows-1254;ascii;fixed8;1;1;U+001A;yes;no;rt.jar
+218;checked;IANA;windows-1255;Windows_1255;1991;ANSI Hebrew;MICROSOFT;windows;hebrew;https://en.wikipedia.org/wiki/Windows-1255;ascii;fixed8;1;1;U+001A;yes;yes;charsets.jar
+219;checked;IANA;windows-1256;Windows_1256;1991;ANSI Arabic;MICROSOFT;windows;arabic;https://en.wikipedia.org/wiki/Windows-1256;ascii;fixed8;1;1;U+001A;yes;yes;charsets.jar
+220;checked;IANA;windows-1257;Windows_1257;1991;ANSI Baltic;MICROSOFT;windows;latin;https://en.wikipedia.org/wiki/Windows-1257;ascii;fixed8;1;1;U+001A;yes;no;rt.jar
+221;checked;IANA;windows-1258;Windows_1258;1991;ANSI/OEM Vietnam;MICROSOFT;windows;vietnamese;https://en.wikipedia.org/wiki/Windows-1258;ascii;fixed8;1;1;U+001A;yes;no;charsets.jar
+222;checked;Name;ibm-1277;IBM1277;1995;Adobe PostScript Latin-1;MSIBM;windows;latin;https://en.wikipedia.org/w/index.php?title=Code_page_1277&action=edit&redlink=1;ascii;fixed8;1;1;U+001A;yes;no;
+223;checked;Name;Windows-1361;Windows_1361;2000;Korean (Johab);MICROSOFT;windows;korean;https://en.wikipedia.org/w/index.php?title=Code_page_1361&action=edit&redlink=1;ascii;fixed8;1;1;U+001A;yes;no;
+224;checked;Name;ibm-1362;IBM1362;1997;Windows Korean including 11172 full Hangul;IBM;windows;korean;https://en.wikipedia.org/w/index.php?title=Code_page_1362&action=edit&redlink=1;ascii;fixed16;2;2;U+001A;yes;no;
+225;checked;Name;ibm-1363;IBM1363;1997;Windows Korean including 11172 full Hangul;IBM;windows;korean;https://en.wikipedia.org/wiki/Code_page_1363;ascii;varying8;1;2;U+001A;yes;no;
+226;checked;SELF;ibm-1372;IBM1372;2002;MS Traditional Chinese Big-5 (Special for DB2);MSIBM;windows;chinese;https://en.wikipedia.org/w/index.php?title=Code_page_1372&action=edit&redlink=1;ascii;varying8;1;2;U+001A;yes;no;
+227;unsave;MS;x-Chinese_CNS;CP20000;;Taiwan CNS, traditional chinese;MICROSOFT;windows;chinese;;ascii;fixed8;1;1;U+001A;yes;no;
+228;unsave;MS;x-cp20001;CP20001;;Taiwan TCA;MICROSOFT;windows;chinese;;ascii;fixed8;1;1;U+001A;yes;no;
+229;unsave;MS;x_Chinese-Eten;CP20002;;Taiwan Eten, traditional chinese;MICROSOFT;windows;chinese;;ascii;fixed8;1;1;U+001A;yes;no;
+230;unsave;MS;x-cp20003;CP20003;;Taiwan IBM5550;MICROSOFT;windows;chinese;;ascii;fixed8;1;1;U+001A;yes;no;
+231;unsave;MS;x-cp20004;CP20004;;Taiwan Teletext;MICROSOFT;windows;chinese;;ascii;fixed8;1;1;U+001A;yes;no;
+232;unsave;MS;x-cp20005;CP20005;;Taiwan Wang;MICROSOFT;windows;chinese;;ascii;fixed8;1;1;U+001A;yes;no;
+233;unchecked;MS;x-cp20949;CP20949;;Korean Wansung;MICROSOFT;windows;korean;;ascii;fixed8;1;1;U+001A;yes;no;
+234;unsave;MS;CP21027;CP21027;;Ext Alpha Lowercase;MICROSOFT;windows;latin;;ascii;fixed8;1;1;U+001A;yes;no;
+235;unsave;MS;x-Europa;CP29001;;Europa 3;MICROSOFT;windows;latin;;ascii;fixed8;1;1;U+001A;yes;no;
+236;unchecked;IANA;CP50220;CP50220;;;MICROSOFT;windows;japanese;;ascii;fixed8;1;1;U+001A;yes;no;charsets.jar
+237;unchecked;Name;CP50221;CP50221;;;MICROSOFT;windows;japanese;;ascii;fixed8;1;1;U+001A;yes;no;charsets.jar
+238;unsave;MS;x-cp50227;CP50227;;ISO 2022, simplified chinese;ISO2022;windows;chinese;;ascii;fixed8;1;1;U+001A;yes;no;
+239;unsave;MS;CP50229;CP50229;;ISO 2022, traditional chinese;ISO2022;windows;chinese;;ascii;fixed8;1;1;U+001A;yes;no;
+240;unchecked;ORACLE_JAVA;x-windows-iso2022jp;Windows_ISO2022_JP;;ISO 2022, japanese;ISO2022;windows;japanese;;ascii;varying8;1;2;U+001A;yes;no;
+241;checked;SELF;Windows-Sami2;Windows_Sami2;2003;Deprecated: Sami language in Norway, based on Windows-1252;MICROSOFT;windows;latin;;ascii;fixed8;1;1;U+001A;yes;no;
 ;;Group;Apple Mac OS;MacOS;;Apple Mac OS encodings in name order;;;;;;;;;;;;
 300;checked;IANA;macintosh;MacIntosh;1985;Latin-1;APPLE;macos;latin;https://en.wikipedia.org/wiki/Mac_OS_Roman;ascii;fixed8;1;1;U+001A;yes;no;charsets.jar
 301;checked;GNU_ICONV;MacArabic;MacArabic;1995;Arabic;APPLE;macos;arabic;https://en.wikipedia.org/wiki/MacArabic_encoding;ascii;fixed8;1;1;U+001A;yes;yes;charsets.jar
-302;checked;Deprecated;MacCeltic;MacCeltic;1995;Celtic;APPLE;macos;latin;https://en.wikipedia.org/wiki/Mac_OS_Celtic;ascii;fixed8;1;1;U+001A;yes;no;
+302;checked;SELF;MacCeltic;MacCeltic;1995;Deprecated: Celtic;APPLE;macos;latin;https://en.wikipedia.org/wiki/Mac_OS_Celtic;ascii;fixed8;1;1;U+001A;yes;no;
 303;checked;GNU_ICONV;MacCentralEurope;MacCentralEuropean;1995;Latin-2, Central European;APPLE;macos;latin;https://en.wikipedia.org/wiki/Macintosh_Central_European_encoding;ascii;fixed8;1;1;U+001A;yes;no;charsets.jar
 304;checked;Name;MacChineseSimplified;MacChineseSimplified;1995;Chinese Simplified, according to EUC-CN;APPLE;macos;chinese;https://en.wikipedia.org/wiki/EUC-CN;ascii;varying8;1;2;U+001A;yes;no;
 305;checked;Name;MacChineseTraditional;MacChineseTraditional;1995;Chinese Traditional, according to Big5;APPLE;macos;chinese;https://en.wikipedia.org/wiki/Big5;ascii;varying8;1;2;U+001A;yes;no;
 306;checked;GNU_ICONV;MacCroatian;MacCroatian;1995;Croatian;APPLE;macos;latin;https://en.wikipedia.org/wiki/MacCroatian_encoding;ascii;fixed8;1;1;U+001A;yes;no;charsets.jar
 307;checked;GNU_ICONV;MacCyrillic;MacCyrillic;1995;Cyrillic;APPLE;macos;cyrillic;https://en.wikipedia.org/wiki/Macintosh_Cyrillic_encoding;ascii;fixed8;1;1;U+001A;yes;no;charsets.jar
-308;checked;Deprecated;MacDevanaga;MacDevanaga;1995;Devanaga;APPLE;macos;indic;;ascii;varying8;1;2;U+001A;yes;no;
+308;checked;SELF;MacDevanaga;MacDevanaga;1995;Deprecated: Devanaga;APPLE;macos;indic;;ascii;varying8;1;2;U+001A;yes;no;
 309;checked;Name;MacDingbat;MacDingbat;1995;Dingbat;APPLE;macos;symbolic;;ascii;fixed8;1;1;U+001A;yes;no;charsets.jar
-310;checked;Deprecated;MacFarsi;MacFarsi;1995;Farsi;APPLE;macos;arabic;;ascii;fixed8;1;1;U+001A;yes;yes;
-311;checked;Deprecated;MacGaelic;MacGaelic;1995;Gaelic;APPLE;macos;gaelic;;ascii;fixed8;1;1;U+001A;yes;no;
+310;checked;SELF;MacFarsi;MacFarsi;1995;Deprecated: Farsi;APPLE;macos;arabic;;ascii;fixed8;1;1;U+001A;yes;yes;
+311;checked;SELF;MacGaelic;MacGaelic;1995;Deprecated: Gaelic;APPLE;macos;gaelic;;ascii;fixed8;1;1;U+001A;yes;no;
 312;checked;GNU_ICONV;MacGreek;MacGreek;1995;Greek;APPLE;macos;cyrillic;https://en.wikipedia.org/wiki/MacGreek_encoding;ascii;fixed8;1;1;U+001A;yes;no;charsets.jar
-313;checked;Deprecated;MacGujarati;MacGujarati;1995;Gujarati;APPLE;macos;indic;;ascii;varying8;1;2;U+001A;yes;no;
-314;checked;Deprecated;MacGurmukhi;MacGurmukhi;1995;Gurmukhi;APPLE;macos;indic;;ascii;varying8;1;2;U+001A;yes;no;
+313;checked;SELF;MacGujarati;MacGujarati;1995;Deprecated: Gujarati;APPLE;macos;indic;;ascii;varying8;1;2;U+001A;yes;no;
+314;checked;SELF;MacGurmukhi;MacGurmukhi;1995;Deprecated: Gurmukhi;APPLE;macos;indic;;ascii;varying8;1;2;U+001A;yes;no;
 315;checked;GNU_ICONV;MacHebrew;MacHebrew;1995;Hebrew;APPLE;macos;hebrew;;ascii;fixed8;1;1;U+001A;yes;yes;charsets.jar
 316;checked;GNU_ICONV;MacIceland;MacIcelandic;1995;Icelandic;APPLE;macos;latin;https://en.wikipedia.org/wiki/Mac_Icelandic_encoding;ascii;fixed8;1;1;U+001A;yes;no;charsets.jar
-317;checked;Deprecated;MacInuit;MacInuit;1995;Inuit;APPLE;macos;inuit;;ascii;fixed8;1;1;U+001A;yes;no;
+317;checked;SELF;MacInuit;MacInuit;1995;Deprecated: Inuit;APPLE;macos;inuit;;ascii;fixed8;1;1;U+001A;yes;no;
 318;checked;Name;MacJapanese;MacJapanese;1995;Japanese, according to Shift_JIS;APPLE;macos;japanese;https://en.wikipedia.org/wiki/Shift_JIS;ascii;varying8;1;2;U+001A;yes;no;
 319;checked;Name;MacKorean;MacKorean;1995;Korean, , according to EUC-KR;APPLE;macos;korean;https://en.wikipedia.org/wiki/EUC-KR;ascii;varying8;1;2;U+001A;yes;no;
 320;checked;GNU_ICONV;MacRomania;MacRomanian;1995;Romanian;APPLE;macos;latin;https://en.wikipedia.org/wiki/MacRomanian_encoding;ascii;fixed8;1;1;U+001A;yes;no;charsets.jar
-321;checked;Deprecated;MacSami;MacSami;1995;Sami language in Norway;APPLE;macos;latin;;ascii;fixed8;1;1;U+001A;yes;no;
+321;checked;SELF;MacSami;MacSami;1995;Deprecated: Sami language in Norway;APPLE;macos;latin;;ascii;fixed8;1;1;U+001A;yes;no;
 322;checked;Name;MacSymbol;MacSymbol;1995;Symbol;APPLE;macos;symbolic;;ascii;fixed8;1;1;U+001A;yes;no;charsets.jar
 323;checked;GNU_ICONV;MacThai;MacThai;1995;Thai, according to TIS-620;APPLE;macos;thai;https://en.wikipedia.org/wiki/Thai_Industrial_Standard_620-2533;ascii;fixed8;1;1;U+001A;yes;no;
 324;checked;GNU_ICONV;MacTurkish;MacTurkish;1995;Turkish;APPLE;macos;latin;https://en.wikipedia.org/wiki/MacTurkish_encoding;ascii;fixed8;1;1;U+001A;yes;no;charsets.jar
 325;checked;SELF;ibm-1281;IBM1281;1995;Apple Turkish;IBM;macos;latin;https://en.wikipedia.org/wiki/MacTurkish_encoding;ascii;fixed8;1;1;U+001A;yes;no;
 326;checked;GNU_ICONV;MacUkraine;MacUkrainian;1995;Ukraine;APPLE;macos;cyrillic;https://en.wikipedia.org/wiki/Macintosh_Ukrainian_encoding;ascii;fixed8;1;1;U+001A;yes;no;charsets.jar
-327;checked;Deprecated;MacUnitedKingdom;MacUnitedKingdom;1995;British English;APPLE;macos;latin;;ascii;fixed8;1;1;U+001A;yes;no;
+327;checked;SELF;MacUnitedKingdom;MacUnitedKingdom;1995;Deprecated: British English;APPLE;macos;latin;;ascii;fixed8;1;1;U+001A;yes;no;
 ;;Group;Unix and its derivatives;Unix;;Unix and its derivatives encodings in publication/registration year and name order;;;;;;;;;;;;
 400;checked;IBM_ICU;x11-compound-text;X11_COMPOUND_TEXT;1989;X11 R6.8 Compound Text Encoding;XORG;unix;any;;ascii;varying8;1;6;U+001A;yes;no;
 401;unchecked;IANA;Extended_UNIX_Code_Fixed_Width_for_Japanese;Extended_UNIX_Code_Fixed_Width_for_Japanese;;;EUC;unix;japanese;;ascii;fixed16;2;2;U+001A;yes;no;
@@ -177,7 +165,7 @@
 403;unchecked;Name;eucJP-Open;EUC_JP_Open;1997;;EUC;unix;japanese;;ascii;varying8;1;3;U+001A;yes;no;
 404;unchecked;IBM_ICU;java-euc_jp_linux-1.6_P;EUC_JP_Linux;2006;;EUC;unix;japanese;;ascii;varying8;1;2;U+001A;yes;no;
 405;unchecked;Name;EUC-JP-IBM;EUC_JP_IBM;2009;;EUC;unix;japanese;;ascii;varying8;1;2;U+001A;yes;no;
-406;unchecked;Deprecated;EUC-JP-MS;EUC_JP_MS;;;EUC;unix;japanese;;ascii;varying8;1;3;U+001A;yes;no;
+406;unchecked;SELF;EUC-JP-MS;EUC_JP_MS;;Deprecated: ;EUC;unix;japanese;;ascii;varying8;1;3;U+001A;yes;no;
 407;unchecked;GNU_ICONV;EUC-JISX0213;EUC_JIS_X0213;;;EUC;unix;japanese;;ascii;varying8;1;3;U+001A;yes;no;
 408;unchecked;GNU_ICONV;EUC-TW;EUC_TW;;;EUC;unix;chinese;;ascii;varying8;1;4;U+001A;yes;no;charsets.jar
 409;unchecked;IANA;EUC-KR;EUC_KR;;;EUC;unix;korean;;ascii;varying8;1;2;U+001A;yes;no;charsets.jar
@@ -216,7 +204,7 @@
 450;checked;Name;ibm-9145;IBM9145;1993;Japanese EUC, G3 - JIS X 0212-1990 subset 280 including 106 IBM selected characters and 940 UDC;IBM;aix;japanese;;ascii;varying8;1;2;U+001A;yes;no;
 451;checked;Name;ibm-9238;IBM9238;1999;Arabic with euro;IBM;aix;arabic;;ascii;fixed8;1;1;U+001A;yes;yes;
 452;checked;Name;ibm-33722;IBM33722;1999;Japanese EUC (IBMeucJP), G0 JIS X201 Roman set (00895) G1, JIS X208-1990 set (00952), G2 JIS X201 Katakana set (09088), G3 JIS X212 set (09145);IBM;aix;japanese;;ascii;varying8;1;2;U+001A;yes;no;charsets.jar
-453;unchecked;IBM_ICU;aix-IBM_udcJP-4.3.6;EUC_JP_Linux;;;IBM;aix;japanese;;ascii;fixed8;1;1;U+001A;yes;no;
+453;unchecked;IBM_ICU;aix-IBM_udcJP-4.3.6;EUC_JP_AIX;;;IBM;aix;japanese;;ascii;fixed8;1;1;U+001A;yes;no;
 ;;Group;IBM z/OS;zOS;;IBM z/OS encodings in code page number order;;;;;;;;;;;;
 500;checked;IANA;IBM037;IBM037;1985;USA/Canada;IBM;zos;latin;https://en.wikipedia.org/wiki/EBCDIC_037;ebcdic;fixed8;1;1;U+001A;yes;no;charsets.jar
 501;checked;Name;ibm-037_swaplfnl;IBM037_LF;1995;USA/Canada;IBM;zos;latin;;ebcdic;fixed8;1;1;U+001A;yes;no;
@@ -356,7 +344,7 @@
 635;checked;IANA;EBCDIC-FI-SE-A;EBCDIC_FI_SE_A;1987;Finnish/Swedish Alternate I/O Interface Code;IBM;zos;latin;;ebcdic;fixed8;1;1;U+001A;yes;no;
 636;checked;IANA;EBCDIC-FR;EBCDIC_FR;1987;French I/O Interface Code;IBM;zos;latin;;ebcdic;fixed8;1;1;U+001A;yes;no;
 637;checked;Name;EBCDIC-HE;IBM12712;1987;Hebrew I/O Interface Code;IBM;zos;hebrew;;ebcdic;fixed8;1;1;U+001A;yes;yes;
-638;checked;Deprecated;EBCDIC-IS-FRISS;EBCDIC_IS_FRISS;1987;Frissian I/O Interface Code;IBM;zos;latin;;ebcdic;fixed8;1;1;U+001A;yes;no;
+638;checked;SELF;EBCDIC-IS-FRISS;EBCDIC_IS_FRISS;1987;Deprecated: Frissian I/O Interface Code;IBM;zos;latin;;ebcdic;fixed8;1;1;U+001A;yes;no;
 639;checked;IANA;EBCDIC-IT;EBCDIC_IT;1987;Italian I/O Interface Code;IBM;zos;latin;;ebcdic;fixed8;1;1;U+001A;yes;no;
 640;checked;IANA;EBCDIC-PT;EBCDIC_PT;1987;Portuguese I/O Interface Code;IBM;zos;latin;;ebcdic;fixed8;1;1;U+001A;yes;no;
 641;checked;IANA;EBCDIC-UK;EBCDIC_UK;1987;English (U.K.) I/O Interface Code;IBM;zos;latin;;ebcdic;fixed8;1;1;U+001A;yes;no;
@@ -370,11 +358,11 @@
 704;unchecked;MS;CP710;CP710;;Arabic (Transparent Arabic);MSIBM;dos;arabic;;ascii;fixed8;1;1;U+001A;yes;yes;
 705;checked;Name;CP720;CP720;1997;MS-DOS Arabic (Transparent ASMO), OEM on Windows;MSIBM;dos;arabic;https://en.wikipedia.org/wiki/Code_page_720;ascii;fixed8;1;1;U+001A;yes;yes;
 706;checked;GNU_ICONV;CP737;CP737;1996;MS DOS Greek, OEM on Windows;MSIBM;dos;cyrillic;https://en.wikipedia.org/wiki/Code_page_737;ascii;fixed8;1;1;U+001A;yes;no;rt.jar
-707;checked;Deprecated;CP770;CP770;;MS DOS Baltic;MSIBM;dos;latin;https://en.wikipedia.org/wiki/Code_page_770;ascii;fixed8;1;1;U+001A;yes;no;
-708;checked;Deprecated;CP771;CP771;;MS DOS Lithuanian and Russian;MSIBM;dos;cyrillic;https://en.wikipedia.org/wiki/Code_page_771;ascii;fixed8;1;1;U+001A;yes;no;
-709;checked;Deprecated;CP772;CP772;;MS DOS Lithuanian and Russian;MSIBM;dos;cyrillic;https://en.wikipedia.org/wiki/Code_page_772;ascii;fixed8;1;1;U+001A;yes;no;
-710;checked;Deprecated;CP773;CP773;;MS DOS Baltic;MSIBM;dos;latin;https://en.wikipedia.org/wiki/Code_page_773;ascii;fixed8;1;1;U+001A;yes;no;
-711;checked;Deprecated;CP774;CP774;;MS DOS Lithuanian;MSIBM;dos;latin;https://en.wikipedia.org/wiki/Code_page_774;ascii;fixed8;1;1;U+001A;yes;no;
+707;checked;SELF;CP770;CP770;;Deprecated: MS DOS Baltic;MSIBM;dos;latin;https://en.wikipedia.org/wiki/Code_page_770;ascii;fixed8;1;1;U+001A;yes;no;
+708;checked;SELF;CP771;CP771;;Deprecated: MS DOS Lithuanian and Russian;MSIBM;dos;cyrillic;https://en.wikipedia.org/wiki/Code_page_771;ascii;fixed8;1;1;U+001A;yes;no;
+709;checked;SELF;CP772;CP772;;Deprecated: MS DOS Lithuanian and Russian;MSIBM;dos;cyrillic;https://en.wikipedia.org/wiki/Code_page_772;ascii;fixed8;1;1;U+001A;yes;no;
+710;checked;SELF;CP773;CP773;;Deprecated: MS DOS Baltic;MSIBM;dos;latin;https://en.wikipedia.org/wiki/Code_page_773;ascii;fixed8;1;1;U+001A;yes;no;
+711;checked;SELF;CP774;CP774;;Deprecated: MS DOS Lithuanian;MSIBM;dos;latin;https://en.wikipedia.org/wiki/Code_page_774;ascii;fixed8;1;1;U+001A;yes;no;
 712;checked;IANA;IBM775;CP775;1996;MS-DOS Baltic Rim;MSIBM;dos;latin;https://en.wikipedia.org/wiki/Code_page_775;ascii;fixed8;1;1;U+001A;yes;no;rt.jar
 713;checked;Name;ibm-806;IBM806;1998;PC Indian Script Code (ISCII-91);IBM;dos;indic;https://en.wikipedia.org/w/index.php?title=Code_page_806&action=edit&redlink=1;ascii;fixed8;1;1;U+001A;yes;no;
 714;checked;Name;ibm-808;IBM808;1999;PC Data, Cyrillic, Russian with euro, see also CP866;MSIBM;dos;cyrillic;https://en.wikipedia.org/wiki/Code_page_866#CP808;ascii;fixed8;1;1;U+001A;yes;no;
@@ -396,7 +384,7 @@
 730;checked;IANA;IBM864;IBM864;1986;OEM Arabic;MSIBM;dos;arabic;https://en.wikipedia.org/wiki/Code_page_864;ascii;fixed8;1;1;U+001A;yes;yes;charsets.jar
 731;checked;IANA;IBM865;IBM865;1986;OEM Nordic;MSIBM;dos;latin;https://en.wikipedia.org/wiki/Code_page_865;ascii;fixed8;1;1;U+001A;yes;no;charsets.jar
 732;checked;IANA;IBM866;CP866;1991;OEM cyrillic, russian, based on GOST 19768-87;MSIBM;dos;cyrillic;https://en.wikipedia.org/wiki/Code_page_866;ascii;fixed8;1;1;U+001A;yes;no;rt.jar
-733;checked;Deprecated;IBM866Nav;IBM866Nav;1991;Ukraine (Ukrainian) used in TeX, seems to be close to CP1125 with differences in 0xF2 to 0xF9, based on ukrainian standard RST201891;IBM;dos;cyrillic;https://en.wikipedia.org/wiki/Code_page_866;ascii;fixed8;1;1;U+001A;yes;no;
+733;checked;SELF;IBM866Nav;IBM866Nav;1991;Deprecated: Ukraine (Ukrainian) used in TeX, seems to be close to CP1125 with differences in 0xF2 to 0xF9, based on ukrainian standard RST201891;IBM;dos;cyrillic;https://en.wikipedia.org/wiki/Code_page_866;ascii;fixed8;1;1;U+001A;yes;no;
 734;checked;Name;ibm-867;IBM867;1998;Israel with euro;MSIBM;dos;hebrew;https://en.wikipedia.org/wiki/Code_page_867;ascii;fixed8;1;1;U+001A;yes;yes;
 735;checked;IANA;IBM868;IBM868;1988;Pakistan (Urdu);MSIBM;dos;arabic;https://en.wikipedia.org/w/index.php?title=Code_page_868&action=edit&redlink=1;ascii;fixed8;1;1;U+001A;yes;yes;charsets.jar
 736;checked;IANA;IBM869;CP869;1987;OEM Greek;MSIBM;dos;cyrillic;https://en.wikipedia.org/wiki/Code_page_869;ascii;fixed8;1;1;U+001A;yes;no;charsets.jar
@@ -409,92 +397,91 @@
 743;checked;Name;ibm-926;IBM926;1989;Korean incl. 1880 UDC;IBM;dos;korean;https://en.wikipedia.org/w/index.php?title=Code_page_926&action=edit&redlink=1;ascii;fixed16;2;2;U+001A;yes;no;
 744;checked;Name;ibm-927;IBM927;1992;Traditional Chinese incl. 6204 UDC;IBM;dos;chinese;https://en.wikipedia.org/w/index.php?title=Code_page_927&action=edit&redlink=1;ascii;fixed16;2;2;U+001A;yes;no;
 745;checked;Name;ibm-928;IBM928;1992;Simplified Chinese incl. 1880 UDC;IBM;dos;chinese;https://en.wikipedia.org/w/index.php?title=Code_page_928&action=edit&redlink=1;ascii;fixed16;2;2;U+001A;yes;no;
-746;checked;GNU_ICONV;CP932;CP932;1999;Japan (Kanji);IBM;dos;japanese;https://en.wikipedia.org/wiki/Code_page_932;ascii;varying8;1;2;U+001A;yes;no;
-747;checked;ORACLE_JAVA;x-IBM942C;CP932;;;IBM;dos;japanese;;ascii;varying8;1;7;U+001A;yes;no;charsets.jar
-748;checked;SELF;ibm-934;IBM934;1989;Korean including 1880 UDC;IBM;dos;korean;https://en.wikipedia.org/w/index.php?title=Code_page_934&action=edit&redlink=1;ascii;varying8;1;2;U+001A;yes;no;
-749;checked;Name;ibm-936;IBM936;1992;Simplified Chinese including 1880 UDC;IBM;dos;chinese;https://en.wikipedia.org/wiki/Code_page_936;ascii;varying8;1;2;U+001A;yes;no;
-750;checked;SELF;ibm-938;IBM938;1992;Traditional Chinese including 6204 UDC;IBM;dos;chinese;https://en.wikipedia.org/w/index.php?title=Code_page_938&action=edit&redlink=1;ascii;varying8;1;2;U+001A;yes;no;
-751;checked;Name;ibm-941;IBM941;1996;Japanese for Open environment;IBM;dos;japanese;https://en.wikipedia.org/w/index.php?title=Code_page_941&action=edit&redlink=1;ascii;fixed16;2;2;U+001A;yes;no;
-752;unchecked;ORACLE_JAVA;x-IBM943C;Shift_JIS;;;IBM;dos;japanese;;ascii;varying8;1;2;U+001A;yes;no;charsets.jar
-753;checked;Name;ibm-944;IBM944;1989;Korean including 1880 UDC, Extended SBCS;IBM;dos;korean;https://en.wikipedia.org/w/index.php?title=Code_page_944&action=edit&redlink=1;ascii;varying8;1;2;U+001A;yes;no;
-754;checked;Name;ibm-946;IBM946;1992;Simplified Chinese including 1880 UDC, Extended SBCS;IBM;dos;chinese;https://en.wikipedia.org/w/index.php?title=Code_page_946&action=edit&redlink=1;ascii;varying8;1;2;U+001A;yes;no;
-755;checked;Name;ibm-947;IBM947;1999;Traditional Chinese (IBM BIG-5) including 13493 CNS, 566 IBM selected and 6204 UDC;IBM;dos;chinese;https://en.wikipedia.org/w/index.php?title=Code_page_946&action=edit&redlink=1;ascii;fixed16;2;2;U+001A;yes;no;
-756;checked;Name;ibm-948;IBM948;1992;Traditional Chinese including 6204 UDC.;IBM;dos;korean;https://en.wikipedia.org/w/index.php?title=Code_page_948&action=edit&redlink=1;ascii;varying8;1;2;U+001A;yes;no;charsets.jar
-757;checked;GNU_ICONV;CP949;CP949;1992;KS Code including 1880 UDC;IBM;dos;korean;https://en.wikipedia.org/wiki/Code_page_949;ascii;varying8;1;2;U+001A;yes;no;charsets.jar
-758;checked;Name;CP949C;CP949C;1992;KS Code including 1880 UDC;IBM;dos;korean;https://en.wikipedia.org/wiki/Code_page_949;ascii;varying8;1;2;U+001A;yes;no;charsets.jar
-759;checked;Name;ibm-950;IBM950;1999;Traditional Chinese for Big-5;IBM;dos;chinese;https://en.wikipedia.org/wiki/Code_page_950;ascii;varying8;1;2;U+001A;yes;no;
-760;checked;Name;ibm-951;IBM951;1992;KS Code including 1880 UDC;IBM;dos;korean;https://en.wikipedia.org/wiki/Code_page_951;ascii;fixed16;2;2;U+001A;yes;no;
-761;checked;SELF;ibm-1040;IBM1040;1989;Korean Extended;IBM;dos;korean;https://en.wikipedia.org/w/index.php?title=Code_page_1040&action=edit&redlink=1;ascii;fixed8;1;1;U+001A;yes;no;
-762;checked;Name;ibm-1041;IBM1041;1989;Japanese Extended;IBM;dos;japanese;https://en.wikipedia.org/w/index.php?title=Code_page_1041&action=edit&redlink=1;ascii;fixed8;1;1;U+001A;yes;no;
-763;checked;SELF;ibm-1042;IBM1042;1994;Simplified Chinese Extended;IBM;dos;chinese;https://en.wikipedia.org/w/index.php?title=Code_page_1042&action=edit&redlink=1;ascii;fixed8;1;1;U+001A;yes;no;
-764;checked;Name;ibm-1043;IBM1043;1989;Traditional Chinese Extended;IBM;dos;chinese;https://en.wikipedia.org/w/index.php?title=Code_page_1043&action=edit&redlink=1;ascii;fixed8;1;1;U+001A;yes;no;
-765;checked;Name;ibm-1088;IBM1088;1992;Revised Korean;IBM;dos;korean;https://en.wikipedia.org/w/index.php?title=Code_page_1088&action=edit&redlink=1;ascii;fixed8;1;1;U+001A;yes;no;
-766;checked;Name;ibm-1098;IBM1098;1992;Farsi;IBM;dos;arabic;https://en.wikipedia.org/w/index.php?title=Code_page_1098&action=edit&redlink=1;ascii;fixed8;1;1;U+001A;yes;yes;charsets.jar
-767;checked;Name;ibm-1114;IBM1114;1994;Taiwan;IBM;dos;chinese;https://en.wikipedia.org/w/index.php?title=Code_page_1114&action=edit&redlink=1;ascii;fixed8;1;1;U+001A;yes;no;
-768;checked;Name;ibm-1115;IBM1115;1994;People's Republic of China (PRC);IBM;dos;chinese;https://en.wikipedia.org/w/index.php?title=Code_page_1115&action=edit&redlink=1;ascii;fixed8;1;1;U+001A;yes;no;
-769;checked;GNU_ICONV;CP1125;IBM1125;1996;Ukraine;MSIBM;dos;latin;https://en.wikipedia.org/w/index.php?title=Code_page_1125&action=edit&redlink=1;ascii;fixed8;1;1;U+001A;yes;no;
-770;checked;SELF;ibm-1126;IBM1126;1997;Korean;IBM;dos;korean;https://en.wikipedia.org/w/index.php?title=Code_page_1126&action=edit&redlink=1;ascii;fixed8;1;1;U+001A;yes;no;
-771;checked;Name;ibm-1127;IBM1127;1996;Arabic/French;IBM;dos;arabic;https://en.wikipedia.org/w/index.php?title=Code_page_1127&action=edit&redlink=1;ascii;fixed8;1;1;U+001A;yes;yes;
-772;checked;GNU_ICONV;CP1131;IBM1131;1996;Belorussian;IBM;dos;cyrillic;https://en.wikipedia.org/w/index.php?title=Code_page_1131&action=edit&redlink=1;ascii;fixed8;1;1;U+001A;yes;no;
-773;checked;Name;ibm-1351;IBM1351;1996;Japanese DBCS PC for Open environment (HP code): related to CCSID 941, 6878 JIS X 0208-1990 chars and 940 HP UDC (X'EB40' to X'EFFC');IBM;dos;japanese;https://en.wikipedia.org/w/index.php?title=Code_page_1351&action=edit&redlink=1;ascii;fixed16;2;2;U+001A;yes;no;
-774;checked;Name;ibm-1370;IBM1370;1999;Traditional Chinese for IBM BIG-5 including SBCS and DBCS with euro;IBM;dos;chinese;https://en.wikipedia.org/wiki/Code_page_950;ascii;varying8;1;2;U+001A;yes;no;
-775;checked;SELF;ibm-1374;IBM1374;2003;Big-5 extension for HKSCS;IBM;dos;chinese;https://en.wikipedia.org/w/index.php?title=Code_page_1374&action=edit&redlink=1;ascii;fixed16;2;2;U+001A;yes;no;
-776;checked;Name;ibm-1380;IBM1380;1993;Simplified Chinese GB;IBM;dos;chinese;https://en.wikipedia.org/w/index.php?title=Code_page_1380&action=edit&redlink=1;ascii;fixed16;2;2;U+001A;yes;no;
-777;checked;Name;ibm-1381;IBM1381;1993;Simplified Chinese (IBM GB) including 1880 UDC, 31 IBM selected characters and 5 SAA SB characters;IBM;dos;chinese;https://en.wikipedia.org/w/index.php?title=Code_page_1381&action=edit&redlink=1;ascii;varying8;1;2;U+001A;yes;no;charsets.jar
-778;checked;Name;ibm-1386;IBM1386;2001;Simplified Chinese GBK, all GBK character set and other growing chars;IBM;dos;chinese;https://en.wikipedia.org/wiki/Code_page_1386;ascii;varying8;1;2;U+001A;yes;no;
-779;checked;SELF;ibm-1391;IBM1391;2001;Simplified Chinese, growing CS for GB18030;IBM;dos;chinese;https://en.wikipedia.org/w/index.php?title=Code_page_1391&action=edit&redlink=1;ascii;fixed32;4;4;U+001A;yes;no;
-780;checked;SELF;ibm-1393;IBM1393;2007;Shift_JISX0213;IBM;dos;japanese;https://en.wikipedia.org/w/index.php?title=Code_page_1393&action=edit&redlink=1;ascii;fixed16;2;2;U+001A;yes;no;
-781;checked;SELF;ibm-1394;IBM1394;2001;Japanese for Shift_JISX0213 encoding based on JIS X0213 standard;IBM;dos;japanese;https://en.wikipedia.org/w/index.php?title=Code_page_1394&action=edit&redlink=1;ascii;varying8;1;2;U+001A;yes;no;
-782;checked;Name;ibm-4909;IBM4909;1999;Greek with euro;IBM;dos;cyrillic;;ascii;fixed8;1;1;U+001A;yes;no;
-783;checked;Name;ibm-4948;IBM4948;1993;Latin 2;IBM;dos;latin;;ascii;fixed8;1;1;U+001A;yes;no;
-784;checked;Name;ibm-4951;IBM4951;1988;Cyrillic;IBM;dos;cyrillic;;ascii;fixed8;1;1;U+001A;yes;no;
-785;checked;Name;ibm-4952;IBM4952;1989;Hebrew;IBM;dos;hebrew;;ascii;fixed8;1;1;U+001A;yes;yes;
-786;checked;Name;ibm-4960;IBM4960;1986;Arabic (all shapes);IBM;dos;arabic;;ascii;fixed8;1;1;U+001A;yes;yes;
-787;checked;Name;ibm-5039;IBM5039;1996;Japanese for Open environment (HP code): related to CCSID 943, 6878 JIS X 0208-1990 chars, 940 HP UDC (X'EB40' to X'EFFC') and 5 optional extended SBCS chars for host interoperability;IBM;dos;japanese;;ascii;varying8;1;2;U+001A;yes;no;
-788;checked;Name;ibm-5104;IBM5104;1999;Arabic 8-bit ISO/ASCII with euro;IBM;dos;arabic;;ascii;fixed8;1;1;U+001A;yes;yes;
-789;checked;Name;ibm-9048;IBM9048;1989;Hebrew with euro and new sheqel;IBM;dos;hebrew;;ascii;fixed8;1;1;U+001A;yes;yes;
-790;checked;Name;ibm-9056;IBM9056;1986;Arabic PC Storage/Interchange;IBM;dos;arabic;;ascii;fixed8;1;1;U+001A;yes;yes;
-791;checked;Name;ibm-9061;IBM9061;1999;Greek with euro;IBM;dos;cyrillic;;ascii;fixed8;1;1;U+001A;yes;no;
-792;checked;IBM_ICU;ibm-9577_P100-2001;IBM9577;2001;Simplified Chinese 2 Byte, growing CS for GB18030, also used for GBK;IBM;dos;chinese;https://en.wikipedia.org/w/index.php?title=Code_page_1385&action=edit&redlink=1;ascii;fixed16;2;2;U+001A;yes;no;
-793;checked;Name;ibm-13140;IBM13140;2000;Latin-2 with euro and MS controls;IBM;dos;latin;;ascii;fixed8;1;1;U+001A;yes;no;
-794;checked;Name;ibm-17248;IBM17248;1999;Arabic with euro;IBM;dos;arabic;;ascii;fixed8;1;1;U+001A;yes;yes;
-795;checked;Name;ibm-21344;IBM21344;2000;Arabic with euro and MS controls;IBM;dos;arabic;;ascii;fixed8;1;1;U+001A;yes;yes;
-796;checked;Name;ibm-21427;IBM21427;1999;Traditional Chinese (IBM BIG-5) including 13493 CNS, 566 IBM selected, 6204 UDC and with euro;IBM;dos;chinese;;ascii;fixed16;2;2;U+001A;yes;no;
-797;checked;IBM_ICU;LMBCS-1;LMBCS_1;1988;Lotus 1-2-3 Multi-Byte Character Set;VENDOR;dos;any;https://en.wikipedia.org/wiki/Lotus_Multi-Byte_Character_Set;ascii;fixed8;1;1;U+001A;yes;no;
-798;checked;Deprecated;CWI;CWI;1988;Hungary (Hungarian);COUNTRY;dos;latin;https://en.wikipedia.org/wiki/CWI-2;ascii;fixed8;1;1;U+001A;yes;no;
-799;checked;Deprecated;MIK;MIK;1989;Bulgarian;COUNTRY;dos;cyrillic;https://en.wikipedia.org/wiki/MIK_(character_set);ascii;fixed8;1;1;U+001A;yes;no;
+746;checked;GNU_ICONV;CP932;CP932;1999;Japan (Kanji);IBM;dos;japanese;https://en.wikipedia.org/wiki/Code_page_932;ascii;varying8;1;2;U+001A;yes;no;charsets.jar
+747;checked;SELF;ibm-934;IBM934;1989;Korean including 1880 UDC;IBM;dos;korean;https://en.wikipedia.org/w/index.php?title=Code_page_934&action=edit&redlink=1;ascii;varying8;1;2;U+001A;yes;no;
+748;checked;Name;ibm-936;IBM936;1992;Simplified Chinese including 1880 UDC;IBM;dos;chinese;https://en.wikipedia.org/wiki/Code_page_936;ascii;varying8;1;2;U+001A;yes;no;
+749;checked;SELF;ibm-938;IBM938;1992;Traditional Chinese including 6204 UDC;IBM;dos;chinese;https://en.wikipedia.org/w/index.php?title=Code_page_938&action=edit&redlink=1;ascii;varying8;1;2;U+001A;yes;no;
+750;checked;Name;ibm-941;IBM941;1996;Japanese for Open environment;IBM;dos;japanese;https://en.wikipedia.org/w/index.php?title=Code_page_941&action=edit&redlink=1;ascii;fixed16;2;2;U+001A;yes;no;
+751;checked;Name;ibm-944;IBM944;1989;Korean including 1880 UDC, Extended SBCS;IBM;dos;korean;https://en.wikipedia.org/w/index.php?title=Code_page_944&action=edit&redlink=1;ascii;varying8;1;2;U+001A;yes;no;
+752;checked;Name;ibm-946;IBM946;1992;Simplified Chinese including 1880 UDC, Extended SBCS;IBM;dos;chinese;https://en.wikipedia.org/w/index.php?title=Code_page_946&action=edit&redlink=1;ascii;varying8;1;2;U+001A;yes;no;
+753;checked;Name;ibm-947;IBM947;1999;Traditional Chinese (IBM BIG-5) including 13493 CNS, 566 IBM selected and 6204 UDC;IBM;dos;chinese;https://en.wikipedia.org/w/index.php?title=Code_page_946&action=edit&redlink=1;ascii;fixed16;2;2;U+001A;yes;no;
+754;checked;Name;ibm-948;IBM948;1992;Traditional Chinese including 6204 UDC.;IBM;dos;korean;https://en.wikipedia.org/w/index.php?title=Code_page_948&action=edit&redlink=1;ascii;varying8;1;2;U+001A;yes;no;charsets.jar
+755;checked;GNU_ICONV;CP949;CP949;1992;KS Code including 1880 UDC;IBM;dos;korean;https://en.wikipedia.org/wiki/Code_page_949;ascii;varying8;1;2;U+001A;yes;no;charsets.jar
+756;checked;Name;CP949C;CP949C;1992;KS Code including 1880 UDC;IBM;dos;korean;https://en.wikipedia.org/wiki/Code_page_949;ascii;varying8;1;2;U+001A;yes;no;charsets.jar
+757;checked;Name;ibm-950;IBM950;1999;Traditional Chinese for Big-5;IBM;dos;chinese;https://en.wikipedia.org/wiki/Code_page_950;ascii;varying8;1;2;U+001A;yes;no;
+758;checked;Name;ibm-951;IBM951;1992;KS Code including 1880 UDC;IBM;dos;korean;https://en.wikipedia.org/wiki/Code_page_951;ascii;fixed16;2;2;U+001A;yes;no;
+759;checked;SELF;ibm-1040;IBM1040;1989;Korean Extended;IBM;dos;korean;https://en.wikipedia.org/w/index.php?title=Code_page_1040&action=edit&redlink=1;ascii;fixed8;1;1;U+001A;yes;no;
+760;checked;Name;ibm-1041;IBM1041;1989;Japanese Extended;IBM;dos;japanese;https://en.wikipedia.org/w/index.php?title=Code_page_1041&action=edit&redlink=1;ascii;fixed8;1;1;U+001A;yes;no;
+761;checked;SELF;ibm-1042;IBM1042;1994;Simplified Chinese Extended;IBM;dos;chinese;https://en.wikipedia.org/w/index.php?title=Code_page_1042&action=edit&redlink=1;ascii;fixed8;1;1;U+001A;yes;no;
+762;checked;Name;ibm-1043;IBM1043;1989;Traditional Chinese Extended;IBM;dos;chinese;https://en.wikipedia.org/w/index.php?title=Code_page_1043&action=edit&redlink=1;ascii;fixed8;1;1;U+001A;yes;no;
+763;checked;Name;ibm-1088;IBM1088;1992;Revised Korean;IBM;dos;korean;https://en.wikipedia.org/w/index.php?title=Code_page_1088&action=edit&redlink=1;ascii;fixed8;1;1;U+001A;yes;no;
+764;checked;Name;ibm-1098;IBM1098;1992;Farsi;IBM;dos;arabic;https://en.wikipedia.org/w/index.php?title=Code_page_1098&action=edit&redlink=1;ascii;fixed8;1;1;U+001A;yes;yes;charsets.jar
+765;checked;Name;ibm-1114;IBM1114;1994;Taiwan;IBM;dos;chinese;https://en.wikipedia.org/w/index.php?title=Code_page_1114&action=edit&redlink=1;ascii;fixed8;1;1;U+001A;yes;no;
+766;checked;Name;ibm-1115;IBM1115;1994;People's Republic of China (PRC);IBM;dos;chinese;https://en.wikipedia.org/w/index.php?title=Code_page_1115&action=edit&redlink=1;ascii;fixed8;1;1;U+001A;yes;no;
+767;checked;GNU_ICONV;CP1125;IBM1125;1996;Ukraine;MSIBM;dos;latin;https://en.wikipedia.org/w/index.php?title=Code_page_1125&action=edit&redlink=1;ascii;fixed8;1;1;U+001A;yes;no;
+768;checked;SELF;ibm-1126;IBM1126;1997;Korean;IBM;dos;korean;https://en.wikipedia.org/w/index.php?title=Code_page_1126&action=edit&redlink=1;ascii;fixed8;1;1;U+001A;yes;no;
+769;checked;Name;ibm-1127;IBM1127;1996;Arabic/French;IBM;dos;arabic;https://en.wikipedia.org/w/index.php?title=Code_page_1127&action=edit&redlink=1;ascii;fixed8;1;1;U+001A;yes;yes;
+770;checked;GNU_ICONV;CP1131;IBM1131;1996;Belorussian;IBM;dos;cyrillic;https://en.wikipedia.org/w/index.php?title=Code_page_1131&action=edit&redlink=1;ascii;fixed8;1;1;U+001A;yes;no;
+771;checked;Name;ibm-1351;IBM1351;1996;Japanese DBCS PC for Open environment (HP code): related to CCSID 941, 6878 JIS X 0208-1990 chars and 940 HP UDC (X'EB40' to X'EFFC');IBM;dos;japanese;https://en.wikipedia.org/w/index.php?title=Code_page_1351&action=edit&redlink=1;ascii;fixed16;2;2;U+001A;yes;no;
+772;checked;Name;ibm-1370;IBM1370;1999;Traditional Chinese for IBM BIG-5 including SBCS and DBCS with euro;IBM;dos;chinese;https://en.wikipedia.org/wiki/Code_page_950;ascii;varying8;1;2;U+001A;yes;no;
+773;checked;SELF;ibm-1374;IBM1374;2003;Big-5 extension for HKSCS;IBM;dos;chinese;https://en.wikipedia.org/w/index.php?title=Code_page_1374&action=edit&redlink=1;ascii;fixed16;2;2;U+001A;yes;no;
+774;checked;Name;ibm-1380;IBM1380;1993;Simplified Chinese GB;IBM;dos;chinese;https://en.wikipedia.org/w/index.php?title=Code_page_1380&action=edit&redlink=1;ascii;fixed16;2;2;U+001A;yes;no;
+775;checked;Name;ibm-1381;IBM1381;1993;Simplified Chinese (IBM GB) including 1880 UDC, 31 IBM selected characters and 5 SAA SB characters;IBM;dos;chinese;https://en.wikipedia.org/w/index.php?title=Code_page_1381&action=edit&redlink=1;ascii;varying8;1;2;U+001A;yes;no;charsets.jar
+776;checked;Name;ibm-1386;IBM1386;2001;Simplified Chinese GBK, all GBK character set and other growing chars;IBM;dos;chinese;https://en.wikipedia.org/wiki/Code_page_1386;ascii;varying8;1;2;U+001A;yes;no;
+777;checked;SELF;ibm-1391;IBM1391;2001;Simplified Chinese, growing CS for GB18030;IBM;dos;chinese;https://en.wikipedia.org/w/index.php?title=Code_page_1391&action=edit&redlink=1;ascii;fixed32;4;4;U+001A;yes;no;
+778;checked;SELF;ibm-1393;IBM1393;2007;Shift_JISX0213;IBM;dos;japanese;https://en.wikipedia.org/w/index.php?title=Code_page_1393&action=edit&redlink=1;ascii;fixed16;2;2;U+001A;yes;no;
+779;checked;SELF;ibm-1394;IBM1394;2001;Japanese for Shift_JISX0213 encoding based on JIS X0213 standard;IBM;dos;japanese;https://en.wikipedia.org/w/index.php?title=Code_page_1394&action=edit&redlink=1;ascii;varying8;1;2;U+001A;yes;no;
+780;checked;Name;ibm-4909;IBM4909;1999;Greek with euro;IBM;dos;cyrillic;;ascii;fixed8;1;1;U+001A;yes;no;
+781;checked;Name;ibm-4948;IBM4948;1993;Latin 2;IBM;dos;latin;;ascii;fixed8;1;1;U+001A;yes;no;
+782;checked;Name;ibm-4951;IBM4951;1988;Cyrillic;IBM;dos;cyrillic;;ascii;fixed8;1;1;U+001A;yes;no;
+783;checked;Name;ibm-4952;IBM4952;1989;Hebrew;IBM;dos;hebrew;;ascii;fixed8;1;1;U+001A;yes;yes;
+784;checked;Name;ibm-4960;IBM4960;1986;Arabic (all shapes);IBM;dos;arabic;;ascii;fixed8;1;1;U+001A;yes;yes;
+785;checked;Name;ibm-5039;IBM5039;1996;Japanese for Open environment (HP code): related to CCSID 943, 6878 JIS X 0208-1990 chars, 940 HP UDC (X'EB40' to X'EFFC') and 5 optional extended SBCS chars for host interoperability;IBM;dos;japanese;;ascii;varying8;1;2;U+001A;yes;no;
+786;checked;Name;ibm-5104;IBM5104;1999;Arabic 8-bit ISO/ASCII with euro;IBM;dos;arabic;;ascii;fixed8;1;1;U+001A;yes;yes;
+787;checked;Name;ibm-9048;IBM9048;1989;Hebrew with euro and new sheqel;IBM;dos;hebrew;;ascii;fixed8;1;1;U+001A;yes;yes;
+788;checked;Name;ibm-9056;IBM9056;1986;Arabic PC Storage/Interchange;IBM;dos;arabic;;ascii;fixed8;1;1;U+001A;yes;yes;
+789;checked;Name;ibm-9061;IBM9061;1999;Greek with euro;IBM;dos;cyrillic;;ascii;fixed8;1;1;U+001A;yes;no;
+790;checked;IBM_ICU;ibm-9577_P100-2001;IBM9577;2001;Simplified Chinese 2 Byte, growing CS for GB18030, also used for GBK;IBM;dos;chinese;https://en.wikipedia.org/w/index.php?title=Code_page_1385&action=edit&redlink=1;ascii;fixed16;2;2;U+001A;yes;no;
+791;checked;Name;ibm-13140;IBM13140;2000;Latin-2 with euro and MS controls;IBM;dos;latin;;ascii;fixed8;1;1;U+001A;yes;no;
+792;checked;Name;ibm-17248;IBM17248;1999;Arabic with euro;IBM;dos;arabic;;ascii;fixed8;1;1;U+001A;yes;yes;
+793;checked;Name;ibm-21344;IBM21344;2000;Arabic with euro and MS controls;IBM;dos;arabic;;ascii;fixed8;1;1;U+001A;yes;yes;
+794;checked;Name;ibm-21427;IBM21427;1999;Traditional Chinese (IBM BIG-5) including 13493 CNS, 566 IBM selected, 6204 UDC and with euro;IBM;dos;chinese;;ascii;fixed16;2;2;U+001A;yes;no;
+795;checked;IBM_ICU;LMBCS-1;LMBCS_1;1988;Lotus 1-2-3 Multi-Byte Character Set;VENDOR;dos;any;https://en.wikipedia.org/wiki/Lotus_Multi-Byte_Character_Set;ascii;fixed8;1;1;U+001A;yes;no;
+796;checked;SELF;CWI;CWI;1988;Deprecated: Hungary (Hungarian);COUNTRY;dos;latin;https://en.wikipedia.org/wiki/CWI-2;ascii;fixed8;1;1;U+001A;yes;no;
+797;checked;SELF;MIK;MIK;1989;Deprecated: Bulgarian;COUNTRY;dos;cyrillic;https://en.wikipedia.org/wiki/MIK_(character_set);ascii;fixed8;1;1;U+001A;yes;no;
 ;;Group;Platform specific;Platform;;Other platform specific encodings in logical group order;;;;;;;;;;;;
-900;checked;GNU_ICONV;ATARIST;AtariST;1985;Atari ST;VENDOR;atari;latin;https://en.wikipedia.org/wiki/Atari_ST_character_set;ascii;fixed8;1;1;U+001A;yes;no;
-901;checked;IANA;Amiga-1251;Amiga_1251;1986;Commodore Amiga;VENDOR;amiga;latin;;ascii;fixed8;1;1;U+001A;yes;no;
-902;checked;GNU_ICONV;RISCOS-LATIN1;RiscOS_Latin1;1987;RiscOS latin from Castle Technologies;VENDOR;riscos;latin;;ascii;fixed8;1;1;U+001A;yes;no;
-903;checked;IANA;DEC-MCS;DEC_MCS;1984;Multinational Character Set;VENDOR;dec;latin;https://en.wikipedia.org/wiki/Multinational_Character_Set;ascii;fixed8;1;1;U+001A;yes;no;
-904;unchecked;GNU_ICONV;DEC-KANJI;DEC_Kanji;;DEC VT220;VENDOR;dec;japanese;;ascii;varying8;1;2;U+001A;yes;no;
-905;unchecked;GNU_ICONV;DEC-HANYU;DEC_Hanyu;;DEC VT220;VENDOR;dec;chinese;;ascii;varying8;1;4;U+001A;yes;no;
-906;checked;Name;ibm-1101;IBM1101;1992;Emulation of the DEC VT220 British NRC Set;VENDOR;dec;latin;https://en.wikipedia.org/w/index.php?title=Code_page_1101&action=edit&redlink=1;ascii;fixed8;1;1;U+001A;yes;no;
-907;checked;Name;ibm-1102;IBM1102;1992;Emulation of the DEC VT220 Dutch NRC Set;VENDOR;dec;latin;https://en.wikipedia.org/w/index.php?title=Code_page_1102&action=edit&redlink=1;ascii;fixed8;1;1;U+001A;yes;no;
-908;checked;Name;ibm-1103;IBM1103;1992;Emulation of the DEC VT220 Finnish NRC Set;VENDOR;dec;latin;https://en.wikipedia.org/w/index.php?title=Code_page_1103&action=edit&redlink=1;ascii;fixed8;1;1;U+001A;yes;no;
-909;checked;Name;ibm-1105;IBM1105;1992;Emulation of the DEC VT220 Norwegian/Danish NRC Set;VENDOR;dec;latin;https://en.wikipedia.org/w/index.php?title=Code_page_1105&action=edit&redlink=1;ascii;fixed8;1;1;U+001A;yes;no;
-910;checked;Name;ibm-1106;IBM1106;1992;Emulation of the DEC VT220 Swedish NRC Set;VENDOR;dec;latin;https://en.wikipedia.org/w/index.php?title=Code_page_1106&action=edit&redlink=1;ascii;fixed8;1;1;U+001A;yes;no;
-911;checked;SELF;ibm-1287;IBM1287;2000;DEC Greek;VENDOR;dec;cyrillic;https://en.wikipedia.org/w/index.php?title=Code_page_1287&action=edit&redlink=1;ascii;fixed8;1;1;U+001A;yes;no;
-912;checked;SELF;ibm-1288;IBM1288;2000;DEC Turkish;VENDOR;dec;latin;https://en.wikipedia.org/w/index.php?title=Code_page_1288&action=edit&redlink=1;ascii;fixed8;1;1;U+001A;yes;no;
+900;checked;IANA;DEC-MCS;DEC_MCS;1984;Multinational Character Set;VENDOR;dec;latin;https://en.wikipedia.org/wiki/Multinational_Character_Set;ascii;fixed8;1;1;U+001A;yes;no;
+901;unchecked;GNU_ICONV;DEC-KANJI;DEC_Kanji;;DEC VT220;VENDOR;dec;japanese;;ascii;varying8;1;2;U+001A;yes;no;
+902;unchecked;GNU_ICONV;DEC-HANYU;DEC_Hanyu;;DEC VT220;VENDOR;dec;chinese;;ascii;varying8;1;4;U+001A;yes;no;
+903;checked;Name;ibm-1101;IBM1101;1992;Emulation of the DEC VT220 British NRC Set;VENDOR;dec;latin;https://en.wikipedia.org/w/index.php?title=Code_page_1101&action=edit&redlink=1;ascii;fixed8;1;1;U+001A;yes;no;
+904;checked;Name;ibm-1102;IBM1102;1992;Emulation of the DEC VT220 Dutch NRC Set;VENDOR;dec;latin;https://en.wikipedia.org/w/index.php?title=Code_page_1102&action=edit&redlink=1;ascii;fixed8;1;1;U+001A;yes;no;
+905;checked;Name;ibm-1103;IBM1103;1992;Emulation of the DEC VT220 Finnish NRC Set;VENDOR;dec;latin;https://en.wikipedia.org/w/index.php?title=Code_page_1103&action=edit&redlink=1;ascii;fixed8;1;1;U+001A;yes;no;
+906;checked;Name;ibm-1105;IBM1105;1992;Emulation of the DEC VT220 Norwegian/Danish NRC Set;VENDOR;dec;latin;https://en.wikipedia.org/w/index.php?title=Code_page_1105&action=edit&redlink=1;ascii;fixed8;1;1;U+001A;yes;no;
+907;checked;Name;ibm-1106;IBM1106;1992;Emulation of the DEC VT220 Swedish NRC Set;VENDOR;dec;latin;https://en.wikipedia.org/w/index.php?title=Code_page_1106&action=edit&redlink=1;ascii;fixed8;1;1;U+001A;yes;no;
+908;checked;SELF;ibm-1287;IBM1287;2000;DEC Greek;VENDOR;dec;cyrillic;https://en.wikipedia.org/w/index.php?title=Code_page_1287&action=edit&redlink=1;ascii;fixed8;1;1;U+001A;yes;no;
+909;checked;SELF;ibm-1288;IBM1288;2000;DEC Turkish;VENDOR;dec;latin;https://en.wikipedia.org/w/index.php?title=Code_page_1288&action=edit&redlink=1;ascii;fixed8;1;1;U+001A;yes;no;
+910;checked;GNU_ICONV;ATARIST;AtariST;1985;Atari ST;VENDOR;atari;latin;https://en.wikipedia.org/wiki/Atari_ST_character_set;ascii;fixed8;1;1;U+001A;yes;no;
+911;checked;IANA;Amiga-1251;Amiga_1251;1986;Commodore Amiga;VENDOR;amiga;latin;;ascii;fixed8;1;1;U+001A;yes;no;
+912;checked;GNU_ICONV;RISCOS-LATIN1;RiscOS_Latin1;1987;RiscOS latin from Castle Technologies;VENDOR;riscos;latin;;ascii;fixed8;1;1;U+001A;yes;no;
 913;checked;IANA;OSD_EBCDIC_DF03_IRV;OSD_EBCDIC_DF03_IRV;1992;Fujitsu (former Siemens), note that this is not EBCDIC for the latin characters and digits correspond to ASCII;VENDOR;bs2000;latin;http://de.wikipedia.org/wiki/BS2000;ascii;fixed8;1;1;U+001A;yes;no;
 914;checked;IANA;OSD_EBCDIC_DF04_1;OSD_EBCDIC_DF04_1;1992;Fujitsu (former Siemens), note that this is not EBCDIC for the latin characters and digits correspond to ASCII;VENDOR;bs2000;latin;http://de.wikipedia.org/wiki/BS2000;ascii;fixed8;1;1;U+001A;yes;no;
 915;checked;IANA;OSD_EBCDIC_DF04_15;OSD_EBCDIC_DF04_15;1992;Fujitsu (former Siemens), note that this is not EBCDIC for the latin characters and digits correspond to ASCII;VENDOR;bs2000;latin;http://de.wikipedia.org/wiki/BS2000;ascii;fixed8;1;1;U+001A;yes;no;
 916;checked;GNU_ICONV;MULELAO-1;Mulelao_1;1993;MULtilingual Enhancement (MULE) to GNU emacs for laotian, see http://savannah.nongnu.org/projects/mule;VENDOR;any;laotian;;ascii;fixed8;1;1;U+001A;yes;no;
 917;checked;GNU_ICONV;NEXTSTEP;NextStep;1999;Latin;VENDOR;nextstep;latin;https://en.wikipedia.org/w/index.php?title=NeXT_character_set&action=edit&redlink=1;ascii;fixed8;1;1;U+FFFD;yes;no;
 918;unchecked;IBM_ICU;solaris-zh_TW_big5-2.7;SOLARIS_ZH_TW_BIG5_27;2000;Traditional chinese;VENDOR;solaris;chinese;;ascii;fixed8;1;1;U+001A;yes;no;charsets.jar
-950;checked;IANA;Adobe-Standard-Encoding;Adobe_Standard_Encoding;1990;Adobe PostScript Standard Encoding;VENDOR;hppcl5;latin;https://en.wikipedia.org/wiki/PostScript;ascii;fixed8;1;1;U+001A;yes;no;
+;;Group;Printing and Publishing;Printing;;Printing and publishing encodings in logic group order;;;;;;;;;;;;
+950;checked;Name;Adobe-Standard-Encoding;Adobe_Standard_Encoding;1990;Adobe PostScript Standard Encoding;VENDOR;hppcl5;latin;https://en.wikipedia.org/wiki/PostScript;ascii;fixed8;1;1;U+001A;yes;no;
 951;checked;IANA;Adobe-Symbol-Encoding;Adobe_Symbol_Encoding;1990;Adobe PostScript Math Symbol Encoding;VENDOR;hppcl5;symbolic;;ascii;fixed8;1;1;U+001A;yes;no;
-952;checked;Deprecated;AdobeZapfDingbats;Adobe_Zapf_Dingbats;1990;Adobe PostScript Standard Encoding;VENDOR;hppcl5;symbolic;;ascii;fixed8;1;1;U+001A;yes;no;
+952;checked;SELF;AdobeZapfDingbats;Adobe_Zapf_Dingbats;1990;Deprecated: Adobe PostScript Zapf Symbol Encoding;VENDOR;hppcl5;symbolic;;ascii;fixed8;1;1;U+001A;yes;no;
 953;checked;IANA;Ventura-US;Ventura_US;1990;Ventura Publisher US Latin;VENDOR;hppcl5;latin;https://en.wikipedia.org/wiki/Corel_Ventura;ascii;fixed8;1;1;U+001A;yes;no;
 954;checked;IANA;Ventura-International;Ventura_International;1990;Ventura Publisher International Latin;VENDOR;hppcl5;latin;https://en.wikipedia.org/wiki/Corel_Ventura;ascii;fixed8;1;1;U+001A;yes;no;
 955;checked;IANA;Ventura-Math;Ventura_Math;1990;Ventura Publisher Math Symbols;VENDOR;hppcl5;symbolic;https://en.wikipedia.org/wiki/Corel_Ventura;ascii;fixed8;1;1;U+001A;yes;no;
 956;checked;IANA;Microsoft-Publishing;Microsoft_Publishing;1990;Microsoft Publishing;VENDOR;hppcl5;latin;;ascii;fixed8;1;1;U+001A;yes;no;
 957;checked;IANA;hp-roman8;HP_Roman8;1990;Hewlett-Packard version of roman, 8 bit;VENDOR;hppcl5;latin;https://en.wikipedia.org/wiki/HP_Roman-8;ascii;fixed8;1;1;U+001A;maybe;no;
-958;checked;Deprecated;HP-Greek8;HP_Greek8;1990;Hewlett-Packard;VENDOR;hppcl5;cyrillic;;ascii;fixed8;1;1;U+001A;yes;no;
-959;checked;Deprecated;HP-Turkish8;HP_Turkish8;1990;Hewlett-Packard;VENDOR;hppcl5;latin;;ascii;fixed8;1;1;U+001A;yes;no;
-960;checked;Deprecated;HP-Roman9;HP_Roman9;1990;Hewlett-Packard, Roman8 extension with euro sign;VENDOR;hppcl5;latin;https://en.wikipedia.org/wiki/HP_Roman-9;ascii;fixed8;1;1;U+001A;maybe;no;
-961;checked;Deprecated;HP-Thai8;HP_Thai8;1990;Hewlett-Packard;VENDOR;hppcl5;thai;;ascii;fixed8;1;1;U+001A;yes;no;
+958;checked;SELF;HP-Greek8;HP_Greek8;1990;Deprecated: Hewlett-Packard;VENDOR;hppcl5;cyrillic;;ascii;fixed8;1;1;U+001A;yes;no;
+959;checked;SELF;HP-Turkish8;HP_Turkish8;1990;Deprecated: Hewlett-Packard;VENDOR;hppcl5;latin;;ascii;fixed8;1;1;U+001A;yes;no;
+960;checked;SELF;HP-Roman9;HP_Roman9;1990;Deprecated: Hewlett-Packard, Roman8 extension with euro sign;VENDOR;hppcl5;latin;https://en.wikipedia.org/wiki/HP_Roman-9;ascii;fixed8;1;1;U+001A;maybe;no;
+961;checked;SELF;HP-Thai8;HP_Thai8;1990;Deprecated: Hewlett-Packard;VENDOR;hppcl5;thai;;ascii;fixed8;1;1;U+001A;yes;no;
 962;checked;IANA;HP-Legal;HP_Legal;1990;Hewlett-Packard;VENDOR;hppcl5;latin;https://en.wikipedia.org/wiki/Printer_Command_Language;ascii;fixed8;1;1;U+001A;yes;no;
 963;checked;IANA;HP-Pi-font;HP_Pi_font;1990;Hewlett-Packard;VENDOR;hppcl5;latin;https://en.wikipedia.org/wiki/Printer_Command_Language;ascii;fixed8;1;1;U+001A;yes;no;
 964;checked;IANA;HP-Math8;HP_Math8;1990;Hewlett-Packard;VENDOR;hppcl5;latin;https://en.wikipedia.org/wiki/Printer_Command_Language;ascii;fixed8;1;1;U+001A;yes;no;
@@ -505,6 +492,10 @@
 969;checked;IANA;ISO-8859-1-Windows-3.1-Latin-1;ISO_8859_1_Windows_31_Latin1;1992;Windows 3.1 version of ISO-8859-1;VENDOR;hppcl5;latin;https://en.wikipedia.org/wiki/Printer_Command_Language;ascii;fixed8;1;1;U+001A;yes;no;
 970;checked;IANA;ISO-8859-2-Windows-Latin-2;ISO_8859_2_Windows_Latin2;1992;Windows 3.1 version of ISO-8859-2;VENDOR;hppcl5;latin;https://en.wikipedia.org/wiki/Printer_Command_Language;ascii;fixed8;1;1;U+001A;yes;no;
 971;checked;IANA;ISO-8859-9-Windows-Latin-5;ISO_8859_9_Windows_Latin5;1992;Windows 3.1 version of ISO-8859-5;VENDOR;hppcl5;latin;https://en.wikipedia.org/wiki/Printer_Command_Language;ascii;fixed8;1;1;U+001A;yes;no;
+972;checked;IANA;ISO-Unicode-IBM-1261;IBM1261;1993;IBM Latin-2, -3, -5, Extended Presentation Set, GCSGID: 1261;UNICODE;afp;latin;;ascii;fixed8;1;1;U+001A;yes;no;
+973;checked;IANA;ISO-Unicode-IBM-1264;IBM1264;1993;IBM Arabic Presentation Set, GCSGID: 1264;UNICODE;afp;arabic;;ascii;fixed8;1;1;U+001A;yes;yes;
+974;checked;IANA;ISO-Unicode-IBM-1265;IBM1265;1993;IBM Hebrew Presentation Set, GCSGID: 1265;UNICODE;afp;hebrew;;ascii;fixed8;1;1;U+001A;yes;yes;
+975;checked;IANA;ISO-Unicode-IBM-1268;IBM1268;1993;IBM Latin-4 Extended Presentation Set, GCSGID: 1268;UNICODE;afp;latin;;ascii;fixed8;1;1;U+001A;yes;no;
 ;;Group;Telecommunication;Telecommunication;;Telecommunication encodings in publication/registration year order;;;;;;;;;;;;
 1000;checked;IANA;videotex-suppl;Videotex_suppl;1983;Supplementary Set of Graphic Characters for Videotex corresponding to ISO 6937/2 with a few exceptions;ISO6937;telecom;symbolic;;ascii;fixed8;1;1;U+001A;yes;no;
 1001;checked;IANA;ANSI_X3.110-1983;ANSI_X3_110_1983;1983;Supplementary Set of Graphic Characters for Videotex and Teletex;ANSI;telecom;symbolic;;ascii;fixed8;1;1;U+001A;yes;no;
@@ -526,7 +517,7 @@
 1101;checked;IANA;dk-us;DK_US;1992;Danish;COUNTRY;national;latin;;ascii;fixed8;1;1;U+001A;yes;no;
 1102;checked;IANA;CSN_369103;CSN_36_9103;1991;Czech;COUNTRY;national;latin;;ascii;fixed8;1;1;U+001A;yes;no;
 1103;unchecked;IANA;GOST_19768-74;GOST_19768_74;1974;Russian;COUNTRY;national;cyrillic;;ascii;fixed8;1;1;U+001A;yes;no;
-1104;checked;Deprecated;KOI8;KOI8;1974;Kod Obmena Informatsiyey (Code for Information Exchange), 8 bit, russian, bulgarian;KOI;national;cyrillic;https://en.wikipedia.org/wiki/KOI_character_encodings;ascii;fixed8;1;1;U+001A;yes;no;
+1104;checked;SELF;KOI8;KOI8;1974;Deprecated: Kod Obmena Informatsiyey (Code for Information Exchange), 8 bit, russian, bulgarian;KOI;national;cyrillic;https://en.wikipedia.org/wiki/KOI_character_encodings;ascii;fixed8;1;1;U+001A;yes;no;
 1105;checked;IANA;KOI8-R;KOI8_R;1993;Kod Obmena Informatsiyey (Code for Information Exchange), 8 bit, russian, bulgarian;KOI;national;cyrillic;https://en.wikipedia.org/wiki/KOI8-R;ascii;fixed8;1;1;U+001A;yes;no;rt.jar
 1106;checked;IANA;KOI8-U;KOI8_U;1998;Kod Obmena Informatsiyey (Code for Information Exchange), 8 bit, ukrainian;KOI;national;cyrillic;https://en.wikipedia.org/wiki/KOI8-U;ascii;fixed8;1;1;U+001A;yes;no;rt.jar
 1107;checked;GNU_ICONV;KOI8-RU;KOI8_RU;1997;Kod Obmena Informatsiyey (Code for Information Exchange), 8 bit, ukrainian, belorussian, russian;KOI;national;cyrillic;https://en.wikipedia.org/w/index.php?title=KOI8-RU&action=edit&redlink=1;ascii;fixed8;1;1;U+001A;yes;no;
@@ -538,7 +529,7 @@
 1113;checked;GNU_ICONV;TDS565;TDS_565;2000;Turkmen Standard TDS 565;ISO2022;national;latin;;ascii;fixed8;1;1;U+001A;yes;no;
 1114;checked;IANA;KZ-1048;KZ_1048;2002;Kazakhstan national standard, based on CP1251;COUNTRY;national;kazakh;;ascii;fixed8;1;1;U+001A;yes;no;
 1115;checked;IANA;PTCP154;CP154;2002;This charset is based on CP1251 with added asian cyrillic symbols (kazakh);COUNTRY;national;kazakh;;ascii;fixed8;1;1;U+001A;yes;no;
-1116;checked;Deprecated;ISIRI3342;ISIRI_3342;1993;Persian farsi language, based on iranian standard ISIRI 3342, see http://www.farsiweb.info/table/3342.txt;COUNTRY;national;arabic;;ascii;fixed8;1;1;U+001A;yes;yes;
+1116;checked;SELF;ISIRI3342;ISIRI_3342;1993;Deprecated: Persian farsi language, based on iranian standard ISIRI 3342, see http://www.farsiweb.info/table/3342.txt;COUNTRY;national;arabic;;ascii;fixed8;1;1;U+001A;yes;yes;
 1117;checked;IBM_ICU;ISCII,version=0;ISCII_Devanagari;1991;Devanagari (Hindi, Marathi, Sanskrit, Konkani);ISCII;national;indic;https://en.wikipedia.org/wiki/Indian_Script_Code_for_Information_Interchange;ascii;fixed8;1;1;U+001A;yes;no;charsets.jar
 1118;checked;IBM_ICU;ISCII,version=1;ISCII_BengaliAssamese;1991;Bengali and Assamese;ISCII;national;indic;https://en.wikipedia.org/wiki/Indian_Script_Code_for_Information_Interchange;ascii;fixed8;1;1;U+001A;yes;no;
 1119;checked;IBM_ICU;ISCII,version=2;ISCII_Punjabi;1991;Punjabi;ISCII;national;indic;https://en.wikipedia.org/wiki/Indian_Script_Code_for_Information_Interchange;ascii;fixed8;1;1;U+001A;yes;no;
@@ -635,8 +626,8 @@
 1258;checked;IANA;INIS-8;INIS_8;1981;International Nuclear Information System, non-standard extension, IAEA;ISO646;national;latin;https://en.wikipedia.org/wiki/ISO/IEC_646;ascii;fixed7;1;1;U+001A;yes;no;
 1259;checked;IANA;INIS-cyrillic;INIS_cyrillic;1981;International Nuclear Information System, cyrillic, IAEA;ISO646;national;cyrillic;https://en.wikipedia.org/wiki/ISO/IEC_646;ascii;fixed7;1;1;U+001A;yes;no;
 1260;unchecked;IANA;KS_C_5601-1987;KS_C_5601_1987;1987;;ISO646;national;korean;;ascii;varying8;1;2;U+001A;yes;no;
-1261;checked;Deprecated;ISO-IR-197;ISO_IR_197;1997;Sami Supplementary Latin Set;ISO646;national;latin;;ascii;fixed8;1;1;U+001A;yes;no;
-1262;checked;Deprecated;ISO-IR-209;ISO_IR_209;1999;Sami Supplementary Latin Set No. 2;ISO646;national;latin;;ascii;fixed8;1;1;U+001A;yes;no;
+1261;checked;SELF;ISO-IR-197;ISO_IR_197;1997;Deprecated: Sami Supplementary Latin Set;ISO646;national;latin;;ascii;fixed8;1;1;U+001A;yes;no;
+1262;checked;SELF;ISO-IR-209;ISO_IR_209;1999;Deprecated: Sami Supplementary Latin Set No. 2;ISO646;national;latin;;ascii;fixed8;1;1;U+001A;yes;no;
 1263;checked;IANA;IEC_P27-1;IEC_P27_1;1988;Technical Set;IEC;international;symbolic;;ascii;fixed7;1;1;U+001A;yes;no;
 1264;checked;IANA;T.61-7bit;T_61_7bit;1985;T.61: International (Teletex);ISO646;telecom;latin;https://en.wikipedia.org/wiki/ISO/IEC_646;ascii;fixed7;1;1;U+001A;yes;no;
 1265;checked;IANA;T.101-G2;T_101_G2;1986;Supplementary Set of Graphic Characters for CCITT Recommendation T.101, Data Sysntax III, Usage in Videotex and Broadcast Videography (Teletext) applications;ITU;telecom;symbolic;;ascii;fixed7;1;1;U+001A;yes;no;
@@ -649,6 +640,7 @@
 1272;checked;IANA;MNEMONIC;Mnemonic;1992;"The mnemonic charset ""mnemonic"" is a shorthand for ""mnemonic+ascii+38"" (RFC1345)";;any;any;;ascii;varying7;1;2;U+001A;yes;no;
 1273;checked;IANA;MNEM;Mnem;1992;"The mnemonic charset ""mnem"" is a shorthand for ""mnemonic+ascii+8200"" (RFC1345)";;any;any;;ascii;varying7;1;2;U+001A;yes;no;
 1274;checked;IANA;UNKNOWN-8BIT;Unknown_8bit;1993;"If no information on the character set is given, assume ""unknown-8bit"" as the minimum";;any;latin;;ascii;fixed8;1;1;U+001A;yes;no;
+;checked;IANA;ISO-Unicode-IBM-1276;Adobe_Standard_Encoding;1995;IBM Adobe PostScript Standard Encoding;UNICODE;hppcl5;latin;https://en.wikipedia.org/wiki/Code_page_1276;ascii;fixed8;1;1;U+001A;yes;yes;charsets.jar
 ;checked;GNU_ICONV;US-ASCII;US_ASCII;;from GNU libiconv;;;;;;;;;;;;
 ;checked;GNU_ICONV;UCS-2;UCS_2;;from GNU libiconv;;;;;;;;;;;;
 ;checked;GNU_ICONV;UCS-4;UCS_4;;from GNU libiconv;;;;;;;;;;;;
@@ -731,7 +723,7 @@
 ;checked;IBM_ICU;ibm-285_P100-1995;IBM285;;from ICU;;;;;;;;;;;;
 ;checked;IBM_ICU;ibm-290_P100-1995;IBM290;;from ICU;;;;;;;;;;;;
 ;checked;IBM_ICU;ibm-297_P100-1995;IBM297;;from ICU;;;;;;;;;;;;
-;checked;Deprecated;ibm-367_P100-1995;US_ASCII;;from ICU;;;;;;;;;;;;
+;checked;SELF;ibm-367_P100-1995;US_ASCII;;from ICU;;;;;;;;;;;;
 ;checked;IBM_ICU;ibm-420_X120-1999;IBM420;;from ICU;;;;;;;;;;;;
 ;checked;IBM_ICU;ibm-424_P100-1995;IBM424;;from ICU;;;;;;;;;;;;
 ;checked;IBM_ICU;ibm-437_P100-1995;IBM437;;from ICU;;;;;;;;;;;;
@@ -789,7 +781,7 @@
 ;checked;IBM_ICU;ibm-950_P110-1999;IBM950;;from ICU;;;;;;;;;;;;
 ;unchecked;IBM_ICU;ibm-952_P110-1997;JIS_C6226_1983;;from ICU;;;;;;;;;;;;
 ;unchecked;IBM_ICU;ibm-964_P110-1999;EUC_TW;;from ICU;;;;;;;;;;;;
-;unchecked;Deprecated;ibm-970_P110-1995;EUC_KR;;from ICU;;;;;;;;;;;;
+;unchecked;SELF;ibm-970_P110-1995;EUC_KR;;from ICU;;;;;;;;;;;;
 ;checked;IBM_ICU;ibm-971_P100-1995;IBM971;;from ICU;;;;;;;;;;;;
 ;checked;IBM_ICU;ibm-1006_P100-1995;IBM1006;;from ICU;;;;;;;;;;;;
 ;checked;IBM_ICU;ibm-1025_P100-1995;IBM1025;;from ICU;;;;;;;;;;;;
@@ -840,12 +832,12 @@
 ;checked;IBM_ICU;ibm-1276_P100-1995;Adobe_Standard_Encoding;;from ICU;;;;;;;;;;;;
 ;checked;IBM_ICU;ibm-1363_P11B-1998;KS_C_5601_1987;;from ICU;;;;;;;;;;;;
 ;checked;IBM_ICU;ibm-1363_P110-1997;IBM1363;;from ICU;;;;;;;;;;;;
-;checked;Deprecated;ibm-1364_P110-1997;IBM1364;;from ICU;;;;;;;;;;;;
+;checked;SELF;ibm-1364_P110-1997;IBM1364;;from ICU;;;;;;;;;;;;
 ;checked;IBM_ICU;ibm-1364_P110-2007;IBM1364;;from ICU;;;;;;;;;;;;
-;checked;Deprecated;ibm-1370_P110-2007;IBM1370;;from ICU;;;;;;;;;;;;
+;checked;SELF;ibm-1370_P110-2007;IBM1370;;from ICU;;;;;;;;;;;;
 ;checked;IBM_ICU;ibm-1371_P100-1999;IBM1371;;from ICU;;;;;;;;;;;;
 ;checked;IBM_ICU;ibm-1373_P100-2002;CP950;;from ICU;;;;;;;;;;;;
-;checked;Deprecated;ibm-1375_P100-2003;Big5_HKSCS;;from ICU;;;;;;;;;;;;
+;checked;SELF;ibm-1375_P100-2003;Big5_HKSCS;;from ICU;;;;;;;;;;;;
 ;checked;IBM_ICU;ibm-1383_P110-1999;GB_2312;;from ICU;;;;;;;;;;;;
 ;checked;IBM_ICU;ibm-1386_P100-2001;IBM1386;;from ICU;;;;;;;;;;;;
 ;checked;IBM_ICU;ibm-1388_P103-2001;IBM1388;;from ICU;;;;;;;;;;;;
@@ -880,7 +872,7 @@
 ;checked;IBM_ICU;ibm-1258_P100-1997;Windows_1258;;from ICU;;;;;;;;;;;;
 ;unchecked;IBM_ICU;ibm-5478_P100-1995;GB_2312_80;;from ICU;;;;;;;;;;;;
 ;checked;IBM_ICU;ibm-8482_P100-1999;IBM8482;;from ICU;;;;;;;;;;;;
-;checked;Deprecated;ibm-9005_X100-2005;ISO_8859_7;;from ICU;;;;;;;;;;;;
+;checked;SELF;ibm-9005_X100-2005;ISO_8859_7;;from ICU;;;;;;;;;;;;
 ;checked;IBM_ICU;ibm-9067_X100-2005;IBM9067;;from ICU;;;;;;;;;;;;
 ;checked;IBM_ICU;ibm-12712_P100-1998;IBM12712;;from ICU;;;;;;;;;;;;
 ;checked;IBM_ICU;ibm-16684_P110-2003;IBM16684;;from ICU;;;;;;;;;;;;
@@ -893,7 +885,7 @@
 ;checked;IBM_ICU;iso-8859_14-1998;ISO_8859_14;;from ICU;;;;;;;;;;;;
 ;unchecked;IBM_ICU;windows-949-2000;KS_C_5601_1987;;from ICU;;;;;;;;;;;;
 ;unchecked;IBM_ICU;windows-950-2000;Windows_950_2000;;from ICU;;;;;;;;;;;;
-;unchecked;Deprecated;macos-2566-10.2;Big5_HKSCS;;from ICU;;;;;;;;;;;;
+;unchecked;SELF;macos-2566-10.2;Big5_HKSCS;;from ICU;;;;;;;;;;;;
 ;unchecked;IBM_ICU;ISO_2022,locale=ja,version=0;ISO_2022_JP;;from ICU;;;;;;;;;;;;
 ;unchecked;IBM_ICU;ISO_2022,locale=ja,version=1;ISO_2022_JP_1;;from ICU;;;;;;;;;;;;
 ;unchecked;IBM_ICU;ISO_2022,locale=ja,version=2;ISO_2022_JP_2;;from ICU;;;;;;;;;;;;
@@ -905,7 +897,7 @@
 ;unchecked;IBM_ICU;ISO_2022,locale=zh,version=1;ISO_2022_CN_EXT;;from ICU;;;;;;;;;;;;
 ;unchecked;IBM_ICU;ibm-5012_P100-1999;ISO_8859_8;;from ICU;;;;;;;;;;;;
 ;unchecked;IBM_ICU;ibm-9005_X110-2007;ISO_8859_7;;from ICU;;;;;;;;;;;;
-;checked;Deprecated;ibm-1375_P100-2007;Big5_HKSCS;;from ICU;;;;;;;;;;;;
+;checked;SELF;ibm-1375_P100-2007;Big5_HKSCS;;from ICU;;;;;;;;;;;;
 ;unchecked;IBM_ICU;ibm-970_P110_P110-2006_U2;EUC_KR;;from ICU;;;;;;;;;;;;
 ;checked;IBM_ICU;ibm-1010_P100-1995;NF_Z_62_010;;from ICU;;;;;;;;;;;;
 ;checked;IBM_ICU;ibm-1011_P100-1995;DIN_66003;;from ICU;;;;;;;;;;;;
@@ -1037,11 +1029,14 @@
 ;checked;IBM_ICU;ibm-951_P100-1995;IBM951;;from ICU;;;;;;;;;;;;
 ;checked;IBM_ICU;ibm-955_P110-1997;IBM955;;from ICU;;;;;;;;;;;;
 ;checked;ORACLE_JAVA;windows-31j;Windows_31J;;from JAVA;;;;;;;;;;;;
+;unchecked;ORACLE_JAVA;x-MS950-HKSCS;MS950_HKSCS;;from JAVA;;;;;;;;;;;;
 ;unchecked;ORACLE_JAVA;x-Big5-HKSCS-2001;Big5_HKSCS_2001;;from JAVA;;;;;;;;;;;;
 ;unchecked;ORACLE_JAVA;x-Big5-Solaris;SOLARIS_ZH_TW_BIG5_27;;from JAVA;;;;;;;;;;;;
 ;unchecked;ORACLE_JAVA;x-euc-jp-linux;EUC_JP_Linux;;from JAVA;;;;;;;;;;;;
 ;unchecked;ORACLE_JAVA;x-EUC-TW;EUC_TW;;from JAVA;;;;;;;;;;;;
 ;unchecked;ORACLE_JAVA;x-eucJP-Open;EUC_JP_Open;;from JAVA;;;;;;;;;;;;
+;checked;ORACLE_JAVA;x-IBM942C;CP932;;from JAVA;;;;;;;;;;;;
+;unchecked;ORACLE_JAVA;x-IBM943C;Shift_JIS;;from JAVA;;;;;;;;;;;;
 ;checked;ORACLE_JAVA;x-IBM1006;IBM1006;;from JAVA;;;;;;;;;;;;
 ;checked;ORACLE_JAVA;x-IBM1025;IBM1025;;from JAVA;;;;;;;;;;;;
 ;checked;ORACLE_JAVA;x-IBM1046;IBM1046;;from JAVA;;;;;;;;;;;;
@@ -1162,6 +1157,12 @@
 ;checked;MS;iso-8859-13;ISO_8859_13;;from MS;;;;;;;;;;;;
 ;checked;MS;iso-8859-15;ISO_8859_15;;from MS;;;;;;;;;;;;
 ;checked;MS;iso-8859-8-i;ISO_8859_8_I;;from MS;;;;;;;;;;;;
+;checked;MS;CP50930;IBM930;;from MS;;;;;;;;;;;;
+;checked;MS;CP50931;IBM931;;from MS;;;;;;;;;;;;
+;checked;MS;CP50933;IBM933;;from MS;;;;;;;;;;;;
+;checked;MS;CP50935;IBM935;;from MS;;;;;;;;;;;;
+;checked;MS;CP50937;IBM937;;from MS;;;;;;;;;;;;
+;checked;MS;CP50939;IBM939;;from MS;;;;;;;;;;;;
 ;unchecked;MS;iso-2022-jp;CP50220;;from MS;;;;;;;;;;;;
 ;unchecked;MS;csISO2022JP;CP50221;;from MS;;;;;;;;;;;;
 ;unchecked;MS;iso-2022-kr;ISO_2022_KR;;from MS;;;;;;;;;;;;
