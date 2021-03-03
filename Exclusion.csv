@@ -43,6 +43,7 @@ ISO_8859_8;ORACLE_JAVA;ibm-916;IBM916;IBM916 and ISO-8859-8 are not the same. IC
 ISO_8859_8;ORACLE_JAVA;ibm916;IBM916;IBM916 and ISO-8859-8 are not the same. ICU distinguishes them.
 ISO_8859_8;ORACLE_JAVA;cp916;IBM916;IBM916 and ISO-8859-8 are not the same. ICU distinguishes them.
 ISO_8859_8;ORACLE_JAVA;916;IBM916;IBM916 and ISO-8859-8 are not the same. ICU distinguishes them.
+KOI8_RU;GNU_ICONV;CP21866;KOI8_U;Microsoft says this is KOI8-U, not KOI8-RU.
 KOI8_R;IBM_ICU;koi8;;KOI8 and KOI8-R for russian alone are definitely _not_ the same.
 KOI8_R;ORACLE_JAVA;koi8;;KOI8 and KOI8-R for russian alone are definitely _not_ the same.
 #;ISO646 7 bit stuff;;;
@@ -54,6 +55,7 @@ NATS_DANO_ADD;GNU_ICONV;ISOIR92;;ISO-IR-9-2                  ISO-IR-92          
 TIS_620;IBM_ICU;cp874;;TIS-620 and CP874 aka Windows-874 are definitely _not_ the same, see ICU character sets.
 TIS_620;IBM_ICU;ibm-874;;TIS-620 and IBM874 aka Windows-874 are definitely _not_ the same, see ICU character sets.
 TIS_620;IBM_ICU;x-IBM874;;TIS-620 and x-IBM874 aka Windows-874 are definitely _not_ the same, see ICU character sets.
+TIS_620;IANA;ISO-8859-11;;TIS-620 and ISO-8859-11 are definitely _not_ the same, because libiconv provides different converters.
 Windows_874;IBM_ICU;TIS-620;;Windows_874 aka CP874 and TIS-620 are definitely _not_ the same, see ICU character sets.
 HP_Thai8;GNU_ICONV;THAI8;;This is not unique to ISO-8859-11.
 #;Chinese stuff;;;
@@ -92,6 +94,8 @@ Shift_JIS;IBM_ICU;cp932;;Shift_JIS and CP932 are not the same. GNU ICONV, ICU an
 Shift_JIS;IBM_ICU;x-MS932_0213;MS932_0213;Microsoft version of Shift_JIS_X0213 seems to be newer than Shift_JIS.
 Shift_JIS;IBM_ICU;x-JISAutoDetect;;Shift_JIS and x-JISAutoDetect are not the same. Java distinguishes them.
 Shift_JIS;MS;cp932;;Shift_JIS and CP932 will be treated as different here. Different versions of Shift_JIS starting at 1978?
+Shift_JIS_X0213;GNU_ICONV;SHIFT_JIS-2004;;Java Shift_JIS 2004 and java-sjis_0213-1.6_P are not the same. Java distinguishes them.
+Shift_JIS_X0213;GNU_ICONV;SHIFTJIS2004;;Java Shift_JIS 2004 and java-sjis_0213-1.6_P are not the same. Java distinguishes them.
 ISO_2022_JP;IBM_ICU;x-windows-50220;;ISO-2022-JP has little to do with JIS_Encoding, IANA and JIS X 0202-1991 distinguish them.
 ISO_2022_JP;IBM_ICU;x-windows-iso2022jp;;ISO-2022-JP and x-windows-iso2022jp are not the same. Java distinguishes them.
 ISO_2022_JP;ORACLE_JAVA;jis_encoding;;ISO-2022-JP has little to do with JIS_Encoding, IANA and JIS X 0202-1991 distinguish them.

@@ -1,0 +1,1457 @@
+<!DOCTYPE html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html class="hasSidebar hasPageActions hasBreadcrumb conceptual has-default-focus theme-light" lang="en-us" dir="ltr" data-css-variable-support="true" data-authenticated="false" data-auth-status-determined="false" data-target="docs" x-ms-format-detection="none">
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta property="og:title" content="Code Page Identifiers - Win32 apps" />
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="https://docs.microsoft.com/en-us/windows/win32/intl/code-page-identifiers" />
+			<meta property="og:description" content="The following table defines the available code page identifiers." />
+		<meta property="og:image" content="https://docs.microsoft.com/en-us/media/logos/logo-ms-social.png" />
+		<meta property="og:image:alt" content="Microsoft Logo" />
+
+	<meta name="twitter:card" content="summary" />
+	<meta name="twitter:site" content="@docsmsft" />
+
+	<meta name="color-scheme" content="light dark">
+
+
+	<meta name="author" content="Karl-Bridge-Microsoft" />
+<meta name="breadcrumb_path" content="/windows/desktop/breadcrumb/toc.json" />
+<meta name="depot_name" content="MSDN.win32" />
+<meta name="description" content="The following table defines the available code page identifiers." />
+<meta name="document_id" content="51df451d-7bec-0e14-c2eb-13e57f606c90" />
+<meta name="document_version_independent_id" content="964ce76f-5a6b-9d2c-5a52-25b46865796f" />
+<meta name="gitcommit" content="https://github.com/MicrosoftDocs/win32-pr/blob/6c0db43199967a0432b8a4930e19d19c346207b8/desktop-src/Intl/code-page-identifiers.md" />
+<meta name="locale" content="en-us" />
+<meta name="ms.assetid" content="5d6fc86a-f205-4d14-bb7c-ecd71682e0fe" />
+<meta name="ms.author" content="kbridge" />
+<meta name="ms.date" content="05/31/2018" />
+<meta name="ms.prod" content="desktop" />
+<meta name="ms.technology" content="desktop-app-ui" />
+<meta name="ms.topic" content="article" />
+<meta name="original_content_git_url" content="https://github.com/MicrosoftDocs/win32-pr/blob/live/desktop-src/Intl/code-page-identifiers.md" />
+<meta name="search.ms_docsetname" content="win32" />
+<meta name="search.ms_product" content="MSDN" />
+<meta name="search.ms_sitename" content="Docs" />
+<meta name="site_name" content="Docs" />
+<meta name="uhfHeaderId" content="MSDocsHeader-WinDevCenter" />
+<meta name="updated_at" content="2021-01-07 08:51 PM" />
+<meta name="page_type" content="conceptual" />
+<meta name="toc_rel" content="toc.json" />
+<meta name="pdf_url_template" content="https://docs.microsoft.com/pdfstore/en-us/MSDN.win32/{branchName}{pdfName}" />
+<meta name="word_count" content="1069" />
+
+
+	<meta name="scope" content="Windows, Desktop" />
+<link href="https://docs.microsoft.com/en-us/windows/win32/intl/code-page-identifiers" rel="canonical">
+	<title>Code Page Identifiers - Win32 apps | Microsoft Docs</title>
+
+		<link rel="stylesheet" href="/_themes/docs.theme/master/de-de/_themes/styles/97269d6d.site-ltr.css ">
+
+	<link rel="stylesheet" href="/_themes/docs.theme/master/de-de/_themes/styles/a96de1e1.conceptual.css ">
+
+
+	<script id="msdocs-script">
+	var msDocs = {
+		data: {
+			timeOrigin: Date.now(),
+			contentLocale: 'en-us',
+			contentDir: 'ltr',
+			userLocale: 'de-de',
+			userDir: 'ltr',
+			pageTemplate: 'Conceptual',
+			brand: '',
+			context: {
+
+			},
+			hasBinaryRating: true,
+			hasGithubIssues: false,
+			showFeedbackReport: false,
+			enableTutorialFeedback: false,
+			feedbackSystem: 'None',
+			feedbackGitHubRepo: '',
+			feedbackProductUrl: '',
+			contentGitUrl: 'https://github.com/MicrosoftDocs/win32/blob/docs/desktop-src/Intl/code-page-identifiers.md',
+			extendBreadcrumb: false,
+			isEditDisplayable: true,
+			hideViewSource: false,
+			hasPageActions: true,
+			hasBookmark: true,
+			hasShare: true,
+			hasRecommendations: false,
+			contributors: [
+						{ name: "Karl-Bridge-Microsoft", url: "https://github.com/Karl-Bridge-Microsoft" },
+						{ name: "v-kents", url: "https://github.com/v-kents" },
+						{ name: "iamCristYe", url: "https://github.com/iamCristYe" },
+						{ name: "msatranjr", url: "https://github.com/msatranjr" }
+],
+		},
+		functions:{}
+	};
+	</script>
+	<script src="https://wcpstatic.microsoft.com/mscc/lib/v2/wcp-consent.js"></script>
+	<script src="/static/third-party/jsll/4.3.4/jsll-4.js"></script>
+	<script>window.jsllAwa = window.awa;</script>
+	<script nomodule src="/static/third-party/bluebird/3.5.0/bluebird.min.js" integrity="sha384-aD4BDeDGeLXLpPK4yKeqtZQa9dv4a/7mQ+4L5vwshIYH1Mc2BrXvHd32iHzYCQy5" crossorigin="anonymous"></script>
+	<script nomodule src="/static/third-party/fetch/3.0.0/fetch.umd.min.js" integrity="sha384-EQIXrC5K2+7X8nGgLkB995I0/6jfAvvyG1ieZ+WYGxgJHFMD/alsG9fSDWvzb5Y1" crossorigin="anonymous"></script>
+	<script nomodule src="/static/third-party/template/1.4.0/template.min.js" integrity="sha384-1zKzI6ldTVHMU7n0W2HpE/lhHI+UG4D9IIaxbj3kT2UhCWicdTuJkTtnKuu0CQzN" crossorigin="anonymous"></script>
+	<script nomodule src="/static/third-party/url/0.5.7/url.min.js" integrity="sha384-vn7xBMtpSTfzaTRWxj0kVq0UcsbBrTOgZ/M1ISHqe1V358elYva+lfiEC+T8jLPc" crossorigin="anonymous"></script>
+	<script src="/_themes/docs.theme/master/de-de/_themes/scripts/f0a172e9.index-polyfills.js"></script>
+
+		<script src="/_themes/docs.theme/master/de-de/_themes/scripts/3bbf6312.index-docs.js"></script>
+</head>
+
+<body lang="de-de" dir="ltr">
+	<div class="header-holder has-default-focus">
+		<a href="#main" class="skip-to-main-link has-outline-color-text visually-hidden-until-focused is-fixed has-inner-focus focus-visible has-top-zero has-left-zero has-right-zero has-padding-medium has-text-centered has-body-background-medium" tabindex="1">Weiter zum Hauptinhalt</a>
+		
+		<div id="ignite-banner-holder" class="has-default-focus has-overflow-hidden"></div>
+		
+		<div hidden id="cookie-consent-holder"></div>
+		<!-- liquid-tag banners global -->
+		<div id="headerAreaHolder" data-bi-name="header">
+<header role="banner" itemscope="itemscope" itemtype="http://schema.org/Organization">
+	<div class="nav-bar">
+		<div class="nav-bar-brand">
+			<a itemprop="url" href="https://www.microsoft.com" aria-label="Microsoft" class="nav-bar-button">
+				<div class="nav-bar-logo has-background-image theme-display is-light" role="presentation" aria-hidden="true" itemprop="logo" itemscope="itemscope"></div>
+				<div class="nav-bar-logo has-background-image theme-display is-dark is-high-contrast" role="presentation" aria-hidden="true" itemprop="logo" itemscope="itemscope"></div>
+			</a>
+		</div>
+	</div>
+	<div class="nav-bar has-border-top is-hidden-mobile"></div>
+</header>		</div>
+
+						<div class="content-header uhf-container has-padding has-default-focus has-border-bottom-none" data-bi-name="content-header">
+					<nav class="breadcrumb-holder has-padding-none has-padding-left-medium-tablet has-padding-right-medium-tablet has-padding-left-none-uhf-tablet has-padding-left-none-uhf-tablet has-padding-none-desktop has-flex-grow" data-bi-name="breadcrumb" itemscope itemtype="http://schema.org/BreadcrumbList" role="navigation" aria-label="Breadcrumb">
+						<ul id="page-breadcrumbs" class="breadcrumbs">
+						</ul>
+					</nav>
+				<div class="content-header-controls">
+					<button type="button" class="contents-button button" data-bi-name="contents-expand" aria-haspopup="true">
+						<span class="icon"><span class="docon docon-menu" aria-hidden="true"></span></span>
+						<span class="contents-expand-title">Inhalte</span>
+					</button>
+					<button type="button" class="ap-collapse-behavior ap-expanded button" data-bi-name="ap-collapse" aria-controls="action-panel">
+						<span class="icon"><span class="docon docon-exit-mode" aria-hidden="true"></span></span>
+						<span>Fokusmodus beenden</span>
+					</button>
+				</div>
+				<div class="has-padding-none-tablet has-padding-medium is-size-small is-flex-touch has-flex-justify-content-space-between-touch has-flex-grow page-action-holder">
+					<ul class="is-hidden-mobile action-list has-flex-justify-content-start has-flex-justify-content-end-tablet is-flex is-flex-row has-flex-wrap has-flex-grow is-unstyled">
+						<li>
+							<button type="button" class="bookmark button is-text has-inner-focus is-small is-icon-only-touch" data-list-type="bookmarks" data-bi-name="bookmark" title="Lesezeichen für diese Seite anlegen">
+								<span class="icon" aria-hidden="true">
+									<span class="docon docon-single-bookmark"></span>
+								</span>
+								<span class="bookmark-status is-visually-hidden-touch is-hidden-portrait">Lesezeichen</span>
+							</button>
+						</li>
+								<li id="contenteditbtn">
+									<a href="https://github.com/MicrosoftDocs/win32/blob/docs/desktop-src/Intl/code-page-identifiers.md" class="button is-text has-inner-focus is-icon-only-touch is-small" title="Dieses Dokument bearbeiten" data-bi-name="edit" data-original_content_git_url="https://github.com/MicrosoftDocs/win32-pr/blob/live/desktop-src/Intl/code-page-identifiers.md" data-original_content_git_url_template="{repo}/blob/{branch}/desktop-src/Intl/code-page-identifiers.md" data-pr_repo="" data-pr_branch="">
+									<span class="icon" aria-hidden="true">
+										<span class="docon docon-edit-outline"></span>
+									</span>
+									<span class="is-visually-hidden-touch is-hidden-portrait">Bearbeiten</span>
+								</a>
+							</li>
+						<li>
+<div class="sharing dropdown has-caret">
+	<button class="dropdown-trigger button is-text is-fullwidth has-flex-justify-content-start has-inner-focus is-small is-icon-only-touch" aria-controls="sharing-menu" aria-expanded="false" title="Dieses Dokument freigeben" data-bi-name="share">
+		<span class="icon" aria-hidden="true">
+			<span class="docon docon-sharing"></span>
+		</span>
+		<span class="is-visually-hidden-touch is-hidden-portrait">Teilen</span>
+	</button>
+	<div class="dropdown-menu has-padding-small" id="sharing-menu">
+		<ul data-bi-name="share-links">
+			<li>
+				<a class="button is-text is-fullwidth has-flex-justify-content-start has-inner-focus is-small share-twitter" data-bi-name="twitter">
+					<span class="icon">
+						<span class="docon docon-brand-twitter has-text-primary" aria-hidden="true"></span>
+					</span>
+					<span>Twitter</span>
+				</a>
+			</li>
+			<li>
+				<a class="button is-text is-fullwidth has-flex-justify-content-start has-inner-focus is-small share-linkedin" data-bi-name="linkedin">
+					<span class="icon">
+						<span class="docon docon-brand-linkedin has-text-primary" aria-hidden="true"></span>
+					</span>
+					<span>LinkedIn</span>
+				</a>
+			</li>
+			<li>
+				<a class="button is-text is-fullwidth has-flex-justify-content-start has-inner-focus is-small share-facebook" data-bi-name="facebook">
+					<span class="icon">
+						<span class="docon docon-brand-facebook has-text-primary" aria-hidden="true"></span>
+					</span>
+					<span>Facebook</span>
+				</a>
+			</li>
+			<li>
+				<a class="button is-text is-fullwidth has-flex-justify-content-start has-inner-focus is-small share-email" data-bi-name="email">
+					<span class="icon">
+						<span class="docon docon-mail-message-fill has-text-primary" aria-hidden="true"></span>
+					</span>
+					<span>E-Mail</span>
+				</a>
+			</li>
+		</ul>
+	</div>
+</div>						</li>
+					</ul>
+					<button type="button" class="has-border contents-button button is-small is-text is-hidden-tablet has-inner-focus" aria-label="Inhalte" data-bi-name="contents-expand">
+						<span class="icon">
+							<span class="docon docon-editor-list-bullet" aria-hidden="true"></span>
+						</span>
+						<span class="contents-expand-title">Inhaltsverzeichnis</span>
+					</button>
+					<div class="is-invisible"></div>
+					<div class="is-hidden-tablet level-item is-flexible level-right">
+						<button type="button" class="page-actions-button button is-small is-text is-hidden-tablet has-inner-focus has-border is-full-height  has-margin-left-small" aria-label="Seitenaktionen" data-bi-name="pageactions">
+							<span class="icon">
+								<span class="docon docon-more-vertical" aria-hidden="true"></span>
+							</span>
+						</button>
+					</div>
+				</div>
+			</div>
+
+
+
+		<div id="disclaimer-holder" class="has-overflow-hidden has-default-focus">
+			<!-- liquid-tag banners sectional -->
+		</div>
+	</div>
+
+	<div class="mainContainer  uhf-container has-top-padding  has-default-focus" data-bi-name="body">
+
+		<div class="columns has-large-gaps is-gapless-mobile ">
+
+			<div id="left-container" class="left-container is-hidden-mobile column is-one-third-tablet is-one-quarter-desktop">
+				<nav id="affixed-left-container" class="is-fixed is-flex is-flex-column" role="navigation" aria-label="Primär"></nav>
+			</div>
+
+			<section class="primary-holder column is-two-thirds-tablet is-three-quarters-desktop">
+				<div class="columns is-gapless-mobile has-large-gaps ">
+
+
+				<div id="main-column" class="column  is-full is-four-fifths-desktop ">
+
+					<main id="main" role="main" class="content " data-bi-name="content" lang="en-us" dir="ltr">
+
+
+
+						<h1 id="code-page-identifiers">Code Page Identifiers</h1>
+
+						<ul class="metadata page-metadata" data-bi-name="page info" lang="de-de" dir="ltr">
+							<li>
+								<time class="is-invisible" data-article-date aria-label="Überprüfungsdatum" datetime="2018-05-31T00:00:00.000Z" data-article-date-source="ms.date">05/31/2018</time>
+							</li>
+									<li class="readingTime">5 Minuten Lesedauer</li>
+								<li class="contributors-holder">
+									<ul class="facepile has-margin-left-none is-small" data-bi-name="contributors">
+														<li class="facepile-item">
+															<a href="https://github.com/Karl-Bridge-Microsoft" title="Karl-Bridge-Microsoft" aria-label="Karl-Bridge-MicrosoftGitHub-Profil" data-src="https://github.com/Karl-Bridge-Microsoft.png?size=32" data-contributor-name="Karl-Bridge-Microsoft" class="facepile-item-coin"
+															>
+																<img class="facepile-item-coin-image durable-image" aria-hidden="true" src="https://github.com/Karl-Bridge-Microsoft.png?size=32" role="presentation" onerror="this.className='facepile-item-coin-image durable-image has-error';"/>
+																<span class="facepile-item-coin-text durable-image-fallback facepile-item-teal"aria-hidden="true">K</span>
+															</a>
+														</li>
+														<li class="facepile-item">
+															<a href="https://github.com/v-kents" title="v-kents" aria-label="v-kentsGitHub-Profil" data-src="https://github.com/v-kents.png?size=32" data-contributor-name="v-kents" class="facepile-item-coin"
+															>
+																<img class="facepile-item-coin-image durable-image" aria-hidden="true" src="https://github.com/v-kents.png?size=32" role="presentation" onerror="this.className='facepile-item-coin-image durable-image has-error';"/>
+																<span class="facepile-item-coin-text durable-image-fallback facepile-item-red"aria-hidden="true">v</span>
+															</a>
+														</li>
+														<li class="facepile-item">
+															<a href="https://github.com/iamCristYe" title="iamCristYe" aria-label="iamCristYeGitHub-Profil" data-src="https://github.com/iamCristYe.png?size=32" data-contributor-name="iamCristYe" class="facepile-item-coin"
+															>
+																<img class="facepile-item-coin-image durable-image" aria-hidden="true" src="https://github.com/iamCristYe.png?size=32" role="presentation" onerror="this.className='facepile-item-coin-image durable-image has-error';"/>
+																<span class="facepile-item-coin-text durable-image-fallback facepile-item-blue"aria-hidden="true">i</span>
+															</a>
+														</li>
+														<li class="facepile-item">
+															<a href="https://github.com/msatranjr" title="msatranjr" aria-label="msatranjrGitHub-Profil" data-src="https://github.com/msatranjr.png?size=32" data-contributor-name="msatranjr" class="facepile-item-coin"
+															>
+																<img class="facepile-item-coin-image durable-image" aria-hidden="true" src="https://github.com/msatranjr.png?size=32" role="presentation" onerror="this.className='facepile-item-coin-image durable-image has-error';"/>
+																<span class="facepile-item-coin-text durable-image-fallback facepile-item-teal"aria-hidden="true">m</span>
+															</a>
+														</li>
+									</ul>
+								</li>
+						</ul>
+
+						<nav id="center-doc-outline" class="doc-outline is-hidden-desktop" data-bi-name="intopic toc" role="navigation" aria-label="Artikelgliederung">
+							<h3>In diesem Artikel</h3>
+						</nav>
+
+						<!-- <content> -->
+							<p>The following table defines the available code page identifiers.</p>
+<div class="NOTE">
+<p>Note</p>
+<p>ANSI code pages can be different on different computers, or can be changed for a single computer, leading to data corruption. For the most consistent results, applications should use Unicode, such as UTF-8 or UTF-16, instead of a specific code page.</p>
+</div>
+<p> </p>
+<table>
+<thead>
+<tr>
+<th>Identifier</th>
+<th>.NET Name</th>
+<th>Additional information</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>037</td>
+<td>IBM037</td>
+<td>IBM EBCDIC US-Canada</td>
+</tr>
+<tr>
+<td>437</td>
+<td>IBM437</td>
+<td>OEM United States</td>
+</tr>
+<tr>
+<td>500</td>
+<td>IBM500</td>
+<td>IBM EBCDIC International</td>
+</tr>
+<tr>
+<td>708</td>
+<td>ASMO-708</td>
+<td>Arabic (ASMO 708)</td>
+</tr>
+<tr>
+<td>709</td>
+<td></td>
+<td>Arabic (ASMO-449+, BCON V4)</td>
+</tr>
+<tr>
+<td>710</td>
+<td></td>
+<td>Arabic - Transparent Arabic</td>
+</tr>
+<tr>
+<td>720</td>
+<td>DOS-720</td>
+<td>Arabic (Transparent ASMO); Arabic (DOS)</td>
+</tr>
+<tr>
+<td>737</td>
+<td>ibm737</td>
+<td>OEM Greek (formerly 437G); Greek (DOS)</td>
+</tr>
+<tr>
+<td>775</td>
+<td>ibm775</td>
+<td>OEM Baltic; Baltic (DOS)</td>
+</tr>
+<tr>
+<td>850</td>
+<td>ibm850</td>
+<td>OEM Multilingual Latin 1; Western European (DOS)</td>
+</tr>
+<tr>
+<td>852</td>
+<td>ibm852</td>
+<td>OEM Latin 2; Central European (DOS)</td>
+</tr>
+<tr>
+<td>855</td>
+<td>IBM855</td>
+<td>OEM Cyrillic (primarily Russian)</td>
+</tr>
+<tr>
+<td>857</td>
+<td>ibm857</td>
+<td>OEM Turkish; Turkish (DOS)</td>
+</tr>
+<tr>
+<td>858</td>
+<td>IBM00858</td>
+<td>OEM Multilingual Latin 1 + Euro symbol</td>
+</tr>
+<tr>
+<td>860</td>
+<td>IBM860</td>
+<td>OEM Portuguese; Portuguese (DOS)</td>
+</tr>
+<tr>
+<td>861</td>
+<td>ibm861</td>
+<td>OEM Icelandic; Icelandic (DOS)</td>
+</tr>
+<tr>
+<td>862</td>
+<td>DOS-862</td>
+<td>OEM Hebrew; Hebrew (DOS)</td>
+</tr>
+<tr>
+<td>863</td>
+<td>IBM863</td>
+<td>OEM French Canadian; French Canadian (DOS)</td>
+</tr>
+<tr>
+<td>864</td>
+<td>IBM864</td>
+<td>OEM Arabic; Arabic (864)</td>
+</tr>
+<tr>
+<td>865</td>
+<td>IBM865</td>
+<td>OEM Nordic; Nordic (DOS)</td>
+</tr>
+<tr>
+<td>866</td>
+<td>cp866</td>
+<td>OEM Russian; Cyrillic (DOS)</td>
+</tr>
+<tr>
+<td>869</td>
+<td>ibm869</td>
+<td>OEM Modern Greek; Greek, Modern (DOS)</td>
+</tr>
+<tr>
+<td>870</td>
+<td>IBM870</td>
+<td>IBM EBCDIC Multilingual/ROECE (Latin 2); IBM EBCDIC Multilingual Latin 2</td>
+</tr>
+<tr>
+<td>874</td>
+<td>windows-874</td>
+<td>Thai (Windows)</td>
+</tr>
+<tr>
+<td>875</td>
+<td>cp875</td>
+<td>IBM EBCDIC Greek Modern</td>
+</tr>
+<tr>
+<td>932</td>
+<td>shift_jis</td>
+<td>ANSI/OEM Japanese; Japanese (Shift-JIS)</td>
+</tr>
+<tr>
+<td>936</td>
+<td>gb2312</td>
+<td>ANSI/OEM Simplified Chinese (PRC, Singapore); Chinese Simplified (GB2312)</td>
+</tr>
+<tr>
+<td>949</td>
+<td>ks_c_5601-1987</td>
+<td>ANSI/OEM Korean (Unified Hangul Code)</td>
+</tr>
+<tr>
+<td>950</td>
+<td>big5</td>
+<td>ANSI/OEM Traditional Chinese (Taiwan; Hong Kong SAR, PRC); Chinese Traditional (Big5)</td>
+</tr>
+<tr>
+<td>1026</td>
+<td>IBM1026</td>
+<td>IBM EBCDIC Turkish (Latin 5)</td>
+</tr>
+<tr>
+<td>1047</td>
+<td>IBM01047</td>
+<td>IBM EBCDIC Latin 1/Open System</td>
+</tr>
+<tr>
+<td>1140</td>
+<td>IBM01140</td>
+<td>IBM EBCDIC US-Canada (037 + Euro symbol); IBM EBCDIC (US-Canada-Euro)</td>
+</tr>
+<tr>
+<td>1141</td>
+<td>IBM01141</td>
+<td>IBM EBCDIC Germany (20273 + Euro symbol); IBM EBCDIC (Germany-Euro)</td>
+</tr>
+<tr>
+<td>1142</td>
+<td>IBM01142</td>
+<td>IBM EBCDIC Denmark-Norway (20277 + Euro symbol); IBM EBCDIC (Denmark-Norway-Euro)</td>
+</tr>
+<tr>
+<td>1143</td>
+<td>IBM01143</td>
+<td>IBM EBCDIC Finland-Sweden (20278 + Euro symbol); IBM EBCDIC (Finland-Sweden-Euro)</td>
+</tr>
+<tr>
+<td>1144</td>
+<td>IBM01144</td>
+<td>IBM EBCDIC Italy (20280 + Euro symbol); IBM EBCDIC (Italy-Euro)</td>
+</tr>
+<tr>
+<td>1145</td>
+<td>IBM01145</td>
+<td>IBM EBCDIC Latin America-Spain (20284 + Euro symbol); IBM EBCDIC (Spain-Euro)</td>
+</tr>
+<tr>
+<td>1146</td>
+<td>IBM01146</td>
+<td>IBM EBCDIC United Kingdom (20285 + Euro symbol); IBM EBCDIC (UK-Euro)</td>
+</tr>
+<tr>
+<td>1147</td>
+<td>IBM01147</td>
+<td>IBM EBCDIC France (20297 + Euro symbol); IBM EBCDIC (France-Euro)</td>
+</tr>
+<tr>
+<td>1148</td>
+<td>IBM01148</td>
+<td>IBM EBCDIC International (500 + Euro symbol); IBM EBCDIC (International-Euro)</td>
+</tr>
+<tr>
+<td>1149</td>
+<td>IBM01149</td>
+<td>IBM EBCDIC Icelandic (20871 + Euro symbol); IBM EBCDIC (Icelandic-Euro)</td>
+</tr>
+<tr>
+<td>1200</td>
+<td>utf-16</td>
+<td>Unicode UTF-16, little endian byte order (BMP of ISO 10646); available only to managed applications</td>
+</tr>
+<tr>
+<td>1201</td>
+<td>unicodeFFFE</td>
+<td>Unicode UTF-16, big endian byte order; available only to managed applications</td>
+</tr>
+<tr>
+<td>1250</td>
+<td>windows-1250</td>
+<td>ANSI Central European; Central European (Windows)</td>
+</tr>
+<tr>
+<td>1251</td>
+<td>windows-1251</td>
+<td>ANSI Cyrillic; Cyrillic (Windows)</td>
+</tr>
+<tr>
+<td>1252</td>
+<td>windows-1252</td>
+<td>ANSI Latin 1; Western European (Windows)</td>
+</tr>
+<tr>
+<td>1253</td>
+<td>windows-1253</td>
+<td>ANSI Greek; Greek (Windows)</td>
+</tr>
+<tr>
+<td>1254</td>
+<td>windows-1254</td>
+<td>ANSI Turkish; Turkish (Windows)</td>
+</tr>
+<tr>
+<td>1255</td>
+<td>windows-1255</td>
+<td>ANSI Hebrew; Hebrew (Windows)</td>
+</tr>
+<tr>
+<td>1256</td>
+<td>windows-1256</td>
+<td>ANSI Arabic; Arabic (Windows)</td>
+</tr>
+<tr>
+<td>1257</td>
+<td>windows-1257</td>
+<td>ANSI Baltic; Baltic (Windows)</td>
+</tr>
+<tr>
+<td>1258</td>
+<td>windows-1258</td>
+<td>ANSI/OEM Vietnamese; Vietnamese (Windows)</td>
+</tr>
+<tr>
+<td>1361</td>
+<td>Johab</td>
+<td>Korean (Johab)</td>
+</tr>
+<tr>
+<td>10000</td>
+<td>macintosh</td>
+<td>MAC Roman; Western European (Mac)</td>
+</tr>
+<tr>
+<td>10001</td>
+<td>x-mac-japanese</td>
+<td>Japanese (Mac)</td>
+</tr>
+<tr>
+<td>10002</td>
+<td>x-mac-chinesetrad</td>
+<td>MAC Traditional Chinese (Big5); Chinese Traditional (Mac)</td>
+</tr>
+<tr>
+<td>10003</td>
+<td>x-mac-korean</td>
+<td>Korean (Mac)</td>
+</tr>
+<tr>
+<td>10004</td>
+<td>x-mac-arabic</td>
+<td>Arabic (Mac)</td>
+</tr>
+<tr>
+<td>10005</td>
+<td>x-mac-hebrew</td>
+<td>Hebrew (Mac)</td>
+</tr>
+<tr>
+<td>10006</td>
+<td>x-mac-greek</td>
+<td>Greek (Mac)</td>
+</tr>
+<tr>
+<td>10007</td>
+<td>x-mac-cyrillic</td>
+<td>Cyrillic (Mac)</td>
+</tr>
+<tr>
+<td>10008</td>
+<td>x-mac-chinesesimp</td>
+<td>MAC Simplified Chinese (GB 2312); Chinese Simplified (Mac)</td>
+</tr>
+<tr>
+<td>10010</td>
+<td>x-mac-romanian</td>
+<td>Romanian (Mac)</td>
+</tr>
+<tr>
+<td>10017</td>
+<td>x-mac-ukrainian</td>
+<td>Ukrainian (Mac)</td>
+</tr>
+<tr>
+<td>10021</td>
+<td>x-mac-thai</td>
+<td>Thai (Mac)</td>
+</tr>
+<tr>
+<td>10029</td>
+<td>x-mac-ce</td>
+<td>MAC Latin 2; Central European (Mac)</td>
+</tr>
+<tr>
+<td>10079</td>
+<td>x-mac-icelandic</td>
+<td>Icelandic (Mac)</td>
+</tr>
+<tr>
+<td>10081</td>
+<td>x-mac-turkish</td>
+<td>Turkish (Mac)</td>
+</tr>
+<tr>
+<td>10082</td>
+<td>x-mac-croatian</td>
+<td>Croatian (Mac)</td>
+</tr>
+<tr>
+<td>12000</td>
+<td>utf-32</td>
+<td>Unicode UTF-32, little endian byte order; available only to managed applications</td>
+</tr>
+<tr>
+<td>12001</td>
+<td>utf-32BE</td>
+<td>Unicode UTF-32, big endian byte order; available only to managed applications</td>
+</tr>
+<tr>
+<td>20000</td>
+<td>x-Chinese_CNS</td>
+<td>CNS Taiwan; Chinese Traditional (CNS)</td>
+</tr>
+<tr>
+<td>20001</td>
+<td>x-cp20001</td>
+<td>TCA Taiwan</td>
+</tr>
+<tr>
+<td>20002</td>
+<td>x_Chinese-Eten</td>
+<td>Eten Taiwan; Chinese Traditional (Eten)</td>
+</tr>
+<tr>
+<td>20003</td>
+<td>x-cp20003</td>
+<td>IBM5550 Taiwan</td>
+</tr>
+<tr>
+<td>20004</td>
+<td>x-cp20004</td>
+<td>TeleText Taiwan</td>
+</tr>
+<tr>
+<td>20005</td>
+<td>x-cp20005</td>
+<td>Wang Taiwan</td>
+</tr>
+<tr>
+<td>20105</td>
+<td>x-IA5</td>
+<td>IA5 (IRV International Alphabet No. 5, 7-bit); Western European (IA5)</td>
+</tr>
+<tr>
+<td>20106</td>
+<td>x-IA5-German</td>
+<td>IA5 German (7-bit)</td>
+</tr>
+<tr>
+<td>20107</td>
+<td>x-IA5-Swedish</td>
+<td>IA5 Swedish (7-bit)</td>
+</tr>
+<tr>
+<td>20108</td>
+<td>x-IA5-Norwegian</td>
+<td>IA5 Norwegian (7-bit)</td>
+</tr>
+<tr>
+<td>20127</td>
+<td>us-ascii</td>
+<td>US-ASCII (7-bit)</td>
+</tr>
+<tr>
+<td>20261</td>
+<td>x-cp20261</td>
+<td>T.61</td>
+</tr>
+<tr>
+<td>20269</td>
+<td>x-cp20269</td>
+<td>ISO 6937 Non-Spacing Accent</td>
+</tr>
+<tr>
+<td>20273</td>
+<td>IBM273</td>
+<td>IBM EBCDIC Germany</td>
+</tr>
+<tr>
+<td>20277</td>
+<td>IBM277</td>
+<td>IBM EBCDIC Denmark-Norway</td>
+</tr>
+<tr>
+<td>20278</td>
+<td>IBM278</td>
+<td>IBM EBCDIC Finland-Sweden</td>
+</tr>
+<tr>
+<td>20280</td>
+<td>IBM280</td>
+<td>IBM EBCDIC Italy</td>
+</tr>
+<tr>
+<td>20284</td>
+<td>IBM284</td>
+<td>IBM EBCDIC Latin America-Spain</td>
+</tr>
+<tr>
+<td>20285</td>
+<td>IBM285</td>
+<td>IBM EBCDIC United Kingdom</td>
+</tr>
+<tr>
+<td>20290</td>
+<td>IBM290</td>
+<td>IBM EBCDIC Japanese Katakana Extended</td>
+</tr>
+<tr>
+<td>20297</td>
+<td>IBM297</td>
+<td>IBM EBCDIC France</td>
+</tr>
+<tr>
+<td>20420</td>
+<td>IBM420</td>
+<td>IBM EBCDIC Arabic</td>
+</tr>
+<tr>
+<td>20423</td>
+<td>IBM423</td>
+<td>IBM EBCDIC Greek</td>
+</tr>
+<tr>
+<td>20424</td>
+<td>IBM424</td>
+<td>IBM EBCDIC Hebrew</td>
+</tr>
+<tr>
+<td>20833</td>
+<td>x-EBCDIC-KoreanExtended</td>
+<td>IBM EBCDIC Korean Extended</td>
+</tr>
+<tr>
+<td>20838</td>
+<td>IBM-Thai</td>
+<td>IBM EBCDIC Thai</td>
+</tr>
+<tr>
+<td>20866</td>
+<td>koi8-r</td>
+<td>Russian (KOI8-R); Cyrillic (KOI8-R)</td>
+</tr>
+<tr>
+<td>20871</td>
+<td>IBM871</td>
+<td>IBM EBCDIC Icelandic</td>
+</tr>
+<tr>
+<td>20880</td>
+<td>IBM880</td>
+<td>IBM EBCDIC Cyrillic Russian</td>
+</tr>
+<tr>
+<td>20905</td>
+<td>IBM905</td>
+<td>IBM EBCDIC Turkish</td>
+</tr>
+<tr>
+<td>20924</td>
+<td>IBM00924</td>
+<td>IBM EBCDIC Latin 1/Open System (1047 + Euro symbol)</td>
+</tr>
+<tr>
+<td>20932</td>
+<td>EUC-JP</td>
+<td>Japanese (JIS 0208-1990 and 0212-1990)</td>
+</tr>
+<tr>
+<td>20936</td>
+<td>x-cp20936</td>
+<td>Simplified Chinese (GB2312); Chinese Simplified (GB2312-80)</td>
+</tr>
+<tr>
+<td>20949</td>
+<td>x-cp20949</td>
+<td>Korean Wansung</td>
+</tr>
+<tr>
+<td>21025</td>
+<td>cp1025</td>
+<td>IBM EBCDIC Cyrillic Serbian-Bulgarian</td>
+</tr>
+<tr>
+<td>21027</td>
+<td></td>
+<td>(deprecated)</td>
+</tr>
+<tr>
+<td>21866</td>
+<td>koi8-u</td>
+<td>Ukrainian (KOI8-U); Cyrillic (KOI8-U)</td>
+</tr>
+<tr>
+<td>28591</td>
+<td>iso-8859-1</td>
+<td>ISO 8859-1 Latin 1; Western European (ISO)</td>
+</tr>
+<tr>
+<td>28592</td>
+<td>iso-8859-2</td>
+<td>ISO 8859-2 Central European; Central European (ISO)</td>
+</tr>
+<tr>
+<td>28593</td>
+<td>iso-8859-3</td>
+<td>ISO 8859-3 Latin 3</td>
+</tr>
+<tr>
+<td>28594</td>
+<td>iso-8859-4</td>
+<td>ISO 8859-4 Baltic</td>
+</tr>
+<tr>
+<td>28595</td>
+<td>iso-8859-5</td>
+<td>ISO 8859-5 Cyrillic</td>
+</tr>
+<tr>
+<td>28596</td>
+<td>iso-8859-6</td>
+<td>ISO 8859-6 Arabic</td>
+</tr>
+<tr>
+<td>28597</td>
+<td>iso-8859-7</td>
+<td>ISO 8859-7 Greek</td>
+</tr>
+<tr>
+<td>28598</td>
+<td>iso-8859-8</td>
+<td>ISO 8859-8 Hebrew; Hebrew (ISO-Visual)</td>
+</tr>
+<tr>
+<td>28599</td>
+<td>iso-8859-9</td>
+<td>ISO 8859-9 Turkish</td>
+</tr>
+<tr>
+<td>28603</td>
+<td>iso-8859-13</td>
+<td>ISO 8859-13 Estonian</td>
+</tr>
+<tr>
+<td>28605</td>
+<td>iso-8859-15</td>
+<td>ISO 8859-15 Latin 9</td>
+</tr>
+<tr>
+<td>29001</td>
+<td>x-Europa</td>
+<td>Europa 3</td>
+</tr>
+<tr>
+<td>38598</td>
+<td>iso-8859-8-i</td>
+<td>ISO 8859-8 Hebrew; Hebrew (ISO-Logical)</td>
+</tr>
+<tr>
+<td>50220</td>
+<td>iso-2022-jp</td>
+<td>ISO 2022 Japanese with no halfwidth Katakana; Japanese (JIS)</td>
+</tr>
+<tr>
+<td>50221</td>
+<td>csISO2022JP</td>
+<td>ISO 2022 Japanese with halfwidth Katakana; Japanese (JIS-Allow 1 byte Kana)</td>
+</tr>
+<tr>
+<td>50222</td>
+<td>iso-2022-jp</td>
+<td>ISO 2022 Japanese JIS X 0201-1989; Japanese (JIS-Allow 1 byte Kana - SO/SI)</td>
+</tr>
+<tr>
+<td>50225</td>
+<td>iso-2022-kr</td>
+<td>ISO 2022 Korean</td>
+</tr>
+<tr>
+<td>50227</td>
+<td>x-cp50227</td>
+<td>ISO 2022 Simplified Chinese; Chinese Simplified (ISO 2022)</td>
+</tr>
+<tr>
+<td>50229</td>
+<td></td>
+<td>ISO 2022 Traditional Chinese</td>
+</tr>
+<tr>
+<td>50930</td>
+<td></td>
+<td>EBCDIC Japanese (Katakana) Extended</td>
+</tr>
+<tr>
+<td>50931</td>
+<td></td>
+<td>EBCDIC US-Canada and Japanese</td>
+</tr>
+<tr>
+<td>50933</td>
+<td></td>
+<td>EBCDIC Korean Extended and Korean</td>
+</tr>
+<tr>
+<td>50935</td>
+<td></td>
+<td>EBCDIC Simplified Chinese Extended and Simplified Chinese</td>
+</tr>
+<tr>
+<td>50936</td>
+<td></td>
+<td>EBCDIC Simplified Chinese</td>
+</tr>
+<tr>
+<td>50937</td>
+<td></td>
+<td>EBCDIC US-Canada and Traditional Chinese</td>
+</tr>
+<tr>
+<td>50939</td>
+<td></td>
+<td>EBCDIC Japanese (Latin) Extended and Japanese</td>
+</tr>
+<tr>
+<td>51932</td>
+<td>euc-jp</td>
+<td>EUC Japanese</td>
+</tr>
+<tr>
+<td>51936</td>
+<td>EUC-CN</td>
+<td>EUC Simplified Chinese; Chinese Simplified (EUC)</td>
+</tr>
+<tr>
+<td>51949</td>
+<td>euc-kr</td>
+<td>EUC Korean</td>
+</tr>
+<tr>
+<td>51950</td>
+<td></td>
+<td>EUC Traditional Chinese</td>
+</tr>
+<tr>
+<td>52936</td>
+<td>hz-gb-2312</td>
+<td>HZ-GB2312 Simplified Chinese; Chinese Simplified (HZ)</td>
+</tr>
+<tr>
+<td>54936</td>
+<td>GB18030</td>
+<td><strong>Windows XP and later:</strong> GB18030 Simplified Chinese (4 byte); Chinese Simplified (GB18030)</td>
+</tr>
+<tr>
+<td>57002</td>
+<td>x-iscii-de</td>
+<td>ISCII Devanagari</td>
+</tr>
+<tr>
+<td>57003</td>
+<td>x-iscii-be</td>
+<td>ISCII Bangla</td>
+</tr>
+<tr>
+<td>57004</td>
+<td>x-iscii-ta</td>
+<td>ISCII Tamil</td>
+</tr>
+<tr>
+<td>57005</td>
+<td>x-iscii-te</td>
+<td>ISCII Telugu</td>
+</tr>
+<tr>
+<td>57006</td>
+<td>x-iscii-as</td>
+<td>ISCII Assamese</td>
+</tr>
+<tr>
+<td>57007</td>
+<td>x-iscii-or</td>
+<td>ISCII Odia</td>
+</tr>
+<tr>
+<td>57008</td>
+<td>x-iscii-ka</td>
+<td>ISCII Kannada</td>
+</tr>
+<tr>
+<td>57009</td>
+<td>x-iscii-ma</td>
+<td>ISCII Malayalam</td>
+</tr>
+<tr>
+<td>57010</td>
+<td>x-iscii-gu</td>
+<td>ISCII Gujarati</td>
+</tr>
+<tr>
+<td>57011</td>
+<td>x-iscii-pa</td>
+<td>ISCII Punjabi</td>
+</tr>
+<tr>
+<td>65000</td>
+<td>utf-7</td>
+<td>Unicode (UTF-7)</td>
+</tr>
+<tr>
+<td>65001</td>
+<td>utf-8</td>
+<td>Unicode (UTF-8)</td>
+</tr>
+</tbody>
+</table>
+<p> </p>
+<p> </p>
+<p> </p>
+
+						<!-- </content> -->
+
+						</main>
+
+						<!-- page rating section -->
+								<div class="is-hidden-desktop has-border-top has-margin-top-large has-padding-top-large binary-rating-holder">
+									
+	
+	
+
+	<div class="feedback-verbatim has-border-bottom has-padding-bottom-large has-margin-bottom-small" data-bi-name="rating">
+    <div class="binary-rating">
+        <div class="binary-rating-buttons">
+				<h3 class="has-text-weight-semibold has-margin-top-none has-margin-bottom-small is-size-h4 has-margin-bottom-medium">Ist diese Seite hilfreich?</h3>
+			<div>
+                <button class="thumb-rating like has-inner-focus" title="Yes" data-bi-name="rating-yes" aria-expanded="false" data-bi-sat="1" aria-controls="rating-container-desktop">
+                    <span aria-hidden="true" class="icon docon docon-like"></span>
+                    <span>Yes</span>
+                </button>
+                <button class="thumb-rating dislike has-inner-focus" title="No" data-bi-name="rating-no" data-bi-sat="0" aria-expanded="false" aria-controls="rating-container-desktop">
+                    <span aria-hidden="true" class="icon docon docon-dislike"></span>
+                    <span>No</span>
+                </button>
+            </div>
+        </div>
+        <form class="feedback-verbatim-form is-hidden" id="rating-container-desktop">
+            <div class="verbatim-textarea box is-relative has-box-shadow-none has-border has-margin-top-small has-padding-extra-small is-size-extra-small">
+                <label for="rating-textarea-desktop" class="visually-hidden">Haben Sie weiteres Feedback für uns?</label>
+                <textarea id="rating-textarea-desktop" rows="4" maxlength="999" placeholder="Haben Sie weiteres Feedback für uns?" required class="textarea has-border-none has-box-shadow-none has-inner-focus"></textarea>
+            </div>
+            <div class="buttons is-right has-margin-top-medium has-margin-right-extra-small">
+                <button class="skip-rating button is-transparent has-text-primary is-small has-border-none" type="button">Überspringen</button>
+                <button class="submit-rating button is-primary is-small" data-bi-name="rating-verbatim" disabled type="submit">Übermitteln</button>
+            </div>
+        </form>
+    </div>
+    <div class="thankyou-rating is-hidden" tabindex="-1">
+        <p>Vielen Dank.</p>
+    </div>
+</div>									</div>
+						<!-- end page rating section -->
+
+
+						<!-- recommendations section -->
+						<!-- end recommendations section -->
+
+						<!-- feedback section -->
+						<!-- end feedback section -->
+
+						<!-- feedback report section -->
+						<!-- end feedback report section -->
+
+						<div class="footerContainer is-visible-interactive has-default-focus ">
+
+
+
+	<footer id="footer-interactive" data-bi-name="footer" class="footer-layout">
+
+    <div class="is-flex is-full-height has-padding-right-extra-large-desktop">
+			<a data-mscc-ic="false" class="locale-selector-link has-flex-shrink-none" href="#" data-bi-name="select-locale"><span class="icon docon docon-world is-size-large has-margin-right-small" aria-hidden="true"></span><span class="local-selector-link-text"></span></a>
+		<div class="has-margin-left-medium has-margin-right-medium has-flex-shrink-none">
+<div class="dropdown has-caret-up">
+	<button class="dropdown-trigger button is-transparent is-small is-icon-only-touch has-inner-focus theme-dropdown-trigger"
+		aria-controls="theme-menu-interactive" aria-expanded="false" title="Design" data-bi-name="theme">
+		<span class="icon">
+			<span class="docon docon-sun" aria-hidden="true"></span>
+		</span>
+		<span>Design</span>
+	</button>
+	<div class="dropdown-menu" id="theme-menu-interactive" role="menu">
+		<ul class="theme-selector has-padding-small">
+			<li class="theme is-block">
+				<button class="button is-text is-small theme-control is-fullwidth has-flex-justify-content-start"
+					data-theme-to="light">
+					<span class="theme-light has-margin-right-small">
+						<span
+							class="theme-selector-icon css-variable-support has-border is-inline-block has-body-background"
+							aria-hidden="true">
+							<svg class="svg" xmlns="http://www.w3.org/2000/svg"
+								viewBox="0 0 22 14">
+								<rect width="22" height="14" class="has-fill-body-background" />
+								<rect x="5" y="5" width="12" height="4" class="has-fill-secondary" />
+								<rect x="5" y="2" width="2" height="1" class="has-fill-secondary" />
+								<rect x="8" y="2" width="2" height="1" class="has-fill-secondary" />
+								<rect x="11" y="2" width="3" height="1" class="has-fill-secondary" />
+								<rect x="1" y="1" width="2" height="2" class="has-fill-secondary" />
+								<rect x="5" y="10" width="7" height="2" rx="0.3" class="has-fill-primary" />
+								<rect x="19" y="1" width="2" height="2" rx="1" class="has-fill-secondary" />
+							</svg>
+						</span>
+					</span>
+					<span role="menuitem">
+Hell					</span>
+				</button>
+			</li>
+			<li class="theme is-block">
+				<button class="button is-text is-small theme-control is-fullwidth has-flex-justify-content-start"
+					data-theme-to="dark">
+					<span class="theme-dark has-margin-right-small">
+						<span
+							class="has-border theme-selector-icon css-variable-support is-inline-block has-body-background"
+							aria-hidden="true">
+							<svg class="svg" xmlns="http://www.w3.org/2000/svg"
+								viewBox="0 0 22 14">
+								<rect width="22" height="14" class="has-fill-body-background" />
+								<rect x="5" y="5" width="12" height="4" class="has-fill-secondary" />
+								<rect x="5" y="2" width="2" height="1" class="has-fill-secondary" />
+								<rect x="8" y="2" width="2" height="1" class="has-fill-secondary" />
+								<rect x="11" y="2" width="3" height="1" class="has-fill-secondary" />
+								<rect x="1" y="1" width="2" height="2" class="has-fill-secondary" />
+								<rect x="5" y="10" width="7" height="2" rx="0.3" class="has-fill-primary" />
+								<rect x="19" y="1" width="2" height="2" rx="1" class="has-fill-secondary" />
+							</svg>
+						</span>
+					</span>
+					<span role="menuitem">
+Dunkel					</span>
+				</button>
+			</li>
+			<li class="theme is-block">
+				<button class="button is-text is-small theme-control is-fullwidth has-flex-justify-content-start"
+					data-theme-to="high-contrast">
+					<span class="theme-high-contrast has-margin-right-small">
+						<span
+							class="has-border theme-selector-icon css-variable-support is-inline-block has-body-background"
+							aria-hidden="true">
+							<svg class="svg" xmlns="http://www.w3.org/2000/svg"
+								viewBox="0 0 22 14">
+								<rect width="22" height="14" class="has-fill-body-background" />
+								<rect x="5" y="5" width="12" height="4" class="has-fill-secondary" />
+								<rect x="5" y="2" width="2" height="1" class="has-fill-secondary" />
+								<rect x="8" y="2" width="2" height="1" class="has-fill-secondary" />
+								<rect x="11" y="2" width="3" height="1" class="has-fill-secondary" />
+								<rect x="1" y="1" width="2" height="2" class="has-fill-secondary" />
+								<rect x="5" y="10" width="7" height="2" rx="0.3" class="has-fill-primary" />
+								<rect x="19" y="1" width="2" height="2" rx="1" class="has-fill-secondary" />
+							</svg>
+						</span>
+					</span>
+					<span role="menuitem">
+Hoher Kontrast					</span>
+				</button>
+			</li>
+		</ul>
+	</div>
+</div>		</div>
+	</div>
+    <ul class="links" data-bi-name="footerlinks">
+		<li class="manage-cookies-holder" hidden></li>
+			<li><a data-mscc-ic="false" href="https://docs.microsoft.com/de-de/previous-versions/" data-bi-name="archivelink">Vorherige Dokumentversionen</a></li>
+			<li><a data-mscc-ic="false" href="https://docs.microsoft.com/de-de/teamblog" data-bi-name="bloglink">Blog</a></li>
+			<li><a data-mscc-ic="false" href="https://docs.microsoft.com/de-de/contribute" data-bi-name="contributorGuide">Mitwirken</a></li>
+				<li><a data-mscc-ic="false" href="https://go.microsoft.com/fwlink/?LinkId=521839" data-bi-name="privacy">Datenschutz &amp; Cookies</a></li>
+			<li><a data-mscc-ic="false" href="https://docs.microsoft.com/de-de/legal/termsofuse" data-bi-name="termsofuse">Nutzungsbedingungen</a></li>
+				<li><a data-mscc-ic="false" href="https://aka.ms/sitefeedback" data-bi-name="feedback">Websitefeedback</a></li>
+				<li id="impressum-section-interactive"><a data-mscc-ic="false" id="impressum-link-interactive" href="//www.microsoft.com/de-de/corporate/rechtliche-hinweise/impressum.aspx" data-bi-name="impressum">Impressum</a></li>
+			<li><a data-mscc-ic="false" href="https://www.microsoft.com/en-us/legal/intellectualproperty/Trademarks/EN-US.aspx" data-bi-name="trademarks">Marken</a></li>
+		<li>&copy; Microsoft 2021</li>
+    </ul>
+</footer>
+						</div>
+					</div>
+
+					<div class="is-size-small right-container column is-one-quarter is-one-fifth-desktop is-hidden-mobile is-hidden-tablet-only" data-bi-name="pageactions" role="complementary" aria-label="Seitenaktionen">
+						<div id="affixed-right-container" class="doc-outline is-fixed is-vertically-scrollable">
+								
+	
+	
+
+	<div class="feedback-verbatim has-border-bottom has-padding-bottom-small has-margin-bottom-small" data-bi-name="rating">
+    <div class="binary-rating">
+        <div class="binary-rating-buttons">
+
+				<h3 class="has-text-weight-semibold has-margin-top-none has-margin-bottom-small">Ist diese Seite hilfreich?</h3>
+			<div>
+                <button class="thumb-rating like has-inner-focus" title="Yes" data-bi-name="rating-yes" aria-expanded="false" data-bi-sat="1" aria-controls="rating-container-mobile">
+                    <span aria-hidden="true" class="icon docon docon-like"></span>
+                    <span>Yes</span>
+                </button>
+                <button class="thumb-rating dislike has-inner-focus" title="No" data-bi-name="rating-no" data-bi-sat="0" aria-expanded="false" aria-controls="rating-container-mobile">
+                    <span aria-hidden="true" class="icon docon docon-dislike"></span>
+                    <span>No</span>
+                </button>
+            </div>
+        </div>
+        <form class="feedback-verbatim-form is-hidden" id="rating-container-mobile">
+            <div class="verbatim-textarea box is-relative has-box-shadow-none has-border has-margin-top-small has-padding-extra-small is-size-extra-small">
+                <label for="rating-textarea-mobile" class="visually-hidden">Haben Sie weiteres Feedback für uns?</label>
+                <textarea id="rating-textarea-mobile" rows="4" maxlength="999" placeholder="Haben Sie weiteres Feedback für uns?" required class="textarea has-border-none has-box-shadow-none has-inner-focus"></textarea>
+            </div>
+            <div class="buttons is-right has-margin-top-medium has-margin-right-extra-small">
+                <button class="skip-rating button is-transparent has-text-primary is-small has-border-none" type="button">Überspringen</button>
+                <button class="submit-rating button is-primary is-small" data-bi-name="rating-verbatim" disabled type="submit">Übermitteln</button>
+            </div>
+        </form>
+    </div>
+    <div class="thankyou-rating is-hidden" tabindex="-1">
+        <p>Vielen Dank.</p>
+    </div>
+</div>							<nav id="side-doc-outline" data-bi-name="intopic toc" role="navigation" aria-label="Artikelgliederung">
+								<h3>In diesem Artikel</h3>
+							</nav>
+						</div>
+					</div>
+
+					<!--end of div.columns -->
+				</div>
+
+			<!--end of .primary-holder -->
+			</section>
+
+			<aside id="interactive-container" class="interactive-container is-visible-interactive column has-body-background-dark ">
+			</aside>
+		</div>
+
+		<!--end of .mainContainer -->
+	</div>
+
+	<div class="footerContainer has-default-focus is-hidden-interactive ">
+
+
+
+	<footer id="footer" data-bi-name="footer" class="footer-layout uhf-container has-padding" role="contentinfo">
+
+    <div class="is-flex is-full-height has-padding-right-extra-large-desktop">
+			<a data-mscc-ic="false" class="locale-selector-link has-flex-shrink-none" href="#" data-bi-name="select-locale"><span class="icon docon docon-world is-size-large has-margin-right-small" aria-hidden="true"></span><span class="local-selector-link-text"></span></a>
+		<div class="has-margin-left-medium has-margin-right-medium has-flex-shrink-none">
+<div class="dropdown has-caret-up">
+	<button class="dropdown-trigger button is-transparent is-small is-icon-only-touch has-inner-focus theme-dropdown-trigger"
+		aria-controls="theme-menu" aria-expanded="false" title="Design" data-bi-name="theme">
+		<span class="icon">
+			<span class="docon docon-sun" aria-hidden="true"></span>
+		</span>
+		<span>Design</span>
+	</button>
+	<div class="dropdown-menu" id="theme-menu" role="menu">
+		<ul class="theme-selector has-padding-small">
+			<li class="theme is-block">
+				<button class="button is-text is-small theme-control is-fullwidth has-flex-justify-content-start"
+					data-theme-to="light">
+					<span class="theme-light has-margin-right-small">
+						<span
+							class="theme-selector-icon css-variable-support has-border is-inline-block has-body-background"
+							aria-hidden="true">
+							<svg class="svg" xmlns="http://www.w3.org/2000/svg"
+								viewBox="0 0 22 14">
+								<rect width="22" height="14" class="has-fill-body-background" />
+								<rect x="5" y="5" width="12" height="4" class="has-fill-secondary" />
+								<rect x="5" y="2" width="2" height="1" class="has-fill-secondary" />
+								<rect x="8" y="2" width="2" height="1" class="has-fill-secondary" />
+								<rect x="11" y="2" width="3" height="1" class="has-fill-secondary" />
+								<rect x="1" y="1" width="2" height="2" class="has-fill-secondary" />
+								<rect x="5" y="10" width="7" height="2" rx="0.3" class="has-fill-primary" />
+								<rect x="19" y="1" width="2" height="2" rx="1" class="has-fill-secondary" />
+							</svg>
+						</span>
+					</span>
+					<span role="menuitem">
+Hell					</span>
+				</button>
+			</li>
+			<li class="theme is-block">
+				<button class="button is-text is-small theme-control is-fullwidth has-flex-justify-content-start"
+					data-theme-to="dark">
+					<span class="theme-dark has-margin-right-small">
+						<span
+							class="has-border theme-selector-icon css-variable-support is-inline-block has-body-background"
+							aria-hidden="true">
+							<svg class="svg" xmlns="http://www.w3.org/2000/svg"
+								viewBox="0 0 22 14">
+								<rect width="22" height="14" class="has-fill-body-background" />
+								<rect x="5" y="5" width="12" height="4" class="has-fill-secondary" />
+								<rect x="5" y="2" width="2" height="1" class="has-fill-secondary" />
+								<rect x="8" y="2" width="2" height="1" class="has-fill-secondary" />
+								<rect x="11" y="2" width="3" height="1" class="has-fill-secondary" />
+								<rect x="1" y="1" width="2" height="2" class="has-fill-secondary" />
+								<rect x="5" y="10" width="7" height="2" rx="0.3" class="has-fill-primary" />
+								<rect x="19" y="1" width="2" height="2" rx="1" class="has-fill-secondary" />
+							</svg>
+						</span>
+					</span>
+					<span role="menuitem">
+Dunkel					</span>
+				</button>
+			</li>
+			<li class="theme is-block">
+				<button class="button is-text is-small theme-control is-fullwidth has-flex-justify-content-start"
+					data-theme-to="high-contrast">
+					<span class="theme-high-contrast has-margin-right-small">
+						<span
+							class="has-border theme-selector-icon css-variable-support is-inline-block has-body-background"
+							aria-hidden="true">
+							<svg class="svg" xmlns="http://www.w3.org/2000/svg"
+								viewBox="0 0 22 14">
+								<rect width="22" height="14" class="has-fill-body-background" />
+								<rect x="5" y="5" width="12" height="4" class="has-fill-secondary" />
+								<rect x="5" y="2" width="2" height="1" class="has-fill-secondary" />
+								<rect x="8" y="2" width="2" height="1" class="has-fill-secondary" />
+								<rect x="11" y="2" width="3" height="1" class="has-fill-secondary" />
+								<rect x="1" y="1" width="2" height="2" class="has-fill-secondary" />
+								<rect x="5" y="10" width="7" height="2" rx="0.3" class="has-fill-primary" />
+								<rect x="19" y="1" width="2" height="2" rx="1" class="has-fill-secondary" />
+							</svg>
+						</span>
+					</span>
+					<span role="menuitem">
+Hoher Kontrast					</span>
+				</button>
+			</li>
+		</ul>
+	</div>
+</div>		</div>
+	</div>
+    <ul class="links" data-bi-name="footerlinks">
+		<li class="manage-cookies-holder" hidden></li>
+			<li><a data-mscc-ic="false" href="https://docs.microsoft.com/de-de/previous-versions/" data-bi-name="archivelink">Vorherige Dokumentversionen</a></li>
+			<li><a data-mscc-ic="false" href="https://docs.microsoft.com/de-de/teamblog" data-bi-name="bloglink">Blog</a></li>
+			<li><a data-mscc-ic="false" href="https://docs.microsoft.com/de-de/contribute" data-bi-name="contributorGuide">Mitwirken</a></li>
+				<li><a data-mscc-ic="false" href="https://go.microsoft.com/fwlink/?LinkId=521839" data-bi-name="privacy">Datenschutz &amp; Cookies</a></li>
+			<li><a data-mscc-ic="false" href="https://docs.microsoft.com/de-de/legal/termsofuse" data-bi-name="termsofuse">Nutzungsbedingungen</a></li>
+				<li><a data-mscc-ic="false" href="https://aka.ms/sitefeedback" data-bi-name="feedback">Websitefeedback</a></li>
+				<li id="impressum-section"><a data-mscc-ic="false" id="impressum-link" href="//www.microsoft.com/de-de/corporate/rechtliche-hinweise/impressum.aspx" data-bi-name="impressum">Impressum</a></li>
+			<li><a data-mscc-ic="false" href="https://www.microsoft.com/en-us/legal/intellectualproperty/Trademarks/EN-US.aspx" data-bi-name="trademarks">Marken</a></li>
+		<li>&copy; Microsoft 2021</li>
+    </ul>
+</footer>
+	</div>
+
+	<div id="action-panel" role="region" aria-label="Aktionsbereich" class="action-panel has-default-focus" tabindex="-1"></div>
+</body>
+</html>

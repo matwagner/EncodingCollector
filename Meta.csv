@@ -470,7 +470,7 @@
 917;checked;GNU_ICONV;NEXTSTEP;NextStep;1999;Latin;VENDOR;nextstep;latin;https://en.wikipedia.org/w/index.php?title=NeXT_character_set&action=edit&redlink=1;ascii;fixed8;1;1;U+FFFD;yes;no;
 918;unchecked;IBM_ICU;solaris-zh_TW_big5-2.7;SOLARIS_ZH_TW_BIG5_27;2000;Traditional chinese;VENDOR;solaris;chinese;;ascii;fixed8;1;1;U+001A;yes;no;charsets.jar
 ;;Group;Printing and Publishing;Printing;;Printing and publishing encodings in logic group order;;;;;;;;;;;;
-950;checked;Name;Adobe-Standard-Encoding;Adobe_Standard_Encoding;1990;Adobe PostScript Standard Encoding;VENDOR;hppcl5;latin;https://en.wikipedia.org/wiki/PostScript;ascii;fixed8;1;1;U+001A;yes;no;
+950;checked;IANA;Adobe-Standard-Encoding;Adobe_Standard_Encoding;1990;Adobe PostScript Standard Encoding;VENDOR;hppcl5;latin;https://en.wikipedia.org/wiki/PostScript;ascii;fixed8;1;1;U+001A;yes;no;
 951;checked;IANA;Adobe-Symbol-Encoding;Adobe_Symbol_Encoding;1990;Adobe PostScript Math Symbol Encoding;VENDOR;hppcl5;symbolic;;ascii;fixed8;1;1;U+001A;yes;no;
 952;checked;SELF;AdobeZapfDingbats;Adobe_Zapf_Dingbats;1990;Deprecated: Adobe PostScript Zapf Symbol Encoding;VENDOR;hppcl5;symbolic;;ascii;fixed8;1;1;U+001A;yes;no;
 953;checked;IANA;Ventura-US;Ventura_US;1990;Ventura Publisher US Latin;VENDOR;hppcl5;latin;https://en.wikipedia.org/wiki/Corel_Ventura;ascii;fixed8;1;1;U+001A;yes;no;
@@ -501,8 +501,10 @@
 1001;checked;IANA;ANSI_X3.110-1983;ANSI_X3_110_1983;1983;Supplementary Set of Graphic Characters for Videotex and Teletex;ANSI;telecom;symbolic;;ascii;fixed8;1;1;U+001A;yes;no;
 1002;checked;IANA;T.61-8bit;T_61_8bit;1985;International (Teletex Supplementary Set);ITU;telecom;latin;https://en.wikipedia.org/wiki/ITU_T.61;ascii;fixed8;1;1;U+001A;yes;no;
 1003;checked;GNU_ICONV;ISO-IR-165;ISO_IR_165;1994;Codes of the Chinese graphic character set for communication, combination of GB 2312 and GB 8565.2;CCITT;telecom;chinese;;ascii;varying8;1;2;U+001A;yes;no;
-1004;checked;IBM_ICU;gsm-03.38-2000;GSM_0338_2000;2000;Character set used in the Short Message Service of GSM based cell phones, also Standard 3GPP TS 23.038;3GPP;telecom;any;https://en.wikipedia.org/wiki/GSM_03.38;ascii;varying8;1;2;U+001A;yes;no;
-1005;checked;IBM_ICU;IMAP-mailbox-name;IMAP_MAILBOX_NAME;;;;telecom;any;;ascii;varying8;1;4;U+001A;yes;no;
+#1004;checked;IBM_ICU;gsm-03.38-2000;GSM_0338_2000;2000;Character set used in the Short Message Service of GSM based cell phones, also Standard 3GPP TS 23.038;3GPP;telecom;any;https://en.wikipedia.org/wiki/GSM_03.38;ascii;varying8;1;2;U+001A;yes;no;
+1005;checked;IBM_ICU;gsm-03.38-2009;GSM_0338_2009;2009;Character set used in the Short Message Service of GSM based cell phones, also Standard 3GPP TS 23.038;3GPP;telecom;any;https://en.wikipedia.org/wiki/GSM_03.38;ascii;varying8;1;2;U+001A;yes;no;
+1006;checked;IBM_ICU;IMAP-mailbox-name;IMAP_MAILBOX_NAME;;;;telecom;any;;ascii;varying8;1;4;U+001A;yes;no;
+1007;checked;IANA;UTF-7-IMAP;UTF_7_IMAP;;;;telecom;any;;ascii;varying8;1;4;U+001A;yes;no;
 ;;Group;Programming language;Programming;;Programming language encodings in logical group order;;;;;;;;;;;;
 1050;checked;GNU_ICONV;CHAR;CHAR;;Local encoding of the underlying operating system;PROGLANG;c;latin;;ascii;fixed8;1;1;U+001A;yes;no;
 1051;checked;GNU_ICONV;WCHAR_T;WCHAR_T;;Local encoding of the underlying operating system, fixed32 for GNU libc;PROGLANG;c;any;;ascii;fixed16;2;2;U+001A;yes;no;
@@ -610,7 +612,7 @@
 1242;checked;IANA;NATS-SEFI-ADD;NATS_SEFI_ADD;1975;Finland, Sweden, additional set;ISO646;national;latin;;ascii;fixed7;1;1;U+001A;yes;no;
 1243;checked;Name;SWI;SWI;1992;SWI: Switzerland (French, German);ISO646;national;latin;https://en.wikipedia.org/wiki/ISO/IEC_646;ascii;fixed7;1;1;U+001A;yes;no;
 1244;checked;SELF;TW;CNS_5205_1996;1996;TW: Republic of China (Taiwan);ISO646;national;latin;https://en.wikipedia.org/wiki/ISO/IEC_646;ascii;fixed7;1;1;U+001A;yes;no;
-1245;checked;IANA;ANSI_X3.4-1968;US_ASCII;1968;US: American Standard Code for Information Interchange (ASCII);ANSI;national;latin;https://en.wikipedia.org/wiki/ASCII;ascii;fixed7;1;1;U+001A;yes;no;rt.jar
+1245;checked;IANA;US-ASCII;US_ASCII;1968;US: American Standard Code for Information Interchange (ASCII);ANSI;national;latin;https://en.wikipedia.org/wiki/ASCII;ascii;fixed7;1;1;U+001A;yes;no;rt.jar
 1246;checked;IANA;JUS_I.B1.002;JUS_I_B1_002;1987;YU: former Yugoslavia (Croatian, Slovene, Serbian, Bosnian);ISO646;national;latin;https://en.wikipedia.org/wiki/ISO/IEC_646;ascii;fixed7;1;1;U+001A;yes;no;
 1247;checked;IANA;JUS_I.B1.003-serb;JUS_I_B1_003_serb;1988;former Yugoslavia (Serbian);ISO646;national;cyrillic;https://en.wikipedia.org/wiki/YUSCII;ascii;fixed7;1;1;U+001A;yes;no;
 1248;checked;IANA;JUS_I.B1.003-mac;JUS_I_B1_004_mac;1988;former Yugoslavia (Macedonian);ISO646;national;cyrillic;https://en.wikipedia.org/wiki/YUSCII;ascii;fixed7;1;1;U+001A;yes;no;
@@ -641,7 +643,6 @@
 1273;checked;IANA;MNEM;Mnem;1992;"The mnemonic charset ""mnem"" is a shorthand for ""mnemonic+ascii+8200"" (RFC1345)";;any;any;;ascii;varying7;1;2;U+001A;yes;no;
 1274;checked;IANA;UNKNOWN-8BIT;Unknown_8bit;1993;"If no information on the character set is given, assume ""unknown-8bit"" as the minimum";;any;latin;;ascii;fixed8;1;1;U+001A;yes;no;
 ;checked;IANA;ISO-Unicode-IBM-1276;Adobe_Standard_Encoding;1995;IBM Adobe PostScript Standard Encoding;UNICODE;hppcl5;latin;https://en.wikipedia.org/wiki/Code_page_1276;ascii;fixed8;1;1;U+001A;yes;yes;charsets.jar
-;checked;GNU_ICONV;US-ASCII;US_ASCII;;from GNU libiconv;;;;;;;;;;;;
 ;checked;GNU_ICONV;UCS-2;UCS_2;;from GNU libiconv;;;;;;;;;;;;
 ;checked;GNU_ICONV;UCS-4;UCS_4;;from GNU libiconv;;;;;;;;;;;;
 ;checked;GNU_ICONV;UCS-2-INTERNAL;UCS_2;;from GNU libiconv;;;;;;;;;;;;
@@ -695,6 +696,7 @@
 ;checked;GNU_ICONV;CP865;IBM865;;from GNU libiconv;;;;;;;;;;;;
 ;checked;GNU_ICONV;CP869;CP869;;from GNU libiconv;;;;;;;;;;;;
 ;unchecked;GNU_ICONV;BIG5-2003;Big5_2003;;from GNU libiconv;;;;;;;;;;;;
+;checked;GNU_ICONV;ISO-2022-JP-MS;CP50221;;from GNU libiconv;;;;;;;;;;;;
 ;checked;IBM_ICU;ibm-1009_P100-1995;ISO_646_IRV_1983;;from ICU;;;;;;;;;;;;
 ;checked;IBM_ICU;UTF-16,version=1;UTF_16;;from ICU;;;;;;;;;;;;
 ;checked;IBM_ICU;UTF-16,version=2;UTF_16;;from ICU;;;;;;;;;;;;
@@ -1033,6 +1035,7 @@
 ;unchecked;ORACLE_JAVA;x-Big5-HKSCS-2001;Big5_HKSCS_2001;;from JAVA;;;;;;;;;;;;
 ;unchecked;ORACLE_JAVA;x-Big5-Solaris;SOLARIS_ZH_TW_BIG5_27;;from JAVA;;;;;;;;;;;;
 ;unchecked;ORACLE_JAVA;x-euc-jp-linux;EUC_JP_Linux;;from JAVA;;;;;;;;;;;;
+;unchecked;ORACLE_JAVA;x-IBM29626C;EUC_JP_IBM;;from JAVA;;;;;;;;;;;;
 ;unchecked;ORACLE_JAVA;x-EUC-TW;EUC_TW;;from JAVA;;;;;;;;;;;;
 ;unchecked;ORACLE_JAVA;x-eucJP-Open;EUC_JP_Open;;from JAVA;;;;;;;;;;;;
 ;checked;ORACLE_JAVA;x-IBM942C;CP932;;from JAVA;;;;;;;;;;;;
@@ -1046,6 +1049,7 @@
 ;checked;ORACLE_JAVA;x-IBM1122;IBM1122;;from JAVA;;;;;;;;;;;;
 ;checked;ORACLE_JAVA;x-IBM1123;IBM1123;;from JAVA;;;;;;;;;;;;
 ;checked;ORACLE_JAVA;x-IBM1124;IBM1124;;from JAVA;;;;;;;;;;;;
+;checked;ORACLE_JAVA;x-IBM1129;IBM1129;;from JAVA;;;;;;;;;;;;
 ;checked;ORACLE_JAVA;x-IBM1166;IBM1166;;from JAVA;;;;;;;;;;;;
 ;checked;ORACLE_JAVA;x-IBM1364;IBM1364;;from JAVA;;;;;;;;;;;;
 ;checked;ORACLE_JAVA;x-IBM1381;IBM1381;;from JAVA;;;;;;;;;;;;

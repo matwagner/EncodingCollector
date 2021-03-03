@@ -1,7 +1,7 @@
-iana_character_sets;Archive/character-sets.txt;http://www.iana.org/assignments/character-sets/character-sets.txt
-libiconv_path;../libiconv-1.14/lib/
+iana_character_sets;https://www.iana.org/assignments/character-sets/character-sets.xml
+libiconv_path;Material/libiconv-1.16/lib/
 icu_url;http://demo.icu-project.org/icu-bin/convexp?conv=&s=-&s=ALL&s=IANA&s=IBM&s=JAVA&s=MIME&s=UTR22&s=WINDOWS&ShowLocales&ShowUnavailable=
 icu_base_url;http://demo.icu-project.org/
 microsoft_url;https://msdn.microsoft.com/en-us/library/dd317756.aspx
-ibmcp_url;http://www.ibm.com/software/globalization/cp/cp_cpgid.html
-ibmccs_url;http://www.ibm.com/software/globalization/ccsid/ccsid_registered.html
+ibmcp_url;Material/IBM/IBM Globalization - Code page identifiers.html
+ibmccs_url;Material/IBM/IBM Globalization - Coded character set identifiers.html

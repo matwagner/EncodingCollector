@@ -1658,25 +1658,25 @@ function SelectOrInsertCharset( $datasource, $aliasname, &$count )
    if ( $datasource != $meta->DataSource )
    {
       if ( $datasource == DATASOURCE_IANA )
-         print "         <p class=\"error\">".$datasource." differs from meta '".$meta->DataSource."' for character set '.".$aliasname."</p>\n";
+         print "         <p class=\"error\">".$datasource." differs from meta '".$meta->DataSource."' for character set '".$aliasname."'.</p>\n";
       else
       if ( $datasource == DATASOURCE_ICONV && $meta->DataSource != DATASOURCE_IANA )
-         print "         <p class=\"error\">".$datasource." differs from meta '".$meta->DataSource."' for character set '.".$aliasname."</p>\n";
+         print "         <p class=\"error\">".$datasource." differs from meta '".$meta->DataSource."' for character set '".$aliasname."'.</p>\n";
       else
       if ( $datasource == DATASOURCE_ICU   && $meta->DataSource != DATASOURCE_IANA
                                            && $meta->DataSource != DATASOURCE_ICONV )
-         print "         <p class=\"error\">".$datasource." differs from meta '".$meta->DataSource."' for character set '.".$aliasname."</p>\n";
+         print "         <p class=\"error\">".$datasource." differs from meta '".$meta->DataSource."' for character set '".$aliasname."'.</p>\n";
       else
       if ( $datasource == DATASOURCE_JAVA  && $meta->DataSource != DATASOURCE_IANA
                                            && $meta->DataSource != DATASOURCE_ICONV
                                            && $meta->DataSource != DATASOURCE_ICU   )
-         print "         <p class=\"error\">".$datasource." differs from meta '".$meta->DataSource."' for character set '.".$aliasname."</p>\n";
+         print "         <p class=\"error\">".$datasource." differs from meta '".$meta->DataSource."' for character set '".$aliasname."'.</p>\n";
       else
       if ( $datasource == DATASOURCE_MS    && $meta->DataSource != DATASOURCE_IANA
                                            && $meta->DataSource != DATASOURCE_ICONV
                                            && $meta->DataSource != DATASOURCE_ICU
                                            && $meta->DataSource != DATASOURCE_JAVA  )
-         print "         <p class=\"error\">".$datasource." differs from meta '".$meta->DataSource."' for character set '.".$aliasname."</p>\n";
+         print "         <p class=\"error\">".$datasource." differs from meta '".$meta->DataSource."' for character set '".$aliasname."'.</p>\n";
    }
 
    //-------------------------------------------------------------------
@@ -1879,9 +1879,9 @@ function RefnamesToArray( $datasource, $refnamelist )
 
 //============================================================================
 //
-//                  R e a d I A N A
+//                  R e a d I A N A P l a i n
 //
-/// @brief          Reads the IANA character-sets.txt file.
+/// @brief          Reads the plain IANA character-sets.txt file.
 ///
 /// @param          $filename           Name of file to read from
 ///
@@ -1897,7 +1897,7 @@ DEFINE( "IANA_STATE_UNDEFINED",     0 ); ///< We're in the undefined state
 DEFINE( "IANA_STATE_CHARACTERSETS", 1 ); ///< We're in the state of reading character sets
 DEFINE( "IANA_STATE_REFERENCES",    2 ); ///< We're in the state of reading references
 
-function ReadIANA( $filename )
+function ReadIANAPlain( $filename )
 {
    global $ReferenceSet;
 
@@ -2194,6 +2194,167 @@ function ReadIANA( $filename )
    //  Good bye ...
 
    fclose( $file );
+
+   print "         <p><b>".$count."</b> ".DATASOURCE_IANA." character sets read in, <b>".$count_new."</b> new.</p>\n";
+
+   return 0;
+
+} // end ReadIANAPlain
+
+
+//============================================================================
+//
+//                  A d d R e f e r e n c e
+//
+/// @brief          Appends a new reference to a list.
+///
+/// @param          $datasource         Name of the originating data source
+/// @param          $reflist            Array of reference names
+/// @param          $xrefnode           XREF node
+///
+/// @author         Matthias Wagner
+/// @version        1.0
+/// @since          1.0
+/// @date           2021-02-26 Wagner First release
+///
+//============================================================================
+
+function AddReference( $datasource, &$reflist, $xrefnode )
+{
+   global $ReferenceSet;
+
+   //-------------------------------------------------------------------------
+   //  Find the references from comma separated string list.
+
+   if ( $xrefnode->getAttribute( "type" ) == "rfc" )
+      $refname = strtoupper( $xrefnode->getAttribute( "data" ) );
+   else
+   if ( $xrefnode->getAttribute( "type" ) == "person" )
+      $refname = $xrefnode->getAttribute( "data" );
+   else
+   if ( $xrefnode->getAttribute( "type" ) == "text" )
+      $refname = str_replace( "\n", " ", $xrefnode->textContent );
+   else
+   {
+      $refname = xrefnode->getAttribute( "data" );
+      print "         <p class=\"error\">".$datasource." reference ".$refname." is unknown.</p>\n";
+   }
+
+   $ref = @$ReferenceSet[ $refname ];
+   if ( isset( $ref ) )
+      $reflist[] = $ref;
+   else
+      print "         <p class=\"error\">".$datasource." reference ".$refname." is unknown.</p>\n";
+
+} // end AddReference
+
+
+//============================================================================
+//
+//                  R e a d I A N A
+//
+/// @brief          Reads the IANA character-sets.xml file.
+///
+/// @param          $filename           Name of file to read from
+///
+/// @author         Matthias Wagner
+/// @version        1.0
+/// @since          1.0
+/// @date           2021-02-26 Wagner First release
+///
+//============================================================================
+
+function ReadIANA( $filename )
+{
+   //-------------------------------------------------------------------------
+   //  Open the input file.
+
+   $document = new DOMDocument();
+   $document->preserveWhiteSpace = false;
+   if ( $document->load( $filename ) == false )
+   {
+      print "         <h2 class=\"error\">".DATASOURCE_IANA." file '".$filename."' could not be opened for reading.</h2>".PHP_EOL;
+      return 1;
+   }
+
+   //-------------------------------------------------------------------------
+   //  Create empty reference list.
+
+   $emptyreflist = RefnamesToArray( DATASOURCE_IANA, "" );
+
+   //-------------------------------------------------------------------------
+   //  Read the records and create the character set instances.
+
+   $count = 0;
+   $count_new = 0;
+   foreach ( $document->getElementsByTagName( "record" ) as $record )
+   {
+      $reflist = array();
+
+      //----------------------------------------------------------------------
+      //  Walk through the children.
+
+      foreach ( $record->childNodes as $child )
+      {
+         if ( $child->nodeType == XML_ELEMENT_NODE )
+         {
+            if ( strcmp( $child->tagName, "name" ) == 0 )
+            {
+               //-------------------------------------------------------------------
+               //  Create the new character set.
+
+               $charset = SelectOrInsertCharset( DATASOURCE_IANA, $child->textContent, $count_new );
+               $count++;
+               SelectOrInsertAlias( DATASOURCE_IANA, $child->textContent, $charset, $emptyreflist, false );
+            }
+            else
+            if ( strcmp( $child->tagName, "alias" ) == 0 )
+            {
+               //-------------------------------------------------------------------
+               //  Add an alias.
+
+               SelectOrInsertAlias( DATASOURCE_IANA, $child->textContent, $charset, $emptyreflist, false );
+            }
+            else
+            if ( strcmp( $child->tagName, "preferred_alias" ) == 0 )
+            {
+               //-------------------------------------------------------------------
+               //  Add an alias.
+
+               SelectOrInsertAlias( DATASOURCE_IANA, $child->textContent, $charset, $emptyreflist, true );
+            }
+            else
+            if ( strcmp( $child->tagName, "value" ) == 0 )
+            {
+               //-------------------------------------------------------------------
+               //  Add the MIB enum value.
+
+               $charset->SetMIBEnum( $child->textContent );
+            }
+            else
+            if ( strcmp( $child->tagName, "description" ) == 0 )
+            {
+               //-------------------------------------------------------------------
+               //  Add IANA source.
+
+               $charset->AppendIANASource( $child->textContent );
+            }
+            else
+            if ( strcmp( $child->tagName, "xref" ) == 0 )
+            {
+               //-------------------------------------------------------------------
+               //  Add a reference.
+
+               AddReference( DATASOURCE_IANA, $reflist, $child );
+            }
+         } // endif Element node
+      } // endfor Children
+
+      $charset->SetRelationAll( DATASOURCE_IANA, $reflist );
+   } // endfor Records
+
+   //-------------------------------------------------------------------------
+   //  Good bye ...
 
    print "         <p><b>".$count."</b> ".DATASOURCE_IANA." character sets read in, <b>".$count_new."</b> new.</p>\n";
 
@@ -2786,48 +2947,37 @@ function ReadMicrosoft( $filename )
    //-------------------------------------------------------------------------
    //  Get some table header information.
 
-   $tables = $document->getElementsByTagName( "table" );
-   foreach ( $tables as $table )
-     if ( $table->getAttribute( "summary" ) != NULL && strcmp( $table->getAttribute( "summary" ), "table" ) == 0 )
-        break;
-   if ( !isset( $table ) )
+   $tbody = $document->getElementsByTagName( "tbody" )->item( 0 );
+   if ( !isset( $tbody ) )
    {
       print "         <h2 class=\"error\">".DATASOURCE_MS." file '".$filename."' doesn't contain a table with summary 'table'.</h2>".PHP_EOL;
       return 1;
    }
 
-   $column2index[ "Identifier"             ] = MS_COLUMN_IDENTIFIER;
-   $column2index[ ".NET Name"              ] = MS_COLUMN_DOTNETNAME;
-   $column2index[ "Additional information" ] = MS_COLUMN_DESCRIPTION;
-
    //-------------------------------------------------------------------------
    //  Read the lines and create the character set instances.
 
-   $headers_seen = false;
    $count        = 0;
    $count_new    = 0;
-   foreach ( $table->getElementsByTagName( "tr" ) as $row )
+   foreach ( $tbody->getElementsByTagName( "tr" ) as $row )
    {
       //----------------------------------------------------------------------
       //  Parse the table row.
 
+      $column_no = 0;
       foreach ( $row->childNodes as $column )
       {
          if ( $column->nodeType == XML_ELEMENT_NODE )
          {
-            if ( $headers_seen == false && strcmp( $column->tagName, "th" ) == 0 )
-            {
-               // Nothing to do here.
-            }
-            else
             if ( strcmp( $column->tagName, "td" ) == 0 )
             {
-               switch ( $column2index[ $column->getAttribute( "data-th" ) ] )
+               switch ( $column_no )
                {
                   case MS_COLUMN_IDENTIFIER  : $microsoft_id  = $column->textContent; break;
                   case MS_COLUMN_DOTNETNAME  : $dotnet_name   = $column->textContent; break;
                   case MS_COLUMN_DESCRIPTION : $description   = $column->textContent; break;
                }
+               $column_no++;
             }
             else
             {
@@ -2837,21 +2987,9 @@ function ReadMicrosoft( $filename )
          }
       } // endfor Columns
 
-      if ( $headers_seen == false )
-      {
-         if ( DEBUG_MS ) print "<p>Headerrow:".PHP_EOL;
-         if ( DEBUG_MS ) var_dump( $row );
-         if ( DEBUG_MS ) print "</p>".PHP_EOL;
-
-         $headers_seen = true;
-         continue;
-      }
-      else
-      {
-         if ( DEBUG_MS ) print "<p>Data:".PHP_EOL;
-         if ( DEBUG_MS ) var_dump( $microsoft_id, $dotnet_name, $description );
-         if ( DEBUG_MS ) print "</p>".PHP_EOL;
-      }
+      if ( DEBUG_MS ) print "<p>Data:".PHP_EOL;
+      if ( DEBUG_MS ) var_dump( $microsoft_id, $dotnet_name, $description );
+      if ( DEBUG_MS ) print "</p>".PHP_EOL;
 
       //-------------------------------------------------------------------
       //  Create the new character set.
