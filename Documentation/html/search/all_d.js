@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['writexml',['WriteXML',['../class_reference.html#ac5f69dcaea98cb109098057e592e8c99',1,'Reference\WriteXML()'],['../class_group.html#a0d80f246b84c8fe7ff396b182363ee1a',1,'Group\WriteXML()'],['../class_character_set.html#ac5f69dcaea98cb109098057e592e8c99',1,'CharacterSet\WriteXML()'],['../class_alias.html#ac5f69dcaea98cb109098057e592e8c99',1,'Alias\WriteXML()'],['../class_relation.html#ac5f69dcaea98cb109098057e592e8c99',1,'Relation\WriteXML()'],['../_encoding_collector_8php.html#a1e302479611341834139ab0c9d0c7a8b',1,'WriteXML():&#160;EncodingCollector.php']]]
+  ['writexml_143',['WriteXML',['../class_reference.html#ad9dd984fc146adba775d975a1f10e5c1',1,'Reference\WriteXML()'],['../class_group.html#aa7d01be29bd1a3bf240bf0e0a910f104',1,'Group\WriteXML()'],['../class_character_set.html#ad9dd984fc146adba775d975a1f10e5c1',1,'CharacterSet\WriteXML()'],['../class_alias.html#ad9dd984fc146adba775d975a1f10e5c1',1,'Alias\WriteXML()'],['../class_relation.html#ad9dd984fc146adba775d975a1f10e5c1',1,'Relation\WriteXML()'],['../_encoding_collector_8php.html#ae62b6b6f6f3dc78a11b6a4e5ce57ff25',1,'WriteXML():&#160;EncodingCollector.php']]]
 ];
